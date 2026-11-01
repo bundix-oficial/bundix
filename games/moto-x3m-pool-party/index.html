@@ -8,124 +8,17 @@
   <link rel="stylesheet" href="../../assets/catalog.css">
   <link rel="stylesheet" href="../../assets/imported-game.css">
   <link rel="icon" type="image/svg+xml" href="../../assets/favicon.svg">
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      background: #080d1a;
-      color: #e2e8f0;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      overflow: hidden;
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-    }
-    .game-bar {
-      height: 48px;
-      background: #0d1527;
-      border-bottom: 2px solid #1e293b;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 0 16px;
-      flex-shrink: 0;
-      z-index: 100;
-      user-select: none;
-    }
-    .game-bar-left {
-      display: flex;
-      align-items: center;
-      gap: 14px;
-    }
-    .back-btn {
-      color: #ffd700;
-      text-decoration: none;
-      font-weight: 800;
-      font-size: 14px;
-      display: flex;
-      align-items: center;
-      gap: 6px;
-      background: rgba(255, 215, 0, 0.12);
-      border: 1px solid rgba(255, 215, 0, 0.3);
-      padding: 6px 12px;
-      border-radius: 8px;
-      transition: all 0.2s ease;
-    }
-    .back-btn:hover {
-      background: rgba(255, 215, 0, 0.25);
-      transform: translateX(-2px);
-    }
-    .game-title {
-      font-size: 15px;
-      font-weight: 700;
-      color: #fff;
-      margin: 0;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      max-width: 400px;
-    }
-    .game-badge {
-      font-size: 11px;
-      font-weight: 800;
-      text-transform: uppercase;
-      padding: 3px 8px;
-      border-radius: 6px;
-      background: #3b82f6;
-      color: #fff;
-      letter-spacing: 0.5px;
-    }
-    .game-bar-right {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-    .btn-action {
-      background: #1e293b;
-      color: #f1f5f9;
-      border: 1px solid #334155;
-      padding: 6px 12px;
-      border-radius: 8px;
-      font-size: 13px;
-      font-weight: 600;
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-      gap: 6px;
-      transition: all 0.2s;
-    }
-    .btn-action:hover {
-      background: #334155;
-      color: #fff;
-    }
-    .game-stage {
-      flex: 1;
-      width: 100%;
-      height: calc(100vh - 48px);
-      position: relative;
-      background: #000;
-    }
-    #game-frame {
-      width: 100%;
-      height: 100%;
-      border: none;
-      display: block;
-    }
-  </style>
 </head>
 <body>
   <header class="game-bar">
-    <div class="game-bar-left">
-      <a href="../../index.html" class="back-btn" title="Voltar ao catálogo PLAYNOVA">← PLAYNOVA</a>
-      <h1 class="game-title">Moto X3M: Pool Party</h1>
-      <span class="game-badge">Ação</span>
-    </div>
-    <div class="game-bar-right">
-      <button class="btn-action" id="fullscreen" title="Jogar em Tela Cheia">⛶ Tela Cheia</button>
-    </div>
+    <a href="../../index.html">← PLAYNOVA</a>
+    <h1>Moto X3M: Pool Party</h1>
+    <button id="fullscreen">⛶ Tela cheia</button>
   </header>
-  <main class="game-stage">
-    <iframe id="game-frame" src="https://raw.githack.com/tw31122007/HTML-Games-V2/main/motox3m-pool/index.html" allow="autoplay; fullscreen; gamepad; focus-without-user-activation *" allowfullscreen></iframe>
+  <main class="game-main">
+    <p>Acelere pelas rampas e toboáguas ensolarados com as Setas do teclado.</p>
+    <iframe id="game-frame" src="https://raw.githack.com/tw31122007/HTML-Games-V2/main/motox3m-pool/index.html" title="Jogar Moto X3M: Pool Party" allow="autoplay; fullscreen; gamepad; focus-without-user-activation *" allowfullscreen sandbox="allow-scripts allow-same-origin allow-pointer-lock allow-forms"></iframe>
+    <p class="game-credit">PLAYNOVA · 100% Grátis & Sem Anúncios</p>
   </main>
   <script src="../../js/game-shell.js"></script>
 </body>

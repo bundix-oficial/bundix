@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      background: #080c18;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    #player {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
+  <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+  <script>
+    window.RufflePlayer = window.RufflePlayer || {};
+    window.RufflePlayer.config = {
+      autoplay: "on",
+      unmuteOverlay: "hidden",
+      letterbox: "on",
+      warnOnUnsupportedContent: false,
+      quality: "high"
+    };
+  </script>
+</head>
+<body>
+  <div id="flash-container" style="width:100%;height:100%;"></div>
+  <script>
+    window.addEventListener("DOMContentLoaded", () => {
+      const ruffle = window.RufflePlayer.newest();
+      const player = ruffle.createPlayer();
+      player.id = "player";
+      document.getElementById("flash-container").appendChild(player);
+      player.load("https://raw.githubusercontent.com/tw31122007/HTML-Games-V2/main/bad-ice-cream/assets/BadIceCream1_sdk.swf");
+    });
+  </script>
+</body>
+</html>
