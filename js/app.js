@@ -1,4 +1,24 @@
 const GAMES_DATA = [
+{"id": "dark-room", "title": "A Dark Room", "category": "puzzle", "description": "Uma aventura de texto: acenda o fogo, reúna recursos e explore.", "recent": true, "cover": "assets/covers/dark-room.png", "platform": "flash"},
+{"id": "gridland", "title": "Gridland", "category": "puzzle", "description": "Combine peças, construa uma aldeia e enfrente a noite.", "recent": true, "cover": "assets/covers/gridland.png", "platform": "mobile"},
+{"id": "minesweeper", "title": "Campo Minado Emoji", "category": "puzzle", "description": "Descubra as casas seguras e marque todas as minas.", "recent": true, "cover": "assets/covers/minesweeper.png", "platform": "mobile"},
+{"id": "bubble-shooter", "title": "Bubble Shooter", "category": "arcade", "description": "Mire e estoure grupos de bolhas coloridas.", "recent": true, "cover": "assets/covers/bubble-shooter.png", "platform": "mobile"},
+{"id": "match-three", "title": "Match 3", "category": "puzzle", "description": "Troque peças e crie combinações em sequência.", "recent": true, "cover": "assets/covers/match-three.png", "platform": "mobile"},
+{"id": "skifree", "title": "SkiFree.js", "category": "arcade", "description": "Desça a montanha e tente escapar do monstro da neve.", "recent": true, "cover": "assets/covers/skifree.png", "platform": "flash"},
+{"id": "connect-four", "title": "Liga 4", "category": "classico", "description": "Forme uma linha de quatro peças antes do adversário.", "recent": true, "cover": "assets/covers/connect-four.png", "platform": "mobile"},
+{"id": "underrun", "title": "Underrun", "category": "acao", "description": "Explore uma instalação em 3D e combata máquinas hostis.", "recent": true, "cover": "assets/covers/underrun.png", "platform": "flash"},
+{"id": "hexgl", "title": "HexGL", "category": "arcade", "description": "Pilote uma nave em uma corrida futurista em 3D.", "recent": true, "cover": "assets/covers/hexgl.png", "platform": "flash"},
+{"id": "elliott", "title": "Hyperspace Garbage Collection", "category": "acao", "description": "Explore o espaço e recolha materiais neste jogo independente.", "recent": true, "cover": "assets/covers/elliott.png", "platform": "flash"},
+{"id": "radius-raid", "title": "Radius Raid", "category": "acao", "description": "Sobreviva a ondas de inimigos em uma arena espacial.", "recent": true, "cover": "assets/covers/radius-raid.png", "platform": "flash"},
+{"id": "xx142", "title": "xx142-b2.exe", "category": "puzzle", "description": "Resolva desafios usando os fantasmas das tentativas anteriores.", "recent": true, "cover": "assets/covers/xx142.png", "platform": "flash"},
+{"id": "space-huggers", "title": "Space Huggers", "category": "acao", "description": "Plataforma de ação com cenários destrutíveis e fases variadas.", "recent": true, "cover": "assets/covers/space-huggers.png", "platform": "flash"},
+{"id": "astray", "title": "Astray", "category": "puzzle", "description": "Guie uma esfera por labirintos tridimensionais.", "recent": true, "cover": "assets/covers/astray.png", "platform": "flash"},
+{"id": "bounce-back", "title": "Bounce Back", "category": "acao", "description": "Explore ilhas e enfrente inimigos com seu bumerangue.", "recent": true, "cover": "assets/covers/bounce-back.png", "platform": "flash"},
+{"id": "space-invaders", "title": "Space Invaders", "category": "classico", "description": "Defenda a Terra das ondas de invasores espaciais.", "recent": true, "cover": "assets/covers/space-invaders.png", "platform": "flash"},
+{"id": "alien-invasion", "title": "Alien Invasion", "category": "arcade", "description": "Desvie dos ataques e destrua as naves inimigas.", "recent": true, "cover": "assets/covers/alien-invasion.png", "platform": "flash"},
+{"id": "little-platformer", "title": "Little Platformer", "category": "acao", "description": "Explore um mundo de plataformas com terreno destrutível.", "recent": true, "cover": "assets/covers/little-platformer.png", "platform": "flash"},
+{"id": "little-puzzle", "title": "Little Puzzle", "category": "puzzle", "description": "Combine peças ilustradas e tente superar seu recorde.", "recent": true, "cover": "assets/covers/little-puzzle.png", "platform": "mobile"},
+{"id": "orb-island", "title": "Ilha das Esferas", "category": "arcade", "description": "Explore uma ilha em 3D e colete esferas brilhantes.", "recent": true, "cover": "assets/covers/orb-island.png", "platform": "flash"},
 {"id": "gta-san-andreas", "title": "GTA: San Andreas 2D", "category": "acao", "description": "Explore Los Santos, dirija veículos, fuja da polícia e domine as ruas neste demake 2D clássico.", "recent": true, "popular": true, "cover": "assets/covers/gta-san-andreas.svg", "platform": "console"},
 {"id": "tower-building", "title": "Torre Maluca", "category": "arcade", "description": "Empilhe os andares e construa uma torre colorida. Clique ou toque para jogar.", "recent": true, "cover": "assets/covers/tower-building.png", "platform": "mobile"},
 {"id": "pacman", "title": "Pac-Man HTML5", "category": "classico", "description": "Percorra o labirinto, coma os pontinhos e desvie dos fantasmas. Recriação em HTML5.", "recent": true, "cover": "assets/covers/pacman.png", "platform": "flash"},
@@ -23,7 +43,7 @@ const GAMES_DATA = [
 {id:'memory',title:'Jogo da Memória',category:'puzzle',description:'Encontre todos os pares de cartas.',cover:'assets/covers/memory.svg',platform:'flash'}
 ];
 const labels={todos:'Todos os jogos',recentes:'Novos jogos',populares:'Em alta',favoritos:'Meus favoritos',arcade:'Arcade',puzzle:'Puzzle',classico:'Clássicos',acao:'Ação',retro:'Retrô',leves:'Jogos leves',mobile:'📱 Mobile → PC',console:'🎮 Console Port',flash:'⚡ Estilo Flash'};
-const HEAVY_GAMES = new Set(['slope','mario64-cleanroom','zelda-tribute']);
+const HEAVY_GAMES = new Set(['slope','mario64-cleanroom','zelda-tribute','hexgl','underrun','astray','orb-island','xx142']);
 let currentCat='todos', searchQ='', favorites=[];
 try { const stored=JSON.parse(localStorage.getItem('bundix_favorites')||'[]'); if(Array.isArray(stored)) favorites=[...new Set(stored.filter(id=>GAMES_DATA.some(g=>g.id===id)))]; } catch {}
 const normalize=text=>text.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();

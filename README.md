@@ -57,3 +57,13 @@ O ZIP para publicação exclui apenas a pasta de artes editáveis `games/zelda-t
 ## Uso na escola
 
 Veja `USO-NA-ESCOLA.md`. O filtro Leves deixa de fora os três jogos 3D mais exigentes. O site continua sujeito à liberação do seu endereço e às políticas da escola.
+
+
+## Amplia??o de novembro de 2026
+
+Mais 20 jogos foram adicionados aos 22 encontrados no cat?logo, totalizando 42. Veja `NOVOS-20-JOGOS.md` para a lista, origens e licen?as. As refer?ncias a 21 jogos nas verifica??es hist?ricas acima descrevem a revis?o anterior. A nova verifica??o est? em `python tools/check-twenty-games.py`.
+
+
+## Seguran?a ? revis?o de 01/11/2026
+
+A pasta e os ZIPs foram verificados pelo Microsoft Defender, sem detec??es retornadas. A revis?o de c?digo removeu res?duos de analytics do Hextris e do Gridland, incluindo c?pias antigas. Detalhes e limites em `VERIFICACAO-SEGURANCA.md`. Todos os testes de navegador s?o silenciados com `--mute-audio`.
