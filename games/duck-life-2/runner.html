@@ -5,44 +5,49 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <style>
     * { box-sizing: border-box; }
-    html, body {
-      margin: 0;
-      padding: 0;
-      width: 100%;
-      height: 100%;
-      background: #080c18;
-      overflow: hidden;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    #player {
-      width: 100%;
-      height: 100%;
-      border: none;
-    }
+    html, body { margin:0;padding:0;width:100%;height:100%;background:#080c18;overflow:hidden;display:flex;align-items:center;justify-content:center; }
+    ruffle-player { width:100%;height:100%; }
+    /* Hide Ruffle's mute/play overlay */
+    ruffle-player::part(play-button),
+    ruffle-player::part(unmute-overlay),
+    .ruffle-unmute-overlay,
+    .ruffle-play-button { display:none !important; visibility:hidden !important; opacity:0 !important; pointer-events:none !important; }
   </style>
-  <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+</head>
+<body>
+  <div id="flash-container" style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;"></div>
   <script>
+    // Set config BEFORE loading Ruffle
     window.RufflePlayer = window.RufflePlayer || {};
     window.RufflePlayer.config = {
       autoplay: "on",
       unmuteOverlay: "hidden",
       letterbox: "on",
       warnOnUnsupportedContent: false,
-      quality: "high"
+      quality: "high",
+      contextMenu: "on"
     };
   </script>
-</head>
-<body>
-  <div id="flash-container" style="width:100%;height:100%;"></div>
+  <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
   <script>
-    window.addEventListener("DOMContentLoaded", () => {
-      const ruffle = window.RufflePlayer.newest();
-      const player = ruffle.createPlayer();
-      player.id = "player";
-      document.getElementById("flash-container").appendChild(player);
-      player.load("https://raw.githubusercontent.com/tw31122007/HTML-Games-V2/main/ducklife2/dl2.swf");
+    window.addEventListener("DOMContentLoaded", function() {
+      // Wait a tick for Ruffle to register itself
+      requestAnimationFrame(function() {
+        var ruffle = window.RufflePlayer.newest();
+        var player = ruffle.createPlayer();
+        player.style.width = "100%";
+        player.style.height = "100%";
+        document.getElementById("flash-container").appendChild(player);
+        player.load({
+          url: "https://raw.githubusercontent.com/tw31122007/HTML-Games-V2/main/duck-life-2/swf.swf",
+          autoplay: "on",
+          unmuteOverlay: "hidden",
+          letterbox: "on",
+          quality: "high"
+        }).catch(function(e) {
+          console.error("Failed to load SWF:", e);
+        });
+      });
     });
   </script>
 </body>
