@@ -1,18 +1,48 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
   <defs>
     <linearGradient id="bg_papas-hot-doggeria" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ff9966"/>
-      <stop offset="100%" stop-color="#ff5e62"/>
+      <stop offset="0%" stop-color="#7c2d12"/>
+      <stop offset="100%" stop-color="#451a03"/>
     </linearGradient>
-    <filter id="shadow_papas-hot-doggeria" x="-10%" y="-10%" width="120%" height="120%">
-      <feDropShadow dx="0" dy="4" stdDeviation="3" flood-opacity="0.5"/>
+    <linearGradient id="cyber_papas-hot-doggeria" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#29dbef"/>
+      <stop offset="50%" stop-color="#7776ff"/>
+      <stop offset="100%" stop-color="#ec65e8"/>
+    </linearGradient>
+    <filter id="glow_papas-hot-doggeria" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
     </filter>
   </defs>
-  <rect width="256" height="256" rx="28" fill="url(#bg_papas-hot-doggeria)"/>
-  <rect x="6" y="6" width="244" height="244" rx="22" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="2"/>
-  <circle cx="128" cy="95" r="48" fill="rgba(0,0,0,0.24)"/>
-  <text x="128" y="112" font-size="46" text-anchor="middle" dominant-baseline="central" filter="url(#shadow_papas-hot-doggeria)">🌭</text>
-  <rect x="16" y="166" width="224" height="72" rx="14" fill="rgba(10,15,26,0.88)" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
-  <text x="128" y="196" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="0.5">PAPA'S HOT DOGGERIA</text>
-  <text x="128" y="222" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="800" fill="#ffd700" text-anchor="middle" letter-spacing="1">⚡ FRIV VIP CLÁSSICO</text>
+
+  <!-- Deep Arcade Background -->
+  <rect width="256" height="256" rx="24" fill="url(#bg_papas-hot-doggeria)"/>
+  
+  <!-- Subtle Grid Pattern -->
+  <path d="M0 64 H256 M0 128 H256 M0 192 H256 M64 0 V256 M128 0 V256 M192 0 V256" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+
+  <!-- Glowing Outer Neon Rim -->
+  <rect x="5" y="5" width="246" height="246" rx="20" fill="none" stroke="rgba(255,255,255,0.14)" stroke-width="1.5"/>
+
+  <!-- Center Artwork Container -->
+  <g transform="translate(128, 96)">
+    
+  <!-- Bun -->
+  <ellipse cx="0" cy="4" rx="38" ry="16" fill="#d97706" stroke="#b45309" stroke-width="2"/>
+  <!-- Sausage -->
+  <rect x="-34" y="-8" width="68" height="18" rx="8" fill="#dc2626" stroke="#991b1b" stroke-width="2"/>
+  <!-- Mustard wave -->
+  <path d="M-28 0 Q-20 -8 -12 0 Q-4 8 4 0 Q12 -8 20 0 Q28 8 32 0" stroke="#fde047" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+
+  </g>
+
+  <!-- Title Plate -->
+  <rect x="14" y="168" width="228" height="72" rx="14" fill="rgba(8,13,26,0.92)" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+  <rect x="24" y="168" width="208" height="2" fill="url(#cyber_papas-hot-doggeria)"/>
+
+  <!-- Game Title -->
+  <text x="128" y="198" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="0.5">PAPA'S HOT DOG</text>
+  
+  <!-- Subtitle / Tag -->
+  <text x="128" y="222" font-family="system-ui, -apple-system, sans-serif" font-size="9.5" font-weight="800" fill="#29dbef" text-anchor="middle" letter-spacing="1">★ SABOR NO ESTÁDIO</text>
 </svg>

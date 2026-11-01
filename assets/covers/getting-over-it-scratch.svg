@@ -1,18 +1,47 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
   <defs>
     <linearGradient id="bg_getting-over-it-scratch" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#3e5151"/>
-      <stop offset="100%" stop-color="#decba4"/>
+      <stop offset="0%" stop-color="#1c1917"/>
+      <stop offset="100%" stop-color="#292524"/>
     </linearGradient>
-    <filter id="shadow_getting-over-it-scratch" x="-10%" y="-10%" width="120%" height="120%">
-      <feDropShadow dx="0" dy="4" stdDeviation="3" flood-opacity="0.5"/>
+    <linearGradient id="cyber_getting-over-it-scratch" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#29dbef"/>
+      <stop offset="50%" stop-color="#7776ff"/>
+      <stop offset="100%" stop-color="#ec65e8"/>
+    </linearGradient>
+    <filter id="glow_getting-over-it-scratch" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
     </filter>
   </defs>
-  <rect width="256" height="256" rx="28" fill="url(#bg_getting-over-it-scratch)"/>
-  <rect x="6" y="6" width="244" height="244" rx="22" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="2"/>
-  <circle cx="128" cy="95" r="48" fill="rgba(0,0,0,0.24)"/>
-  <text x="128" y="112" font-size="46" text-anchor="middle" dominant-baseline="central" filter="url(#shadow_getting-over-it-scratch)">🏺🔨</text>
-  <rect x="16" y="166" width="224" height="72" rx="14" fill="rgba(10,15,26,0.88)" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
-  <text x="128" y="196" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="0.5">GETTING OVER IT</text>
-  <text x="128" y="222" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="800" fill="#ffd700" text-anchor="middle" letter-spacing="1">⚡ FRIV VIP CLÁSSICO</text>
+
+  <!-- Deep Arcade Background -->
+  <rect width="256" height="256" rx="24" fill="url(#bg_getting-over-it-scratch)"/>
+  
+  <!-- Subtle Grid Pattern -->
+  <path d="M0 64 H256 M0 128 H256 M0 192 H256 M64 0 V256 M128 0 V256 M192 0 V256" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+
+  <!-- Glowing Outer Neon Rim -->
+  <rect x="5" y="5" width="246" height="246" rx="20" fill="none" stroke="rgba(255,255,255,0.14)" stroke-width="1.5"/>
+
+  <!-- Center Artwork Container -->
+  <g transform="translate(128, 96)">
+    
+  <!-- Black Cauldron -->
+  <path d="M-24 6 Q-28 28 0 28 Q28 28 24 6 Z" fill="#18181b" stroke="#52525b" stroke-width="2"/>
+  <!-- Sledgehammer Handle & Head -->
+  <line x1="-12" y1="12" x2="22" y2="-32" stroke="#d97706" stroke-width="4" stroke-linecap="round"/>
+  <rect x="14" y="-38" width="16" height="10" rx="2" fill="#71717a" stroke="#d4d4d8" stroke-width="1.5" transform="rotate(-45 22 -33)"/>
+
+  </g>
+
+  <!-- Title Plate -->
+  <rect x="14" y="168" width="228" height="72" rx="14" fill="rgba(8,13,26,0.92)" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+  <rect x="24" y="168" width="208" height="2" fill="url(#cyber_getting-over-it-scratch)"/>
+
+  <!-- Game Title -->
+  <text x="128" y="198" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="0.5">GETTING OVER IT</text>
+  
+  <!-- Subtitle / Tag -->
+  <text x="128" y="222" font-family="system-ui, -apple-system, sans-serif" font-size="9.5" font-weight="800" fill="#29dbef" text-anchor="middle" letter-spacing="1">★ ESCALADA DA PACIÊNCIA</text>
 </svg>

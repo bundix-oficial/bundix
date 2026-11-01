@@ -181,7 +181,7 @@ canvas {
 }
 
 .game-instructions-card h3::before {
-  content: '🕹️';
+  content: '';
 }
 
 .instruction-grid {

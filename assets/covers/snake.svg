@@ -1,1 +1,52 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><defs><linearGradient id="bg" x2=".7" y2="1"><stop stop-color="#a8eb3c"/><stop offset="1" stop-color="#27834d"/></linearGradient><radialGradient id="ball" cx=".3" cy=".25"><stop stop-color="#eeffcb"/><stop offset=".45" stop-color="#8df648"/><stop offset="1" stop-color="#20a24b"/></radialGradient></defs><path fill="url(#bg)" d="M0 0h256v256H0Z"/><circle cx="30" cy="30" r="150" fill="#ffffff08"/><path d="m-30 200 280-160M-10 240 280 80" stroke="#ffffff07" stroke-width="20"/><path d="M47 170h64v-54h68V80" fill="none" stroke="#143e29" stroke-width="38" stroke-linejoin="round" stroke-linecap="round"/><path d="M47 164h64v-54h68V74" fill="none" stroke="#d6ff68" stroke-width="30" stroke-linejoin="round" stroke-linecap="round"/><circle cx="171" cy="69" r="5" fill="#152c32"/><circle cx="188" cy="69" r="5" fill="#152c32"/><circle cx="193" cy="171" r="20" fill="#ff475c"/><path d="m193 152 8-12" stroke="#276c3d" stroke-width="6"/><text x="128" y="40" fill="white" stroke="#17243d" stroke-width="5" paint-order="stroke" font-family="Arial,sans-serif" font-style="italic" font-weight="900" font-size="31" text-anchor="middle">SNAKE</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="bg_snake" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#022c22"/>
+      <stop offset="100%" stop-color="#064e3b"/>
+    </linearGradient>
+    <linearGradient id="cyber_snake" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#29dbef"/>
+      <stop offset="50%" stop-color="#7776ff"/>
+      <stop offset="100%" stop-color="#ec65e8"/>
+    </linearGradient>
+    <filter id="glow_snake" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Deep Arcade Background -->
+  <rect width="256" height="256" rx="24" fill="url(#bg_snake)"/>
+  
+  <!-- Subtle Grid Pattern -->
+  <path d="M0 64 H256 M0 128 H256 M0 192 H256 M64 0 V256 M128 0 V256 M192 0 V256" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+
+  <!-- Glowing Outer Neon Rim -->
+  <rect x="5" y="5" width="246" height="246" rx="20" fill="none" stroke="rgba(255,255,255,0.14)" stroke-width="1.5"/>
+
+  <!-- Center Artwork Container -->
+  <g transform="translate(128, 96)">
+    
+  <!-- Snake body segments -->
+  <rect x="-30" y="10" width="14" height="14" rx="3" fill="#22c55e" stroke="#86efac" stroke-width="1.5"/>
+  <rect x="-14" y="10" width="14" height="14" rx="3" fill="#22c55e" stroke="#86efac" stroke-width="1.5"/>
+  <rect x="-14" y="-6" width="14" height="14" rx="3" fill="#22c55e" stroke="#86efac" stroke-width="1.5"/>
+  <rect x="2" y="-6" width="16" height="16" rx="4" fill="#16a34a" stroke="#86efac" stroke-width="2"/>
+  <!-- Snake eyes -->
+  <circle cx="10" cy="-2" r="2.5" fill="#000"/>
+  <!-- Apple -->
+  <circle cx="28" cy="-6" r="7" fill="#ef4444" stroke="#fca5a5" stroke-width="1"/>
+  <path d="M28 -13 C30 -16 34 -14 32 -11" stroke="#22c55e" stroke-width="2" fill="none"/>
+
+  </g>
+
+  <!-- Title Plate -->
+  <rect x="14" y="168" width="228" height="72" rx="14" fill="rgba(8,13,26,0.92)" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+  <rect x="24" y="168" width="208" height="2" fill="url(#cyber_snake)"/>
+
+  <!-- Game Title -->
+  <text x="128" y="198" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="0.5">COBRINHA</text>
+  
+  <!-- Subtitle / Tag -->
+  <text x="128" y="222" font-family="system-ui, -apple-system, sans-serif" font-size="9.5" font-weight="800" fill="#29dbef" text-anchor="middle" letter-spacing="1">★ CLÁSSICO NOSTÁLGICO</text>
+</svg>

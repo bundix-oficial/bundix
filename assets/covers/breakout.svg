@@ -1,1 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><defs><linearGradient id="bg" x2=".7" y2="1"><stop stop-color="#296bc3"/><stop offset="1" stop-color="#102c68"/></linearGradient><radialGradient id="ball" cx=".3" cy=".25"><stop stop-color="#eeffcb"/><stop offset=".45" stop-color="#8df648"/><stop offset="1" stop-color="#20a24b"/></radialGradient></defs><path fill="url(#bg)" d="M0 0h256v256H0Z"/><circle cx="30" cy="30" r="150" fill="#ffffff08"/><path d="m-30 200 280-160M-10 240 280 80" stroke="#ffffff07" stroke-width="20"/><rect x="24" y="65" width="39" height="18" rx="4" fill="#ff6b96"/><rect x="67" y="65" width="39" height="18" rx="4" fill="#ff6b96"/><rect x="110" y="65" width="39" height="18" rx="4" fill="#ff6b96"/><rect x="153" y="65" width="39" height="18" rx="4" fill="#ff6b96"/><rect x="196" y="65" width="39" height="18" rx="4" fill="#ff6b96"/><rect x="24" y="88" width="39" height="18" rx="4" fill="#ffd14a"/><rect x="67" y="88" width="39" height="18" rx="4" fill="#ffd14a"/><rect x="110" y="88" width="39" height="18" rx="4" fill="#ffd14a"/><rect x="153" y="88" width="39" height="18" rx="4" fill="#ffd14a"/><rect x="196" y="88" width="39" height="18" rx="4" fill="#ffd14a"/><rect x="24" y="111" width="39" height="18" rx="4" fill="#65e3d5"/><rect x="67" y="111" width="39" height="18" rx="4" fill="#65e3d5"/><rect x="110" y="111" width="39" height="18" rx="4" fill="#65e3d5"/><rect x="153" y="111" width="39" height="18" rx="4" fill="#65e3d5"/><rect x="196" y="111" width="39" height="18" rx="4" fill="#65e3d5"/><path d="m157 135-33 39" stroke="#ffffff77" stroke-width="8"/><circle cx="118" cy="182" r="11" fill="#fff"/><rect x="76" y="212" width="100" height="12" rx="6" fill="#ffe25b"/><text x="128" y="40" fill="white" stroke="#17243d" stroke-width="5" paint-order="stroke" font-family="Arial,sans-serif" font-style="italic" font-weight="900" font-size="31" text-anchor="middle">BREAKOUT</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="bg_breakout" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c0a1d"/>
+      <stop offset="100%" stop-color="#1e1136"/>
+    </linearGradient>
+    <linearGradient id="cyber_breakout" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#29dbef"/>
+      <stop offset="50%" stop-color="#7776ff"/>
+      <stop offset="100%" stop-color="#ec65e8"/>
+    </linearGradient>
+    <filter id="glow_breakout" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Deep Arcade Background -->
+  <rect width="256" height="256" rx="24" fill="url(#bg_breakout)"/>
+  
+  <!-- Subtle Grid Pattern -->
+  <path d="M0 64 H256 M0 128 H256 M0 192 H256 M64 0 V256 M128 0 V256 M192 0 V256" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+
+  <!-- Glowing Outer Neon Rim -->
+  <rect x="5" y="5" width="246" height="246" rx="20" fill="none" stroke="rgba(255,255,255,0.14)" stroke-width="1.5"/>
+
+  <!-- Center Artwork Container -->
+  <g transform="translate(128, 96)">
+    
+  <!-- Colored brick rows -->
+  <rect x="-38" y="-30" width="22" height="10" rx="2" fill="#ef4444"/>
+  <rect x="-12" y="-30" width="24" height="10" rx="2" fill="#f97316"/>
+  <rect x="16" y="-30" width="22" height="10" rx="2" fill="#eab308"/>
+  <rect x="-38" y="-16" width="22" height="10" rx="2" fill="#22c55e"/>
+  <rect x="-12" y="-16" width="24" height="10" rx="2" fill="#06b6d4"/>
+  <rect x="16" y="-16" width="22" height="10" rx="2" fill="#8b5cf6"/>
+  <!-- Energy ball -->
+  <circle cx="-4" cy="8" r="6" fill="#ffffff" filter="url(#glow_breakout)"/>
+  <!-- Paddle -->
+  <rect x="-24" y="24" width="48" height="8" rx="4" fill="#38bdf8" stroke="#ffffff" stroke-width="1.5"/>
+
+  </g>
+
+  <!-- Title Plate -->
+  <rect x="14" y="168" width="228" height="72" rx="14" fill="rgba(8,13,26,0.92)" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+  <rect x="24" y="168" width="208" height="2" fill="url(#cyber_breakout)"/>
+
+  <!-- Game Title -->
+  <text x="128" y="198" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="0.5">BREAKOUT</text>
+  
+  <!-- Subtitle / Tag -->
+  <text x="128" y="222" font-family="system-ui, -apple-system, sans-serif" font-size="9.5" font-weight="800" fill="#29dbef" text-anchor="middle" letter-spacing="1">★ DESTRUA OS BLOCOS</text>
+</svg>

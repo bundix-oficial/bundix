@@ -1,18 +1,48 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
   <defs>
     <linearGradient id="bg_papas-pancakeria" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#fbc2eb"/>
-      <stop offset="100%" stop-color="#a6c1ee"/>
+      <stop offset="0%" stop-color="#78350f"/>
+      <stop offset="100%" stop-color="#451a03"/>
     </linearGradient>
-    <filter id="shadow_papas-pancakeria" x="-10%" y="-10%" width="120%" height="120%">
-      <feDropShadow dx="0" dy="4" stdDeviation="3" flood-opacity="0.5"/>
+    <linearGradient id="cyber_papas-pancakeria" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#29dbef"/>
+      <stop offset="50%" stop-color="#7776ff"/>
+      <stop offset="100%" stop-color="#ec65e8"/>
+    </linearGradient>
+    <filter id="glow_papas-pancakeria" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
     </filter>
   </defs>
-  <rect width="256" height="256" rx="28" fill="url(#bg_papas-pancakeria)"/>
-  <rect x="6" y="6" width="244" height="244" rx="22" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="2"/>
-  <circle cx="128" cy="95" r="48" fill="rgba(0,0,0,0.24)"/>
-  <text x="128" y="112" font-size="46" text-anchor="middle" dominant-baseline="central" filter="url(#shadow_papas-pancakeria)">🥞</text>
-  <rect x="16" y="166" width="224" height="72" rx="14" fill="rgba(10,15,26,0.88)" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
-  <text x="128" y="196" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="0.5">PAPA'S PANCAKERIA</text>
-  <text x="128" y="222" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="800" fill="#ffd700" text-anchor="middle" letter-spacing="1">⚡ FRIV VIP CLÁSSICO</text>
+
+  <!-- Deep Arcade Background -->
+  <rect width="256" height="256" rx="24" fill="url(#bg_papas-pancakeria)"/>
+  
+  <!-- Subtle Grid Pattern -->
+  <path d="M0 64 H256 M0 128 H256 M0 192 H256 M64 0 V256 M128 0 V256 M192 0 V256" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+
+  <!-- Glowing Outer Neon Rim -->
+  <rect x="5" y="5" width="246" height="246" rx="20" fill="none" stroke="rgba(255,255,255,0.14)" stroke-width="1.5"/>
+
+  <!-- Center Artwork Container -->
+  <g transform="translate(128, 96)">
+    
+  <!-- Stack of 3 pancakes -->
+  <ellipse cx="0" cy="18" rx="34" ry="10" fill="#d97706" stroke="#92400e" stroke-width="2"/>
+  <ellipse cx="0" cy="8" rx="32" ry="10" fill="#f59e0b" stroke="#92400e" stroke-width="2"/>
+  <ellipse cx="0" cy="-2" rx="30" ry="10" fill="#fbbf24" stroke="#92400e" stroke-width="2"/>
+  <!-- Butter cube -->
+  <rect x="-6" y="-12" width="12" height="10" rx="2" fill="#fef08a" stroke="#ca8a04" stroke-width="1.5"/>
+
+  </g>
+
+  <!-- Title Plate -->
+  <rect x="14" y="168" width="228" height="72" rx="14" fill="rgba(8,13,26,0.92)" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+  <rect x="24" y="168" width="208" height="2" fill="url(#cyber_papas-pancakeria)"/>
+
+  <!-- Game Title -->
+  <text x="128" y="198" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="0.5">PAPA'S PANCAKERIA</text>
+  
+  <!-- Subtitle / Tag -->
+  <text x="128" y="222" font-family="system-ui, -apple-system, sans-serif" font-size="9.5" font-weight="800" fill="#29dbef" text-anchor="middle" letter-spacing="1">★ PANQUECAS DOURADAS</text>
 </svg>

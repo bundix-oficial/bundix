@@ -241,7 +241,8 @@ const GAMES_DATA = [
     "description": "Recriação HTML de Infinite Mario, com fases de plataforma.",
     "recent": true,
     "recreation": true,
-    "platform": "console"
+    "platform": "console",
+    "cover": "assets/covers/mario-html5.png"
   },
   {
     "id": "mario64-cleanroom",
@@ -250,7 +251,8 @@ const GAMES_DATA = [
     "description": "Versão de fãs para navegador com texturas e sons recriados.",
     "recent": true,
     "recreation": true,
-    "platform": "console"
+    "platform": "console",
+    "cover": "assets/covers/mario64-cleanroom.png"
   },
   {
     "id": "zelda-tribute",
@@ -259,7 +261,8 @@ const GAMES_DATA = [
     "description": "Recriação 3D de fãs de The Legend of Zelda.",
     "recent": true,
     "recreation": true,
-    "platform": "console"
+    "platform": "console",
+    "cover": "assets/covers/zelda-tribute.png"
   },
   {
     "id": "bombergirl",
@@ -268,7 +271,8 @@ const GAMES_DATA = [
     "description": "Recriação no estilo Bomberman, com oponentes controlados pelo computador.",
     "recent": true,
     "recreation": true,
-    "platform": "console"
+    "platform": "console",
+    "cover": "assets/covers/bombergirl.png"
   },
   {
     "id": "retro-racer",
@@ -277,7 +281,8 @@ const GAMES_DATA = [
     "description": "Corrida HTML com pistas e curvas no estilo OutRun.",
     "recent": true,
     "recreation": true,
-    "platform": "console"
+    "platform": "console",
+    "cover": "assets/covers/retro-racer.png"
   },
   {
     "id": "flappy-bird",
@@ -286,7 +291,8 @@ const GAMES_DATA = [
     "description": "Recriação HTML: bata as asas e passe entre os canos.",
     "recent": true,
     "popular": true,
-    "platform": "mobile"
+    "platform": "mobile",
+    "cover": "assets/covers/flappy-bird.png"
   },
   {
     "id": "slope",
@@ -294,7 +300,7 @@ const GAMES_DATA = [
     "category": "arcade",
     "description": "Uma pista infinita em alta velocidade.",
     "popular": true,
-    "cover": "assets/covers/slope-play.png",
+    "cover": "assets/covers/slope.png",
     "platform": "mobile"
   },
   {
@@ -303,7 +309,8 @@ const GAMES_DATA = [
     "category": "arcade",
     "description": "Bata as asas e desvie dos canos.",
     "recent": true,
-    "platform": "mobile"
+    "platform": "mobile",
+    "cover": "assets/covers/clumsy-bird.png"
   },
   {
     "id": "tetris",
@@ -311,7 +318,8 @@ const GAMES_DATA = [
     "category": "puzzle",
     "description": "Encaixe as peças e complete as linhas.",
     "recent": true,
-    "platform": "flash"
+    "platform": "flash",
+    "cover": "assets/covers/tetris.png"
   },
   {
     "id": "hextris",
@@ -319,7 +327,8 @@ const GAMES_DATA = [
     "category": "puzzle",
     "description": "Gire o hexágono e combine as cores.",
     "recent": true,
-    "platform": "flash"
+    "platform": "flash",
+    "cover": "assets/covers/hextris.png"
   },
   {
     "id": "breakout",
@@ -327,7 +336,8 @@ const GAMES_DATA = [
     "category": "arcade",
     "description": "Rebata a bola e destrua os blocos.",
     "recent": true,
-    "platform": "flash"
+    "platform": "flash",
+    "cover": "assets/covers/breakout.png"
   },
   {
     "id": "2048",
@@ -384,7 +394,7 @@ const GAMES_DATA = [
     "title": "Fogo e Água: Floresta",
     "category": "puzzle",
     "description": "Trabalhe em equipe com o Menino Fogo e a Menina Água para resolver enigmas.",
-    "cover": "assets/covers/fireboy-and-watergirl.svg",
+    "cover": "assets/covers/fireboy-and-watergirl.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -394,7 +404,7 @@ const GAMES_DATA = [
     "title": "Bad Ice Cream",
     "category": "arcade",
     "description": "Colete frutas e quebre paredes de gelo desviando dos monstros famintos.",
-    "cover": "assets/covers/bad-ice-cream.svg",
+    "cover": "assets/covers/bad-ice-cream.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -404,7 +414,7 @@ const GAMES_DATA = [
     "title": "Bad Ice Cream 2",
     "category": "arcade",
     "description": "Segunda aventura do sorvete travesso com novos inimigos e frutas exóticas.",
-    "cover": "assets/covers/bad-ice-cream-2.svg",
+    "cover": "assets/covers/bad-ice-cream-2.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -414,7 +424,7 @@ const GAMES_DATA = [
     "title": "Bad Ice Cream 3",
     "category": "arcade",
     "description": "Terceira edição com novos monstros de gelo e fases super desafiadoras.",
-    "cover": "assets/covers/bad-ice-cream-3.svg",
+    "cover": "assets/covers/bad-ice-cream-3.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -424,7 +434,7 @@ const GAMES_DATA = [
     "title": "Moto X3M",
     "category": "acao",
     "description": "Pilote motos potentes, faça acrobacias insanas e desvie de serras mortais.",
-    "cover": "assets/covers/moto-x3m.svg",
+    "cover": "assets/covers/moto-x3m.jpg",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -434,7 +444,7 @@ const GAMES_DATA = [
     "title": "Moto X3M: Winter",
     "category": "acao",
     "description": "Acrobacias radicais na neve e gelo com pistas cheias de perigos congelantes.",
-    "cover": "assets/covers/moto-x3m-winter.svg",
+    "cover": "assets/covers/moto-x3m-winter.jpeg",
     "platform": "flash",
     "popular": false,
     "recent": true
@@ -444,7 +454,7 @@ const GAMES_DATA = [
     "title": "Moto X3M: Pool Party",
     "category": "acao",
     "description": "Manobras aquáticas em toboáguas gigantes e rampas ensolaradas.",
-    "cover": "assets/covers/moto-x3m-pool-party.svg",
+    "cover": "assets/covers/moto-x3m-pool-party.jpg",
     "platform": "flash",
     "popular": false,
     "recent": true
@@ -454,7 +464,7 @@ const GAMES_DATA = [
     "title": "Moto X3M: Spooky Land",
     "category": "acao",
     "description": "Edição sombria de Halloween com pistas assombradas e armadilhas macabras.",
-    "cover": "assets/covers/moto-x3m-spooky-land.svg",
+    "cover": "assets/covers/moto-x3m-spooky-land.jpeg",
     "platform": "flash",
     "popular": false,
     "recent": true
@@ -464,7 +474,7 @@ const GAMES_DATA = [
     "title": "Papa's Pizzeria",
     "category": "arcade",
     "description": "Asse e corte pizzas deliciosas no ponto perfeito para clientes exigentes.",
-    "cover": "assets/covers/papas-pizzeria.svg",
+    "cover": "assets/covers/papas-pizzeria.jpg",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -474,7 +484,7 @@ const GAMES_DATA = [
     "title": "Papa's Freezeria",
     "category": "arcade",
     "description": "Prepare sundaes e milk-shakes refrescantes na ilha tropical de Calypso.",
-    "cover": "assets/covers/papas-freezeria.svg",
+    "cover": "assets/covers/papas-freezeria.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -484,7 +494,7 @@ const GAMES_DATA = [
     "title": "Papa's Burgeria",
     "category": "arcade",
     "description": "Grelhe hambúrgueres suculentos e monte lanches gigantescos sem errar.",
-    "cover": "assets/covers/papas-burgeria.svg",
+    "cover": "assets/covers/papas-burgeria.jpg",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -494,7 +504,7 @@ const GAMES_DATA = [
     "title": "Papa's Hot Doggeria",
     "category": "arcade",
     "description": "Sirva cachorros-quentes e pipoca para a torcida no estádio de beisebol.",
-    "cover": "assets/covers/papas-hot-doggeria.svg",
+    "cover": "assets/covers/papas-hot-doggeria.jpg",
     "platform": "flash",
     "popular": false,
     "recent": true
@@ -504,7 +514,7 @@ const GAMES_DATA = [
     "title": "Papa's Pancakeria",
     "category": "arcade",
     "description": "Vire panquecas douradas e waffles fofinhos cobertos de xarope e frutas.",
-    "cover": "assets/covers/papas-pancakeria.svg",
+    "cover": "assets/covers/papas-pancakeria.jpg",
     "platform": "flash",
     "popular": false,
     "recent": true
@@ -514,7 +524,7 @@ const GAMES_DATA = [
     "title": "Papa's Sushiria",
     "category": "arcade",
     "description": "Enrole sushis artesanais e sirva chá de bolhas no restaurante japonês.",
-    "cover": "assets/covers/papas-sushiria.svg",
+    "cover": "assets/covers/papas-sushiria.png",
     "platform": "flash",
     "popular": false,
     "recent": true
@@ -524,7 +534,7 @@ const GAMES_DATA = [
     "title": "Papa's Wingeria",
     "category": "arcade",
     "description": "Frite e empane asinhas de frango crocantes com os molhos mais picantes.",
-    "cover": "assets/covers/papas-wingeria.svg",
+    "cover": "assets/covers/papas-wingeria.jpg",
     "platform": "flash",
     "popular": false,
     "recent": true
@@ -534,7 +544,7 @@ const GAMES_DATA = [
     "title": "Papa Louie: Attack",
     "category": "arcade",
     "description": "Resgate seus clientes em um mundo mágico onde as pizzas ganharam vida!",
-    "cover": "assets/covers/papa-louie.svg",
+    "cover": "assets/covers/papa-louie.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -544,7 +554,7 @@ const GAMES_DATA = [
     "title": "Age of War",
     "category": "acao",
     "description": "Evolua da Idade da Pedra até o futuro cibernético e destrua a base rival.",
-    "cover": "assets/covers/age-of-war.svg",
+    "cover": "assets/covers/age-of-war.jpg",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -554,7 +564,7 @@ const GAMES_DATA = [
     "title": "Stick War: Legacy",
     "category": "acao",
     "description": "Comande seu exército de guerreiros stickman e domine o mundo de Inamorta.",
-    "cover": "assets/covers/stick-war.svg",
+    "cover": "assets/covers/stick-war.jpg",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -564,7 +574,7 @@ const GAMES_DATA = [
     "title": "Bloons Tower Defense",
     "category": "puzzle",
     "description": "Posicione macaquinhos e canhões para estourar todas as levas de balões.",
-    "cover": "assets/covers/bloons-td.svg",
+    "cover": "assets/covers/bloons-td.jpg",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -574,7 +584,7 @@ const GAMES_DATA = [
     "title": "Bloons Tower Defense 2",
     "category": "puzzle",
     "description": "Novas torres, dardos teleguiados e balões especiais mais resistentes.",
-    "cover": "assets/covers/bloons-td-2.svg",
+    "cover": "assets/covers/bloons-td-2.png",
     "platform": "flash",
     "popular": false,
     "recent": true
@@ -584,7 +594,7 @@ const GAMES_DATA = [
     "title": "Bloons Tower Defense 4",
     "category": "puzzle",
     "description": "A versão definitiva com gráficos aprimorados e dezenas de upgrades.",
-    "cover": "assets/covers/bloons-td-4.svg",
+    "cover": "assets/covers/bloons-td-4.jpg",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -594,7 +604,7 @@ const GAMES_DATA = [
     "title": "Vex 3",
     "category": "acao",
     "description": "Corra, escale paredes e desvie de armadilhas mortais com precisão milimétrica.",
-    "cover": "assets/covers/vex-3.svg",
+    "cover": "assets/covers/vex-3.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -604,7 +614,7 @@ const GAMES_DATA = [
     "title": "Vex 4",
     "category": "acao",
     "description": "Fases ainda mais frenéticas no labirinto de espinhos e lasers neon.",
-    "cover": "assets/covers/vex-4.svg",
+    "cover": "assets/covers/vex-4.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -614,7 +624,7 @@ const GAMES_DATA = [
     "title": "Vex 5",
     "category": "acao",
     "description": "Desafie seus reflexos com salas secretas e novos movimentos de parkour.",
-    "cover": "assets/covers/vex-5.svg",
+    "cover": "assets/covers/vex-5.png",
     "platform": "flash",
     "popular": false,
     "recent": true
@@ -624,7 +634,7 @@ const GAMES_DATA = [
     "title": "Vex 6",
     "category": "acao",
     "description": "Skins desbloqueáveis, missões diárias e obstáculos acrobáticos velozes.",
-    "cover": "assets/covers/vex-6.svg",
+    "cover": "assets/covers/vex-6.png",
     "platform": "flash",
     "popular": false,
     "recent": true
@@ -634,7 +644,7 @@ const GAMES_DATA = [
     "title": "Vex 7",
     "category": "acao",
     "description": "Aventura épica de parkour com espadas, cordas e chefões implacáveis.",
-    "cover": "assets/covers/vex-7.svg",
+    "cover": "assets/covers/vex-7.jpeg",
     "platform": "flash",
     "popular": false,
     "recent": true
@@ -644,7 +654,7 @@ const GAMES_DATA = [
     "title": "Duck Life",
     "category": "arcade",
     "description": "Treine seu patinho em corrida, natação e voo para salvar sua fazenda.",
-    "cover": "assets/covers/duck-life.svg",
+    "cover": "assets/covers/duck-life.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -654,7 +664,7 @@ const GAMES_DATA = [
     "title": "Duck Life 2",
     "category": "arcade",
     "description": "Novos torneios mundiais, habilidades de escalada e patos adversários velozes.",
-    "cover": "assets/covers/duck-life-2.svg",
+    "cover": "assets/covers/duck-life-2.png",
     "platform": "flash",
     "popular": false,
     "recent": true
@@ -664,7 +674,7 @@ const GAMES_DATA = [
     "title": "Duck Life 3: Evolutions",
     "category": "arcade",
     "description": "Evolua geneticamente seu pato escolhendo entre 4 raças com superpoderes.",
-    "cover": "assets/covers/duck-life-3.svg",
+    "cover": "assets/covers/duck-life-3.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -674,7 +684,7 @@ const GAMES_DATA = [
     "title": "Duck Life 4",
     "category": "arcade",
     "description": "Explore um vulcão ativo, treine uma equipe de patos e conquiste o troféu.",
-    "cover": "assets/covers/duck-life-4.svg",
+    "cover": "assets/covers/duck-life-4.jpg",
     "platform": "flash",
     "popular": false,
     "recent": true
@@ -684,7 +694,7 @@ const GAMES_DATA = [
     "title": "Duck Life: Treasure",
     "category": "arcade",
     "description": "Desça em cavernas misteriosas em busca de gemas raras e tesouros de ouro.",
-    "cover": "assets/covers/duck-life-treasure-hunt.svg",
+    "cover": "assets/covers/duck-life-treasure-hunt.png",
     "platform": "flash",
     "popular": false,
     "recent": true
@@ -694,7 +704,7 @@ const GAMES_DATA = [
     "title": "Bloxorz",
     "category": "puzzle",
     "description": "Role o bloco retangular de metal até fazê-lo cair perfeitamente no buraco.",
-    "cover": "assets/covers/bloxorz.svg",
+    "cover": "assets/covers/bloxorz.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -704,7 +714,7 @@ const GAMES_DATA = [
     "title": "Fancy Pants Adventures",
     "category": "arcade",
     "description": "O clássico stickman de calças amarelas deslizando em colinas e saltos fluidos.",
-    "cover": "assets/covers/fancy-pants-adventures.svg",
+    "cover": "assets/covers/fancy-pants-adventures.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -714,7 +724,7 @@ const GAMES_DATA = [
     "title": "Learn to Fly",
     "category": "arcade",
     "description": "Ajude o pinguim determinado a provar que pinguins podem voar alto.",
-    "cover": "assets/covers/learn-to-fly.svg",
+    "cover": "assets/covers/learn-to-fly.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -724,7 +734,7 @@ const GAMES_DATA = [
     "title": "Learn to Fly 2",
     "category": "arcade",
     "description": "Construa foguetes e planadores turbinados para destruir o iceberg.",
-    "cover": "assets/covers/learn-to-fly-2.svg",
+    "cover": "assets/covers/learn-to-fly-2.jpg",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -734,7 +744,7 @@ const GAMES_DATA = [
     "title": "Gun Mayhem",
     "category": "acao",
     "description": "Batalhas frenéticas com armas de fogo em plataformas suspensas.",
-    "cover": "assets/covers/gun-mayhem.svg",
+    "cover": "assets/covers/gun-mayhem.jpg",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -744,7 +754,7 @@ const GAMES_DATA = [
     "title": "Gun Mayhem 2: More",
     "category": "acao",
     "description": "Mais armas, novos modos de campanha e tiroteios explosivos em grupo.",
-    "cover": "assets/covers/gun-mayhem-2.svg",
+    "cover": "assets/covers/gun-mayhem-2.jpg",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -754,7 +764,7 @@ const GAMES_DATA = [
     "title": "Run 3",
     "category": "acao",
     "description": "Corra e gire a gravidade em túneis espaciais tridimensionais sem fim.",
-    "cover": "assets/covers/run-3.svg",
+    "cover": "assets/covers/run-3.jpg",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -764,7 +774,7 @@ const GAMES_DATA = [
     "title": "World's Hardest Game",
     "category": "puzzle",
     "description": "Guie o quadrado vermelho pelas bolas azuis sem levar nenhum toque.",
-    "cover": "assets/covers/worlds-hardest-game.svg",
+    "cover": "assets/covers/worlds-hardest-game.jpg",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -774,7 +784,7 @@ const GAMES_DATA = [
     "title": "World's Hardest Game 2",
     "category": "puzzle",
     "description": "Cinquenta novos níveis com mecânicas insanas de paciência e precisão.",
-    "cover": "assets/covers/worlds-hardest-game-2.svg",
+    "cover": "assets/covers/worlds-hardest-game-2.jpg",
     "platform": "flash",
     "popular": false,
     "recent": true
@@ -784,7 +794,7 @@ const GAMES_DATA = [
     "title": "The Impossible Quiz",
     "category": "puzzle",
     "description": "Perguntas malucas com pegadinhas inteligentes e hilárias.",
-    "cover": "assets/covers/the-impossible-quiz.svg",
+    "cover": "assets/covers/the-impossible-quiz.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -794,7 +804,7 @@ const GAMES_DATA = [
     "title": "The Impossible Quiz 2",
     "category": "puzzle",
     "description": "A continuação oficial do teste mais traiçoeiro e divertido da internet.",
-    "cover": "assets/covers/the-impossible-quiz-2.svg",
+    "cover": "assets/covers/the-impossible-quiz-2.png",
     "platform": "flash",
     "popular": false,
     "recent": true
@@ -804,7 +814,7 @@ const GAMES_DATA = [
     "title": "Happy Wheels",
     "category": "acao",
     "description": "Física de ragdoll extrema e pistas repletas de serras, minas e catapultas.",
-    "cover": "assets/covers/happy-wheels.svg",
+    "cover": "assets/covers/happy-wheels.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -814,7 +824,7 @@ const GAMES_DATA = [
     "title": "Boxhead 2Play",
     "category": "acao",
     "description": "Sobreviva a hordas infinitas de zumbis em salas com barris explosivos.",
-    "cover": "assets/covers/boxhead-2play.svg",
+    "cover": "assets/covers/boxhead-2play.jpg",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -824,7 +834,7 @@ const GAMES_DATA = [
     "title": "Pandemic 2",
     "category": "puzzle",
     "description": "Evolua sintomas e vias de transmissão para contaminar o planeta inteiro.",
-    "cover": "assets/covers/pandemic-2.svg",
+    "cover": "assets/covers/pandemic-2.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -834,7 +844,7 @@ const GAMES_DATA = [
     "title": "Stickmin: Breaking Bank",
     "category": "puzzle",
     "description": "Tente invadir o cofre do banco escolhendo as ferramentas mais bizarras.",
-    "cover": "assets/covers/henry-stickmin-breaking-the-bank.svg",
+    "cover": "assets/covers/henry-stickmin-breaking-the-bank.png",
     "platform": "flash",
     "popular": false,
     "recent": true
@@ -844,7 +854,7 @@ const GAMES_DATA = [
     "title": "Stickmin: Escaping Prison",
     "category": "puzzle",
     "description": "Planeje sua fuga espetacular da prisão escolhendo entre planos malucos.",
-    "cover": "assets/covers/henry-stickmin-escaping-the-prison.svg",
+    "cover": "assets/covers/henry-stickmin-escaping-the-prison.jpg",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -854,7 +864,7 @@ const GAMES_DATA = [
     "title": "Stickmin: Stealing Diamond",
     "category": "puzzle",
     "description": "Roube o gigantesco diamante do museu usando alta tecnologia e trapalhadas.",
-    "cover": "assets/covers/henry-stickmin-stealing-the-diamond.svg",
+    "cover": "assets/covers/henry-stickmin-stealing-the-diamond.jpg",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -864,7 +874,7 @@ const GAMES_DATA = [
     "title": "Subway Surfers",
     "category": "arcade",
     "description": "Desvie de trens velozes e guardas correndo pelos trilhos da cidade.",
-    "cover": "assets/covers/subway-surfers.svg",
+    "cover": "assets/covers/subway-surfers.png",
     "platform": "mobile",
     "popular": true,
     "recent": true
@@ -874,7 +884,7 @@ const GAMES_DATA = [
     "title": "Temple Run 2",
     "category": "arcade",
     "description": "Escape com o ídolo dourado através de penhascos e minas perigosas.",
-    "cover": "assets/covers/temple-run-2.svg",
+    "cover": "assets/covers/temple-run-2.png",
     "platform": "mobile",
     "popular": true,
     "recent": true
@@ -884,7 +894,7 @@ const GAMES_DATA = [
     "title": "Cut the Rope",
     "category": "puzzle",
     "description": "Corte as cordas na hora certa para alimentar o monstrinho verde Om Nom.",
-    "cover": "assets/covers/cut-the-rope.svg",
+    "cover": "assets/covers/cut-the-rope.png",
     "platform": "mobile",
     "popular": true,
     "recent": true
@@ -894,7 +904,7 @@ const GAMES_DATA = [
     "title": "Cut the Rope 2",
     "category": "puzzle",
     "description": "Novos cenários na floresta e amigos ajudantes com poderes especiais.",
-    "cover": "assets/covers/cut-the-rope-2.svg",
+    "cover": "assets/covers/cut-the-rope-2.png",
     "platform": "mobile",
     "popular": false,
     "recent": true
@@ -904,7 +914,7 @@ const GAMES_DATA = [
     "title": "Crossy Road",
     "category": "arcade",
     "description": "Por que a galinha atravessou a rua? Desvie de carros, trens e rios.",
-    "cover": "assets/covers/crossy-road.svg",
+    "cover": "assets/covers/crossy-road.png",
     "platform": "mobile",
     "popular": true,
     "recent": true
@@ -914,7 +924,7 @@ const GAMES_DATA = [
     "title": "Doodle Jump",
     "category": "arcade",
     "description": "Pule sem parar em plataformas nas alturas atirando nos monstros com o focinho.",
-    "cover": "assets/covers/doodle-jump.svg",
+    "cover": "assets/covers/doodle-jump.png",
     "platform": "mobile",
     "popular": true,
     "recent": true
@@ -924,7 +934,7 @@ const GAMES_DATA = [
     "title": "Cookie Clicker",
     "category": "arcade",
     "description": "Clique no biscoito gigante e contrate vovós para produzir bilhões de cookies.",
-    "cover": "assets/covers/cookie-clicker.svg",
+    "cover": "assets/covers/cookie-clicker.jpeg",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -934,7 +944,7 @@ const GAMES_DATA = [
     "title": "Rooftop Snipers",
     "category": "acao",
     "description": "Duelos cômicos de sniper no topo de prédios usando física de boneco de pano.",
-    "cover": "assets/covers/rooftop-snipers.svg",
+    "cover": "assets/covers/rooftop-snipers.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -944,7 +954,7 @@ const GAMES_DATA = [
     "title": "Getaway Shootout",
     "category": "acao",
     "description": "Pule e atire para alcançar o helicóptero de fuga antes dos seus oponentes.",
-    "cover": "assets/covers/getaway-shootout.svg",
+    "cover": "assets/covers/getaway-shootout.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -954,7 +964,7 @@ const GAMES_DATA = [
     "title": "Tunnel Rush",
     "category": "arcade",
     "description": "Velocidade alucinante dentro de um túnel psicodélico esquivando de barreiras.",
-    "cover": "assets/covers/tunnel-rush.svg",
+    "cover": "assets/covers/tunnel-rush.png",
     "platform": "arcade",
     "popular": true,
     "recent": true
@@ -964,7 +974,7 @@ const GAMES_DATA = [
     "title": "Drive Mad",
     "category": "acao",
     "description": "Pilote seu caminhão 4x4 por pistas cheias de pontes quebradas e cambalhotas.",
-    "cover": "assets/covers/drive-mad.svg",
+    "cover": "assets/covers/drive-mad.png",
     "platform": "mobile",
     "popular": true,
     "recent": true
@@ -974,7 +984,7 @@ const GAMES_DATA = [
     "title": "BitLife",
     "category": "puzzle",
     "description": "Simulador de vida interativo: faça suas próprias escolhas do berço ao túmulo.",
-    "cover": "assets/covers/bitlife.svg",
+    "cover": "assets/covers/bitlife.png",
     "platform": "mobile",
     "popular": true,
     "recent": true
@@ -984,7 +994,7 @@ const GAMES_DATA = [
     "title": "Retro Bowl",
     "category": "arcade",
     "description": "Futebol americano retrô estilo 8-bits: gerencie sua equipe e faça touchdowns.",
-    "cover": "assets/covers/retro-bowl.svg",
+    "cover": "assets/covers/retro-bowl.png",
     "platform": "mobile",
     "popular": true,
     "recent": true
@@ -994,7 +1004,7 @@ const GAMES_DATA = [
     "title": "Tiny Fishing",
     "category": "arcade",
     "description": "Lance o anzol nas profundezas do lago e pesque os peixes mais valiosos.",
-    "cover": "assets/covers/tiny-fishing.svg",
+    "cover": "assets/covers/tiny-fishing.png",
     "platform": "mobile",
     "popular": true,
     "recent": true
@@ -1004,7 +1014,7 @@ const GAMES_DATA = [
     "title": "OvO",
     "category": "acao",
     "description": "Parkour em ritmo frenético com saltos duplos, mergulhos e esquivas perfeitas.",
-    "cover": "assets/covers/ovo.svg",
+    "cover": "assets/covers/ovo.png",
     "platform": "mobile",
     "popular": true,
     "recent": true
@@ -1014,7 +1024,7 @@ const GAMES_DATA = [
     "title": "Friday Night Funkin'",
     "category": "arcade",
     "description": "Batalhas rítmicas de hip-hop para conquistar o coração da sua namorada.",
-    "cover": "assets/covers/friday-night-funkin.svg",
+    "cover": "assets/covers/friday-night-funkin.jpg",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -1024,7 +1034,7 @@ const GAMES_DATA = [
     "title": "Baldi's Basics",
     "category": "acao",
     "description": "Colete 7 cadernos na escola bizarra do professor Baldi e tente escapar.",
-    "cover": "assets/covers/baldis-basics.svg",
+    "cover": "assets/covers/baldis-basics.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -1034,7 +1044,7 @@ const GAMES_DATA = [
     "title": "SUPERHOT Web",
     "category": "acao",
     "description": "O tempo só se move quando você se move. Elimine inimigos com estilo.",
-    "cover": "assets/covers/superhot.svg",
+    "cover": "assets/covers/superhot.jpg",
     "platform": "arcade",
     "popular": true,
     "recent": true
@@ -1044,7 +1054,7 @@ const GAMES_DATA = [
     "title": "Time Shooter 3: SWAT",
     "category": "acao",
     "description": "Operação tática com desaceleração do tempo ao estilo Matrix.",
-    "cover": "assets/covers/time-shooter-3.svg",
+    "cover": "assets/covers/time-shooter-3.png",
     "platform": "arcade",
     "popular": true,
     "recent": true
@@ -1054,7 +1064,7 @@ const GAMES_DATA = [
     "title": "Smash Karts",
     "category": "arcade",
     "description": "Corrida de kart 3D com caixas de armas, mísseis e bombas explosivas.",
-    "cover": "assets/covers/smash-karts.svg",
+    "cover": "assets/covers/smash-karts.png",
     "platform": "arcade",
     "popular": true,
     "recent": true
@@ -1064,7 +1074,7 @@ const GAMES_DATA = [
     "title": "Paper.io 2",
     "category": "arcade",
     "description": "Conquiste território pintando o mapa e corte as trilhas dos outros jogadores.",
-    "cover": "assets/covers/paper-io-2.svg",
+    "cover": "assets/covers/paper-io-2.png",
     "platform": "mobile",
     "popular": true,
     "recent": true
@@ -1074,7 +1084,7 @@ const GAMES_DATA = [
     "title": "CraftMine",
     "category": "puzzle",
     "description": "Sobrevivência e mineração 2D: corte madeira, colete minérios e sobreviva à noite.",
-    "cover": "assets/covers/craftmine.svg",
+    "cover": "assets/covers/craftmine.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -1084,7 +1094,7 @@ const GAMES_DATA = [
     "title": "Grindcraft",
     "category": "puzzle",
     "description": "Clique para minerar matérias-primas e crie itens épicos no estilo Minecraft.",
-    "cover": "assets/covers/grindcraft.svg",
+    "cover": "assets/covers/grindcraft.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -1094,7 +1104,7 @@ const GAMES_DATA = [
     "title": "Toss The Turtle",
     "category": "arcade",
     "description": "Dispare a tartaruga com canhões gigantes e compre bombas para ir mais longe.",
-    "cover": "assets/covers/toss-the-turtle.svg",
+    "cover": "assets/covers/toss-the-turtle.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -1104,7 +1114,7 @@ const GAMES_DATA = [
     "title": "There Is No Game",
     "category": "puzzle",
     "description": "O narrador insiste que não há nada aqui. Encontre os segredos ocultos.",
-    "cover": "assets/covers/there-is-no-game.svg",
+    "cover": "assets/covers/there-is-no-game.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -1114,7 +1124,7 @@ const GAMES_DATA = [
     "title": "This Is The Only Level",
     "category": "puzzle",
     "description": "O elefante precisa passar pelo mesmo nível, mas as regras mudam a cada vez.",
-    "cover": "assets/covers/this-is-the-only-level.svg",
+    "cover": "assets/covers/this-is-the-only-level.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -1134,7 +1144,7 @@ const GAMES_DATA = [
     "title": "1v1.LOL",
     "category": "acao",
     "description": "Simulador competitivo de construção rápida e tiroteio em terceira pessoa.",
-    "cover": "assets/covers/1v1-lol.svg",
+    "cover": "assets/covers/1v1-lol.png",
     "platform": "arcade",
     "popular": true,
     "recent": true
@@ -1144,7 +1154,7 @@ const GAMES_DATA = [
     "title": "Angry Birds Classic",
     "category": "arcade",
     "description": "Dispare os pássaros furiosos com o estilingue e derrube os porcos verdes.",
-    "cover": "assets/covers/angry-birds.svg",
+    "cover": "assets/covers/angry-birds.jpg",
     "platform": "mobile",
     "popular": true,
     "recent": true
@@ -1154,7 +1164,7 @@ const GAMES_DATA = [
     "title": "Alien Hominid",
     "category": "acao",
     "description": "O clássico cult da Newgrounds: ajude o alienígena amarelo contra agentes do FBI.",
-    "cover": "assets/covers/alien-hominid.svg",
+    "cover": "assets/covers/alien-hominid.jpeg",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -1164,7 +1174,7 @@ const GAMES_DATA = [
     "title": "Awesome Tanks 2",
     "category": "acao",
     "description": "Batalhas táticas de tanques: destrua bases inimigas e melhore sua blindagem.",
-    "cover": "assets/covers/awesome-tanks-2.svg",
+    "cover": "assets/covers/awesome-tanks-2.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -1174,7 +1184,7 @@ const GAMES_DATA = [
     "title": "Backflip Dive 3D",
     "category": "arcade",
     "description": "Execute saltos mortais perfeitos e caia em pé de plataformas altíssimas.",
-    "cover": "assets/covers/backflip-dive-3d.svg",
+    "cover": "assets/covers/backflip-dive-3d.jpeg",
     "platform": "mobile",
     "popular": false,
     "recent": true
@@ -1184,7 +1194,7 @@ const GAMES_DATA = [
     "title": "Basket Bros",
     "category": "arcade",
     "description": "Basquete mano a mano com enterradas aéreas espetaculares e socos hilários.",
-    "cover": "assets/covers/basket-bros.svg",
+    "cover": "assets/covers/basket-bros.jpg",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -1194,7 +1204,7 @@ const GAMES_DATA = [
     "title": "Basketball Legends",
     "category": "arcade",
     "description": "Jogue basquete com lendas do esporte usando super arremessos em chamas.",
-    "cover": "assets/covers/basketball-legends.svg",
+    "cover": "assets/covers/basketball-legends.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -1204,7 +1214,7 @@ const GAMES_DATA = [
     "title": "Basketball Stars",
     "category": "arcade",
     "description": "Drible adversários, bloqueie arremessos e pontue em partidas eletrizantes.",
-    "cover": "assets/covers/basketball-stars.svg",
+    "cover": "assets/covers/basketball-stars.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -1224,7 +1234,7 @@ const GAMES_DATA = [
     "title": "Canyon Defense",
     "category": "puzzle",
     "description": "Construa torres de defesa avançadas no cânion para deter o comboio militar.",
-    "cover": "assets/covers/canyon-defense.svg",
+    "cover": "assets/covers/canyon-defense.png",
     "platform": "flash",
     "popular": false,
     "recent": true
@@ -1234,7 +1244,7 @@ const GAMES_DATA = [
     "title": "Cars Simulator 3D",
     "category": "arcade",
     "description": "Pilote superesportivos com física realista em uma cidade aberta cheia de rampas.",
-    "cover": "assets/covers/cars-simulator-3d.svg",
+    "cover": "assets/covers/cars-simulator-3d.png",
     "platform": "arcade",
     "popular": true,
     "recent": true
@@ -1244,7 +1254,7 @@ const GAMES_DATA = [
     "title": "Xadrez Clássico",
     "category": "classico",
     "description": "O jogo de estratégia milenar: desafie a inteligência artificial com táticas geniais.",
-    "cover": "assets/covers/chess-classic.svg",
+    "cover": "assets/covers/chess-classic.png",
     "platform": "mobile",
     "popular": false,
     "recent": true
@@ -1254,7 +1264,7 @@ const GAMES_DATA = [
     "title": "T-Rex Dino Runner",
     "category": "retro",
     "description": "O dinossauro sem internet: pule cactos e desvie de pterodáctilos no deserto.",
-    "cover": "assets/covers/chrome-dino.svg",
+    "cover": "assets/covers/chrome-dino.png",
     "platform": "arcade",
     "popular": true,
     "recent": true
@@ -1264,7 +1274,7 @@ const GAMES_DATA = [
     "title": "Cluster Rush",
     "category": "arcade",
     "description": "Pule de caminhão em caminhão em alta velocidade sem tocar no asfalto.",
-    "cover": "assets/covers/cluster-rush.svg",
+    "cover": "assets/covers/cluster-rush.jpg",
     "platform": "arcade",
     "popular": true,
     "recent": true
@@ -1274,7 +1284,7 @@ const GAMES_DATA = [
     "title": "Color Switch",
     "category": "arcade",
     "description": "Toque para fazer a bola quicar atravessando obstáculos da mesma cor.",
-    "cover": "assets/covers/color-switch.svg",
+    "cover": "assets/covers/color-switch.png",
     "platform": "mobile",
     "popular": true,
     "recent": true
@@ -1284,7 +1294,7 @@ const GAMES_DATA = [
     "title": "Cubefield",
     "category": "retro",
     "description": "Desvie em alta velocidade de um campo infinito de cubos coloridos.",
-    "cover": "assets/covers/cubefield.svg",
+    "cover": "assets/covers/cubefield.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -1294,7 +1304,7 @@ const GAMES_DATA = [
     "title": "Dadish",
     "category": "arcade",
     "description": "Um pai rabanete em busca de seus filhotes travessos pelo mundo vegetal.",
-    "cover": "assets/covers/dadish.svg",
+    "cover": "assets/covers/dadish.jpg",
     "platform": "mobile",
     "popular": true,
     "recent": true
@@ -1304,7 +1314,7 @@ const GAMES_DATA = [
     "title": "Dadish 2",
     "category": "arcade",
     "description": "Segunda aventura do rabanete herói com veículos espaciais e novos perigos.",
-    "cover": "assets/covers/dadish-2.svg",
+    "cover": "assets/covers/dadish-2.jpg",
     "platform": "mobile",
     "popular": false,
     "recent": true
@@ -1314,7 +1324,7 @@ const GAMES_DATA = [
     "title": "Dadish 3",
     "category": "arcade",
     "description": "Mais fases criativas, piadas inteligentes e reencontros emocionantes de rabanetes.",
-    "cover": "assets/covers/dadish-3.svg",
+    "cover": "assets/covers/dadish-3.jpg",
     "platform": "mobile",
     "popular": false,
     "recent": true
@@ -1324,7 +1334,7 @@ const GAMES_DATA = [
     "title": "Death Run 3D",
     "category": "arcade",
     "description": "Túnel ultrarrápido em primeira pessoa que testará seus reflexos ao limite.",
-    "cover": "assets/covers/death-run-3d.svg",
+    "cover": "assets/covers/death-run-3d.png",
     "platform": "arcade",
     "popular": true,
     "recent": true
@@ -1334,7 +1344,7 @@ const GAMES_DATA = [
     "title": "Doge Miner 2",
     "category": "arcade",
     "description": "Ajude o cachorro Doge a minerar dogecoins suficientes para ir até a Lua!",
-    "cover": "assets/covers/doge-miner-2.svg",
+    "cover": "assets/covers/doge-miner-2.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -1344,7 +1354,7 @@ const GAMES_DATA = [
     "title": "Elastic Man",
     "category": "arcade",
     "description": "Brinque e puxe a face elástica super realista em um sandbox divertido.",
-    "cover": "assets/covers/elastic-man.svg",
+    "cover": "assets/covers/elastic-man.jpg",
     "platform": "mobile",
     "popular": true,
     "recent": true
@@ -1354,7 +1364,7 @@ const GAMES_DATA = [
     "title": "Evil Glitch",
     "category": "acao",
     "description": "Shooter retrô minimalista: enfrente anomalias digitais e corrupção no sistema.",
-    "cover": "assets/covers/evil-glitch.svg",
+    "cover": "assets/covers/evil-glitch.jpeg",
     "platform": "arcade",
     "popular": false,
     "recent": true
@@ -1364,7 +1374,7 @@ const GAMES_DATA = [
     "title": "Factory Balls Forever",
     "category": "puzzle",
     "description": "Pinte e customize as bolinhas na ordem certa usando chapéus e máscaras.",
-    "cover": "assets/covers/factory-balls-forever.svg",
+    "cover": "assets/covers/factory-balls-forever.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -1384,7 +1394,7 @@ const GAMES_DATA = [
     "title": "Fruit Ninja Classic",
     "category": "arcade",
     "description": "Fatie melancias, maçãs e bananas no ar como um mestre espadachim.",
-    "cover": "assets/covers/fruit-ninja.svg",
+    "cover": "assets/covers/fruit-ninja.jpg",
     "platform": "mobile",
     "popular": true,
     "recent": true
@@ -1394,7 +1404,7 @@ const GAMES_DATA = [
     "title": "Getting Over It",
     "category": "arcade",
     "description": "Escale montanhas íngremes usando apenas uma marreta e muita paciência.",
-    "cover": "assets/covers/getting-over-it-scratch.svg",
+    "cover": "assets/covers/getting-over-it-scratch.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -1404,7 +1414,7 @@ const GAMES_DATA = [
     "title": "Google Snake Especial",
     "category": "classico",
     "description": "A cobrinha mais famosa do mundo com maçãs suculentas e mapas coloridos.",
-    "cover": "assets/covers/google-snake-custom.svg",
+    "cover": "assets/covers/google-snake-custom.png",
     "platform": "arcade",
     "popular": true,
     "recent": true
@@ -1414,7 +1424,7 @@ const GAMES_DATA = [
     "title": "Grow In The Hole",
     "category": "arcade",
     "description": "Minigolfe excêntrico com buracos encolhendo e bolas gigantescas.",
-    "cover": "assets/covers/grow-in-the-hole.svg",
+    "cover": "assets/covers/grow-in-the-hole.png",
     "platform": "arcade",
     "popular": false,
     "recent": true
@@ -1424,7 +1434,7 @@ const GAMES_DATA = [
     "title": "Gunspin",
     "category": "arcade",
     "description": "Dispare no momento exato para fazer o revólver voar a distâncias recordes.",
-    "cover": "assets/covers/gunspin.svg",
+    "cover": "assets/covers/gunspin.png",
     "platform": "mobile",
     "popular": true,
     "recent": true
@@ -1434,7 +1444,7 @@ const GAMES_DATA = [
     "title": "House of Hazards",
     "category": "acao",
     "description": "Sobreviva às armadilhas da casa enquanto seus amigos tentam te derrubar.",
-    "cover": "assets/covers/house-of-hazards.svg",
+    "cover": "assets/covers/house-of-hazards.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -1444,7 +1454,7 @@ const GAMES_DATA = [
     "title": "Idle Breakout",
     "category": "puzzle",
     "description": "A fusão viciante do clássico Breakout com a mecânica de evolução ociosa.",
-    "cover": "assets/covers/idle-breakout.svg",
+    "cover": "assets/covers/idle-breakout.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -1454,7 +1464,7 @@ const GAMES_DATA = [
     "title": "Interactive Buddy",
     "category": "arcade",
     "description": "O clássico simulador de física: interaja com o boneco usando dezenas de itens.",
-    "cover": "assets/covers/interactive-buddy.svg",
+    "cover": "assets/covers/interactive-buddy.jpg",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -1464,7 +1474,7 @@ const GAMES_DATA = [
     "title": "Jelly Truck",
     "category": "arcade",
     "description": "Dirija um caminhão gelatinoso que amassa e estica por mundos elásticos.",
-    "cover": "assets/covers/jelly-truck.svg",
+    "cover": "assets/covers/jelly-truck.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -1474,7 +1484,7 @@ const GAMES_DATA = [
     "title": "Jetpack Joyride",
     "category": "arcade",
     "description": "Voe pelo laboratório secreto com sua mochila a jato movida a metralhadoras.",
-    "cover": "assets/covers/jetpack-joyride.svg",
+    "cover": "assets/covers/jetpack-joyride.png",
     "platform": "mobile",
     "popular": true,
     "recent": true
@@ -1484,7 +1494,7 @@ const GAMES_DATA = [
     "title": "Just Fall.LOL",
     "category": "arcade",
     "description": "Batalha de sobrevivência em plataformas hexagonais que caem no abismo.",
-    "cover": "assets/covers/just-fall-lol.svg",
+    "cover": "assets/covers/just-fall-lol.png",
     "platform": "arcade",
     "popular": true,
     "recent": true
@@ -1504,7 +1514,7 @@ const GAMES_DATA = [
     "title": "Madalin Stunt Cars 2",
     "category": "arcade",
     "description": "Supercarros tunados em um parque de acrobacias 3D com loops e saltos gigantes.",
-    "cover": "assets/covers/madalin-stunt-cars-2.svg",
+    "cover": "assets/covers/madalin-stunt-cars-2.png",
     "platform": "arcade",
     "popular": true,
     "recent": true
@@ -1514,7 +1524,7 @@ const GAMES_DATA = [
     "title": "Madalin Stunt Cars 3",
     "category": "arcade",
     "description": "Terceira geração com novos supercarros de corrida e pistas multiplayer insanas.",
-    "cover": "assets/covers/madalin-stunt-cars-3.svg",
+    "cover": "assets/covers/madalin-stunt-cars-3.png",
     "platform": "arcade",
     "popular": true,
     "recent": true
@@ -1534,7 +1544,7 @@ const GAMES_DATA = [
     "title": "Minecraft Classic",
     "category": "puzzle",
     "description": "O clássico de construção 3D com 32 blocos e modo criativo infinito.",
-    "cover": "assets/covers/minecraft-classic.svg",
+    "cover": "assets/covers/minecraft-classic.png",
     "platform": "arcade",
     "popular": true,
     "recent": true
@@ -1554,7 +1564,7 @@ const GAMES_DATA = [
     "title": "Ninja Dash",
     "category": "acao",
     "description": "Salte entre telhados e corte inimigos silenciosamente na calada da noite.",
-    "cover": "assets/covers/ninja-dash.svg",
+    "cover": "assets/covers/ninja-dash.png",
     "platform": "flash",
     "popular": false,
     "recent": true
@@ -1564,7 +1574,7 @@ const GAMES_DATA = [
     "title": "Ninja vs Evilcorp",
     "category": "acao",
     "description": "Infiltre-se no arranha-céu da corporação maligna usando técnicas ninja.",
-    "cover": "assets/covers/ninja-vs-evilcorp.svg",
+    "cover": "assets/covers/ninja-vs-evilcorp.png",
     "platform": "flash",
     "popular": false,
     "recent": true
@@ -1574,7 +1584,7 @@ const GAMES_DATA = [
     "title": "Pac-Man FPS 3D",
     "category": "acao",
     "description": "Vivencie o labirinto de Pac-Man em primeira pessoa fugindo dos fantasmas.",
-    "cover": "assets/covers/pacman-fps.svg",
+    "cover": "assets/covers/pacman-fps.jpg",
     "platform": "arcade",
     "popular": true,
     "recent": true
@@ -1584,7 +1594,7 @@ const GAMES_DATA = [
     "title": "Portal: The Flash Version",
     "category": "puzzle",
     "description": "A recriação 2D genial de Portal com arma de portais e física de impulso.",
-    "cover": "assets/covers/portal-flash.svg",
+    "cover": "assets/covers/portal-flash.jpg",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -1594,7 +1604,7 @@ const GAMES_DATA = [
     "title": "Plants vs Zombies",
     "category": "puzzle",
     "description": "Plante girassóis e ervilhas no jardim para deter o apocalipse zumbi.",
-    "cover": "assets/covers/plants-vs-zombies-web.svg",
+    "cover": "assets/covers/plants-vs-zombies-web.jpg",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -1604,7 +1614,7 @@ const GAMES_DATA = [
     "title": "Rolly Vortex",
     "category": "arcade",
     "description": "Role a bola por um túnel espiral evitando bloqueios que giram no ritmo.",
-    "cover": "assets/covers/rolly-vortex.svg",
+    "cover": "assets/covers/rolly-vortex.png",
     "platform": "mobile",
     "popular": false,
     "recent": true
@@ -1614,7 +1624,7 @@ const GAMES_DATA = [
     "title": "Sandboxels",
     "category": "puzzle",
     "description": "Simulador de física de partículas: combine elementos, fogo, água e reações químicas.",
-    "cover": "assets/covers/sandboxels.svg",
+    "cover": "assets/covers/sandboxels.jpg",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -1624,7 +1634,7 @@ const GAMES_DATA = [
     "title": "Short Life 2",
     "category": "acao",
     "description": "Guie o personagem pelas armadilhas mais absurdas e dolorosas já criadas.",
-    "cover": "assets/covers/short-life-2.svg",
+    "cover": "assets/covers/short-life-2.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -1634,7 +1644,7 @@ const GAMES_DATA = [
     "title": "Short Ride",
     "category": "acao",
     "description": "Pedale e pilote veículos bizarros enquanto desvia de machados e bombas.",
-    "cover": "assets/covers/short-ride.svg",
+    "cover": "assets/covers/short-ride.jpg",
     "platform": "flash",
     "popular": false,
     "recent": true
@@ -1644,7 +1654,7 @@ const GAMES_DATA = [
     "title": "Super Mario 63",
     "category": "arcade",
     "description": "Uma obra-prima do Flash: a fusão impecável de Super Mario 64 e Sunshine em 2D.",
-    "cover": "assets/covers/super-mario-63.svg",
+    "cover": "assets/covers/super-mario-63.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -1654,7 +1664,7 @@ const GAMES_DATA = [
     "title": "Sonic the Hedgehog",
     "category": "arcade",
     "description": "A lenda veloz da Sega: colete anéis e derrote Dr. Robotnik em alta velocidade.",
-    "cover": "assets/covers/sonic-the-hedgehog.svg",
+    "cover": "assets/covers/sonic-the-hedgehog.png",
     "platform": "retro",
     "popular": true,
     "recent": true
@@ -1664,7 +1674,7 @@ const GAMES_DATA = [
     "title": "Spelunky Classic",
     "category": "acao",
     "description": "Explore cavernas perigosas cheias de armadilhas, morcegos e tesouros de ouro.",
-    "cover": "assets/covers/spelunky-html5.svg",
+    "cover": "assets/covers/spelunky-html5.png",
     "platform": "arcade",
     "popular": true,
     "recent": true
@@ -1674,7 +1684,7 @@ const GAMES_DATA = [
     "title": "Stick Archers Battle",
     "category": "acao",
     "description": "Duelos de arquearia com flechas especiais, vento dinâmico e mira calculada.",
-    "cover": "assets/covers/stick-archers-battle.svg",
+    "cover": "assets/covers/stick-archers-battle.png",
     "platform": "flash",
     "popular": false,
     "recent": true
@@ -1684,7 +1694,7 @@ const GAMES_DATA = [
     "title": "Stickman Boost",
     "category": "acao",
     "description": "Corra em pistas aéreas usando planadores e molas gigantes de aceleração.",
-    "cover": "assets/covers/stickman-boost.svg",
+    "cover": "assets/covers/stickman-boost.png",
     "platform": "flash",
     "popular": false,
     "recent": true
@@ -1694,7 +1704,7 @@ const GAMES_DATA = [
     "title": "Stickman Dismount",
     "category": "arcade",
     "description": "Arremesse o boneco de palito por escadas e despenhadeiros para quebrar ossos.",
-    "cover": "assets/covers/stickman-dismount.svg",
+    "cover": "assets/covers/stickman-dismount.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -1704,7 +1714,7 @@ const GAMES_DATA = [
     "title": "Stickman Epic Battle",
     "category": "acao",
     "description": "Lute contra mestres de artes marciais usando socos e voadoras devastadoras.",
-    "cover": "assets/covers/stickman-epic-battle.svg",
+    "cover": "assets/covers/stickman-epic-battle.png",
     "platform": "flash",
     "popular": false,
     "recent": true
@@ -1714,7 +1724,7 @@ const GAMES_DATA = [
     "title": "Stickman Golf",
     "category": "arcade",
     "description": "Acerte a bolinha de golfe em tacadas perfeitas através de colinas coloridas.",
-    "cover": "assets/covers/stickman-golf.svg",
+    "cover": "assets/covers/stickman-golf.png",
     "platform": "flash",
     "popular": false,
     "recent": true
@@ -1724,7 +1734,7 @@ const GAMES_DATA = [
     "title": "Storm the House 2",
     "category": "acao",
     "description": "Defenda sua casa com atiradores, silos de mísseis e cercas elétricas.",
-    "cover": "assets/covers/storm-the-house-2.svg",
+    "cover": "assets/covers/storm-the-house-2.jpg",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -1734,7 +1744,7 @@ const GAMES_DATA = [
     "title": "Tank Trouble 2",
     "category": "acao",
     "description": "Duelo épico de tanques em labirintos com balas que ricocheteiam na parede.",
-    "cover": "assets/covers/tank-trouble-2.svg",
+    "cover": "assets/covers/tank-trouble-2.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -1744,7 +1754,7 @@ const GAMES_DATA = [
     "title": "Tanuki Sunset",
     "category": "arcade",
     "description": "Desça montanhas no skate como um guaxinim elegante ao som de lofi hip-hop.",
-    "cover": "assets/covers/tanuki-sunset.svg",
+    "cover": "assets/covers/tanuki-sunset.png",
     "platform": "arcade",
     "popular": true,
     "recent": true
@@ -1754,7 +1764,7 @@ const GAMES_DATA = [
     "title": "The Final Earth 2",
     "category": "puzzle",
     "description": "Construa uma colônia espacial próspera em planetas flutuantes no espaço.",
-    "cover": "assets/covers/the-final-earth-2.svg",
+    "cover": "assets/covers/the-final-earth-2.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -1764,7 +1774,7 @@ const GAMES_DATA = [
     "title": "Tube Jumpers",
     "category": "arcade",
     "description": "Pule na boia aquática para não cair na água cheia de tubarões e pedras.",
-    "cover": "assets/covers/tube-jumpers.svg",
+    "cover": "assets/covers/tube-jumpers.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -1774,7 +1784,7 @@ const GAMES_DATA = [
     "title": "Wordle Clássico",
     "category": "puzzle",
     "description": "Adivinhe a palavra secreta de cinco letras em apenas seis tentativas.",
-    "cover": "assets/covers/wordle-classic.svg",
+    "cover": "assets/covers/wordle-classic.png",
     "platform": "mobile",
     "popular": true,
     "recent": true
@@ -1784,7 +1794,7 @@ const GAMES_DATA = [
     "title": "Zombs Royale 2D",
     "category": "acao",
     "description": "Battle Royale 2D frenético: aterrisse de paraquedas e seja o último sobrevivente.",
-    "cover": "assets/covers/zombs-royale.svg",
+    "cover": "assets/covers/zombs-royale.png",
     "platform": "arcade",
     "popular": true,
     "recent": true
@@ -1794,7 +1804,7 @@ const GAMES_DATA = [
     "title": "Achievement Unlocked",
     "category": "puzzle",
     "description": "Desbloqueie todas as 100 conquistas bizarras pulando com o elefante azul.",
-    "cover": "assets/covers/achievement-unlocked.svg",
+    "cover": "assets/covers/achievement-unlocked.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -1804,7 +1814,7 @@ const GAMES_DATA = [
     "title": "Adrenaline Challenge",
     "category": "acao",
     "description": "Manobras acrobáticas radicais com motos de motocross em tubos suspensos.",
-    "cover": "assets/covers/adrenaline-challenge.svg",
+    "cover": "assets/covers/adrenaline-challenge.jpg",
     "platform": "flash",
     "popular": false,
     "recent": true
@@ -1814,7 +1824,7 @@ const GAMES_DATA = [
     "title": "Anti Terrorist Rush",
     "category": "acao",
     "description": "Operação de resgate tático com esquadrões de elite contra insurgentes.",
-    "cover": "assets/covers/anti-terrorist-rush.svg",
+    "cover": "assets/covers/anti-terrorist-rush.png",
     "platform": "flash",
     "popular": false,
     "recent": true
@@ -1834,7 +1844,7 @@ const GAMES_DATA = [
     "title": "Battle for Gondor",
     "category": "acao",
     "description": "Defenda os portões da cidade sagrada contra orcs e catapultas de guerra.",
-    "cover": "assets/covers/battle-for-gondor.svg",
+    "cover": "assets/covers/battle-for-gondor.jpg",
     "platform": "flash",
     "popular": false,
     "recent": true
@@ -1844,7 +1854,7 @@ const GAMES_DATA = [
     "title": "Champion Archer",
     "category": "acao",
     "description": "Ajuste o ângulo e a potência do arco para acertar os arqueiros inimigos.",
-    "cover": "assets/covers/champion-archer.svg",
+    "cover": "assets/covers/champion-archer.png",
     "platform": "flash",
     "popular": false,
     "recent": true
@@ -1854,7 +1864,7 @@ const GAMES_DATA = [
     "title": "circlO",
     "category": "puzzle",
     "description": "Quebra-cabeça de física circular onde o círculo cresce a cada esfera coletada.",
-    "cover": "assets/covers/circloo.svg",
+    "cover": "assets/covers/circloo.png",
     "platform": "mobile",
     "popular": true,
     "recent": true
@@ -1864,7 +1874,7 @@ const GAMES_DATA = [
     "title": "City Blocks 2",
     "category": "puzzle",
     "description": "Combine construções idênticas para evoluir sua pequena vila em uma metrópole.",
-    "cover": "assets/covers/city-blocks-2.svg",
+    "cover": "assets/covers/city-blocks-2.png",
     "platform": "mobile",
     "popular": false,
     "recent": true
@@ -1874,7 +1884,7 @@ const GAMES_DATA = [
     "title": "Core Ball",
     "category": "arcade",
     "description": "Espete os alfinetes na esfera giratória central sem que eles se toquem.",
-    "cover": "assets/covers/core-ball.svg",
+    "cover": "assets/covers/core-ball.png",
     "platform": "mobile",
     "popular": true,
     "recent": true
@@ -1884,7 +1894,7 @@ const GAMES_DATA = [
     "title": "CS:GO Case Clicker",
     "category": "arcade",
     "description": "Abra caixas raras de CS:GO, ganhe facas lendárias e monte seu inventário.",
-    "cover": "assets/covers/csgo-case-clicker.svg",
+    "cover": "assets/covers/csgo-case-clicker.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -1894,7 +1904,7 @@ const GAMES_DATA = [
     "title": "Defend The Tank",
     "category": "acao",
     "description": "Comande soldados especializados protegendo seu tanque de guerra em comboio.",
-    "cover": "assets/covers/defend-the-tank.svg",
+    "cover": "assets/covers/defend-the-tank.png",
     "platform": "mobile",
     "popular": false,
     "recent": true
@@ -1904,7 +1914,7 @@ const GAMES_DATA = [
     "title": "Double Wires",
     "category": "arcade",
     "description": "Lance teias de aranha para balançar como o Homem-Aranha entre os obstáculos.",
-    "cover": "assets/covers/double-wires.svg",
+    "cover": "assets/covers/double-wires.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -1914,7 +1924,7 @@ const GAMES_DATA = [
     "title": "Draw The Hill",
     "category": "arcade",
     "description": "Desenhe o caminho do carro na tela para evitar buracos e colinas pontudas.",
-    "cover": "assets/covers/draw-the-hill.svg",
+    "cover": "assets/covers/draw-the-hill.png",
     "platform": "mobile",
     "popular": false,
     "recent": true
@@ -1924,7 +1934,7 @@ const GAMES_DATA = [
     "title": "Duke Dashington",
     "category": "arcade",
     "description": "Aventureiro veloz com apenas 10 segundos para escapar de templos desabando.",
-    "cover": "assets/covers/duke-dashington.svg",
+    "cover": "assets/covers/duke-dashington.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -1934,7 +1944,7 @@ const GAMES_DATA = [
     "title": "Edge Surf",
     "category": "arcade",
     "description": "O clássico de surfe no gelo com ondas radicais, ilhas e o polvo gigante.",
-    "cover": "assets/covers/edge-surf.svg",
+    "cover": "assets/covers/edge-surf.png",
     "platform": "arcade",
     "popular": true,
     "recent": true
@@ -1944,7 +1954,7 @@ const GAMES_DATA = [
     "title": "Finn's Food Machine",
     "category": "puzzle",
     "description": "Construa engenhocas mirabolantes para alimentar o aventureiro Finn.",
-    "cover": "assets/covers/finns-food-machine.svg",
+    "cover": "assets/covers/finns-food-machine.png",
     "platform": "flash",
     "popular": false,
     "recent": true
@@ -1954,7 +1964,7 @@ const GAMES_DATA = [
     "title": "Friendly Fire",
     "category": "acao",
     "description": "Tiroteios cooperativos táticos onde cada tiro desviado pode acertar um aliado.",
-    "cover": "assets/covers/friendly-fire.svg",
+    "cover": "assets/covers/friendly-fire.png",
     "platform": "flash",
     "popular": false,
     "recent": true
@@ -1964,7 +1974,7 @@ const GAMES_DATA = [
     "title": "Gravity Soccer",
     "category": "puzzle",
     "description": "Destrua blocos e use a gravidade para chutar a bola direto para o gol.",
-    "cover": "assets/covers/gravity-soccer.svg",
+    "cover": "assets/covers/gravity-soccer.png",
     "platform": "mobile",
     "popular": false,
     "recent": true
@@ -1974,7 +1984,7 @@ const GAMES_DATA = [
     "title": "Hacker Typer",
     "category": "retro",
     "description": "Digite qualquer tecla como um hacker profissional de cinema invadindo servidores.",
-    "cover": "assets/covers/hacker-typer.svg",
+    "cover": "assets/covers/hacker-typer.png",
     "platform": "arcade",
     "popular": true,
     "recent": true
@@ -1984,7 +1994,7 @@ const GAMES_DATA = [
     "title": "Hex Empire",
     "category": "puzzle",
     "description": "Conquiste capitais rivais em um mapa de blocos hexagonais estratégicos.",
-    "cover": "assets/covers/hex-empire.svg",
+    "cover": "assets/covers/hex-empire.jpg",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -1994,7 +2004,7 @@ const GAMES_DATA = [
     "title": "Icy Purple Head",
     "category": "puzzle",
     "description": "Alterne entre gelo escorregadio e borracha adesiva para alcançar a caixa.",
-    "cover": "assets/covers/icys-purple-head.svg",
+    "cover": "assets/covers/icys-purple-head.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -2004,7 +2014,7 @@ const GAMES_DATA = [
     "title": "Kart Fight.io",
     "category": "arcade",
     "description": "Empurre os outros pilotos de kart para fora da arena para crescer de tamanho.",
-    "cover": "assets/covers/kart-fight-io.svg",
+    "cover": "assets/covers/kart-fight-io.jpg",
     "platform": "arcade",
     "popular": false,
     "recent": true
@@ -2014,7 +2024,7 @@ const GAMES_DATA = [
     "title": "Klocki",
     "category": "puzzle",
     "description": "Quebra-cabeça relaxante de conectar linhas e padrões com trilha ambiente suave.",
-    "cover": "assets/covers/klocki.svg",
+    "cover": "assets/covers/klocki.jpg",
     "platform": "mobile",
     "popular": true,
     "recent": true
@@ -2024,7 +2034,7 @@ const GAMES_DATA = [
     "title": "Linquest",
     "category": "arcade",
     "description": "Aventura de plataforma retrô com gráficos pixelados e tesouros lendários.",
-    "cover": "assets/covers/linquest.svg",
+    "cover": "assets/covers/linquest.jpg",
     "platform": "arcade",
     "popular": false,
     "recent": true
@@ -2034,7 +2044,7 @@ const GAMES_DATA = [
     "title": "Matrix Rampage",
     "category": "acao",
     "description": "Lute contra centenas de Agentes Smith no topo de prédios usando artes marciais.",
-    "cover": "assets/covers/matrix-rampage.svg",
+    "cover": "assets/covers/matrix-rampage.jpg",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -2044,7 +2054,7 @@ const GAMES_DATA = [
     "title": "Mini Stilts",
     "category": "arcade",
     "description": "Ande sobre pernas de pau esticáveis para desviar de poços de lava e espinhos.",
-    "cover": "assets/covers/mini-stilts.svg",
+    "cover": "assets/covers/mini-stilts.png",
     "platform": "arcade",
     "popular": false,
     "recent": true
@@ -2054,7 +2064,7 @@ const GAMES_DATA = [
     "title": "Mini Putt Clássico",
     "category": "classico",
     "description": "O clássico minigolfe em campos verdes com moinhos de vento e rampas.",
-    "cover": "assets/covers/mini-putt.svg",
+    "cover": "assets/covers/mini-putt.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -2064,7 +2074,7 @@ const GAMES_DATA = [
     "title": "n-gon",
     "category": "acao",
     "description": "Atirador dimensional em arena com armas de física quântica e partículas neon.",
-    "cover": "assets/covers/n-gon.svg",
+    "cover": "assets/covers/n-gon.png",
     "platform": "arcade",
     "popular": false,
     "recent": true
@@ -2074,7 +2084,7 @@ const GAMES_DATA = [
     "title": "osu! Web",
     "category": "arcade",
     "description": "Clique nos círculos no ritmo da música com precisão e velocidade insanas.",
-    "cover": "assets/covers/osu-web.svg",
+    "cover": "assets/covers/osu-web.png",
     "platform": "arcade",
     "popular": true,
     "recent": true
@@ -2094,7 +2104,7 @@ const GAMES_DATA = [
     "title": "Particle Clicker",
     "category": "puzzle",
     "description": "Administre o grande colisor de hádrons e descubra novas partículas subatômicas.",
-    "cover": "assets/covers/particle-clicker.svg",
+    "cover": "assets/covers/particle-clicker.png",
     "platform": "flash",
     "popular": false,
     "recent": true
@@ -2124,7 +2134,7 @@ const GAMES_DATA = [
     "title": "This Is Sand",
     "category": "puzzle",
     "description": "Deixe a areia colorida escorrer para criar paisagens e montanhas artísticas.",
-    "cover": "assets/covers/this-is-sand.svg",
+    "cover": "assets/covers/this-is-sand.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -2154,7 +2164,7 @@ const GAMES_DATA = [
     "title": "Skyblock 2D",
     "category": "puzzle",
     "description": "Sobreviva em uma pequena ilha flutuante com apenas uma árvore e um balde.",
-    "cover": "assets/covers/skyblock-2d.svg",
+    "cover": "assets/covers/skyblock-2d.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -2164,7 +2174,7 @@ const GAMES_DATA = [
     "title": "Paciência Clássica",
     "category": "classico",
     "description": "O clássico jogo de cartas: organize as fileiras em ordem do Ás até o Rei.",
-    "cover": "assets/covers/solitaire-classic.svg",
+    "cover": "assets/covers/solitaire-classic.png",
     "platform": "mobile",
     "popular": true,
     "recent": true
@@ -2174,7 +2184,7 @@ const GAMES_DATA = [
     "title": "Sort the Court",
     "category": "puzzle",
     "description": "Governe seu reino dizendo apenas Sim ou Não para plebeus, magos e dragões.",
-    "cover": "assets/covers/sort-the-court.svg",
+    "cover": "assets/covers/sort-the-court.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -2184,7 +2194,7 @@ const GAMES_DATA = [
     "title": "Tactical Assassin 2",
     "category": "acao",
     "description": "Missões de sniper calculadas com rifle de precisão e alvos silenciosos.",
-    "cover": "assets/covers/tactical-assassin-2.svg",
+    "cover": "assets/covers/tactical-assassin-2.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -2194,7 +2204,7 @@ const GAMES_DATA = [
     "title": "Tower Master",
     "category": "arcade",
     "description": "Solte os andares do prédio no momento exato para construir a torre mais alta.",
-    "cover": "assets/covers/tower-master.svg",
+    "cover": "assets/covers/tower-master.png",
     "platform": "mobile",
     "popular": false,
     "recent": true
@@ -2204,7 +2214,7 @@ const GAMES_DATA = [
     "title": "Townscaper Web",
     "category": "puzzle",
     "description": "Construa cidades pitorescas à beira-mar com pontes, torres e arcos de conto de fadas.",
-    "cover": "assets/covers/townscaper-web.svg",
+    "cover": "assets/covers/townscaper-web.jpg",
     "platform": "arcade",
     "popular": true,
     "recent": true
@@ -2214,7 +2224,7 @@ const GAMES_DATA = [
     "title": "Trimps",
     "category": "puzzle",
     "description": "RPG estratégico incremental: recrute criaturas e explore mapas infinitos.",
-    "cover": "assets/covers/trimps.svg",
+    "cover": "assets/covers/trimps.png",
     "platform": "flash",
     "popular": false,
     "recent": true
@@ -2234,7 +2244,7 @@ const GAMES_DATA = [
     "title": "Wolfenstein 3D",
     "category": "retro",
     "description": "O pioneiro dos jogos de tiro em primeira pessoa: escape do castelo nazista.",
-    "cover": "assets/covers/wolfenstein-3d.svg",
+    "cover": "assets/covers/wolfenstein-3d.png",
     "platform": "retro",
     "popular": true,
     "recent": true
@@ -2244,7 +2254,7 @@ const GAMES_DATA = [
     "title": "Yoshi Fabrication",
     "category": "arcade",
     "description": "Crie e jogue fases de plataforma personalizadas estrelando o simpático Yoshi.",
-    "cover": "assets/covers/yoshi-fabrication.svg",
+    "cover": "assets/covers/yoshi-fabrication.png",
     "platform": "arcade",
     "popular": false,
     "recent": true
@@ -2254,7 +2264,7 @@ const GAMES_DATA = [
     "title": "10 Minutes Till Dawn",
     "category": "acao",
     "description": "Sobreviva 10 minutos contra levas infinitas de monstros das trevas com armas mágicas.",
-    "cover": "assets/covers/10-minutes-till-dawn.svg",
+    "cover": "assets/covers/10-minutes-till-dawn.png",
     "platform": "arcade",
     "popular": true,
     "recent": true
@@ -2264,7 +2274,7 @@ const GAMES_DATA = [
     "title": "Sinuca 8 Ball Clássica",
     "category": "classico",
     "description": "Mire, calcule o efeito e encaçape todas as bolas de sinuca com maestria.",
-    "cover": "assets/covers/8-ball-billiards.svg",
+    "cover": "assets/covers/8-ball-billiards.png",
     "platform": "mobile",
     "popular": true,
     "recent": true
@@ -2274,7 +2284,7 @@ const GAMES_DATA = [
     "title": "Doge Miner",
     "category": "arcade",
     "description": "Minere dogecoins até comprar sua primeira nave espacial para a Lua!",
-    "cover": "assets/covers/doge-miner.svg",
+    "cover": "assets/covers/doge-miner.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -2284,7 +2294,7 @@ const GAMES_DATA = [
     "title": "Super Mario Bros Full",
     "category": "retro",
     "description": "O clássico Super Mario Bros do Nintendinho jogável em tela cheia no navegador.",
-    "cover": "assets/covers/fullscreen-mario.svg",
+    "cover": "assets/covers/fullscreen-mario.png",
     "platform": "retro",
     "popular": true,
     "recent": true
@@ -2294,7 +2304,7 @@ const GAMES_DATA = [
     "title": "Black Knight",
     "category": "acao",
     "description": "Colete impostos e enfrente multidões rebeldes a mando do rei ganancioso.",
-    "cover": "assets/covers/black-knight.svg",
+    "cover": "assets/covers/black-knight.png",
     "platform": "flash",
     "popular": false,
     "recent": true
@@ -2304,7 +2314,7 @@ const GAMES_DATA = [
     "title": "Cell Machine",
     "category": "puzzle",
     "description": "Posicione células motoras, rotativas e destrutivas para resolver quebra-cabeças lógicos.",
-    "cover": "assets/covers/cell-machine.svg",
+    "cover": "assets/covers/cell-machine.png",
     "platform": "flash",
     "popular": false,
     "recent": true
@@ -2314,7 +2324,7 @@ const GAMES_DATA = [
     "title": "Topa ou Não Topa",
     "category": "classico",
     "description": "Escolha sua maleta da sorte e negocie ofertas milionárias com o banqueiro.",
-    "cover": "assets/covers/deal-or-no-deal.svg",
+    "cover": "assets/covers/deal-or-no-deal.jpg",
     "platform": "flash",
     "popular": false,
     "recent": true
@@ -2324,7 +2334,7 @@ const GAMES_DATA = [
     "title": "Flappy 2048",
     "category": "arcade",
     "description": "A fusão hilária de Flappy Bird com 2048: voe e combine blocos numéricos.",
-    "cover": "assets/covers/flappy-2048.svg",
+    "cover": "assets/covers/flappy-2048.png",
     "platform": "arcade",
     "popular": false,
     "recent": true
@@ -2334,7 +2344,7 @@ const GAMES_DATA = [
     "title": "Google Paciência",
     "category": "classico",
     "description": "A versão limpa e colorida de paciência criada pelo Google com dois níveis.",
-    "cover": "assets/covers/google-solitaire.svg",
+    "cover": "assets/covers/google-solitaire.png",
     "platform": "arcade",
     "popular": false,
     "recent": true
@@ -2344,7 +2354,7 @@ const GAMES_DATA = [
     "title": "Super Smash Flash",
     "category": "acao",
     "description": "Lute como Mario, Sonic, Goku e Naruto nas arenas clássicas de Smash.",
-    "cover": "assets/covers/super-smash-flash-2.svg",
+    "cover": "assets/covers/super-smash-flash-2.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -2354,7 +2364,7 @@ const GAMES_DATA = [
     "title": "Stickman Survival",
     "category": "acao",
     "description": "Atire contra ondas de inimigos armados e resista o máximo de tempo na trincheira.",
-    "cover": "assets/covers/stickman-survival.svg",
+    "cover": "assets/covers/stickman-survival.png",
     "platform": "flash",
     "popular": false,
     "recent": true
@@ -2364,7 +2374,7 @@ const GAMES_DATA = [
     "title": "Indian Truck 3D",
     "category": "arcade",
     "description": "Dirija caminhões decorados por estradas de montanha perigosas com cargas pesadas.",
-    "cover": "assets/covers/indian-truck-simulator.svg",
+    "cover": "assets/covers/indian-truck-simulator.png",
     "platform": "arcade",
     "popular": false,
     "recent": true
@@ -2374,7 +2384,7 @@ const GAMES_DATA = [
     "title": "Geometry Dash",
     "category": "arcade",
     "description": "Pule e voe pelo perigo com ritmo musical em fases geométricas cheias de espinhos.",
-    "cover": "assets/covers/geometry-dash.svg",
+    "cover": "assets/covers/geometry-dash.png",
     "platform": "mobile",
     "popular": true,
     "recent": true
@@ -2384,7 +2394,7 @@ const GAMES_DATA = [
     "title": "Endless War 3",
     "category": "acao",
     "description": "Batalhas históricas da Segunda Guerra Mundial com tanques e fuzileiros.",
-    "cover": "assets/covers/endless-war-3.svg",
+    "cover": "assets/covers/endless-war-3.png",
     "platform": "flash",
     "popular": false,
     "recent": true
@@ -2394,7 +2404,7 @@ const GAMES_DATA = [
     "title": "Kitten Cannon",
     "category": "arcade",
     "description": "Dispare o gatinho pelo canhão e atinja dinamites para voar quilômetros!",
-    "cover": "assets/covers/kitten-cannon.svg",
+    "cover": "assets/covers/kitten-cannon.jpg",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -2404,7 +2414,7 @@ const GAMES_DATA = [
     "title": "Krunker.io",
     "category": "acao",
     "description": "FPS veloz em primeira pessoa estilo pixelado com saltos deslizantes e rifles.",
-    "cover": "assets/covers/krunker-web.svg",
+    "cover": "assets/covers/krunker-web.png",
     "platform": "arcade",
     "popular": true,
     "recent": true
@@ -2414,7 +2424,7 @@ const GAMES_DATA = [
     "title": "Idle Shark",
     "category": "arcade",
     "description": "Controle um tubarão feroz nas profundezas do oceano e devore cardumes.",
-    "cover": "assets/covers/idle-shark.svg",
+    "cover": "assets/covers/idle-shark.png",
     "platform": "flash",
     "popular": false,
     "recent": true
@@ -2424,7 +2434,7 @@ const GAMES_DATA = [
     "title": "Dragon vs Bricks",
     "category": "arcade",
     "description": "Guie o dragão de esferas quebrando blocos numerados pelo caminho.",
-    "cover": "assets/covers/dragon-vs-bricks.svg",
+    "cover": "assets/covers/dragon-vs-bricks.jpg",
     "platform": "mobile",
     "popular": false,
     "recent": true
@@ -2434,7 +2444,7 @@ const GAMES_DATA = [
     "title": "Doctor Acorn 2",
     "category": "puzzle",
     "description": "Ajude a bolota médica a voar de paraquedas e resgatar pássaros doentes.",
-    "cover": "assets/covers/doctor-acorn-2.svg",
+    "cover": "assets/covers/doctor-acorn-2.png",
     "platform": "mobile",
     "popular": false,
     "recent": true
@@ -2444,7 +2454,7 @@ const GAMES_DATA = [
     "title": "Froggy's Battle",
     "category": "arcade",
     "description": "O sapinho guerreiro enfrentando monstros com combos e espadadas giratórias.",
-    "cover": "assets/covers/froggys-battle.svg",
+    "cover": "assets/covers/froggys-battle.jpg",
     "platform": "arcade",
     "popular": false,
     "recent": true
@@ -2454,13 +2464,13 @@ const GAMES_DATA = [
     "title": "Golf Clássico",
     "category": "classico",
     "description": "Dê tacadas precisas lendo o relevo do campo e a força do vento.",
-    "cover": "assets/covers/golf-classic.svg",
+    "cover": "assets/covers/golf-classic.jpg",
     "platform": "arcade",
     "popular": false,
     "recent": true
   }
 ];
-const labels={todos:'Todos os jogos',recentes:'Novos jogos',populares:'Em alta',favoritos:'Meus favoritos',arcade:'Arcade',puzzle:'Puzzle',classico:'Clássicos',acao:'Ação',retro:'Retrô',leves:'Jogos leves',mobile:'📱 Mobile → PC',console:'🎮 Console Port',flash:'⚡ Estilo Flash'};
+const labels={todos:'Todos os jogos',recentes:'Novos jogos',populares:'Em alta',favoritos:'Meus favoritos',arcade:'Arcade',puzzle:'Puzzle',classico:'Clássicos',acao:'Ação',retro:'Retrô',leves:'Jogos leves',mobile:'Mobile → PC',console:'Console Port',flash:'Estilo Flash'};
 const HEAVY_GAMES = new Set(['slope','mario64-cleanroom','zelda-tribute','hexgl','underrun','astray','orb-island','xx142']);
 const FEATURED_GAMES = new Set(['slope','gta-san-andreas','fireboy-and-watergirl','bad-ice-cream','moto-x3m','papas-pizzeria','subway-surfers','age-of-war','vex-3','super-mario-63','bloxorz','duck-life']);
 
@@ -2494,7 +2504,7 @@ function renderRecentPlayed() {
     item.href = route;
     item.title = `Continuar jogando ${g.title}`;
     item.innerHTML = `
-      <img src="${g.cover || `assets/covers/${g.id}.png`}" alt="${g.title}" width="40" height="40" loading="lazy">
+      <img src="${g.cover || `assets/covers/${g.id}.svg`}" alt="${g.title}" width="40" height="40" loading="lazy">
       <div class="recent-info">
         <strong>${g.title}</strong>
         <span><svg class="icon"><use href="assets/icons.svg#play"></use></svg>Continuar</span>
@@ -2539,7 +2549,7 @@ function renderAll(focusFavorite) {
     const fav = favorites.includes(g.id);
     const route = `games/${encodeURIComponent(g.id)}/index.html`;
     const badge = isFeatured
-      ? '<span class="new-badge featured-badge">🔥 DESTAQUE</span>'
+      ? '<span class="new-badge featured-badge">DESTAQUE</span>'
       : (g.recreation
         ? '<span class="new-badge recreation-badge">RECRIAÇÃO</span>'
         : (g.popular
@@ -2547,7 +2557,7 @@ function renderAll(focusFavorite) {
           : (g.recent ? '<span class="new-badge">NOVO</span>' : '')));
     card.innerHTML = `
       <a href="${route}" class="game-thumb-link" title="${g.title} — ${g.description}">
-        <img class="game-cover" src="${g.cover || `assets/covers/${g.id}.png`}" alt="${g.title}" width="256" height="256" decoding="async">
+        <img class="game-cover" src="${g.cover || `assets/covers/${g.id}.svg`}" alt="${g.title}" width="256" height="256" decoding="async">
         <span class="play-overlay" aria-hidden="true"><span><svg class="icon"><use href="assets/icons.svg#play"></use></svg></span></span>${badge}
       </a>
       <button class="btn-favorite ${fav ? 'active' : ''}" data-id="${g.id}" aria-label="${fav ? 'Remover' : 'Adicionar'} ${g.title} ${fav ? 'dos' : 'aos'} favoritos" aria-pressed="${fav}"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#star"></use></svg></button>
