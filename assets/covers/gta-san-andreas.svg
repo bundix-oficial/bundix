@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="ls-sunset" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#210d3a"/>
+      <stop offset="40%" stop-color="#691a52"/>
+      <stop offset="70%" stop-color="#df4328"/>
+      <stop offset="100%" stop-color="#f8a129"/>
+    </linearGradient>
+    <linearGradient id="gta-gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fff275"/>
+      <stop offset="100%" stop-color="#e09e19"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sunset Sky -->
+  <rect width="256" height="256" fill="url(#ls-sunset)"/>
+
+  <!-- Sun -->
+  <circle cx="128" cy="140" r="54" fill="#ffec99" opacity="0.45"/>
+  <circle cx="128" cy="140" r="38" fill="#fff9d6" opacity="0.6"/>
+
+  <!-- City Skyline Silhouette -->
+  <path d="M0 185 L20 185 L20 165 L35 165 L35 175 L50 175 L50 150 L65 150 L65 185 L85 185 L85 160 L105 160 L105 140 L115 140 L115 185 L140 185 L140 155 L155 155 L155 185 L180 185 L180 168 L195 168 L195 185 L220 185 L220 162 L235 162 L235 185 L256 185 L256 256 L0 256 Z" fill="#1b0826" opacity="0.85"/>
+
+  <!-- Palm Trees -->
+  <!-- Left Palm -->
+  <path d="M25 210 Q28 150 45 100 Q47 95 44 95 Q38 100 21 210 Z" fill="#110519"/>
+  <path d="M44 95 Q10 80 0 100 Q20 85 44 95 Q25 65 15 55 Q35 75 44 95 Q50 60 48 45 Q55 65 44 95 Q70 65 80 60 Q65 75 44 95 Q75 85 85 105 Q65 95 44 95" fill="#110519"/>
+  <!-- Right Palm -->
+  <path d="M235 210 Q228 150 215 90 Q213 85 216 85 Q223 90 238 210 Z" fill="#110519"/>
+  <path d="M215 85 Q180 70 170 90 Q190 75 215 85 Q195 55 185 45 Q205 65 215 85 Q220 50 218 35 Q225 55 215 85 Q240 55 250 50 Q235 65 215 85 Q245 75 255 95 Q235 85 215 85" fill="#110519"/>
+
+  <!-- Asphalt Road Ground -->
+  <rect y="195" width="256" height="61" fill="#140718"/>
+  <line x1="0" y1="228" x2="256" y2="228" stroke="#ffdd00" stroke-width="3" stroke-dasharray="14 10" opacity="0.6"/>
+
+  <!-- Lowrider / Sports Car Silhouette -->
+  <g transform="translate(68, 185)">
+    <path d="M10 24 L22 13 L60 13 L80 20 L115 22 L118 28 L110 32 L15 32 Z" fill="#2d8c4e"/>
+    <path d="M25 15 L56 15 L52 22 L20 22 Z" fill="#9de3b6" opacity="0.75"/>
+    <circle cx="30" cy="32" r="8" fill="#09030c"/>
+    <circle cx="30" cy="32" r="4" fill="#a4b3bf"/>
+    <circle cx="95" cy="32" r="8" fill="#09030c"/>
+    <circle cx="95" cy="32" r="4" fill="#a4b3bf"/>
+  </g>
+
+  <!-- GTA Logo Text -->
+  <text x="128" y="58" text-anchor="middle" font-family="'Impact', 'Arial Black', sans-serif" font-weight="900" font-size="44" fill="#ffffff" stroke="#000000" stroke-width="6" paint-order="stroke fill" letter-spacing="2">GTA</text>
+  
+  <!-- Banner San Andreas -->
+  <rect x="24" y="68" width="208" height="26" rx="5" fill="#000000" opacity="0.85"/>
+  <text x="128" y="86" text-anchor="middle" font-family="'Georgia', 'Times New Roman', serif" font-weight="bold" font-style="italic" font-size="16" fill="url(#gta-gold)" letter-spacing="3">SAN ANDREAS</text>
+
+  <!-- Badge 2D Demake -->
+  <rect x="68" y="99" width="120" height="17" rx="8" fill="#146030" stroke="#48df7d" stroke-width="1.2"/>
+  <text x="128" y="111" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-weight="800" font-size="9" fill="#e7faee" letter-spacing="1">2D OPEN WORLD</text>
+</svg>

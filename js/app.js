@@ -1,4 +1,5 @@
 const GAMES_DATA = [
+{"id": "gta-san-andreas", "title": "GTA: San Andreas 2D", "category": "acao", "description": "Explore Los Santos, dirija veículos, fuja da polícia e domine as ruas neste demake 2D clássico.", "recent": true, "popular": true, "cover": "assets/covers/gta-san-andreas.svg", "platform": "console"},
 {"id": "tower-building", "title": "Torre Maluca", "category": "arcade", "description": "Empilhe os andares e construa uma torre colorida. Clique ou toque para jogar.", "recent": true, "cover": "assets/covers/tower-building.png", "platform": "mobile"},
 {"id": "pacman", "title": "Pac-Man HTML5", "category": "classico", "description": "Percorra o labirinto, coma os pontinhos e desvie dos fantasmas. Recriação em HTML5.", "recent": true, "cover": "assets/covers/pacman.png", "platform": "flash"},
 {"id": "boulderdash", "title": "Caça aos Diamantes", "category": "arcade", "description": "Explore cavernas, colete diamantes e encontre a saída. Recriação de Boulderdash.", "recent": true, "cover": "assets/covers/boulderdash.png", "platform": "console"},
@@ -83,13 +84,3 @@ document.getElementById('random-game').addEventListener('click',()=>{const filte
 const initialFilter = new URLSearchParams(location.search).get('filtro');
 if(initialFilter && Object.prototype.hasOwnProperty.call(labels,initialFilter))selectCategory(initialFilter);
 else renderAll();
-
-// === CURSOR DOT ===
-if (window.matchMedia('(pointer: fine)').matches) {
-  const dot = document.createElement('div');
-  dot.className = 'cursor-dot';
-  document.body.appendChild(dot);
-  let mx = -100, my = -100;
-  document.addEventListener('mousemove', e => { mx = e.clientX; my = e.clientY; dot.style.left = mx + 'px'; dot.style.top = my + 'px'; dot.style.opacity = '1'; });
-  document.addEventListener('mouseleave', () => { dot.style.opacity = '0'; });
-}
