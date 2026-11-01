@@ -130,14 +130,14 @@
 
     <div class="game-instructions">
       <div class="instructions-group">
-        <strong>🏃 A PÉ</strong>
+        <strong>A PÉ</strong>
         <span><span class="kbd">W</span><span class="kbd">A</span><span class="kbd">S</span><span class="kbd">D</span> ou <span class="kbd">Setas</span>: Mover</span>
         <span><span class="kbd">SHIFT</span>: Correr</span>
         <span><span class="kbd">Mouse</span>: Mirar · <span class="kbd">Clique</span> / <span class="kbd">Espaço</span>: Atacar</span>
         <span><span class="kbd">1</span> <span class="kbd">2</span> <span class="kbd">3</span> ou <span class="kbd">Q</span>/<span class="kbd">E</span>: Trocar Arma</span>
       </div>
       <div class="instructions-group">
-        <strong>🚗 NO VEÍCULO</strong>
+        <strong>NO VEÍCULO</strong>
         <span><span class="kbd">F</span> ou <span class="kbd">ENTER</span>: Entrar / Sair do Carro</span>
         <span><span class="kbd">W</span> / <span class="kbd">S</span>: Acelerar / Marcha Ré</span>
         <span><span class="kbd">A</span> / <span class="kbd">D</span>: Virar o volante</span>
@@ -145,9 +145,9 @@
         <span><span class="kbd">H</span>: Buzinar · <span class="kbd">R</span>: Mudar Rádio</span>
       </div>
       <div class="instructions-group">
-        <strong>⭐ POLÍCIA & DICAS</strong>
+        <strong>POLÍCIA & DICAS</strong>
         <span>Disparar ou atropelar atrai viaturas da polícia!</span>
-        <span>Colete estrelas e dinheiro 💵 pelas ruas.</span>
+        <span>Colete estrelas e dinheiro pelas ruas.</span>
         <span>Fique fora da visão dos policiais para sumir com o Wanted!</span>
       </div>
     </div>
@@ -261,7 +261,7 @@
 
     function toggleRadio() {
       currentRadio = (currentRadio + 1) % RADIO_STATIONS.length;
-      showNotification(`📻 ${RADIO_STATIONS[currentRadio]}`);
+      showNotification(`Rádio: ${RADIO_STATIONS[currentRadio]}`);
       if (currentRadio === 3) {
         clearInterval(radioInterval);
         radioInterval = null;
@@ -982,7 +982,7 @@
       ctx.textAlign = 'right';
       ctx.font = 'bold 13px Arial';
       ctx.fillStyle = '#cbd5e1';
-      const ammoText = player.weapon === 'fist' ? 'FISTS 👊' : `${player.weapon.toUpperCase()} (${player.ammo[player.weapon]})`;
+      const ammoText = player.weapon === 'fist' ? 'FISTS ' : `${player.weapon.toUpperCase()} (${player.ammo[player.weapon]})`;
       ctx.fillText(ammoText, canvas.width - 20, 98);
 
       // Wanted Stars

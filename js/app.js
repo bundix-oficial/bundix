@@ -186,7 +186,7 @@ const GAMES_DATA = [
     "description": "Explore Los Santos, dirija veículos, fuja da polícia e domine as ruas neste demake 2D clássico.",
     "recent": true,
     "popular": true,
-    "cover": "assets/covers/gta-san-andreas.svg",
+    "cover": "assets/covers/gta-san-andreas.jpg",
     "platform": "console"
   },
   {
@@ -1224,7 +1224,7 @@ const GAMES_DATA = [
     "title": "The Binding of Isaac",
     "category": "acao",
     "description": "Explore masmorras geradas aleatoriamente cheias de monstros e itens místicos.",
-    "cover": "assets/covers/binding-of-isaac.svg",
+    "cover": "assets/covers/binding-of-isaac.jpg",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -1504,7 +1504,7 @@ const GAMES_DATA = [
     "title": "Line Rider",
     "category": "arcade",
     "description": "Desenhe pistas com lápis e assista ao trenó deslizar com física fluida.",
-    "cover": "assets/covers/line-rider.svg",
+    "cover": "assets/covers/line-rider.jpg",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -1534,7 +1534,7 @@ const GAMES_DATA = [
     "title": "Meat Boy Original",
     "category": "acao",
     "description": "O protótipo que deu origem a Super Meat Boy: precisão cirúrgica e serras.",
-    "cover": "assets/covers/meat-boy-flash.svg",
+    "cover": "assets/covers/meat-boy-flash.png",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -1554,7 +1554,7 @@ const GAMES_DATA = [
     "title": "My Friend Pedro",
     "category": "acao",
     "description": "Acrobacias em câmera lenta sob as ordens de uma banana falante.",
-    "cover": "assets/covers/my-friend-pedro-flash.svg",
+    "cover": "assets/covers/my-friend-pedro-flash.jpg",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -1834,7 +1834,7 @@ const GAMES_DATA = [
     "title": "Asteroids Arcade",
     "category": "retro",
     "description": "O clássico espacial de 1979: destrua asteroides gigantes no vácuo do espaço.",
-    "cover": "assets/covers/asteroids-arcade.svg",
+    "cover": "assets/covers/asteroids-arcade.jpg",
     "platform": "retro",
     "popular": false,
     "recent": true
@@ -2114,7 +2114,7 @@ const GAMES_DATA = [
     "title": "Quake 1K",
     "category": "acao",
     "description": "Incrível demake 3D de Quake em apenas um kilobyte de código JavaScript.",
-    "cover": "assets/covers/quake-1k.svg",
+    "cover": "assets/covers/quake-1k.jpg",
     "platform": "arcade",
     "popular": true,
     "recent": true
