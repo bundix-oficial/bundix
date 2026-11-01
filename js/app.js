@@ -457,21 +457,26 @@ document.getElementById('random-game').addEventListener('click',()=>{
 });
 
 // === MODO ESCOLA / BOSS KEY (TECLA B) ===
-const bossOverlay = document.getElementById('boss-overlay');
-const bossKeyBtn = document.getElementById('boss-key-btn');
-const bossCloseBtn = document.getElementById('boss-close-btn');
-
 function toggleBossMode(force) {
+  const bossOverlay = document.getElementById('boss-overlay');
   if (!bossOverlay) return;
-  const isHidden = bossOverlay.hidden;
+  const isHidden = bossOverlay.hidden || bossOverlay.style.display === 'none';
   const shouldOpen = typeof force === 'boolean' ? force : isHidden;
   bossOverlay.hidden = !shouldOpen;
+  bossOverlay.style.display = shouldOpen ? 'flex' : 'none';
   bossOverlay.setAttribute('aria-hidden', String(!shouldOpen));
   document.title = shouldOpen ? 'Wikipédia — História da Ciência e Tecnologia' : 'PLAYNOVA — Jogue o futuro';
 }
 
-if (bossKeyBtn) bossKeyBtn.addEventListener('click', () => toggleBossMode());
-if (bossCloseBtn) bossCloseBtn.addEventListener('click', () => toggleBossMode(false));
+document.addEventListener('click', e => {
+  if (e.target.closest('#boss-key-btn')) {
+    e.preventDefault();
+    toggleBossMode();
+  } else if (e.target.closest('#boss-close-btn')) {
+    e.preventDefault();
+    toggleBossMode(false);
+  }
+});
 
 window.addEventListener('keydown', e => {
   const activeTag = document.activeElement ? document.activeElement.tagName.toLowerCase() : '';
@@ -480,9 +485,12 @@ window.addEventListener('keydown', e => {
   if (e.key === 'b' || e.key === 'B') {
     e.preventDefault();
     toggleBossMode();
-  } else if (e.key === 'Escape' && bossOverlay && !bossOverlay.hidden) {
-    e.preventDefault();
-    toggleBossMode(false);
+  } else if (e.key === 'Escape') {
+    const bossOverlay = document.getElementById('boss-overlay');
+    if (bossOverlay && (!bossOverlay.hidden || bossOverlay.style.display === 'flex')) {
+      e.preventDefault();
+      toggleBossMode(false);
+    }
   }
 });
 
