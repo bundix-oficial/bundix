@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head><meta http-equiv="Content-Security-Policy" content="default-src 'self' data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eval' data: blob:; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self' data: blob:; font-src 'self' data:; frame-src 'self'; media-src 'self' data: blob:; object-src 'none'; base-uri 'self'">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slope - PLAYNOVA</title>
+  <link rel="stylesheet" href="../../assets/theme.css"><link rel="stylesheet" href="../../assets/game-layout.css">
+  <style>
+    .game-viewport-slope {
+      width: 100%;
+      max-width: 900px;
+      height: min(600px, 75vh);
+      min-height: 360px;
+      border: 2px solid #22c55e;
+      border-radius: 14px;
+      overflow: hidden;
+      background: #000;
+      box-shadow: 0 0 25px rgba(34, 197, 94, 0.25);
+    }
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+      display: block;
+    }
+  </style>
+<link rel="icon" type="image/svg+xml" href="../../assets/favicon.svg"></head>
+<body>
+
+  <header class="game-header">
+    <a href="../../index.html" class="back-btn">← PLAYNOVA</a>
+    <div class="game-title-header">⚡ Slope 3D</div>
+    <div class="header-actions">
+      <button class="action-btn" id="btn-fullscreen">⛶ Tela Cheia</button>
+    </div>
+  </header>
+
+  <main class="game-container-main" style="max-width: 960px;">
+    <!-- Viewport com o jogo Slope -->
+    <div class="game-viewport-slope" id="slope-container">
+      <iframe src="slope_game.html" id="slope-iframe" allowfullscreen></iframe>
+    </div>
+
+    <!-- Instruções -->
+    <div class="game-instructions-card" style="max-width: 900px;">
+      <h3>Instruções do Slope</h3>
+      <div class="instruction-grid">
+        <div class="instruction-item">
+          <strong>Controles:</strong> Use <span class="key-badge">A</span> / <span class="key-badge">D</span> ou <span class="key-badge">←</span> / <span class="key-badge">→</span> para desviar a esfera.
+        </div>
+        <div class="instruction-item">
+          <strong>Objetivo:</strong> Desça a ladeira em alta velocidade evitando obstáculos vermelhos e quedas no abismo!
+        </div>
+        <div class="instruction-item">
+          <strong>Dica:</strong> Pequenos toques nas setas dão mais precisão nas curvas fechadas.
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="../../js/game-shell.js"></script>
+</body>
+</html>
+

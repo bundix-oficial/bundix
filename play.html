@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#090d1b">
+  <title>Carregando jogo — PLAYNOVA</title>
+  <link rel="stylesheet" href="assets/theme.css?v=875646cb85d0"><link rel="stylesheet" href="assets/loading.css?v=509e3c3d74ae">
+  <script src="js/game-loader.js?v=5331cb148984" defer></script>
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg"></head>
+<body>
+  <a class="back" href="index.html">← Voltar aos jogos</a>
+  <main class="loading-card">
+    <a class="brand" href="index.html" aria-label="PLAYNOVA, início"><img src="assets/brand/playnova-logo.png" alt="PLAYNOVA" width="220" height="73"></a>
+    <img id="game-cover" alt="" width="92" height="92" hidden>
+    <p class="eyebrow">PREPARANDO SUA PRÓXIMA AVENTURA</p>
+    <h1 id="game-title">Carregando jogo</h1>
+    <p id="load-status" role="status" aria-live="polite">Lendo a lista de arquivos…</p>
+    <div class="progress-heading"><span id="load-phase">Preparando download</span><strong id="load-percent">—</strong></div>
+    <progress id="load-progress" max="100" aria-label="Arquivos recebidos"></progress>
+    <div class="download-details">
+      <div><span>Arquivos recebidos</span><strong id="load-bytes">—</strong></div>
+      <div><span>Falta receber</span><strong id="load-remaining">—</strong></div>
+      <div><span>Velocidade de leitura</span><strong id="load-speed">—</strong></div>
+      <div><span>Tempo estimado</span><strong id="load-eta">Calculando…</strong></div>
+    </div>
+    <p class="file-info"><span id="load-count">Conferindo arquivos</span><span id="load-file"></span></p>
+    <p class="download-note">O progresso acompanha os arquivos recebidos. Arquivos já salvos no navegador podem carregar mais rápido.</p>
+    <div class="load-actions"><button id="load-retry" hidden>Tentar novamente</button><a id="load-direct" hidden>Abrir o jogo diretamente</a></div>
+    <noscript><p>Ative o JavaScript para carregar o jogo ou volte ao catálogo.</p></noscript>
+  </main>
+  <footer>Sem anúncios · Sem cadastro</footer>
+</body>
+</html>

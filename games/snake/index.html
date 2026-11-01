@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head><meta http-equiv="Content-Security-Policy" content="default-src 'self' data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eval' data: blob:; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self' data: blob:; font-src 'self' data:; frame-src 'self'; media-src 'self' data: blob:; object-src 'none'; base-uri 'self'">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cobrinha Neon - PLAYNOVA</title>
+  <link rel="stylesheet" href="../../assets/theme.css"><link rel="stylesheet" href="../../assets/game-layout.css">
+  <style>
+    #snake-canvas {
+      border: 2px solid #22c55e;
+      box-shadow: 0 0 15px rgba(34, 197, 94, 0.3);
+      max-width: 100%;
+    }
+  </style>
+<link rel="icon" type="image/svg+xml" href="../../assets/favicon.svg"></head>
+<body>
+
+  <header class="game-header">
+    <a href="../../index.html" class="back-btn">← PLAYNOVA</a>
+    <div class="game-title-header">🐍 Cobrinha Neon</div>
+    <div class="header-actions">
+      <button class="action-btn" id="btn-restart">🔄 Reiniciar</button>
+    </div>
+  </header>
+
+  <main class="game-container-main">
+    <!-- Placar -->
+    <div class="game-scoreboard">
+      <div class="score-box">
+        <div class="score-label">Pontuação</div>
+        <div class="score-value" id="current-score">0</div>
+      </div>
+      <div class="score-box">
+        <div class="score-label">Recorde</div>
+        <div class="score-value" id="high-score" style="color: #a855f7;">0</div>
+      </div>
+      <div class="score-box">
+        <div class="score-label">Velocidade</div>
+        <div class="score-value" id="speed-level" style="color: #38bdf8; font-size: 1.1rem;">Nível 1</div>
+      </div>
+    </div>
+
+    <!-- Arena do Jogo -->
+    <div class="game-viewport">
+      <canvas id="snake-canvas" width="400" height="400"></canvas>
+    </div>
+
+    <!-- Controles na Tela para Celular/Tablet -->
+    <div class="touch-controls" id="touch-controls">
+      <button class="touch-btn" id="t-up">▲</button>
+      <div class="dpad-row">
+        <button class="touch-btn" id="t-left">◀</button>
+        <button class="touch-btn" id="t-down">▼</button>
+        <button class="touch-btn" id="t-right">▶</button>
+      </div>
+    </div>
+
+    <!-- Instruções -->
+    <div class="game-instructions-card">
+      <h3>Instruções e Controles</h3>
+      <div class="instruction-grid">
+        <div class="instruction-item">
+          <strong>Movimentação:</strong> Utilize as teclas <span class="key-badge">W</span><span class="key-badge">A</span><span class="key-badge">S</span><span class="key-badge">D</span> ou <span class="key-badge">↑</span><span class="key-badge">←</span><span class="key-badge">↓</span><span class="key-badge">→</span>.
+        </div>
+        <div class="instruction-item">
+          <strong>Objetivo:</strong> Coma o maior número de maçãs neon sem encostar nas paredes ou morder a si mesmo.
+        </div>
+        <div class="instruction-item">
+          <strong>Reiniciar Rápido:</strong> Pressione <span class="key-badge">Espaço</span> ou clique no botão Reiniciar.
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="snake.js"></script>
+</body>
+</html>
+
