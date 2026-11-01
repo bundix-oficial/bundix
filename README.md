@@ -2,7 +2,7 @@
 
 Revisão visual local **Cyber Galaxy Clean**. Slogan: **Jogue o futuro.** Veja `IDENTIDADE-PLAYNOVA.md` para estilos, arquivos e instruções. Esta revisão não foi publicada automaticamente.
 
-Portal estático com 21 jogos locais, identidade Cyber Galaxy Clean em azul escuro, roxo suave e ciano, capas próprias e imagens dos jogos, busca sem distinção de acentos, categorias, favoritos locais e escolha aleatória. Sem embeds de provedores com anúncios.
+Portal estático com 37 jogos locais, identidade Cyber Galaxy Clean em azul escuro, roxo suave e ciano, capas próprias e imagens dos jogos, busca sem distinção de acentos, categorias, favoritos locais e escolha aleatória. Sem embeds de provedores com anúncios.
 
 ## Abrir
 
@@ -10,7 +10,7 @@ Extraia o ZIP e, no Windows com Python 3 instalado, execute **ABRIR-SITE.bat**. 
 
 ## Carregamento e créditos escondidos
 
-Todas as capas e a escolha aleatória passam por `play.html?game=<id>`. A tela lê `assets/game-downloads.json`, gerado a partir dos tamanhos reais dos arquivos, e recebe os conteúdos com `fetch` e `ReadableStream`. Mostra bytes recebidos, bytes restantes, arquivos preparados, velocidade média de leitura e estimativa variável de tempo. Os arquivos podem vir do cache do navegador. A barra não avança por temporizador. A navegação para o jogo só acontece após o recebimento completo dos arquivos listados; inicialização do motor é uma etapa posterior. Erros mostram tentativa novamente e há um limite de 45 segundos sem resposta por leitura.
+As capas e a escolha aleatória abrem diretamente `games/<id>/index.html`. Não há tela de carregamento do portal nem pré-download de todos os arquivos do repositório. Cada jogo mantém somente a própria inicialização. Links antigos `play.html?game=<id>` continuam funcionando por redirecionamento local imediato, sem consultar o manifesto ou baixar arquivos extras. Um identificador inválido mostra apenas uma mensagem e o link de volta ao catálogo. O manifesto continua como inventário para conferência do pacote, sem participar da navegação. Isso também evita que arquivos de desenvolvimento ausentes na hospedagem, como o `extensions.json` da captura enviada pelo usuário, interrompam a abertura de um jogo.
 
 O Slope agora usa arquivos Unity/WebAssembly locais normais e inicializa depois de o container existir. O gzip do pacote antigo foi descomprimido para não exigir cabeçalhos de compressão especiais. O motor tem sua própria indicação de preparação e exibe mensagem em caso de 3D indisponível, falha ou demora excessiva.
 
@@ -34,7 +34,7 @@ Moto X3M e Angry Birds Classic foram retirados do catálogo porque os provedores
 
 ## Verificação
 
-`python tools/check-site.py --release-check` verifica o progresso real com conexão limitada no navegador de teste, falha e recuperação do download, jogo inválido, navegação de download até o jogo, uma partida visual do Slope, os cinco cliques e os 10 segundos dos créditos, além do layout de celular. `--school-check` confere o carregamento dos 21 jogos sem conexões externas. A revisão cobre carregamento e interações selecionadas; não equivale a concluir todas as fases nem a testar o hardware da escola.
+`python tools/check-direct-routing.py` verifica a abertura direta dos 37 jogos, as 37 capas, os links antigos sem pré-download, destinos inválidos e o catálogo no celular. `python tools/check-catalog-cleanup.py` confere também a remoção dos protótipos da busca e dos favoritos. `python tools/validate-project.py --zip` confere arquivos, revisões, licenças referenciadas, CSP e a ausência dos protótipos no pacote. Os testes de progresso/streaming de revisões anteriores são históricos e não se aplicam à navegação atual.
 
 Mais cinco jogos leves de habilidade e raciocínio: **Torre Maluca** (iamkun/tower_game, MIT), **Pac-Man HTML5** (daleharvey/pacman, licença própria incluída), **Caça aos Diamantes** (jakesgordon/javascript-boulderdash, MIT conforme README), **Duas Cores — 0h h1** (florisluiten/0hh1, MIT) e **Liga-Pontos — BreakLock** (maxwellito/breaklock, MIT). As páginas trazem instruções em português; BreakLock usa o build em português brasileiro. Pac-Man e Caça aos Diamantes também têm botões de toque. Não foi atribuída classificação etária oficial.
 
@@ -67,3 +67,8 @@ Mais 20 jogos foram adicionados aos 22 encontrados no cat?logo, totalizando 42. 
 ## Seguran?a ? revis?o de 01/11/2026
 
 A pasta e os ZIPs foram verificados pelo Microsoft Defender, sem detec??es retornadas. A revis?o de c?digo removeu res?duos de analytics do Hextris e do Gridland, incluindo c?pias antigas. Detalhes e limites em `VERIFICACAO-SEGURANCA.md`. Todos os testes de navegador s?o silenciados com `--mute-audio`.
+
+
+## Catálogo atual — 37 jogos
+
+Os cinco protótipos do início do projeto (Cobrinha Neon, 2048 Neon, Salto Cibernético, Pong vs CPU e Jogo da Memória) foram retirados do site e do pacote em 01/11/2026. Os fontes foram preservados apenas em `arquivo-testes-iniciais/`, fora da distribuição. Todos os outros jogos foram mantidos e possuem capinha local. As contagens dos relatórios anteriores são históricas. As preferências permanentes para novas inclusões estão em `AGENTS.md`.

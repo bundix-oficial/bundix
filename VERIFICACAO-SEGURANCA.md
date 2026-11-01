@@ -34,3 +34,7 @@ N?o foi identificada necessidade de refazer um jogo do cat?logo para remover an?
 Resultado final da auditoria de execu??o: os 42 pontos de entrada passaram, sem exce??es JavaScript, recursos locais ausentes, tentativas HTTP externas ou respostas HTTP externas durante os cen?rios testados.
 
 A revis?o n?o garante aus?ncia absoluta de malware, n?o avalia todos os caminhos poss?veis de cada jogo e n?o valida atualiza??es futuras.
+
+## Alteração posterior do catálogo
+
+Após a auditoria de 42 jogos descrita acima, cinco protótipos iniciais foram retirados por solicitação do proprietário. Nenhum novo jogo foi adicionado. O catálogo atual tem 37 jogos; os testes de interface e a verificação de capas foram refeitos em `tools/check-catalog-cleanup.py`. Os fontes retirados ficam apenas no arquivo local, fora do pacote.

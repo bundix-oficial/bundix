@@ -1,0 +1,19 @@
+{
+  "engine": "Play!.js",
+  "official": "https://playjs.purei.org/",
+  "source": "https://github.com/jpd002/Play-",
+  "license": "BSD-2-Clause",
+  "files": [
+    {
+      "file": "Play.js",
+      "sha256": "5599ff16ae5e3534f9b779736aedfa20661821d57be7f03e587e31ef8d090317",
+      "bytes": 206594
+    },
+    {
+      "file": "Play.wasm",
+      "sha256": "fb6788e6baa1a7e7af90cb2b8395d91d34d0f2d38d1887610c45fc6e2b149edd",
+      "bytes": 2211610
+    }
+  ],
+  "commercial_games_included": false
+}

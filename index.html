@@ -5,11 +5,11 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eval' data: blob:; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self' data: blob:; font-src 'self' data:; frame-src 'self'; media-src 'self' data: blob:; object-src 'none'; base-uri 'self'">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#090d1b">
-  <meta name="description" content="PLAYNOVA — Jogue o futuro. Explore 42 jogos grátis de arcade, aventura e lógica. Sem anúncios, sem cadastro e direto no navegador.">
+  <meta name="description" content="PLAYNOVA — Jogue o futuro. Explore 37 jogos grátis de arcade, aventura e lógica. Sem anúncios, sem cadastro e direto no navegador.">
   <title>PLAYNOVA — Jogue o futuro</title>
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
   <link rel="stylesheet" href="assets/theme.css?v=0a5980ddf759">
-  <link rel="stylesheet" href="assets/catalog.css?v=1f2e29b55d76">
+  <link rel="stylesheet" href="assets/catalog.css?v=4714e2cb9d8c">
   <link rel="stylesheet" href="assets/secret-credits.css?v=782ecef22f05">
 </head>
 <body class="catalog-page">
@@ -26,6 +26,10 @@
         <input id="search-input" type="search" placeholder="Encontre seu próximo jogo…" autocomplete="off">
         <button type="submit" aria-label="Buscar jogos"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-right"></use></svg></button>
       </form>
+            <button class="boss-btn" id="boss-key-btn" type="button" title="Modo Escola / Disfarce Rápido (Tecla B)" aria-label="Modo Escola">
+        <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#book"></use></svg>
+        <span>Modo Escola (B)</span>
+      </button>
       <button class="random-btn" id="random-game" title="Escolher um jogo aleatório">
         <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#dice"></use></svg><span>Surpreenda-me</span>
       </button>
@@ -54,9 +58,19 @@
         <span class="featured-orbit" aria-hidden="true"></span>
       </a>
     </section>
+        <section class="recent-played-section" id="recent-played-section" hidden aria-labelledby="recent-title">
+      <div class="recent-bar">
+        <div class="recent-title-group">
+          <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#history"></use></svg>
+          <h2 id="recent-title">Continuar Jogando</h2>
+        </div>
+        <button type="button" class="btn-clear-recent" id="clear-recent" title="Limpar histórico">Limpar</button>
+      </div>
+      <div class="recent-list" id="recent-list"></div>
+    </section>
     <section class="catalog-section" id="catalogo" aria-labelledby="grid-title">
       <div class="catalog-bar">
-        <div class="catalog-title"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#grid"></use></svg><h2 id="grid-title">Todos os jogos</h2><span id="grid-counter" aria-live="polite">42 jogos</span></div>
+        <div class="catalog-title"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#grid"></use></svg><h2 id="grid-title">Todos os jogos</h2><span id="grid-counter" aria-live="polite">37 jogos</span></div>
         <span class="catalog-hint">Seu próximo favorito está aqui.</span>
       </div>
       <nav class="category-nav" aria-label="Categorias">
@@ -69,6 +83,7 @@
         <button class="category-chip" data-cat="acao" aria-pressed="false"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#rocket"></use></svg>Ação</button>
         <button class="category-chip" data-cat="mobile" aria-pressed="false"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#gamepad"></use></svg>📱 Mobile</button>
         <button class="category-chip" data-cat="console" aria-pressed="false"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#joystick"></use></svg>🎮 Console</button>
+        <a class="category-chip ps2-entry" href="console/ps2/index.html">🎮 PS2 · Minha ISO</a>
         <button class="category-chip" data-cat="flash" aria-pressed="false"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#bolt"></use></svg>⚡ Flash</button>
       </nav>
       <div class="games-grid" id="games-grid"></div>
@@ -82,7 +97,34 @@
     <span class="copyright">© 2026 PLAYNOVA</span>
   </footer>
   <dialog id="secret-credits" aria-labelledby="secret-credits-title"><p class="eyebrow">TRANSMISSÃO SECRETA · PLAYNOVA</p><h2 id="secret-credits-title">Você encontrou a sala secreta! ✦</h2><div class="secret-crew"><p class="secret-label">Criador</p><p class="secret-name">Davi</p><p class="secret-label">Tester</p><p class="secret-name">Samuel bundinha gulosinha</p><p>Missão: testar até gastar o teclado. 🎮</p></div><small>Os créditos desaparecem em 10 segundos.</small><button type="button">Voltar aos jogos</button></dialog>
-  <script src="js/app.js?v=f695b3f949e0"></script>
+  <script src="js/app.js?v=f0465d0f0946"></script>
   <script src="js/secret-credits.js?v=12b60cdcfa52"></script>
+  <div id="boss-overlay" class="boss-disguise" hidden aria-hidden="true">
+    <div class="boss-nav">
+      <div class="boss-nav-brand">
+        <span class="boss-logo">W</span>
+        <div>
+          <strong>Wikipédia</strong>
+          <small>A enciclopédia livre</small>
+        </div>
+      </div>
+      <div class="boss-search-bar">História da Ciência e Tecnologia Moderna</div>
+      <button type="button" id="boss-close-btn" class="boss-exit-btn">Voltar ao portal (B / ESC)</button>
+    </div>
+    <main class="boss-article">
+      <header class="boss-art-header">
+        <h1>Avanço dos Métodos Computacionais e Tecnologias Digitais</h1>
+        <p class="boss-sub">Origem: Wikipédia, a enciclopédia livre.</p>
+      </header>
+      <div class="boss-art-body">
+        <p>A <strong>evolução da computação</strong> compreende o desenvolvimento de dispositivos mecânicos e eletrônicos voltados ao processamento automatizado de dados e resolução de modelos matemáticos complexos. Historicamente, desde a criação do ábaco e das máquinas analíticas de Charles Babbage e Ada Lovelace, a busca por automação lógica impulsionou avanços cruciais na ciência moderna.</p>
+        <p>No século XX, o trabalho pioneiro de <strong>Alan Turing</strong> estabeleceu os alicerces teóricos da ciência da computação contemporânea por meio do conceito formal de algoritmo e das Máquinas de Turing universais. Conjuntamente, a teoria matemática da comunicação formulada por <strong>Claude Shannon</strong> possibilitou a digitalização e transmissão fidedigna de informações em larga escala.</p>
+        <div class="boss-callout">
+          <strong>Conceito Fundamental:</strong> A arquitetura de von Neumann (1945) introduziu o princípio do programa armazenado na memória, estabelecendo a base física estrutural da maioria esmagadora dos computadores digitais contemporâneos.
+        </div>
+        <p>Com o desenvolvimento de circuitos integrados e microprocessadores a partir da década de 1970, os sistemas de processamento tornaram-se onipresentes em setores industriais, redes acadêmicas e aplicações científicas globais.</p>
+      </div>
+    </main>
+  </div>
 </body>
 </html>

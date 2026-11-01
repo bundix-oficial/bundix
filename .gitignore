@@ -13,3 +13,13 @@ COMO-ABRIR.txt
 IDENTIDADE-PLAYNOVA.md
 RELATORIO-FINAL.md
 USO-NA-ESCOLA.md
+
+# Prot?tipos retirados, preservados apenas localmente
+arquivo-testes-iniciais/
+
+# User-provided local game discs: never publish or package
+private-iso/
+*.iso
+*.cso
+*.chd
+*.isz
