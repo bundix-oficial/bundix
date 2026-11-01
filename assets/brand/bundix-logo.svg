@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 96" width="340" height="96">
+  <defs>
+    <!-- 3D drop shadow -->
+    <filter id="shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="3" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+    <!-- Gloss highlight gradient -->
+    <linearGradient id="gloss" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.45"/>
+      <stop offset="45%" stop-color="#ffffff" stop-opacity="0.1"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Letter Gradients -->
+    <!-- B - Cyan Neon -->
+    <linearGradient id="g-b" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#55ffff"/><stop offset="100%" stop-color="#00a8cc"/>
+    </linearGradient>
+    <!-- U - Friv Yellow -->
+    <linearGradient id="g-u" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff04d"/><stop offset="100%" stop-color="#f5a600"/>
+    </linearGradient>
+    <!-- N - Lime Green -->
+    <linearGradient id="g-n" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#69ff69"/><stop offset="100%" stop-color="#1db954"/>
+    </linearGradient>
+    <!-- D - Bright Orange -->
+    <linearGradient id="g-d" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff9944"/><stop offset="100%" stop-color="#e64a19"/>
+    </linearGradient>
+    <!-- I - Electric Purple -->
+    <linearGradient id="g-i" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d988ff"/><stop offset="100%" stop-color="#8e24aa"/>
+    </linearGradient>
+    <!-- X - Hot Coral/Pink -->
+    <linearGradient id="g-x" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff5277"/><stop offset="100%" stop-color="#c2185b"/>
+    </linearGradient>
+  </defs>
+
+  <g filter="url(#shadow)" transform="translate(10, 4)">
+    <!-- B Box -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="4" width="48" height="52" rx="12" fill="#006080"/>
+      <rect x="0" y="0" width="48" height="50" rx="12" fill="url(#g-b)" stroke="#0e1726" stroke-width="3"/>
+      <rect x="2" y="2" width="44" height="23" rx="10" fill="url(#gloss)"/>
+      <text x="24" y="37" text-anchor="middle" font-family="'Arial Black', Impact, sans-serif" font-weight="900" font-size="34" fill="#ffffff" stroke="#003d52" stroke-width="2.5" paint-order="stroke fill">B</text>
+    </g>
+
+    <!-- U Box -->
+    <g transform="translate(54, 0)">
+      <rect x="0" y="4" width="48" height="52" rx="12" fill="#996000"/>
+      <rect x="0" y="0" width="48" height="50" rx="12" fill="url(#g-u)" stroke="#0e1726" stroke-width="3"/>
+      <rect x="2" y="2" width="44" height="23" rx="10" fill="url(#gloss)"/>
+      <text x="24" y="37" text-anchor="middle" font-family="'Arial Black', Impact, sans-serif" font-weight="900" font-size="34" fill="#ffffff" stroke="#7a4700" stroke-width="2.5" paint-order="stroke fill">U</text>
+    </g>
+
+    <!-- N Box -->
+    <g transform="translate(108, 0)">
+      <rect x="0" y="4" width="48" height="52" rx="12" fill="#0d662b"/>
+      <rect x="0" y="0" width="48" height="50" rx="12" fill="url(#g-n)" stroke="#0e1726" stroke-width="3"/>
+      <rect x="2" y="2" width="44" height="23" rx="10" fill="url(#gloss)"/>
+      <text x="24" y="37" text-anchor="middle" font-family="'Arial Black', Impact, sans-serif" font-weight="900" font-size="34" fill="#ffffff" stroke="#0a4d20" stroke-width="2.5" paint-order="stroke fill">N</text>
+    </g>
+
+    <!-- D Box -->
+    <g transform="translate(162, 0)">
+      <rect x="0" y="4" width="48" height="52" rx="12" fill="#8c2807"/>
+      <rect x="0" y="0" width="48" height="50" rx="12" fill="url(#g-d)" stroke="#0e1726" stroke-width="3"/>
+      <rect x="2" y="2" width="44" height="23" rx="10" fill="url(#gloss)"/>
+      <text x="24" y="37" text-anchor="middle" font-family="'Arial Black', Impact, sans-serif" font-weight="900" font-size="34" fill="#ffffff" stroke="#661c03" stroke-width="2.5" paint-order="stroke fill">D</text>
+    </g>
+
+    <!-- I Box -->
+    <g transform="translate(216, 0)">
+      <rect x="0" y="4" width="44" height="52" rx="12" fill="#521366"/>
+      <rect x="0" y="0" width="44" height="50" rx="12" fill="url(#g-i)" stroke="#0e1726" stroke-width="3"/>
+      <rect x="2" y="2" width="40" height="23" rx="10" fill="url(#gloss)"/>
+      <text x="22" y="37" text-anchor="middle" font-family="'Arial Black', Impact, sans-serif" font-weight="900" font-size="34" fill="#ffffff" stroke="#3d0a4d" stroke-width="2.5" paint-order="stroke fill">I</text>
+    </g>
+
+    <!-- X Box -->
+    <g transform="translate(266, 0)">
+      <rect x="0" y="4" width="48" height="52" rx="12" fill="#7a0a33"/>
+      <rect x="0" y="0" width="48" height="50" rx="12" fill="url(#g-x)" stroke="#0e1726" stroke-width="3"/>
+      <rect x="2" y="2" width="44" height="23" rx="10" fill="url(#gloss)"/>
+      <text x="24" y="37" text-anchor="middle" font-family="'Arial Black', Impact, sans-serif" font-weight="900" font-size="34" fill="#ffffff" stroke="#520521" stroke-width="2.5" paint-order="stroke fill">X</text>
+    </g>
+
+    <!-- Subtitle / Tagline Badge -->
+    <g transform="translate(0, 60)">
+      <rect x="2" y="0" width="310" height="19" rx="6" fill="#151b2e" stroke="#2c3757" stroke-width="1.2"/>
+      <text x="157" y="13.5" text-anchor="middle" font-family="'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="9" fill="#ffd233" letter-spacing="3.2">JOGOS ONLINE · SEM ANÚNCIOS</text>
+    </g>
+
+    <!-- Retro Sparkle Stars -->
+    <path d="M-4 12 L-1 14 L-4 16 L-7 14 Z" fill="#ffe066"/>
+    <path d="M318 8 L320 10 L318 12 L316 10 Z" fill="#55ffff"/>
+    <path d="M322 34 L325 36 L322 38 L319 36 Z" fill="#ff5277"/>
+  </g>
+</svg>
