@@ -45,5 +45,5 @@
   <text x="128" y="198" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="0.5">MY FRIEND PEDRO</text>
   
   <!-- Subtitle / Tag -->
-  <text x="128" y="222" font-family="system-ui, -apple-system, sans-serif" font-size="9.5" font-weight="800" fill="#29dbef" text-anchor="middle" letter-spacing="1">★ BANANA &AMP; BALAS</text>
+  <text x="128" y="222" font-family="system-ui, -apple-system, sans-serif" font-size="9.5" font-weight="800" fill="#29dbef" text-anchor="middle" letter-spacing="1">★ BANANA &amp; BALAS</text>
 </svg>

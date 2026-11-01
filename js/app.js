@@ -54,7 +54,7 @@ const GAMES_DATA = [
     "category": "arcade",
     "description": "Uma pista infinita em alta velocidade.",
     "popular": true,
-    "cover": "assets/covers/slope.png",
+    "cover": "assets/covers/slope-play.png",
     "platform": "mobile"
   },
   {
@@ -2198,128 +2198,98 @@ const FEATURED_GAMES = new Set([
   'duck-life'
 ]);
 
-let currentCat='todos', searchQ='', favorites=[], recentPlayed=[];
-try { const stored=JSON.parse(localStorage.getItem('bundix_favorites')||'[]'); if(Array.isArray(stored)) favorites=[...new Set(stored.filter(id=>GAMES_DATA.some(g=>g.id===id)))]; } catch {}
-try { const recents=JSON.parse(localStorage.getItem('bundix_recent_history')||'[]'); if(Array.isArray(recents)) recentPlayed=recents.filter(id=>GAMES_DATA.some(g=>g.id===id)); } catch {}
 
-function recordRecent(id) {
-  if (!id) return;
-  recentPlayed = [id, ...recentPlayed.filter(x => x !== id)].slice(0, 10);
-  try { localStorage.setItem('bundix_recent_history', JSON.stringify(recentPlayed)); } catch {}
-  renderRecentPlayed();
-}
-
-function renderRecentPlayed() {
-  const section = document.getElementById('recent-played-section');
-  const container = document.getElementById('recent-list');
-  if (!section || !container) return;
-  if (!recentPlayed.length || Boolean(searchQ.trim()) || currentCat !== 'todos') {
-    section.hidden = true;
-    return;
-  }
-  section.hidden = false;
-  container.replaceChildren();
-  for (const id of recentPlayed) {
-    const g = GAMES_DATA.find(x => x.id === id);
-    if (!g) continue;
-    const route = `games/${encodeURIComponent(g.id)}/index.html`;
-    const item = document.createElement('a');
-    item.className = 'recent-card';
-    item.href = route;
-    item.title = `Continuar jogando ${g.title}`;
-    item.innerHTML = `
-      <img src="${g.cover || `assets/covers/${g.id}.svg`}" alt="${g.title}" width="40" height="40" loading="lazy">
-      <div class="recent-info">
-        <strong>${g.title}</strong>
-        <span><svg class="icon"><use href="assets/icons.svg#play"></use></svg>Continuar</span>
-      </div>
-    `;
-    item.addEventListener('click', () => recordRecent(g.id));
-    container.appendChild(item);
-  }
-}
-
-const clearBtn = document.getElementById('clear-recent');
-if (clearBtn) {
-  clearBtn.addEventListener('click', () => {
-    recentPlayed = [];
-    try { localStorage.removeItem('bundix_recent_history'); } catch {}
-    renderRecentPlayed();
+const library = window.PlaynovaLibrary;
+library.configure(GAMES_DATA);
+window.PlaynovaCatalog = GAMES_DATA;
+const ROOT_URL = new URL('../', document.currentScript.src);
+let currentCat='todos', searchQ='', currentControl='', currentCollection='', currentSort='recommended';
+let favorites=library.favorites(), recentPlayed=library.recents();
+const normalize=text=>String(text).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+const esc=value=>String(value).replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
+const feature=g=>window.PlaynovaGameFeatures?.[g.id]||{};
+const gameRoute=id=>`games/${encodeURIComponent(id)}/index.html`;
+function recordRecent(id){library.record(id);}
+function filterGames(){
+  const collection=library.collections().find(c=>c.id===currentCollection);
+  const result=GAMES_DATA.filter(g=>{
+    const category=currentCat==='todos'||(currentCat==='favoritos'?favorites.includes(g.id):currentCat==='recentes'?g.recent:currentCat==='populares'?g.popular:currentCat==='leves'?!HEAVY_GAMES.has(g.id):['mobile','console','flash'].includes(currentCat)?g.platform===currentCat:g.category===currentCat);
+    const f=feature(g); const controls=!currentControl||(currentControl==='two'?(f.players||1)>=2:currentControl==='gamepad'?f.controls?.gamepad:currentControl==='touch'?f.controls?.touch:f.controls?.keyboard);
+    return category&&controls&&(!collection||collection.games.includes(g.id))&&normalize(`${g.title} ${g.description} ${labels[g.category]||''}`).includes(normalize(searchQ.trim()));
   });
+  if(currentSort==='name')result.sort((a,b)=>a.title.localeCompare(b.title,'pt-BR'));
+  if(currentSort==='recent')result.sort((a,b)=>(recentPlayed.includes(a.id)?recentPlayed.indexOf(a.id):999)-(recentPlayed.includes(b.id)?recentPlayed.indexOf(b.id):999));
+  return result;
 }
-
-const normalize=text=>text.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
-
-function filterGames(){return GAMES_DATA.filter(g=>{
-const matches=currentCat==='todos'||(currentCat==='favoritos'?favorites.includes(g.id):currentCat==='recentes'?g.recent:currentCat==='populares'?g.popular:currentCat==='leves'?!HEAVY_GAMES.has(g.id):currentCat==='mobile'||currentCat==='console'||currentCat==='flash'?g.platform===currentCat:g.category===currentCat);
-return matches&&normalize(`${g.title} ${g.description} ${labels[g.category] || ''}`).includes(normalize(searchQ.trim()));
-});}
-
-function renderAll(focusFavorite) {
-  const grid = document.getElementById('games-grid');
-  const games = filterGames();
-  grid.replaceChildren();
-  document.querySelector('.welcome').hidden = Boolean(searchQ.trim()) || currentCat !== 'todos';
-  document.getElementById('grid-title').textContent = searchQ.trim() ? 'Resultado da busca' : labels[currentCat];
-  document.getElementById('grid-counter').textContent = `${games.length} ${games.length === 1 ? 'jogo' : 'jogos'}`;
-  document.getElementById('fav-count').textContent = favorites.length;
-  
+function icon(name){return `<svg class="icon" aria-hidden="true"><use href="assets/icons.svg#${name}"></use></svg>`;}
+function bindCoverFallback(image,title){image.addEventListener('error',()=>{if(image.dataset.fallback)return;image.dataset.fallback='true';image.src='assets/covers/unavailable.svg';image.alt=`${title} — capa indisponível`;});}
+function renderRecentPlayed(){
+  const section=document.getElementById('recent-played-section'),container=document.getElementById('recent-list');
+  if(!section||!container)return;
+  section.hidden=!recentPlayed.length||Boolean(searchQ.trim())||currentCat!=='todos'||Boolean(currentControl)||Boolean(currentCollection);
+  container.replaceChildren();if(section.hidden)return;
+  for(const id of recentPlayed){
+    const g=library.game(id);if(!g)continue;
+    const a=document.createElement('a');a.className='recent-card';a.href=gameRoute(g.id);a.title=`Jogar ${g.title} novamente`;
+    a.innerHTML=`<img src="${esc(g.cover||`assets/covers/${g.id}.svg`)}" alt="" width="48" height="48" loading="lazy"><span class="recent-info"><strong>${esc(g.title)}</strong><span>${icon('play')}Jogar novamente</span></span>`;
+    a.addEventListener('click',()=>recordRecent(id));bindCoverFallback(a.querySelector('img'),g.title);container.append(a);
+  }
+}
+function syncCollectionOptions(){
+  const select=document.getElementById('collection-filter');if(!select)return;
+  const collections=library.collections();if(currentCollection&&!collections.some(c=>c.id===currentCollection))currentCollection='';
+  select.replaceChildren(new Option('Todas as listas',''));
+  for(const c of collections)select.add(new Option(`${c.name} (${c.games.length})`,c.id));
+  select.value=currentCollection;
+}
+function controlPills(g){const f=feature(g);const pills=[];if((f.players||1)>=2)pills.push('2 jogadores');if(f.controls?.gamepad)pills.push('Controle');if(f.controls?.touch)pills.push('Toque');return pills.slice(0,2).map(v=>`<span class="control-pill">${v}</span>`).join('');}
+function renderAll(focusFavorite){
+  favorites=library.favorites();recentPlayed=library.recents();syncCollectionOptions();
+  const grid=document.getElementById('games-grid'),games=filterGames();grid.replaceChildren();
+  const filtered=Boolean(searchQ.trim()||currentControl||currentCollection||currentCat!=='todos');
+  document.querySelector('.welcome').hidden=filtered;
+  const collection=library.collections().find(c=>c.id===currentCollection);
+  document.getElementById('grid-title').textContent=searchQ.trim()?'Resultado da busca':collection?.name||labels[currentCat]||'Todos os jogos';
+  document.getElementById('grid-counter').textContent=`${games.length} ${games.length===1?'jogo':'jogos'}`;
+  document.getElementById('fav-count').textContent=favorites.length;
+  document.getElementById('reset-filters').hidden=!filtered;
+  document.getElementById('random-game').disabled=!games.length;
+  document.getElementById('filter-note').hidden=!currentControl;
   renderRecentPlayed();
-
-  for (const g of games) {
-    const card = document.createElement('article');
-    const isFeatured = FEATURED_GAMES.has(g.id) && !searchQ.trim() && (currentCat === 'todos' || currentCat === 'populares');
-    card.className = isFeatured ? 'game-card featured-card' : 'game-card';
-    const fav = favorites.includes(g.id);
-    const route = `games/${encodeURIComponent(g.id)}/index.html`;
-    const badge = isFeatured
-      ? '<span class="new-badge featured-badge">DESTAQUE</span>'
-      : (g.recreation
-        ? '<span class="new-badge recreation-badge">RECRIAÇÃO</span>'
-        : (g.popular
-          ? '<span class="new-badge popular-badge">EM ALTA</span>'
-          : (g.recent ? '<span class="new-badge">NOVO</span>' : '')));
-    card.innerHTML = `
-      <a href="${route}" class="game-thumb-link" title="${g.title} — ${g.description}">
-        <img class="game-cover" src="${g.cover || `assets/covers/${g.id}.svg`}" alt="${g.title}" width="256" height="256" decoding="async">
-        <span class="play-overlay" aria-hidden="true"><span><svg class="icon"><use href="assets/icons.svg#play"></use></svg></span></span>${badge}
-      </a>
-      <button class="btn-favorite ${fav ? 'active' : ''}" data-id="${g.id}" aria-label="${fav ? 'Remover' : 'Adicionar'} ${g.title} ${fav ? 'dos' : 'aos'} favoritos" aria-pressed="${fav}"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#star"></use></svg></button>
-      <div class="game-details"><a class="game-name" href="${route}" title="${g.title}">${g.title}</a><div class="game-meta"><span>${labels[g.category]}</span><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"></use></svg></div></div>`;
-    
-    card.querySelector('.game-thumb-link').addEventListener('click', () => recordRecent(g.id));
-    card.querySelector('.game-name').addEventListener('click', () => recordRecent(g.id));
-    card.querySelector('button').addEventListener('click', () => {
-      favorites = fav ? favorites.filter(id => id !== g.id) : [...favorites, g.id];
-      try { localStorage.setItem('bundix_favorites', JSON.stringify(favorites)); } catch {}
-      renderAll(g.id);
-    });
-    grid.append(card);
+  for(const g of games){
+    const card=document.createElement('article');card.dataset.gameId=g.id;
+    const isFeatured=FEATURED_GAMES.has(g.id)&&!filtered&&currentSort==='recommended';
+    card.className=isFeatured?'game-card featured-card':'game-card';const fav=favorites.includes(g.id);
+    const badge=isFeatured?'<span class="new-badge featured-badge">DESTAQUE</span>':g.recreation?'<span class="new-badge recreation-badge">RECRIAÇÃO</span>':'';
+    card.innerHTML=`<a href="${gameRoute(g.id)}" class="game-thumb-link" title="${esc(g.title+' — '+g.description)}"><img class="game-cover" src="${esc(g.cover||`assets/covers/${g.id}.svg`)}" alt="${esc(g.title)}" width="256" height="256" loading="lazy" decoding="async"><span class="play-overlay" aria-hidden="true"><span>${icon('play')}</span></span>${badge}</a><button class="btn-favorite ${fav?'active':''}" data-id="${esc(g.id)}" aria-label="${fav?'Remover':'Adicionar'} ${esc(g.title)} ${fav?'dos':'aos'} favoritos" aria-pressed="${fav}">${icon('star')}</button><div class="game-details"><a class="game-name" href="${gameRoute(g.id)}" title="${esc(g.title)}">${esc(g.title)}</a><div class="game-meta"><span>${esc(labels[g.category]||'Jogo')}</span></div><div class="card-controls">${controlPills(g)}</div><div class="game-actions"><button class="card-action btn-collection" type="button" aria-label="Salvar ${esc(g.title)} em uma lista">${icon('folder')}<span>Salvar</span></button><button class="card-action btn-report" type="button" aria-label="Reportar problema em ${esc(g.title)}" title="Reportar problema">${icon('flag')}<span>Reportar</span></button></div></div>`;
+    for(const a of card.querySelectorAll('a'))a.addEventListener('click',()=>recordRecent(g.id));
+    card.querySelector('.btn-favorite').onclick=()=>{library.toggleFavorite(g.id);document.querySelector(`[data-id="${CSS.escape(g.id)}"]`)?.focus();};
+    card.querySelector('.btn-collection').onclick=()=>window.PlaynovaCommunity?.collections(g.id);
+    card.querySelector('.btn-report').onclick=()=>window.PlaynovaCommunity?.report(g.id);
+    bindCoverFallback(card.querySelector('img'),g.title);grid.append(card);
   }
-  if (!games.length) {
-    grid.innerHTML = '<div class="empty-state"><h2>Nenhum jogo por aqui ainda</h2><p>Tente outra busca ou explore todos os jogos.</p><button type="button">Ver todos os jogos</button></div>';
-    grid.querySelector('button').addEventListener('click', () => {
-      searchQ = '';
-      document.getElementById('search-input').value = '';
-      selectCategory('todos');
-    });
+  if(!games.length){
+    const empty=document.createElement('div');empty.className='empty-state';
+    empty.innerHTML='<h2>Nenhum jogo nesta seleção</h2><p>Experimente outra busca, escolha uma lista diferente ou limpe os filtros.</p><button type="button">Limpar filtros</button>';empty.querySelector('button').onclick=resetFilters;grid.append(empty);
   }
-  if (focusFavorite) {
-    (grid.querySelector(`[data-id="${focusFavorite}"]`) || grid.querySelector('button') || document.querySelector('[data-cat="favoritos"]')).focus();
-  }
+  if(typeof focusFavorite==='string')document.querySelector(`[data-id="${CSS.escape(focusFavorite)}"]`)?.focus();
 }
-
-function selectCategory(cat){currentCat=cat;document.querySelectorAll('[data-cat]').forEach(b=>{const active=b.dataset.cat===cat;b.classList.toggle('active',active);b.setAttribute('aria-pressed',active);});renderAll();}
-document.querySelectorAll('[data-cat]').forEach(b=>b.addEventListener('click',()=>selectCategory(b.dataset.cat)));
-document.getElementById('search-input').addEventListener('input',e=>{searchQ=e.target.value;if(searchQ.trim().toLowerCase().includes('samuel')){if(window.triggerEasterEgg)window.triggerEasterEgg();}renderAll();});
-document.getElementById('search-form').addEventListener('submit',e=>{e.preventDefault();if(searchQ.trim().toLowerCase().includes('samuel')){if(window.triggerEasterEgg)window.triggerEasterEgg();}renderAll();});
-document.getElementById('random-game').addEventListener('click',()=>{
-  const filtered=filterGames(), games=filtered.length?filtered:GAMES_DATA;
-  const picked = games[Math.floor(Math.random()*games.length)];
-  recordRecent(picked.id);
-  location.href=`games/${encodeURIComponent(picked.id)}/index.html`;
-});
-
-const initialFilter = new URLSearchParams(location.search).get('filtro');
-if(initialFilter && Object.prototype.hasOwnProperty.call(labels,initialFilter))selectCategory(initialFilter);
-else renderAll();
+function selectCategory(cat){currentCat=cat;document.querySelectorAll('[data-cat]').forEach(button=>{const active=button.dataset.cat===cat;button.classList.toggle('active',active);button.setAttribute('aria-pressed',active);});renderAll();}
+function resetFilters(){searchQ='';currentControl='';currentCollection='';currentSort='recommended';document.getElementById('search-input').value='';document.getElementById('control-filter').value='';document.getElementById('sort-games').value='recommended';selectCategory('todos');}
+for(const button of document.querySelectorAll('[data-cat]'))button.onclick=()=>selectCategory(button.dataset.cat);
+document.getElementById('search-input').addEventListener('input',event=>{searchQ=event.target.value;if(normalize(searchQ).includes('samuel'))window.triggerEasterEgg?.();renderAll();});
+document.getElementById('search-form').addEventListener('submit',event=>{event.preventDefault();if(normalize(searchQ).includes('samuel'))window.triggerEasterEgg?.();renderAll();});
+document.getElementById('control-filter').onchange=event=>{currentControl=event.target.value;renderAll();};
+document.getElementById('collection-filter').onchange=event=>{currentCollection=event.target.value;renderAll();};
+document.getElementById('sort-games').onchange=event=>{currentSort=event.target.value;renderAll();};
+document.getElementById('reset-filters').onclick=resetFilters;
+document.getElementById('manage-collections').onclick=()=>window.PlaynovaCommunity?.collections();
+document.getElementById('request-game').onclick=()=>window.PlaynovaCommunity?.request();
+document.getElementById('report-site').onclick=()=>window.PlaynovaCommunity?.report();
+document.getElementById('clear-recent').onclick=()=>library.clearHistory();
+document.getElementById('random-game').onclick=()=>{const games=filterGames();if(!games.length)return;const picked=games[Math.floor(Math.random()*games.length)];recordRecent(picked.id);location.href=gameRoute(picked.id);};
+document.addEventListener('playnova:library-change',event=>{if(event.detail?.type==='history'){recentPlayed=library.recents();requestAnimationFrame(renderRecentPlayed);}else renderAll();});
+document.addEventListener('playnova:open-collection',event=>{currentCollection=event.detail;selectCategory('todos');document.getElementById('catalogo').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});});
+const initialFilter=new URLSearchParams(location.search).get('filtro');
+if(initialFilter&&Object.hasOwn(labels,initialFilter))selectCategory(initialFilter);else renderAll();
+document.title=`PLAYNOVA — ${GAMES_DATA.length} jogos para descobrir`;

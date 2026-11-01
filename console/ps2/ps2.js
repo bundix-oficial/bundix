@@ -9,6 +9,7 @@ let busy = false;
 let soundEnabled = false;
 let controllerFrame = 0;
 let statsTimer = 0;
+let videoSeen = false;
 const audioContexts = new Set();
 const heldGamepadKeys = new Set();
 
@@ -74,6 +75,18 @@ function fail(message) {
   status(message, true);
   silence();
 }
+function handleNativeOutput(value) {
+  const text = String(value).trim();
+  if (text.startsWith("Loading '")) {
+    document.body.dataset.engineState = 'loading-disc';
+    status('O emulador está lendo a ISO e preparando o executável do jogo…');
+  } else if (text === 'Starting...') {
+    document.body.dataset.engineState = 'disc-started';
+    status('Executável iniciado. Aguardando o primeiro vídeo do jogo…');
+  } else if (text.startsWith('Failed to start:')) {
+    fail('O emulador não conseguiu iniciar esta ISO. ' + text.slice('Failed to start:'.length, 210));
+  }
+}
 function checkEnvironment() {
   if (!window.isSecureContext || !('WebAssembly' in window) || !('SharedArrayBuffer' in window) || !window.crossOriginIsolated) {
     return false;
@@ -97,7 +110,7 @@ export async function initializeEmulator() {
       canvas,
       locateFile: name => new URL('./runtime/' + name, import.meta.url).href,
       mainScriptUrlOrBlob: new URL('./runtime/Play.js', import.meta.url).href,
-      print: text => console.info('[Play!]', text),
+      print: text => { console.info('[Play!]', text); handleNativeOutput(text); },
       printErr: text => console.warn('[Play!]', text),
       onAbort: () => fail('O emulador foi interrompido. Use Parar jogo para reiniciar.'),
     });
@@ -156,6 +169,11 @@ $('start').addEventListener('click', async () => {
       const frames = module.getFrames();
       module.clearStats();
       $('fps').textContent = `${frames} quadros/s`;
+      if (frames > 0 && !videoSeen) {
+        videoSeen = true;
+        document.body.dataset.engineState = 'video-active';
+        status('O emulador está produzindo vídeo. Clique na tela para usar o teclado. Isso ainda não confirma a compatibilidade de todas as partes do jogo.');
+      }
     }, 1000);
   } catch (error) { fail(error.message || 'Não foi possível iniciar esta ISO.'); }
 });

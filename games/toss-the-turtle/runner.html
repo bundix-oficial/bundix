@@ -1,54 +1,6 @@
 <!doctype html>
-<html lang="pt-BR">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <style>
-    * { box-sizing: border-box; }
-    html, body { margin:0;padding:0;width:100%;height:100%;background:#080c18;overflow:hidden;display:flex;align-items:center;justify-content:center; }
-    ruffle-player { width:100%;height:100%; }
-    /* Hide Ruffle's mute/play overlay */
-    ruffle-player::part(play-button),
-    ruffle-player::part(unmute-overlay),
-    .ruffle-unmute-overlay,
-    .ruffle-play-button { display:none !important; visibility:hidden !important; opacity:0 !important; pointer-events:none !important; }
-  </style>
-</head>
-<body>
-  <div id="flash-container" style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;"></div>
-  <script>
-    // Set config BEFORE loading Ruffle
-    window.RufflePlayer = window.RufflePlayer || {};
-    window.RufflePlayer.config = {
-      autoplay: "on",
-      unmuteOverlay: "hidden",
-      letterbox: "on",
-      warnOnUnsupportedContent: false,
-      quality: "high",
-      contextMenu: "on"
-    };
-  </script>
-  <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
-  <script>
-    window.addEventListener("DOMContentLoaded", function() {
-      // Wait a tick for Ruffle to register itself
-      requestAnimationFrame(function() {
-        var ruffle = window.RufflePlayer.newest();
-        var player = ruffle.createPlayer();
-        player.style.width = "100%";
-        player.style.height = "100%";
-        document.getElementById("flash-container").appendChild(player);
-        player.load({
-          url: "https://raw.githubusercontent.com/tw31122007/HTML-Games-V2/main/toss-the-turtle/swf.swf",
-          autoplay: "on",
-          unmuteOverlay: "hidden",
-          letterbox: "on",
-          quality: "high"
-        }).catch(function(e) {
-          console.error("Failed to load SWF:", e);
-        });
-      });
-    });
-  </script>
-</body>
-</html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self' https://raw.githubusercontent.com; worker-src 'self' blob:; media-src 'self' data: blob:; object-src 'none'; base-uri 'self'; form-action 'none'">
+<meta name="referrer" content="no-referrer"><link rel="stylesheet" href="../../assets/flash-player.css?v=ac22adc98b4d">
+<script src="../../js/flash-player-config.js?v=c3ecbae5432f"></script><script src="../../assets/vendor/ruffle/ruffle.js?v=26036a945670" defer></script><script src="../../js/flash-player.js?v=5db78beef87a" defer></script>
+<title>Jogo Flash — PLAYNOVA</title></head><body><div id="flash-container" data-swf="https://raw.githubusercontent.com/tw31122007/HTML-Games-V2/main/toss-the-turtle/swf.swf"></div><p id="flash-error" role="status" hidden></p></body></html>

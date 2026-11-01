@@ -1,5 +1,12 @@
 ﻿# Pastas de cache e ferramentas internas
 .browser-check/
+.browser-review/
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
 tools/
 backup-original/
 playnova-cyber-galaxy-local/

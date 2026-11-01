@@ -1,16 +1,19 @@
 <!doctype html>
 <html lang="pt-BR">
 <head>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self'; font-src 'self' data:; frame-src 'self' https://raw.githack.com; media-src 'self' data: blob:; object-src 'none'; base-uri 'self'; form-action 'none'">
   <meta charset="utf-8">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eval' data: blob:; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self' data: blob:; font-src 'self' data:; frame-src 'self'; media-src 'self' data: blob:; object-src 'none'; base-uri 'self'">
+  
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#090d1b">
-  <meta name="description" content="PLAYNOVA — Jogue o futuro. Mais de 250 jogos clássicos do Friv e da Web grátis direto no navegador. Sem anúncios e sem cadastro.">
-  <title>PLAYNOVA — Jogue o Futuro | 250 Jogos Grátis</title>
+  <meta name="description" content="PLAYNOVA — Jogue o futuro. Explore 218 jogos de arcade, aventura e lógica no navegador.">
+  <title>PLAYNOVA — 218 jogos para descobrir</title>
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
   <link rel="stylesheet" href="assets/theme.css?v=0a5980ddf759">
-  <link rel="stylesheet" href="assets/catalog.css?v=20261101_v3">
+  <link rel="stylesheet" href="assets/catalog.css?v=c828ce949d79">
+  <link rel="stylesheet" href="assets/ui-enhancements.css?v=94f9472f7b2a">
   <link rel="stylesheet" href="assets/secret-credits.css?v=782ecef22f05">
+  <link rel="stylesheet" href="assets/cookie-consent.css?v=860e6d22660a">
 </head>
 <body class="catalog-page">
   <a class="skip-link" href="#catalogo">Pular para os jogos</a>
@@ -37,7 +40,7 @@
         <button class="cat-btn" data-cat="populares" aria-pressed="false"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#flame"></use></svg><span>Em alta</span></button>
         <button class="cat-btn" data-cat="favoritos" aria-pressed="false"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#star"></use></svg><span>Favoritos</span><span id="fav-count">0</span></button>
       </nav>
-      <span class="header-note"><span class="status-dot"></span>Diversão sem anúncios</span>
+      <span class="header-note"><span class="status-dot"></span>Feito para jogar</span>
     </div>
   </header>
   <main class="page-width">
@@ -45,10 +48,10 @@
       <div class="welcome-copy">
         <p class="eyebrow"><span></span>SUA PRÓXIMA AVENTURA COMEÇA AQUI</p>
         <h1 id="welcome-title">O clássico dos jogos.<br> Direto no seu <span>navegador.</span></h1>
-        <p>Dos clássicos do Friv aos novos desafios: escolha seu jogo e jogue o futuro sem anúncios.</p>
+        <p>Dos clássicos do Friv aos novos desafios: escolha seu jogo e comece a diversão.</p>
         <a class="explore-link" href="#catalogo">Explore os jogos <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-down"></use></svg></a>
       </div>
-      <a class="featured-game" href="play.html?game=slope" aria-label="Jogar Slope 3D, destaque da PLAYNOVA">
+      <a class="featured-game" href="games/slope/index.html" aria-label="Jogar Slope 3D, destaque da PLAYNOVA">
         <img src="assets/covers/slope-play.png" alt="Pista neon do Slope 3D" width="400" height="400">
         <div class="featured-info"><span class="featured-label"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#flame"></use></svg>EM ALTA</span><h2>Slope 3D</h2><p>Velocidade de outra galáxia.</p><span class="featured-play"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#play"></use></svg>Jogar agora</span></div>
         <span class="featured-orbit" aria-hidden="true"></span>
@@ -58,16 +61,16 @@
       <div class="recent-bar">
         <div class="recent-title-group">
           <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#history"></use></svg>
-          <h2 id="recent-title">Continuar Jogando</h2>
+          <h2 id="recent-title">Continuar jogando</h2>
         </div>
         <button type="button" class="btn-clear-recent" id="clear-recent" title="Limpar histórico">Limpar</button>
       </div>
-      <div class="recent-list" id="recent-list"></div>
+      <p class="recent-explainer">Reabra seus últimos jogos. O progresso depende de cada jogo.</p><div class="recent-list" id="recent-list"></div>
     </section>
     <section class="catalog-section" id="catalogo" aria-labelledby="grid-title">
       <div class="catalog-bar">
-        <div class="catalog-title"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#grid"></use></svg><h2 id="grid-title">Todos os jogos</h2><span id="grid-counter" aria-live="polite">250 jogos</span></div>
-        <span class="catalog-hint">Seu próximo favorito está aqui.</span>
+        <div class="catalog-title"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#grid"></use></svg><h2 id="grid-title">Todos os jogos</h2><span id="grid-counter" aria-live="polite">218 jogos</span></div>
+        <button type="button" id="reset-filters" class="subtle-button" hidden>Limpar filtros</button>
       </div>
       <nav class="category-nav" aria-label="Categorias">
         <button class="category-chip active" data-cat="todos" aria-pressed="true"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#grid"></use></svg>Todos</button>
@@ -79,9 +82,14 @@
         <button class="category-chip" data-cat="acao" aria-pressed="false"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#rocket"></use></svg>Ação</button>
         <button class="category-chip" data-cat="mobile" aria-pressed="false"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#mobile"></use></svg>Mobile</button>
         <button class="category-chip" data-cat="console" aria-pressed="false"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#console"></use></svg>Console</button>
-        <a class="category-chip ps2-entry" href="console/ps2/index.html"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#console"></use></svg>PS2 · Minha ISO</a>
         <button class="category-chip" data-cat="flash" aria-pressed="false"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#flash"></use></svg>Flash</button>
       </nav>
+      <div class="discovery-toolbar" aria-label="Refinar jogos">
+        <label>Como quer jogar?<select id="control-filter"><option value="">Todos os controles</option><option value="two">2 jogadores</option><option value="gamepad">Aceita controle</option><option value="touch">Funciona com toque</option><option value="keyboard">Jogar com teclado</option></select></label>
+        <label>Minhas listas<select id="collection-filter"><option value="">Todas as listas</option></select></label>
+        <label class="sort-label">Organizar por<select id="sort-games"><option value="recommended">Destaques</option><option value="name">Nome A–Z</option><option value="recent">Últimos jogados</option></select></label>
+        <div class="discovery-actions"><button type="button" id="manage-collections" class="secondary-button">Minhas listas</button><button type="button" id="request-game" class="primary-button">Pedir um jogo</button></div>
+      </div><p id="filter-note" class="filter-note" hidden>Mostrando os jogos com esse tipo de controle informado.</p>
       <div class="games-grid" id="games-grid"></div>
       <noscript>Ative o JavaScript para explorar o catálogo ou <a href="games/slope/index.html">jogue Slope 3D</a>.</noscript>
     </section>
@@ -89,12 +97,17 @@
   </main>
   <footer class="site-footer page-width">
     <div class="footer-brand"><button type="button" id="secret-credits-trigger" class="footer-logo" aria-label="PLAYNOVA"><img src="assets/brand/playnova-logo.png" alt="PLAYNOVA" width="168" height="56" loading="lazy"></button><p>Jogue o futuro.</p></div>
-    <div class="footer-links"><a href="credits.html">Créditos dos jogos <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"></use></svg></a><span>Feito por Davi · Testado por Samuel</span></div>
+    <div class="footer-links"><button type="button" id="report-site" class="footer-action">Reportar problema</button><a href="credits.html">Créditos dos jogos <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-up-right"></use></svg></a><a href="privacy.html">Privacidade</a><a href="terms.html">Termos</a><span>Feito por Davi · Testado por Samuel</span></div>
     <span class="copyright">© 2026 PLAYNOVA</span>
   </footer>
   <dialog id="secret-credits" aria-labelledby="secret-credits-title"><p class="eyebrow">TRANSMISSÃO SECRETA · PLAYNOVA</p><h2 id="secret-credits-title">Você encontrou a sala secreta!</h2><div class="secret-crew"><p class="secret-label">Criador</p><p class="secret-name">Davi</p><p class="secret-label">Tester</p><p class="secret-name">Samuel bundinha gulosinha</p><p>Missão: testar até gastar o teclado.</p></div><small>Os créditos desaparecem em 10 segundos.</small><button type="button">Voltar aos jogos</button></dialog>
-  <script src="js/app.js?v=20261101_v3" defer></script>
+  <script src="js/game-features.js?v=1cf1396f637f" defer></script>
+  <script src="js/library.js?v=10de3536e374" defer></script>
+  <script src="js/community-config.js?v=d3fa5ec60f2c" defer></script>
+  <script src="js/community.js?v=a30ae21eeda1" defer></script>
+  <script src="js/app.js?v=14de4112a5c1" defer></script>
   <script src="js/secret-credits.js?v=12b60cdcfa52"></script>
+  <script src="js/cookie-consent.js?v=bfee44a9ebb7" defer></script>
   
 </body>
 </html>

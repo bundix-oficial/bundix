@@ -20,4 +20,4 @@
   <symbol id="mobile" viewBox="0 0 24 24"><rect x="6" y="2" width="12" height="20" rx="3" fill="none" stroke="currentColor" stroke-width="2"/><path d="M11 18h2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
   <symbol id="console" viewBox="0 0 24 24"><rect x="2" y="6" width="20" height="12" rx="4" fill="none" stroke="currentColor" stroke-width="2"/><path d="M6 12h4m-2-2v4m8-2h.01m3 0h.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
   <symbol id="flash" viewBox="0 0 24 24"><path d="M13 2 4 14h6l-1 8 9-12h-6Z" fill="currentColor"/></symbol>
-</svg>
+<symbol id="folder" viewBox="0 0 24 24"><path d="M3 7V5h6l2 2h10v13H3Z"/></symbol><symbol id="flag" viewBox="0 0 24 24"><path d="M5 22V3m0 1c5-3 9 3 14 0v10c-5 3-9-3-14 0"/></symbol></svg>

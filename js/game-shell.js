@@ -31,6 +31,12 @@
   document.addEventListener('click', (e) => {
     const a = e.target.closest('a[href]');
     if (!a) return;
+    if (a.dataset.playnovaOutbound === 'true') {
+      try {
+        const destination = new URL(a.href, location.href);
+        if ((destination.protocol === 'https:' && ['github.com','wa.me'].includes(destination.hostname)) || destination.protocol === 'mailto:') return;
+      } catch (_) {}
+    }
     const href = a.getAttribute('href') || '';
     if (href.startsWith('#') || href.startsWith('javascript')) return;
     try {
@@ -128,6 +134,9 @@
   /* Inject into iframe on load */
   const iframes = document.querySelectorAll('iframe');
   iframes.forEach(function(frame) {
+    // Flash runners already deny script access, popups and SWF networking.
+    // Their CSP deliberately rejects injected inline scripts.
+    if (frame.getAttribute('src') === 'runner.html') return;
     frame.addEventListener('load', function() {
       try {
         const iDoc = frame.contentDocument || frame.contentWindow && frame.contentWindow.document;
