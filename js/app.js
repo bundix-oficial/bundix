@@ -456,44 +456,6 @@ document.getElementById('random-game').addEventListener('click',()=>{
   location.href=`games/${encodeURIComponent(picked.id)}/index.html`;
 });
 
-// === MODO ESCOLA / BOSS KEY (TECLA B) ===
-function toggleBossMode(force) {
-  const bossOverlay = document.getElementById('boss-overlay');
-  if (!bossOverlay) return;
-  const isHidden = bossOverlay.hidden || bossOverlay.style.display === 'none';
-  const shouldOpen = typeof force === 'boolean' ? force : isHidden;
-  bossOverlay.hidden = !shouldOpen;
-  bossOverlay.style.display = shouldOpen ? 'flex' : 'none';
-  bossOverlay.setAttribute('aria-hidden', String(!shouldOpen));
-  document.title = shouldOpen ? 'Wikipédia — História da Ciência e Tecnologia' : 'PLAYNOVA — Jogue o futuro';
-}
-
-document.addEventListener('click', e => {
-  if (e.target.closest('#boss-key-btn')) {
-    e.preventDefault();
-    toggleBossMode();
-  } else if (e.target.closest('#boss-close-btn')) {
-    e.preventDefault();
-    toggleBossMode(false);
-  }
-});
-
-window.addEventListener('keydown', e => {
-  const activeTag = document.activeElement ? document.activeElement.tagName.toLowerCase() : '';
-  if (activeTag === 'input' || activeTag === 'textarea') return;
-
-  if (e.key === 'b' || e.key === 'B') {
-    e.preventDefault();
-    toggleBossMode();
-  } else if (e.key === 'Escape') {
-    const bossOverlay = document.getElementById('boss-overlay');
-    if (bossOverlay && (!bossOverlay.hidden || bossOverlay.style.display === 'flex')) {
-      e.preventDefault();
-      toggleBossMode(false);
-    }
-  }
-});
-
 const initialFilter = new URLSearchParams(location.search).get('filtro');
 if(initialFilter && Object.prototype.hasOwnProperty.call(labels,initialFilter))selectCategory(initialFilter);
 else renderAll();
