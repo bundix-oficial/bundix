@@ -138,3 +138,10 @@ main.page-width { flex: 1; padding-top: 32px; }
 }
 @media (max-width: 360px) { .logo { width: 157px; }.logo img { width: 157px; }.random-btn { font-size: 9px; padding: 9px 8px; }.games-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }.cat-btn { font-size: 9px; gap: 4px; }.welcome h1 { font-size: 34px; } }
 @media (hover: none) { .btn-favorite { opacity: 1; } }
+
+/* === CURSOR PERSONALIZADO === */
+@media (pointer: fine) {
+  *, *::before, *::after { cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Ccircle cx='12' cy='12' r='5' fill='none' stroke='%2300f0c8' stroke-width='1.5'/%3E%3Cline x1='12' y1='2' x2='12' y2='8' stroke='%2300f0c8' stroke-width='1.5'/%3E%3Cline x1='12' y1='16' x2='12' y2='22' stroke='%2300f0c8' stroke-width='1.5'/%3E%3Cline x1='2' y1='12' x2='8' y2='12' stroke='%2300f0c8' stroke-width='1.5'/%3E%3Cline x1='16' y1='12' x2='22' y2='12' stroke='%2300f0c8' stroke-width='1.5'/%3E%3C/svg%3E") 12 12, crosshair !important; }
+  a, button, [role="button"], input, select, textarea, label { cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Ccircle cx='12' cy='12' r='7' fill='%23a794ff33' stroke='%23a794ff' stroke-width='1.5'/%3E%3Ccircle cx='12' cy='12' r='2' fill='%23a794ff'/%3E%3C/svg%3E") 12 12, pointer !important; }
+}
+.cursor-dot { position: fixed; width: 6px; height: 6px; background: #00f0c8; border-radius: 50%; pointer-events: none; z-index: 9999; transform: translate(-50%,-50%); transition: left .08s ease, top .08s ease; opacity: 0; mix-blend-mode: screen; box-shadow: 0 0 8px #00f0c8, 0 0 16px #00f0c866; }
