@@ -1,0 +1,15 @@
+﻿# Pastas de cache e ferramentas internas
+.browser-check/
+tools/
+backup-original/
+playnova-cyber-galaxy-local/
+preview/
+
+# Arquivos temporários e locais
+*.zip
+servidor.py
+ABRIR-SITE.bat
+COMO-ABRIR.txt
+IDENTIDADE-PLAYNOVA.md
+RELATORIO-FINAL.md
+USO-NA-ESCOLA.md
