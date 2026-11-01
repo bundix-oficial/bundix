@@ -1,204 +1,5 @@
 const GAMES_DATA = [
   {
-    "id": "dark-room",
-    "title": "A Dark Room",
-    "category": "puzzle",
-    "description": "Uma aventura de texto: acenda o fogo, reúna recursos e explore.",
-    "recent": true,
-    "cover": "assets/covers/dark-room.png",
-    "platform": "flash"
-  },
-  {
-    "id": "gridland",
-    "title": "Gridland",
-    "category": "puzzle",
-    "description": "Combine peças, construa uma aldeia e enfrente a noite.",
-    "recent": true,
-    "cover": "assets/covers/gridland.png",
-    "platform": "mobile"
-  },
-  {
-    "id": "minesweeper",
-    "title": "Campo Minado Emoji",
-    "category": "puzzle",
-    "description": "Descubra as casas seguras e marque todas as minas.",
-    "recent": true,
-    "cover": "assets/covers/minesweeper.png",
-    "platform": "mobile"
-  },
-  {
-    "id": "bubble-shooter",
-    "title": "Bubble Shooter",
-    "category": "arcade",
-    "description": "Mire e estoure grupos de bolhas coloridas.",
-    "recent": true,
-    "cover": "assets/covers/bubble-shooter.png",
-    "platform": "mobile"
-  },
-  {
-    "id": "match-three",
-    "title": "Match 3",
-    "category": "puzzle",
-    "description": "Troque peças e crie combinações em sequência.",
-    "recent": true,
-    "cover": "assets/covers/match-three.png",
-    "platform": "mobile"
-  },
-  {
-    "id": "skifree",
-    "title": "SkiFree.js",
-    "category": "arcade",
-    "description": "Desça a montanha e tente escapar do monstro da neve.",
-    "recent": true,
-    "cover": "assets/covers/skifree.png",
-    "platform": "flash"
-  },
-  {
-    "id": "connect-four",
-    "title": "Liga 4",
-    "category": "classico",
-    "description": "Forme uma linha de quatro peças antes do adversário.",
-    "recent": true,
-    "cover": "assets/covers/connect-four.png",
-    "platform": "mobile"
-  },
-  {
-    "id": "underrun",
-    "title": "Underrun",
-    "category": "acao",
-    "description": "Explore uma instalação em 3D e combata máquinas hostis.",
-    "recent": true,
-    "cover": "assets/covers/underrun.png",
-    "platform": "flash"
-  },
-  {
-    "id": "hexgl",
-    "title": "HexGL",
-    "category": "arcade",
-    "description": "Pilote uma nave em uma corrida futurista em 3D.",
-    "recent": true,
-    "cover": "assets/covers/hexgl.png",
-    "platform": "flash"
-  },
-  {
-    "id": "elliott",
-    "title": "Hyperspace Garbage Collection",
-    "category": "acao",
-    "description": "Explore o espaço e recolha materiais neste jogo independente.",
-    "recent": true,
-    "cover": "assets/covers/elliott.png",
-    "platform": "flash"
-  },
-  {
-    "id": "radius-raid",
-    "title": "Radius Raid",
-    "category": "acao",
-    "description": "Sobreviva a ondas de inimigos em uma arena espacial.",
-    "recent": true,
-    "cover": "assets/covers/radius-raid.png",
-    "platform": "flash"
-  },
-  {
-    "id": "xx142",
-    "title": "xx142-b2.exe",
-    "category": "puzzle",
-    "description": "Resolva desafios usando os fantasmas das tentativas anteriores.",
-    "recent": true,
-    "cover": "assets/covers/xx142.png",
-    "platform": "flash"
-  },
-  {
-    "id": "space-huggers",
-    "title": "Space Huggers",
-    "category": "acao",
-    "description": "Plataforma de ação com cenários destrutíveis e fases variadas.",
-    "recent": true,
-    "cover": "assets/covers/space-huggers.png",
-    "platform": "flash"
-  },
-  {
-    "id": "astray",
-    "title": "Astray",
-    "category": "puzzle",
-    "description": "Guie uma esfera por labirintos tridimensionais.",
-    "recent": true,
-    "cover": "assets/covers/astray.png",
-    "platform": "flash"
-  },
-  {
-    "id": "bounce-back",
-    "title": "Bounce Back",
-    "category": "acao",
-    "description": "Explore ilhas e enfrente inimigos com seu bumerangue.",
-    "recent": true,
-    "cover": "assets/covers/bounce-back.png",
-    "platform": "flash"
-  },
-  {
-    "id": "space-invaders",
-    "title": "Space Invaders",
-    "category": "classico",
-    "description": "Defenda a Terra das ondas de invasores espaciais.",
-    "recent": true,
-    "cover": "assets/covers/space-invaders.png",
-    "platform": "flash"
-  },
-  {
-    "id": "alien-invasion",
-    "title": "Alien Invasion",
-    "category": "arcade",
-    "description": "Desvie dos ataques e destrua as naves inimigas.",
-    "recent": true,
-    "cover": "assets/covers/alien-invasion.png",
-    "platform": "flash"
-  },
-  {
-    "id": "little-platformer",
-    "title": "Little Platformer",
-    "category": "acao",
-    "description": "Explore um mundo de plataformas com terreno destrutível.",
-    "recent": true,
-    "cover": "assets/covers/little-platformer.png",
-    "platform": "flash"
-  },
-  {
-    "id": "little-puzzle",
-    "title": "Little Puzzle",
-    "category": "puzzle",
-    "description": "Combine peças ilustradas e tente superar seu recorde.",
-    "recent": true,
-    "cover": "assets/covers/little-puzzle.png",
-    "platform": "mobile"
-  },
-  {
-    "id": "orb-island",
-    "title": "Ilha das Esferas",
-    "category": "arcade",
-    "description": "Explore uma ilha em 3D e colete esferas brilhantes.",
-    "recent": true,
-    "cover": "assets/covers/orb-island.png",
-    "platform": "flash"
-  },
-  {
-    "id": "gta-san-andreas",
-    "title": "GTA: San Andreas 2D",
-    "category": "acao",
-    "description": "Explore Los Santos, dirija veículos, fuja da polícia e domine as ruas neste demake 2D clássico.",
-    "recent": true,
-    "popular": true,
-    "cover": "assets/covers/gta-san-andreas.jpg",
-    "platform": "console"
-  },
-  {
-    "id": "tower-building",
-    "title": "Torre Maluca",
-    "category": "arcade",
-    "description": "Empilhe os andares e construa uma torre colorida. Clique ou toque para jogar.",
-    "recent": true,
-    "cover": "assets/covers/tower-building.png",
-    "platform": "mobile"
-  },
-  {
     "id": "pacman",
     "title": "Pac-Man HTML5",
     "category": "classico",
@@ -206,33 +7,6 @@ const GAMES_DATA = [
     "recent": true,
     "cover": "assets/covers/pacman.png",
     "platform": "flash"
-  },
-  {
-    "id": "boulderdash",
-    "title": "Caça aos Diamantes",
-    "category": "arcade",
-    "description": "Explore cavernas, colete diamantes e encontre a saída. Recriação de Boulderdash.",
-    "recent": true,
-    "cover": "assets/covers/boulderdash.png",
-    "platform": "console"
-  },
-  {
-    "id": "two-colors",
-    "title": "Duas Cores — 0h h1",
-    "category": "puzzle",
-    "description": "Um quebra-cabeça de lógica com duas cores e desafios progressivos.",
-    "recent": true,
-    "cover": "assets/covers/two-colors.png",
-    "platform": "mobile"
-  },
-  {
-    "id": "breaklock",
-    "title": "Liga-Pontos — BreakLock",
-    "category": "puzzle",
-    "description": "Descubra a sequência secreta ligando os pontos. Jogo de raciocínio com interface em português.",
-    "recent": true,
-    "cover": "assets/covers/breaklock.png",
-    "platform": "mobile"
   },
   {
     "id": "mario-html5",
@@ -263,26 +37,6 @@ const GAMES_DATA = [
     "recreation": true,
     "platform": "console",
     "cover": "assets/covers/zelda-tribute.png"
-  },
-  {
-    "id": "bombergirl",
-    "title": "Bombergirl",
-    "category": "retro",
-    "description": "Recriação no estilo Bomberman, com oponentes controlados pelo computador.",
-    "recent": true,
-    "recreation": true,
-    "platform": "console",
-    "cover": "assets/covers/bombergirl.png"
-  },
-  {
-    "id": "retro-racer",
-    "title": "Retro Racer",
-    "category": "retro",
-    "description": "Corrida HTML com pistas e curvas no estilo OutRun.",
-    "recent": true,
-    "recreation": true,
-    "platform": "console",
-    "cover": "assets/covers/retro-racer.png"
   },
   {
     "id": "flappy-bird",
@@ -338,56 +92,6 @@ const GAMES_DATA = [
     "recent": true,
     "platform": "flash",
     "cover": "assets/covers/breakout.png"
-  },
-  {
-    "id": "2048",
-    "title": "2048",
-    "category": "puzzle",
-    "description": "Junte os números iguais até alcançar o lendário bloco 2048.",
-    "popular": true,
-    "recent": false,
-    "cover": "assets/covers/2048.png",
-    "platform": "mobile"
-  },
-  {
-    "id": "snake",
-    "title": "Cobrinha (Snake)",
-    "category": "classico",
-    "description": "O clássico do Nokia: coma as maçãs e desvie do próprio corpo.",
-    "popular": true,
-    "recent": false,
-    "cover": "assets/covers/snake.png",
-    "platform": "arcade"
-  },
-  {
-    "id": "pong",
-    "title": "Pong Clássico",
-    "category": "retro",
-    "description": "O primeiro videogame da história: rebata a bola contra a máquina.",
-    "popular": false,
-    "recent": false,
-    "cover": "assets/covers/pong.png",
-    "platform": "arcade"
-  },
-  {
-    "id": "memory",
-    "title": "Jogo da Memória",
-    "category": "puzzle",
-    "description": "Vire as cartas, encontre os pares de emojis e treine sua mente.",
-    "popular": false,
-    "recent": false,
-    "cover": "assets/covers/memory.png",
-    "platform": "mobile"
-  },
-  {
-    "id": "platformer",
-    "title": "Super Platformer",
-    "category": "arcade",
-    "description": "Corra e salte entre plataformas flutuantes coletando moedas.",
-    "popular": false,
-    "recent": false,
-    "cover": "assets/covers/platformer.png",
-    "platform": "arcade"
   },
   {
     "id": "fireboy-and-watergirl",
@@ -2471,8 +2175,28 @@ const GAMES_DATA = [
   }
 ];
 const labels={todos:'Todos os jogos',recentes:'Novos jogos',populares:'Em alta',favoritos:'Meus favoritos',arcade:'Arcade',puzzle:'Puzzle',classico:'Clássicos',acao:'Ação',retro:'Retrô',leves:'Jogos leves',mobile:'Mobile → PC',console:'Console Port',flash:'Estilo Flash'};
-const HEAVY_GAMES = new Set(['slope','mario64-cleanroom','zelda-tribute','hexgl','underrun','astray','orb-island','xx142']);
-const FEATURED_GAMES = new Set(['slope','gta-san-andreas','fireboy-and-watergirl','bad-ice-cream','moto-x3m','papas-pizzeria','subway-surfers','age-of-war','vex-3','super-mario-63','bloxorz','duck-life']);
+const HEAVY_GAMES = new Set([
+  'slope',
+  'mario64-cleanroom',
+  'zelda-tribute',
+  'krunker-web',
+  'smash-karts'
+]);
+const FEATURED_GAMES = new Set([
+  'slope',
+  'subway-surfers',
+  'temple-run-2',
+  'geometry-dash',
+  'fireboy-and-watergirl',
+  'bad-ice-cream',
+  'moto-x3m',
+  'papas-pizzeria',
+  'age-of-war',
+  'vex-3',
+  'super-mario-63',
+  'bloxorz',
+  'duck-life'
+]);
 
 let currentCat='todos', searchQ='', favorites=[], recentPlayed=[];
 try { const stored=JSON.parse(localStorage.getItem('bundix_favorites')||'[]'); if(Array.isArray(stored)) favorites=[...new Set(stored.filter(id=>GAMES_DATA.some(g=>g.id===id)))]; } catch {}
