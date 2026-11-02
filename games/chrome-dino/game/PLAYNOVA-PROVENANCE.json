@@ -1,0 +1,16 @@
+{
+  "id": "chrome-dino",
+  "repository": "https://github.com/congerh/dino",
+  "commit": "3acbd11bcf9ef669594568ebbc78a9b90429f9e3",
+  "license": "BSD-3-Clause",
+  "notices": [],
+  "licenseOrigin": "https://github.com/chromium/chromium/blob/main/LICENSE",
+  "localCopyrightNotice": "game.js (Chromium Authors 2014)",
+  "dependencies": [
+    {
+      "path": "chrome-dino/LICENSE",
+      "source": "https://raw.githubusercontent.com/chromium/chromium/main/LICENSE",
+      "sha256": "368cca1106be99d39ecd32a38d8305585d802a475effb66380b91ffc9bcf709b"
+    }
+  ]
+}

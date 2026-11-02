@@ -1,0 +1,168 @@
+{
+  "version": 1,
+  "partBytes": 20971520,
+  "games": {
+    "duck-life-4": {
+      "root": "./",
+      "files": {
+        "WebGL.data.unityweb": {
+          "size": 39141304,
+          "parts": [
+            "file-parts/f2d3e8deeca5/0.bin",
+            "file-parts/f2d3e8deeca5/1.bin"
+          ],
+          "sha256": "ef538b6903384c99140d54d647b519668755160692bada3dfc89dc7775f7fc85",
+          "type": "application/octet-stream"
+        },
+        "Build/WebGL4.data.unityweb": {
+          "size": 59391360,
+          "parts": [
+            "file-parts/15a0c1d799fb/0.bin",
+            "file-parts/15a0c1d799fb/1.bin",
+            "file-parts/15a0c1d799fb/2.bin"
+          ],
+          "sha256": "c748580b046f907ec0ae67085ccfdca3bcbc5e1720662b62f252845e806c8a8b",
+          "type": "application/octet-stream"
+        }
+      }
+    },
+    "subway-surfers": {
+      "root": "./",
+      "files": {
+        "Build/SanFrancisco.data.unityweb": {
+          "size": 27979216,
+          "parts": [
+            "file-parts/f530ef6aeabd/0.bin",
+            "file-parts/f530ef6aeabd/1.bin"
+          ],
+          "sha256": "f76c327c4d0c76aabeddc4ad28b4a73d32a9682ccc17ceec7c087a2e23840fc2",
+          "type": "application/octet-stream"
+        }
+      }
+    },
+    "cars-simulator-3d": {
+      "root": "./",
+      "files": {
+        "Build/cars-simulator-v2.data.unityweb": {
+          "size": 27587864,
+          "parts": [
+            "file-parts/87afa64c68dd/0.bin",
+            "file-parts/87afa64c68dd/1.bin"
+          ],
+          "sha256": "419be42989092c3d9046e2e7da834ddd2dc344169924be4a81446f9b33754290",
+          "type": "application/octet-stream"
+        }
+      }
+    },
+    "getting-over-it-scratch": {
+      "root": "./",
+      "files": {
+        "index.html": {
+          "size": 36800749,
+          "parts": [
+            "file-parts/0eb547304658/0.bin",
+            "file-parts/0eb547304658/1.bin"
+          ],
+          "sha256": "43b469e41aff4e1dd72ba657e6327dec29e2b02588f90a2750fffed6ea7af6d1",
+          "type": "application/octet-stream"
+        }
+      }
+    },
+    "madalin-stunt-cars-2": {
+      "root": "./",
+      "files": {
+        "data.unityweb": {
+          "size": 37088945,
+          "parts": [
+            "file-parts/d18f0b0ff1d0/0.bin",
+            "file-parts/d18f0b0ff1d0/1.bin"
+          ],
+          "sha256": "84c2289bab612248cf52567320a80f222215de00be5001bc4aa1a194b468dedf",
+          "type": "application/octet-stream"
+        }
+      }
+    },
+    "madalin-stunt-cars-3": {
+      "root": "./",
+      "files": {
+        "unity/data.unityweb": {
+          "size": 45346425,
+          "parts": [
+            "file-parts/cb7c621c5c95/0.bin",
+            "file-parts/cb7c621c5c95/1.bin",
+            "file-parts/cb7c621c5c95/2.bin"
+          ],
+          "sha256": "877ae0ebb022a2eb99fc445d64392dce2f85f9af4a0668593b6f1693ed0c18e2",
+          "type": "application/octet-stream"
+        }
+      }
+    },
+    "super-mario-63": {
+      "root": "./",
+      "files": {
+        "index.pck": {
+          "size": 38215072,
+          "parts": [
+            "file-parts/5c7171384543/0.bin",
+            "file-parts/5c7171384543/1.bin"
+          ],
+          "sha256": "6f11642a5d69b78222cb2751d3775abafbe50d4beed1a33b8c91fe53ec58772f",
+          "type": "application/octet-stream"
+        }
+      }
+    },
+    "tanuki-sunset": {
+      "root": "./",
+      "files": {
+        "Build/WebGL.data.unityweb": {
+          "size": 49167945,
+          "parts": [
+            "file-parts/7b245ccf83a0/0.bin",
+            "file-parts/7b245ccf83a0/1.bin",
+            "file-parts/7b245ccf83a0/2.bin"
+          ],
+          "sha256": "0e05e29f480ac11291d4bfc4c2da499ba55cb2f4d94a2a13d5732b038b7211a0",
+          "type": "application/octet-stream"
+        },
+        "unity/tanuki.data.unityweb": {
+          "size": 49167945,
+          "parts": [
+            "file-parts/242f5df3a5ed/0.bin",
+            "file-parts/242f5df3a5ed/1.bin",
+            "file-parts/242f5df3a5ed/2.bin"
+          ],
+          "sha256": "0e05e29f480ac11291d4bfc4c2da499ba55cb2f4d94a2a13d5732b038b7211a0",
+          "type": "application/octet-stream"
+        }
+      }
+    },
+    "townscaper-web": {
+      "root": "./",
+      "files": {
+        "Build/WebGL.data": {
+          "size": 32386485,
+          "parts": [
+            "file-parts/895d8f53e04e/0.bin",
+            "file-parts/895d8f53e04e/1.bin"
+          ],
+          "sha256": "37a47d08e04a15a3b73b28d364834620f4f1c72ee400202c6c339e73e27eca77",
+          "type": "application/octet-stream"
+        }
+      }
+    },
+    "10-minutes-till-dawn": {
+      "root": "./",
+      "files": {
+        "Build/10MinutesTillDawnWebGL.data.unityweb": {
+          "size": 27343110,
+          "parts": [
+            "file-parts/6aaa9fdb1c8b/0.bin",
+            "file-parts/6aaa9fdb1c8b/1.bin"
+          ],
+          "sha256": "bfa18bfdc2c283b79ddfbb8e08305b476617fe6e01648865063c937ca855afbd",
+          "type": "application/octet-stream"
+        }
+      }
+    }
+  }
+}

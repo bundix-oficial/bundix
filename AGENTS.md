@@ -12,3 +12,9 @@ Estas instruções foram solicitadas pelo usuário e valem para as próximas alt
 - Abrir jogos diretamente a partir das capas e da escolha aleatória. Não reintroduzir tela de pré-download ou carregamento do portal; manter apenas o carregamento próprio de cada jogo. Links antigos play.html?game=... devem redirecionar sem buscar todos os arquivos.
 
 - Para novas inclusões de console, o proprietário quer apenas clássicos comerciais originais, sem alternativas homebrew. Não apresentar recriações como ports originais nem incluir títulos sem os recursos necessários e condições de distribuição verificadas.
+
+- Atualização de 02/11/2026: o catálogo deve conter somente jogos revisados, com projeto de origem e licença identificados. Remover cartões pendentes da busca e do pacote; preservar inventário e cópias apenas na área privada para revisão futura. Não restaurar automaticamente o antigo catálogo de 218 cartões. `assets/catalog-policy.json` é a lista permitida. FNAF só pode ser incluído para jogar quando houver uma distribuição web autorizada e verificável; links de lojas não contam como jogos locais.
+
+- Instrução posterior do proprietário em 02/11/2026: retomar o catálogo completo e realizar uma verificação técnica rápida em cada cópia antes de reativar. Essa instrução substitui a preferência anterior de esconder todos os pendentes. Registrar erros reais e limitações; não tratar teste de abertura como certificação de segurança ou nova autorização de distribuição. Manter bloqueio de conexões externas, anúncios, áudio automático e proteção dos arquivos privados. FNAF continua como diretório oficial externo conforme escolha expressa.
+
+- Consentimento posterior: permitir conexoes necessarias dos proprios jogos. Liberar apenas destinos especificos identificados; manter publicidade e rastreamento bloqueados. Nao presumir que liberar um iframe externo permita controlar sua publicidade.

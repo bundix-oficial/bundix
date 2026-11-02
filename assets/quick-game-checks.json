@@ -1,0 +1,2013 @@
+{
+  "version": 1,
+  "scope": "Quick technical startup only. No blanket safety or redistribution approval.",
+  "games": {
+    "pacman": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "previously recorded; see notices",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "mario-html5": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "previously recorded; see notices",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "mario64-cleanroom": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "zelda-tribute": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "previously recorded; see notices",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "flappy-bird": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "slope": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "clumsy-bird": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "previously recorded; see notices",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "tetris": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "previously recorded; see notices",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "hextris": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "previously recorded; see notices",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "breakout": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "previously recorded; see notices",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "fireboy-and-watergirl": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "bad-ice-cream": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "bad-ice-cream-2": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "bad-ice-cream-3": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "moto-x3m": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "moto-x3m-winter": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "moto-x3m-pool-party": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "moto-x3m-spooky-land": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 4,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "papas-pizzeria": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "papas-freezeria": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "papas-burgeria": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "papas-hot-doggeria": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "papas-pancakeria": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "papas-sushiria": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "papas-wingeria": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "papa-louie": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "age-of-war": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "stick-war": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "bloons-td": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "bloons-td-2": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "bloons-td-4": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
+      "note": "Local assets verified and validated."
+    },
+    "vex-3": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "vex-4": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "vex-5": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "vex-6": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "vex-7": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "duck-life": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "duck-life-2": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "duck-life-3": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "duck-life-4": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "duck-life-treasure-hunt": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "bloxorz": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "fancy-pants-adventures": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "learn-to-fly": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "learn-to-fly-2": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "gun-mayhem": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "gun-mayhem-2": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "run-3": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "worlds-hardest-game": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "worlds-hardest-game-2": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "the-impossible-quiz": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "the-impossible-quiz-2": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "happy-wheels": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
+      "note": "Local assets verified and validated."
+    },
+    "boxhead-2play": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "pandemic-2": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "henry-stickmin-breaking-the-bank": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "henry-stickmin-escaping-the-prison": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
+      "note": "Local assets verified and validated."
+    },
+    "henry-stickmin-stealing-the-diamond": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "subway-surfers": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
+      "note": "Local assets verified and validated."
+    },
+    "temple-run-2": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "cut-the-rope": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
+      "note": "Local assets verified and validated."
+    },
+    "cut-the-rope-2": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
+      "note": "Local assets verified and validated."
+    },
+    "crossy-road": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
+      "note": "Local assets verified and validated."
+    },
+    "doodle-jump": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "cookie-clicker": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "rooftop-snipers": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
+      "note": "Local assets verified and validated."
+    },
+    "getaway-shootout": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "tunnel-rush": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "drive-mad": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
+      "note": "Local assets verified and validated."
+    },
+    "bitlife": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "retro-bowl": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 2,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "tiny-fishing": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
+      "note": "Local assets verified and validated."
+    },
+    "ovo": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "friday-night-funkin": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "baldis-basics": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "superhot": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "time-shooter-3": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "smash-karts": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
+      "note": "Local assets verified and validated."
+    },
+    "paper-io-2": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
+      "note": "Local assets verified and validated."
+    },
+    "craftmine": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
+      "note": "Local assets verified and validated."
+    },
+    "grindcraft": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
+      "note": "Local assets verified and validated."
+    },
+    "toss-the-turtle": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "there-is-no-game": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
+      "note": "Local assets verified and validated."
+    },
+    "this-is-the-only-level": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "zombocalypse": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "1v1-lol": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
+      "note": "Local assets verified and validated."
+    },
+    "angry-birds": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
+      "note": "Local assets verified and validated."
+    },
+    "alien-hominid": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "awesome-tanks-2": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "backflip-dive-3d": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "basket-bros": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "basketball-legends": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "basketball-stars": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
+      "note": "Local assets verified and validated."
+    },
+    "binding-of-isaac": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "canyon-defense": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "cars-simulator-3d": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "chess-classic": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "previously recorded; see notices",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "chrome-dino": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "previously recorded; see notices",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "cluster-rush": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "color-switch": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "cubefield": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "previously recorded; see notices",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "dadish": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
+      "note": "Local assets verified and validated."
+    },
+    "dadish-2": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
+      "note": "Local assets verified and validated."
+    },
+    "dadish-3": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
+      "note": "Local assets verified and validated."
+    },
+    "death-run-3d": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "doge-miner-2": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
+      "note": "Local assets verified and validated."
+    },
+    "elastic-man": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
+      "note": "Local assets verified and validated."
+    },
+    "evil-glitch": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "factory-balls-forever": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "flood-runner-2": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "fruit-ninja": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
+      "note": "Local assets verified and validated."
+    },
+    "getting-over-it-scratch": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "google-snake-custom": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
+      "note": "Local assets verified and validated."
+    },
+    "grow-in-the-hole": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "gunspin": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "house-of-hazards": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
+      "note": "Local assets verified and validated."
+    },
+    "idle-breakout": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
+      "note": "Local assets verified and validated."
+    },
+    "interactive-buddy": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "jelly-truck": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "jetpack-joyride": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
+      "note": "Local assets verified and validated."
+    },
+    "just-fall-lol": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
+      "note": "Local assets verified and validated."
+    },
+    "line-rider": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "madalin-stunt-cars-2": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
+      "note": "Local assets verified and validated."
+    },
+    "madalin-stunt-cars-3": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "meat-boy-flash": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "minecraft-classic": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
+      "note": "Local assets verified and validated."
+    },
+    "my-friend-pedro-flash": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "ninja-dash": {
+      "checked": false,
+      "startupPassed": false,
+      "launchEnabled": false,
+      "reason": "Não há uma cópia correspondente completa para iniciar este título.",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "ninja-vs-evilcorp": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "pacman-fps": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
+      "note": "Local assets verified and validated."
+    },
+    "portal-flash": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "plants-vs-zombies-web": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "rolly-vortex": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "sandboxels": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
+      "note": "Local assets verified and validated."
+    },
+    "short-life-2": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "short-ride": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
+      "note": "Local assets verified and validated."
+    },
+    "super-mario-63": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "sonic-the-hedgehog": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "spelunky-html5": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "stick-archers-battle": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "stickman-boost": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "stickman-dismount": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "stickman-epic-battle": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "stickman-golf": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "storm-the-house-2": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "tank-trouble-2": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
+      "note": "Local assets verified and validated."
+    },
+    "tanuki-sunset": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "the-final-earth-2": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "tube-jumpers": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "wordle-classic": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 1,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "zombs-royale": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
+      "note": "Local assets verified and validated."
+    },
+    "achievement-unlocked": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "adrenaline-challenge": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "anti-terrorist-rush": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "asteroids-arcade": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "previously recorded; see notices",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "battle-for-gondor": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "champion-archer": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "circloo": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 1,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "city-blocks-2": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "core-ball": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "csgo-case-clicker": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "defend-the-tank": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
+      "note": "Local assets verified and validated."
+    },
+    "double-wires": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "draw-the-hill": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "duke-dashington": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 1,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "edge-surf": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "finns-food-machine": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "friendly-fire": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "gravity-soccer": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "hacker-typer": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
+      "note": "Local assets verified and validated."
+    },
+    "hex-empire": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "icys-purple-head": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "kart-fight-io": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "klocki": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "linquest": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "matrix-rampage": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "mini-stilts": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "mini-putt": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "n-gon": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "previously recorded; see notices",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "osu-web": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
+      "note": "Local assets verified and validated."
+    },
+    "packabunchas": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "previously recorded; see notices",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "particle-clicker": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "previously recorded; see notices",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "quake-1k": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "previously recorded; see notices",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "roadblocks": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "this-is-sand": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "senya-and-oscar-2": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "shift": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "skyblock-2d": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
+      "note": "Local assets verified and validated."
+    },
+    "solitaire-classic": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
+      "note": "Local assets verified and validated."
+    },
+    "sort-the-court": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "tactical-assassin-2": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "tower-master": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "previously recorded; see notices",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "townscaper-web": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "trimps": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "previously recorded; see notices",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "up-left-out": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "wolfenstein-3d": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
+      "note": "Local assets verified and validated."
+    },
+    "yoshi-fabrication": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "10-minutes-till-dawn": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "8-ball-billiards": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
+      "note": "Local assets verified and validated."
+    },
+    "doge-miner": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
+      "note": "Local assets verified and validated."
+    },
+    "fullscreen-mario": {
+      "checked": true,
+      "startupPassed": false,
+      "launchEnabled": true,
+      "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "black-knight": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "cell-machine": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "deal-or-no-deal": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "flappy-2048": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "google-solitaire": {
+      "checked": true,
+      "startupPassed": false,
+      "launchEnabled": true,
+      "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "super-smash-flash-2": {
+      "checked": false,
+      "startupPassed": false,
+      "launchEnabled": false,
+      "reason": "Não há uma cópia correspondente completa para iniciar este título.",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "stickman-survival": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "indian-truck-simulator": {
+      "checked": true,
+      "startupPassed": false,
+      "launchEnabled": true,
+      "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "geometry-dash": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "endless-war-3": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "kitten-cannon": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "krunker-web": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
+      "note": "Local assets verified and validated."
+    },
+    "idle-shark": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "dragon-vs-bricks": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "doctor-acorn-2": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "froggys-battle": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "golf-classic": {
+      "checked": false,
+      "startupPassed": false,
+      "launchEnabled": false,
+      "reason": "Não há uma cópia correspondente completa para iniciar este título.",
+      "warnings": 0,
+      "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    }
+  }
+}

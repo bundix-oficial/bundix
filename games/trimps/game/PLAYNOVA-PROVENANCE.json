@@ -1,0 +1,22 @@
+{
+  "id": "trimps",
+  "repository": "https://github.com/Trimps/Trimps.github.io",
+  "commit": "b9edb1dfee270ebf81bef8d934dc71276bf8d963",
+  "license": "GPL-3.0-or-later",
+  "notices": [
+    {
+      "path": "license.txt",
+      "url": "https://raw.githubusercontent.com/Trimps/Trimps.github.io/b9edb1dfee270ebf81bef8d934dc71276bf8d963/license.txt",
+      "sha256": "c03cea027b4b40e4402fabd08557736727ec3d5bc54ad64ab6472de432198cad"
+    }
+  ],
+  "localGrant": "main.js and config.js copyright/license headers; included GPL-3.0.txt",
+  "cloudFeatures": "Disabled: SDK, login, credential storage and remote saves. Local saves retained.",
+  "dependencies": [
+    {
+      "path": "trimps/GPL-3.0.txt",
+      "source": "https://raw.githubusercontent.com/landgreen/n-gon/master/LICENSE",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    }
+  ]
+}

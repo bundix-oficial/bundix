@@ -6,4 +6,4 @@
   Content-Security-Policy: object-src 'none'; base-uri 'self'; frame-ancestors 'self'
 
 /games/*
-  Content-Security-Policy: default-src 'self' data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self' data: blob:; font-src 'self' data:; media-src 'self' data: blob:; worker-src 'self' blob:; frame-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'
+  Content-Security-Policy: default-src 'self' data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self' data: blob: https://we.basketbros.io https://ea.basketbros.io https://eu.basketbros.io https://as.basketbros.io https://au.basketbros.io https://mw.basketbros.io wss://we.basketbros.io wss://ea.basketbros.io wss://eu.basketbros.io wss://as.basketbros.io wss://au.basketbros.io wss://mw.basketbros.io; font-src 'self' data:; media-src 'self' data: blob:; worker-src 'self' blob:; frame-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'

@@ -33,7 +33,7 @@
     const Native = window[key];
     if (!Native) continue;
     window[key] = class extends Native {
-      constructor(...args) { super(...args); contexts.add(this); }
+      constructor(...args) { super(...args); contexts.add(this); if (!unlocked || document.hidden) super.suspend().catch(() => {}); }
       resume() { return unlocked && !document.hidden ? super.resume() : Promise.resolve(); }
     };
   }

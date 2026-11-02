@@ -33,6 +33,13 @@ download-errors.json
 !/games/cubefield/game/
 !/games/asteroids-arcade/game/
 !/games/tower-master/game/
+!/games/n-gon/game/
+!/games/chess-classic/game/
+!/games/chrome-dino/game/
+!/games/particle-clicker/game/
+!/games/packabunchas/game/
+!/games/quake-1k/game/
+!/games/trimps/game/
 /games/*/*.swf
 *.iso
 *.cso

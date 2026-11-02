@@ -1,0 +1,45 @@
+{
+  "id": "particle-clicker",
+  "repository": "https://github.com/particle-clicker/particle-clicker",
+  "commit": "d6762d54eced10cca613262072fe5b44d157aa38",
+  "license": "MIT",
+  "notices": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/particle-clicker/particle-clicker/d6762d54eced10cca613262072fe5b44d157aa38/LICENSE",
+      "sha256": "f661127e4b66984661692614887e0f7b39c4650cb4535d34fada3848d8c304e8"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "particle-clicker/vendor/jquery.min.js",
+      "source": "https://code.jquery.com/jquery-2.1.1.min.js",
+      "sha256": "874706b2b1311a0719b5267f7d1cf803057e367e94ae1ff7bf78c5450d30f5d4"
+    },
+    {
+      "path": "particle-clicker/vendor/angular.min.js",
+      "source": "https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.17/angular.min.js",
+      "sha256": "91f121371c25d8438f0d6fd1f135898d1677633fce7ef25dd9fc73e5052763a8"
+    },
+    {
+      "path": "particle-clicker/vendor/bootstrap.min.js",
+      "source": "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js",
+      "sha256": "f971b901aeb9e55b07d472afee09bd5ae05159e1119dbd16d993e473565e7fc0"
+    },
+    {
+      "path": "particle-clicker/vendor/font-awesome.min.css",
+      "source": "https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css",
+      "sha256": "0fb1bbca73646e8e2b93c82e8d8b219647b13d4b440c48e338290b9a685b8de1"
+    },
+    {
+      "path": "particle-clicker/fonts/fontawesome-webfont.woff",
+      "source": "https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.woff?v=4.2.0",
+      "sha256": "199411f659f41aaccb959bacb1b0de30e54f244352a48c6f9894e65ae0f8a9a1"
+    },
+    {
+      "path": "particle-clicker/vendor/LICENSE-FONT-AWESOME.txt",
+      "source": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/v4.2.0/README.md",
+      "sha256": "3018aef83a555493f63ed03c50f7ee045911551f2094950610a01697817fb1bd"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+PLAYNOVA local recovery 2026-11-02.
+Removed integrations: /js/main.js, service worker registration
+Added local-only CSP and audio guard. Notices preserved beside the distributed game code.

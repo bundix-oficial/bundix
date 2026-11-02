@@ -1,0 +1,5 @@
+PLAYNOVA local edition, 2026-11-02.
+Original: https://htmlchess.sourceforge.net/
+Removed mirror advertising/tracking scripts: https://arc.io/widget.min.js#AhhMHcMM, https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7257238324060789, https://www.googletagmanager.com/gtag/js?id=G-P6V3QXEWMB, inline analytics, https://cdn.jsdelivr.net/npm/@widgetbot/crate@3
+Added local-only Content Security Policy and user-gesture audio guard.
+All corresponding game source files and original copyright notices are distributed in this folder under GPL-3.0.

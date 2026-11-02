@@ -148,6 +148,467 @@
         "src/tutorial.js": "992dbec0ec513504424d7c7c6c17d5391f1c3fb7ee9c0b5ee25e82e1df05645c",
         "src/utils.js": "c2c32dedb23519e35eca154601d9c6a0357ac579ddcc183065c8c3e665da4dd8"
       }
+    },
+    {
+      "id": "n-gon",
+      "license": "GPL-3.0",
+      "source": "https://github.com/landgreen/n-gon",
+      "licenseEvidence": {
+        "localNotice": "LICENSE",
+        "sourceNotice": "README.md",
+        "modifications": "PLAYNOVA-MODIFICATIONS.txt"
+      },
+      "runtimeScope": "Initial loading and movement/PGN interaction; no full playthrough. See preview/restored-games-runtime.json.",
+      "files": {
+        "bot.png": "870b558f0e5a24ce699b058e57d6a16cb99fe888f4c4218830f747cc333e85fe",
+        "favicon.ico": "9dd99fd6756ecdf4c28c3fd55ade4ebee701d5805d4cdf13a6fe4fc395a07e39",
+        "index.html": "61738fbe25bd5e1b92372b76cd25deb104ae91bd5b750db2e6b023751f3e9216",
+        "LICENSE": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+        "PLAYNOVA-MODIFICATIONS.txt": "d667fb2ac827c17db768187f651866a51bc4df7dbe53e96cb99c3b8910ad16fc",
+        "README.md": "20fec5c27504be418087942b989133a566fa1079d10ba29961a3ba0c5f03146f",
+        "style.css": "be749353a46a0a6e385bdf5879c6c2204618f5f42084f347e7275495c8339575",
+        "todo.txt": "568e1345264417ff4ef3163b79ed4d5a08545edcb4de552cac73c2560c4e3454",
+        "img/controls.png": "504839f05fa0e537d7d0961a7f7a6ae4e73ad2b201942b9255976dbc11d1b70c",
+        "img/n-gonbot.png": "e3ab8141fa5d59f62fbc197f12a97ce707fec84731a8c3cc5c9a61a0ecdde6a5",
+        "js/bullet.js": "2dcc85c760506910b25099f2e88fc3cdc56538e3948ab1a8794b5a6e29b45602",
+        "js/engine.js": "e7be67ec4336ebe10ede3648274c8f8db206a10326aafacce97f93bb4aa8ccdd",
+        "js/index.js": "13b68e384e0254b0c6e841e45273f34d0345c4d26a5d5042515a33510edf195c",
+        "js/level.js": "4558be1959af15b383e39dc51b9a5946f5fa8c556b604c335ae94e8d65977c9c",
+        "js/lore.js": "e32678d04c69db524a7ab673c2182e92dd8f2461726d8e81650a18a473f1cbb1",
+        "js/mob.js": "661af1301391c6e97da903937effee40859d3dd5028462bb1534ff7331e82bab",
+        "js/player.js": "8656bc19c0fc53071e392f8f515525aaa9cd12daa34ac7d637249ce3cc09a190",
+        "js/powerup.js": "32b5f1507e281eec9572cc09e8f990cc69510374e2750a124072a2157a136469",
+        "js/simulation.js": "51c800b845052d85d1ef9336a1c76aa9142798208f5685f71d40036de24a5851",
+        "js/spawn.js": "8e97ff3e629e9c91d94d8807c9d3d16da5cb53a72174bff1c34cc27d30aad1e8",
+        "js/tech.js": "f4345cc151a96c786ef1cc5ffcd5b05e304616c584aa87cc57ab3d406f64dc4f",
+        "js/visibility.js": "7a79edd73ef3d98e6d1ae0efdfe40a2843b0016a921d92e2c42c19b9c4742394",
+        "lib/decomp.min.js": "a0252e3a4eefb7b67ec43dc13025abc3b79e2fdebe9daa82dead0e4aa9f368c5",
+        "lib/matter.min.js": "394d80de2a9a9bf2a5a2e057fb678fa9bacfd6ffddb94f86bcfe3e6b51c41edd",
+        "lib/randomColor.min.js": "b70a647c6fbc0a77fb17f3a45b245c35a887a657dd75403c6ede2542019120a5"
+      }
+    },
+    {
+      "id": "chess-classic",
+      "license": "GPL-3.0",
+      "source": "https://htmlchess.sourceforge.net/",
+      "licenseEvidence": {
+        "localNotice": "license.txt",
+        "sourceNotice": "chess.js",
+        "modifications": "PLAYNOVA-MODIFICATIONS.txt"
+      },
+      "runtimeScope": "Initial loading and movement/PGN interaction; no full playthrough. See preview/restored-games-runtime.json.",
+      "files": {
+        "chess.js": "56f3f18ec862330a0d3e908896a080767458734a6145a90385f6b9aa89330a6d",
+        "index.html": "34dc081baf22ed1453066a22e5872f4ca5d45807e63477dfeeb1216ac9887486",
+        "license.txt": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+        "PLAYNOVA-MODIFICATIONS.txt": "7e8549c670d5747b786fa895f4f4f532a37121fa00dad7649e9d2954297933e2",
+        "readme.txt": "dd757ebd1dfcb97fe2dd97b7866a2556544b602362cefaa92287b0bf9bd55547",
+        "sample.pgn": "0d3d31773f4ab390803f4efd05b42cf1272154238934627692304a6491dccbbe",
+        "solidView.jsfb": "0a89f7bb24f031a6482cdddb8eb11960c6bb6d6b0e49f4acd7aec3dd9bed186b",
+        "canvas3dengine/camera.jsfb": "faa6607588f1f8ad365551ebc1feb933aac820c6fbf9032a48f05f3244352770",
+        "canvas3dengine/light.jsfb": "d26346c4e2e36376ddbd52c0bced90a3cf73744735c3abf2bb5682d8de3e8e06",
+        "canvas3dengine/matrix3.jsfb": "042b55d3d7cf93355f7ab0e9dec8cb68c2747d2998e3187402ecf7640b7b236a",
+        "canvas3dengine/mesh.jsfb": "2e2a9480dfb10ec103e59d3ede4d6ef1d33437ee49366f0f5eae2ab9a8fbcdc3",
+        "canvas3dengine/scene.jsfb": "a66cfaeb9edb2bdfca3067628d66ef701336765c9b42ae56f3ab3acbdd094b34",
+        "canvas3dengine/vec3.jsfb": "bf509ec5469ff468243eb677b277dfe0f9367b9d15f5ee783bc3f3c66c40f7fe",
+        "common/xhr.js": "e6383056ff8418ea5b7460acda392257a943e100abdbe6a3af41852d1a965ec6",
+        "css/chess.css": "cfc9c9a216991e467471bda2983f6c0292a722c32621a8db8f9d1de1bfa9d63f",
+        "icons/backward.png": "6b34262e1c9294a84a1a8b4e894821a6ac4698df2ae45a474e8a0727f8dbcfb2",
+        "icons/forward.png": "095376009f720041e8cea61c481c0d39962a403c110afbc396428379d5d83309",
+        "icons/go-next.png": "caa9d91446c612f599d1f8ade674e592ed99ea66bf479c669c3ba1ca24374f84",
+        "icons/go-previous.png": "505e3bf0b830b767f30d4893931415e89a7e40c069e4f0f86545b1fe139ac44e",
+        "icons/help-hint.png": "2e485bdff5dcb2f3d18c3efcc531a202f3c55dace60c3a691f73e37d8cd677bb",
+        "icons/play.png": "9ac27fe61aee732d27ae51698c453c507ee6fdb2dc1785f7b26b241b918e9491",
+        "icons/reverse-play.png": "f796c37da06df8d3be734f14bd15a53e4b6508ac604ef97a7c097aa2bc21cc20",
+        "icons/skip-backward.png": "b42f53a5e042594ca0ea765f019e3ab0a1a10bd8e78dcf79b8a02e2d4019c057",
+        "icons/skip-forward.png": "d04c9696bd5d606211d2eaa8d8e67220efc2c8c2b0ac2db10a217beeaa4e3399",
+        "icons/stop.png": "3fc219f6b7b9057f82105734af6f58616d3d8c9f0faf52b2486ed4db3cdd8683",
+        "meshes/bishop.jscn": "f9d88a105d2699bd5b14a2b66d365e9d00ca2870014ec4290d2a7c5e37815e27",
+        "meshes/board.json": "4ca8d692305641d5ac9d0bcd741e44d1b90d50c232340183a6aafe50514a44f4",
+        "meshes/king.jscn": "469b2a2ce3102b2c24f6bf797d857c9dac0d98c4175fe372e1a8666057a3185e",
+        "meshes/knight.jscn": "8fa0cb88e209b8de6c39ca6493a2a6dbacf1ac51c99758aa3de3f0ac7b284375",
+        "meshes/pawn.jscn": "2393abb4c8433d8cdb05a62f6d35faa8f66388e573575681f24c6d6e5ff463d2",
+        "meshes/queen.jscn": "00a0f7090f01b527a7550f492169177909b380bf81b7ee140d3fee66f3893dde",
+        "meshes/rook.jscn": "858b91e7127c56ec93ef6de0ee29a36a377ad18b6a335ef84e2b2236ce3ca385",
+        "skins/gnomechess.css": "ad763c17055f71a3b82b803133d5ab333d9e60a1ce713dff1f9c932e24062e58"
+      }
+    },
+    {
+      "id": "chrome-dino",
+      "license": "BSD-3-Clause",
+      "source": "https://github.com/congerh/dino",
+      "licenseEvidence": {
+        "id": "chrome-dino",
+        "repository": "https://github.com/congerh/dino",
+        "commit": "3acbd11bcf9ef669594568ebbc78a9b90429f9e3",
+        "license": "BSD-3-Clause",
+        "notices": [],
+        "licenseOrigin": "https://github.com/chromium/chromium/blob/main/LICENSE",
+        "localCopyrightNotice": "game.js (Chromium Authors 2014)",
+        "dependencies": [
+          {
+            "path": "chrome-dino/LICENSE",
+            "source": "https://raw.githubusercontent.com/chromium/chromium/main/LICENSE",
+            "sha256": "368cca1106be99d39ecd32a38d8305585d802a475effb66380b91ffc9bcf709b"
+          }
+        ]
+      },
+      "runtimeScope": "Initial loading and interactions; no complete playthrough. Silent Chrome, external requests blocked. See preview/recovery-batch-runtime.json.",
+      "files": {
+        ".gitignore": "3f76d6f742f671ecd3a4e5c0193772cc86e05c0b29b0ef6ff33020c3de688960",
+        "appmanifest.json": "7d6d7eb87462d34a638167bcd1b79b961bb7b4986f82ef5984386ec49a74be71",
+        "dino.css": "ab9b0d84ef453d497df0a6377422931250e3b93e56ea0a8d6470d2d847a79811",
+        "dino.js": "4b5da45599fb55a83984fc4953dbbb17e3fd23f775d528f0358986c1fa657dc2",
+        "dino.min.css": "14efc9da16aa65c6e51a150194f48c61afb70e7579d2bf232d5149efbc1a50b0",
+        "dino.min.js": "caadc6700186a99efbc8aeeabbf980e7138524f7d8ceb2d3e6fe3c6ba4d18841",
+        "favicon.ico": "14b260195cbf422a01dd3cc97298823691f09d904e23890f2e7f9293d68df987",
+        "game.js": "34395a4e2b73bdc653d52c48f726e1d411005306d45372713ab595b3d56bb1e9",
+        "index.html": "beb4eb70b03f9331437649e9f6559002a54ed0713d542769a6ecf9bdf7694449",
+        "LICENSE": "368cca1106be99d39ecd32a38d8305585d802a475effb66380b91ffc9bcf709b",
+        "offline.js": "6c3740720f5fa4c41cc9845a0f9687aca88998f93e4e25ada973862ab441201d",
+        "PLAYNOVA-MODIFICATIONS.txt": "74ebdb9897842eaba4e47315666a412dfe15d97faa8fad87bc929796965b2533",
+        "PLAYNOVA-PROVENANCE.json": "2d16846a33a308e60e0fc6e4741b1d89d7740faa103a7a10d6f260694d330178",
+        "README.md": "913b72fbdc2e6b1b0b1b07346d6e2917d09a9581b67d75a3af7dd364a6e6fff0",
+        "register-sw.js": "f987f0eb9d36b61ad0b41c05e82d16d4d55d607a13778abf6bc992206843bb57",
+        "style.css": "1d1f7e43965b9c36a27424f051f03a8c41178d05cae1ad28ce402857df1c8f05",
+        "sw.js": "ab1990339b12a610cd87b22d01a90380bd70815ea1f29dcffaf6a5a083fd3caf",
+        "icons/icon-114.png": "2f21f7bdbe64694a697ff0b307ae3b7f57306debd0dccdf1aa1a11f3955e1872",
+        "icons/icon-128.png": "2a3c64c0866ea0f0f1664a34c4ec83960a28fe045e8c63ffa8d2341018cdf9f2",
+        "icons/icon-16.png": "fed6faed018aca8ae8b3c785cf6d131d2c113cf5f92131db125ce2fbbfc1a513",
+        "icons/icon-256.png": "7822ed095af7a8e5f84daf89efeeaec12a425701629c08615e37ae1b2bf5a998",
+        "icons/icon-32.png": "3165a32cb3faa844f7a50e937b7220a73c3c7a2c95e2ca0f041b80534060c780",
+        "sounds/button-press.mp3": "c29ea1bb6353a9bd16753d3f46957f0c80fb08769cc945d83b20d3c48470236e",
+        "sounds/hit.mp3": "4a618da307a0e5807de7782693113328bf0bd2bcdedc1029a7ed5c545354f4a1",
+        "sounds/score-reached.mp3": "aefde54f74f06c77ec4a821f40a91502601fb0efb58b90a4a393bcadca04a33a",
+        "images/default_100_percent/100-disabled.png": "eaad2cef483bc556e8db0486dfc40d16508d2b41868a358094ff3fb5f41db1b2",
+        "images/default_100_percent/100-error-offline.png": "e306705c996676db01f4072ed3d6f33d89089a848ab0b2a0ba07a2d866ec309f",
+        "images/default_100_percent/100-offline-sprite.png": "01c3692a6901b3e64b5a297e838cadc207368b096a1491de6373e43ed776c9a5",
+        "images/default_200_percent/200-disabled.png": "62cc4098387ae2b2edb6b0bbfe74a172913cad43e084f3e5559c9d53ded07a8a",
+        "images/default_200_percent/200-error-offline.png": "b3011fd16e43cd860b9782c4eafe77c1cc40da2e0f6e2e5ea547d98d6efac879",
+        "images/default_200_percent/200-offline-sprite.png": "a86fb46f74eccd1cafc10601e1db03099e6ffc24f9ea61a0956f2f3a3eda3aca"
+      }
+    },
+    {
+      "id": "particle-clicker",
+      "license": "MIT",
+      "source": "https://github.com/particle-clicker/particle-clicker",
+      "licenseEvidence": {
+        "id": "particle-clicker",
+        "repository": "https://github.com/particle-clicker/particle-clicker",
+        "commit": "d6762d54eced10cca613262072fe5b44d157aa38",
+        "license": "MIT",
+        "notices": [
+          {
+            "path": "LICENSE",
+            "url": "https://raw.githubusercontent.com/particle-clicker/particle-clicker/d6762d54eced10cca613262072fe5b44d157aa38/LICENSE",
+            "sha256": "f661127e4b66984661692614887e0f7b39c4650cb4535d34fada3848d8c304e8"
+          }
+        ],
+        "dependencies": [
+          {
+            "path": "particle-clicker/vendor/jquery.min.js",
+            "source": "https://code.jquery.com/jquery-2.1.1.min.js",
+            "sha256": "874706b2b1311a0719b5267f7d1cf803057e367e94ae1ff7bf78c5450d30f5d4"
+          },
+          {
+            "path": "particle-clicker/vendor/angular.min.js",
+            "source": "https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.17/angular.min.js",
+            "sha256": "91f121371c25d8438f0d6fd1f135898d1677633fce7ef25dd9fc73e5052763a8"
+          },
+          {
+            "path": "particle-clicker/vendor/bootstrap.min.js",
+            "source": "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js",
+            "sha256": "f971b901aeb9e55b07d472afee09bd5ae05159e1119dbd16d993e473565e7fc0"
+          },
+          {
+            "path": "particle-clicker/vendor/font-awesome.min.css",
+            "source": "https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css",
+            "sha256": "0fb1bbca73646e8e2b93c82e8d8b219647b13d4b440c48e338290b9a685b8de1"
+          },
+          {
+            "path": "particle-clicker/fonts/fontawesome-webfont.woff",
+            "source": "https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.woff?v=4.2.0",
+            "sha256": "199411f659f41aaccb959bacb1b0de30e54f244352a48c6f9894e65ae0f8a9a1"
+          },
+          {
+            "path": "particle-clicker/vendor/LICENSE-FONT-AWESOME.txt",
+            "source": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/v4.2.0/README.md",
+            "sha256": "3018aef83a555493f63ed03c50f7ee045911551f2094950610a01697817fb1bd"
+          }
+        ]
+      },
+      "runtimeScope": "Initial loading and interactions; no complete playthrough. Silent Chrome, external requests blocked. See preview/recovery-batch-runtime.json.",
+      "files": {
+        ".gitignore": "2b2dd9ea3a70b9c9ff08d44d088f231c009c6844f6b8d94984732fe075dd16fb",
+        "bootstrap-config.json": "5b51239c2b81df2c16ba1b38b18503bff87b888765056a887e89392e2651a295",
+        "favicon.ico": "b4bc54b63aa6da5e1f63f8c01769c729181673070326167d313dae181944e864",
+        "index.html": "bdfd97183f7f78e65ba3845150b0941c5f47d1f16e12c35b1b77bd7291c2c4b1",
+        "LICENSE": "f661127e4b66984661692614887e0f7b39c4650cb4535d34fada3848d8c304e8",
+        "PLAYNOVA-MODIFICATIONS.txt": "a647be8587e7bbd7b66a94f67f7e771241e0a7fa5f652123683f457564e5e08d",
+        "PLAYNOVA-PROVENANCE.json": "3278c00cf41964396f06d51333291a6e83244681a2380f4cd46af7d0d3a16ffa",
+        "assets/favicon.png": "7d04b2841a5f753775ca110959d73cc2f8de393342e9c6ca0adf1106d1c2d01c",
+        "assets/pc32.png": "084226701b65a70df3c59b9721f068c0e36d483248c76e124224d3a192962391",
+        "assets/pc32@2x.png": "b53d42e650712ef41a7c5283833416ef19efb969c58ddd10bbe8aae9bcd19789",
+        "assets/pc32sw.png": "ee35b551f511c9014c016f359c9d10e30bf38964fafae3d0bf264b2806c9984b",
+        "assets/pc32sw@2x.png": "3bcb26a03e4684df34a5f240bc8a9a1a1d922f0f36500fc521afae9281da724c",
+        "css/bootstrap.min.css": "7bffa25a009bdc653c5a0e270c54cc05d8a60625af03e670d5f1b4ed254b2a25",
+        "css/style.css": "47b75193027d7e225f3510afcd57ed42b1adb38226ebf90c2320036e0c287a23",
+        "fonts/fontawesome-webfont.woff": "199411f659f41aaccb959bacb1b0de30e54f244352a48c6f9894e65ae0f8a9a1",
+        "fonts/glyphicons-halflings-regular.eot": "f495f34e4f177cf0115af995bbbfeb3fcabc88502876e76fc51a4ab439bc8431",
+        "fonts/glyphicons-halflings-regular.svg": "733f5a8fb376b3858e4c8c4bcd9df1519ad33213542abbdcd52a96fdf4be3776",
+        "fonts/glyphicons-halflings-regular.ttf": "bd18efd3efd70fec8ad09611a20cdbf99440b2c1d40085c29be036f891d65358",
+        "fonts/glyphicons-halflings-regular.woff": "fc969dc1c6ff531abcf368089dcbaf5775133b0626ff56b52301a059fc0f9e1e",
+        "html/b.html": "93c9eb343611b1b78706d083294623fd931a327855971a88865459ad3d4cecec",
+        "html/BBbar.html": "627105f86f6762e4ee6068f2080fbeba3f59187c8b99f8ee3eabe0525d259532",
+        "html/CPV.html": "aba6c34b2658cf1d2ced604cb9953316b8acada4e24c5f8bc4f136383ed67128",
+        "html/detector.html": "826d639f6f18e2b2ca0f5741a308adfb0e9072bd18f32d86d2f2ece26a3ada14",
+        "html/Dstar_s.html": "015f2e87a78569fdeaf07a789c7db53ecc85ef2933076fae01d3d5a253e7ae21",
+        "html/gluons.html": "1742a8f45b2b35e1cb5a501485082949f86e10489dfe59dcf003b1628139f4cf",
+        "html/H.html": "fb29ad52e54d34c52d354b005d8284759f74be80a7183e9b88a10d983a078fa7",
+        "html/Jpsi.html": "eae2c642617a6df6464a13758179539538d4ae71ca925d7675f64c3dcd8543df",
+        "html/tau.html": "500209e70be6e0d6f3dd22b9ba3229b94c976f34b3b2a847ec30bc33b878e9bf",
+        "html/top.html": "492e69b24a80cd66f67c77bdf0f732981c6f638845c4d6cd1d843fef026ddf96",
+        "html/weak.html": "1c8a1387f49dc2a8ef2b8bc9fcffdf3561474ba656ea6ef14acf1e4fe3670c0c",
+        "html/Xi_b.html": "0c36d68450b24d926d7cbebb28abe11073ec1f11ccc4ca4df2b56223a2cd6a0c",
+        "js/analytics.js": "13f0491f732498ff45cb6886294dc61cc4a2d3a588fe9c59e041275f3039373d",
+        "js/app.js": "bfb27b79c0fda4ca40a39257a84766c93fc6cbb233245c9aa024a1e442434762",
+        "js/detector.js": "1d605909ec4486452c1bddf8c3fe9cf88289e72aab9d492e4cea9dbd1ab00044",
+        "js/event.js": "b18adb454e4cee55ac1cfce21039fdfb87e4cfbb9f3cf2c91152fb93389b9e19",
+        "js/game.js": "82d7c333b77dc7eedbe1a673aa441ee840dc8b449168a2ad3f6175b52b2ea496",
+        "js/gameobjects.js": "1e41e71db7a48428bdfe6708714b15251f4c9fd06ef827dd80d1f48394a305c7",
+        "js/helpers.js": "2fd36d1b70717886aac5c0082e2095239cb4081fbef28c1fde47f06c6e103a28",
+        "js/histogram.js": "fdbed06cc8791b52a60cb7e05f9f265ee1435c32dbfeec0d4fc65e20b1184001",
+        "js/storage.js": "58feab20be27288f44d798955a849a8d4ac469c33c725a154ba390197fb4b83e",
+        "js/ui.js": "65879e661fd8d3d8fed790482346edc6a06612deedc866f9cc0e452246c843f6",
+        "json/achievements.json": "ed4f712fbd0ecb3fa2c01f3cb9d7c964d5b4a3e15d417c9501e5201efd21dfbd",
+        "json/research.json": "219080df264c975f897d9eae07fb41b8d67c369c44d0b9ecd8c01efdd472ad9e",
+        "json/upgrades.json": "f14615da9e284615f4141b054b38b2870543d9ea78fdb6dd0280457941d17e68",
+        "json/workers.json": "c399fd62a6344c8b014ca20cf124ab8750ed3a3abc5aa6032cbbe21bf95d8d12",
+        "vendor/angular.min.js": "91f121371c25d8438f0d6fd1f135898d1677633fce7ef25dd9fc73e5052763a8",
+        "vendor/bootstrap.min.js": "f971b901aeb9e55b07d472afee09bd5ae05159e1119dbd16d993e473565e7fc0",
+        "vendor/font-awesome.min.css": "c5d4d4eaac5fd7f18ba4d8a0f5f9a8b3f6cf19bc76034c6af9437260e98b725e",
+        "vendor/jquery.min.js": "874706b2b1311a0719b5267f7d1cf803057e367e94ae1ff7bf78c5450d30f5d4",
+        "vendor/LICENSE-FONT-AWESOME.txt": "3018aef83a555493f63ed03c50f7ee045911551f2094950610a01697817fb1bd",
+        "js/external/canvas2svg.js": "914627f83ec110eba13a2f794814866d06de477ead9353dbb38f226dfae8e0bf",
+        "js/external/fastclick.js": "5c80f3dd3b68de52fd01b563114082c76b308ad00430afde865f31cfc1e66281",
+        "js/external/jquery.cookie-1.4.1.min.js": "588019775ffcc3fef87227e53568450e507d6bf643a9d8392f057d65eaf8d0b1",
+        "js/external/retina.js": "79cc21acb0a37338cc688ec37968f437bc7e2de3fe953daf45b91d562deb01d9",
+        "assets/info/b.png": "29dd3964cf2ca17e4532890275c55411c1de919d2243b4ce360096639c529122",
+        "assets/info/cpv.png": "c4b891bae4093430c83051c674b9954a693c0eba6289ef470adeec37b8de6eb7",
+        "assets/info/jpsi.png": "5cec008d777acc5f0d37420c6b9ab70ca59a87bf8e2ee672e90f87a1b6779f1a",
+        "assets/info/t.png": "45cdddaea8be444e43d53d4fc90d3a13bf2fd44794e16a54e4d097a057e75b35",
+        "assets/info/tau.png": "eb1edff861cb292e7ce3a81af7fc010fbb677bb7533be477b2fbb0e498308877",
+        "assets/info/w.png": "531eec669735ecf021bd97150c75db2911ac20616e22821a83c4a1caeb464a7b",
+        "assets/mobile/icon-72.png": "9af7ffc2c027aa8e81d648733e59f588c1792d9c19c9fdeccde7a9dba2710cd3",
+        "assets/mobile/icon-72@2x.png": "75c64c7f544e767e20f83163e026580ddcdc54a269faac6f50c081d7198973e5",
+        "assets/mobile/icon.png": "747ca5731f76cd01f27012448e05645d733a6c63935245d0c5c558c22f895412",
+        "assets/mobile/icon@2x.png": "0410ab33afdc502d34b31a6c1d9622161f842836a88944577335a126ed0be2cb",
+        "assets/mobile/original.png": "8333973bbdea4c62522ca18f6fff4b5d7b191b0a3dccfed6d00532989d033f2c",
+        "assets/icons/png/b.png": "b56f5d26a6256e1bf40ab213475fcb576d2369c2c6956d3b5f3ff7530bef1d3a",
+        "assets/icons/png/b@2x.png": "5dff47a951eff8c92ebd8bf5491074f113afb9e49bc5de7bb02dc50aad0b8c91",
+        "assets/icons/png/BBbar.png": "c004f7a29a209702f8cc4dee07853191b53756cc3342e1da41a470966b5825b6",
+        "assets/icons/png/BBbar@2x.png": "eb30a914df8fa1763667a61a60503dcf91ae55de68b44c78431cb3ee53daa2ff",
+        "assets/icons/png/CPV.png": "0cafc3faa8e956be1bc81fdf39ff7306e5455dc974f896c2d18c33118b6d90b4",
+        "assets/icons/png/CPV@2x.png": "856dd9725d926ff2d979bb272bd8a3a997473f5610839b27bced1f1ff8dc2e33",
+        "assets/icons/png/Dstar_s.png": "f8f5fc93a1d77929414f07df9070c5117fc7a3a118502f21f570121bd41ac788",
+        "assets/icons/png/Dstar_s@2x.png": "a33fb3bc1f6a9d7487fb41794c61b2aefffc2f0f5defb979c45a6fbeb6d539a8",
+        "assets/icons/png/gluons.png": "30d75a8984c2448c466a96829f5349a0305e87ca786c661755e0ce4e464d5343",
+        "assets/icons/png/gluons@2x.png": "6348662062b5d6763ca61e0ab1c8878fdb8b9fad9fc26bb64f8d79f8bdd4f251",
+        "assets/icons/png/H.png": "35453aa11fb9d5d679de9137a4872d0cc164b1cbd303285334545140cd072596",
+        "assets/icons/png/H@2x.png": "7e39308eea97f29bc8309d5a124fb67728db9c9d795c385954a4fd40aa1db39b",
+        "assets/icons/png/Jpsi.png": "e350a23678e2c3c533aefcf3f3c891b20987ffd8a6a33995546b43b9fd0ad712",
+        "assets/icons/png/Jpsi@2x.png": "0667cf129c27a5de2c4f72ac92099c1aaff3dca52bdd08d439e29947ab096d07",
+        "assets/icons/png/t.png": "3f3fb4e38ab6143179177e7c4b4423c2acd6c051c42d58dd5a24e20ce9577a18",
+        "assets/icons/png/t@2x.png": "be97859b0165639ec12b039e98f1737ba0161306c93da0c07ee64eeee3b1e6f0",
+        "assets/icons/png/tau.png": "0995857d24545081370b345d7492049d74d50b8d0fc6d89dc9ac3501228a210f",
+        "assets/icons/png/tau@2x.png": "e664334e100b00b0d1fa946ca14deaaea26939fe0bf7bd49e892f695694545b4",
+        "assets/icons/png/unknown.png": "9f6ce32d5ae221cdfc7a775770766bc146d6392c0c634d1e3d13d12d93b5964d",
+        "assets/icons/png/unknown@2x.png": "ac3d8e2fc6a54049f6dd7e1d1274b9d25dae4d3cd1b566f6f89eb0bc6300ccaf",
+        "assets/icons/png/weak.png": "0f575a2ecc2da29eac8fece74af992baaff63e25688058903e4d94f1f5a4c2f0",
+        "assets/icons/png/weak@2x.png": "aaf466ae6d7519173bf4827a17bef2d07b2bd5acba73a3f8bf3fc6713cf74b20",
+        "assets/icons/png/Xi_b.png": "37c665d64155b5bdb0607ce2209cbf4a5bb18a103da0cd9b61a31fff60dcd23d",
+        "assets/icons/png/Xi_b@2x.png": "2590a50b61c669fb551dc4907f853bf1af8ced60841de18d67c9816a0f5d1d8f",
+        "assets/icons/svg/b.svg": "e6ef44e756c6f8d692340b55ca96d014ba53c6d46cea506d67a2d07014bc3b14",
+        "assets/icons/svg/BBbar.svg": "529b42bf33ca624ff1d33e4ec3ac2dab1d4ebdf20b3f727a1d430db2627b4066",
+        "assets/icons/svg/CPV.svg": "c669d026b3072b512df4a5130c2c5b877a139b68ed18ea83d96b596e660feb57",
+        "assets/icons/svg/Dstar_s.svg": "3cffaa9e6b5df9099a2caab25ca654c03bcbabff50661d7dc6fd57e061677f16",
+        "assets/icons/svg/gluons.svg": "58258310690b6f3011f6e882284b24fb5e5af54e08cc0438b57dbf0a200f5564",
+        "assets/icons/svg/H.svg": "e0f0144abd133598c85c07a1f4188a44122ff4b350e92017e3ee25898216b80f",
+        "assets/icons/svg/Jpsi.svg": "338938751a088558d98d42eb1098e430dad0ea7f9c79876551ef5fe2adf79ce3",
+        "assets/icons/svg/t.svg": "104af228b567e6bff360c382e4582b6f80c00fd50bc6f8aea024ffcacc0d1d49",
+        "assets/icons/svg/tau.svg": "023776d93367c364d88651f231bdc0bb342e306c1f8b0bab3eae76618b7e6fab",
+        "assets/icons/svg/unknown.svg": "0bbda3825edb722f1857d4f535a76d79b3e3cbd3d02fe0ae9428262849db33b3",
+        "assets/icons/svg/weak.svg": "a0cff612d831538e9816a82605997b17789aaa1fdf1dabd26b59fe015c3f26f2",
+        "assets/icons/svg/Xi_b.svg": "fefbf619785a6cfca7698eae9061fbf01ae1f873a57038ad351658e0f5cebc0d"
+      }
+    },
+    {
+      "id": "packabunchas",
+      "license": "MIT",
+      "source": "https://github.com/MattiaFortunati/packabunchas",
+      "licenseEvidence": {
+        "id": "packabunchas",
+        "repository": "https://github.com/MattiaFortunati/packabunchas",
+        "commit": "fc4e6331fa4b8c17cc341094e9027bccd02f463f",
+        "license": "MIT",
+        "notices": [
+          {
+            "path": "LICENSE",
+            "url": "https://raw.githubusercontent.com/MattiaFortunati/packabunchas/fc4e6331fa4b8c17cc341094e9027bccd02f463f/LICENSE",
+            "sha256": "d655211d95e898fbe34991f52377dc62d08a935dbaafc00f766a538ec37c2ca5"
+          }
+        ],
+        "dependencies": [
+          {
+            "path": "packabunchas/LICENSE-ZZFX.txt",
+            "source": "https://raw.githubusercontent.com/KilledByAPixel/ZzFX/master/LICENSE",
+            "sha256": "3cc22a9ed0b1dd02189c1b6f4edb14847623f043589cc78b24ab839ef09b6e36"
+          },
+          {
+            "path": "packabunchas/LICENSE-ZZFXM.txt",
+            "source": "https://raw.githubusercontent.com/keithclark/ZzFXM/master/LICENSE",
+            "sha256": "ce94b9d9ec1f26f2badf6269f6fd5833ab336cf4c3c0ab7743eb2a43122510e4"
+          },
+          {
+            "path": "packabunchas/Readme.md",
+            "source": "https://raw.githubusercontent.com/MattiaFortunati/packabunchas/fc4e6331fa4b8c17cc341094e9027bccd02f463f/Readme.md",
+            "sha256": "95b478642e96c614ef746dabb68646baf6f239ed91bad39803933a90d56a33f3"
+          },
+          {
+            "path": "packabunchas/index.html",
+            "source": "https://raw.githubusercontent.com/MattiaFortunati/packabunchas/fc4e6331fa4b8c17cc341094e9027bccd02f463f/index.html",
+            "sha256": "258fcff5b4fb2ad0a61ddf1ed1eaac521d51cd752d357e206d17188191fb1ed9"
+          },
+          {
+            "path": "packabunchas/game.js",
+            "source": "https://raw.githubusercontent.com/MattiaFortunati/packabunchas/fc4e6331fa4b8c17cc341094e9027bccd02f463f/game.js",
+            "sha256": "120022f7676bc060b58c8ae8e53ed155952d8e8b1b0a53a0e379ca879eb36eab"
+          }
+        ]
+      },
+      "runtimeScope": "Initial loading and interactions; no complete playthrough. Silent Chrome, external requests blocked. See preview/recovery-batch-runtime.json.",
+      "files": {
+        "game.js": "120022f7676bc060b58c8ae8e53ed155952d8e8b1b0a53a0e379ca879eb36eab",
+        "index.html": "c1b3f563325967c404260766d38217b192fc5c29e3093ae61371cc88845c8fbc",
+        "LICENSE": "d655211d95e898fbe34991f52377dc62d08a935dbaafc00f766a538ec37c2ca5",
+        "LICENSE-ZZFX.txt": "3cc22a9ed0b1dd02189c1b6f4edb14847623f043589cc78b24ab839ef09b6e36",
+        "LICENSE-ZZFXM.txt": "ce94b9d9ec1f26f2badf6269f6fd5833ab336cf4c3c0ab7743eb2a43122510e4",
+        "PLAYNOVA-MODIFICATIONS.txt": "134bcedbd238e98b0890f9d6f49d542efb300a6eaba07a51b846a758068bcf9b",
+        "PLAYNOVA-PROVENANCE.json": "6096f760093233fdb702678b7bf427ceacf0929f0398f44348be2d7dcfbb73e1",
+        "Readme.md": "95b478642e96c614ef746dabb68646baf6f239ed91bad39803933a90d56a33f3"
+      }
+    },
+    {
+      "id": "quake-1k",
+      "license": "MIT",
+      "source": "https://github.com/phoboslab/q1k3",
+      "licenseEvidence": {
+        "id": "quake-1k",
+        "repository": "https://github.com/phoboslab/q1k3",
+        "commit": "8ee934856c3f5de3c584724b9dd554314a911694",
+        "license": "MIT",
+        "notices": [
+          {
+            "path": "LICENSE.md",
+            "url": "https://raw.githubusercontent.com/phoboslab/q1k3/8ee934856c3f5de3c584724b9dd554314a911694/LICENSE.md",
+            "sha256": "749bb38c5bf10c7d851390d467f7a3d328aa75543c1008368ffa483a901eec3b"
+          }
+        ],
+        "dependencies": [
+          {
+            "path": "quake-1k/SONANT-X-SOURCE.txt",
+            "source": "https://raw.githubusercontent.com/phoboslab/q1k3/8ee934856c3f5de3c584724b9dd554314a911694/source/audio.js",
+            "sha256": "c8bc8ffedaddb24c2d5d2cfdb5b478661284177d4fdf46a73492a2d5b7494b70"
+          },
+          {
+            "path": "quake-1k/README.md",
+            "source": "https://raw.githubusercontent.com/phoboslab/q1k3/8ee934856c3f5de3c584724b9dd554314a911694/README.md",
+            "sha256": "205e51de787dd3131b965012bd12dde1293193d786ebb93a269728053cde5614"
+          }
+        ],
+        "runtimeOrigin": "https://phoboslab.org/q1k3/; l and m match the previously downloaded assets byte for byte."
+      },
+      "runtimeScope": "Initial loading and interactions; no complete playthrough. Silent Chrome, external requests blocked. See preview/recovery-batch-runtime.json.",
+      "files": {
+        "index.html": "ef7155625aa40f4bad432f9176eb5928df2f03382f88734cd432066338c40346",
+        "l": "f3e89b9c58d343dbcf16803adcfab0f5df5fd5146b533faa10c98a1ab31f7dbb",
+        "LICENSE.md": "749bb38c5bf10c7d851390d467f7a3d328aa75543c1008368ffa483a901eec3b",
+        "m": "7cf7e7cd8279ec527bf51cf5bcfc85fee8e7c0a09e35ac5610f8afa1fa0cc60d",
+        "PLAYNOVA-MODIFICATIONS.txt": "134bcedbd238e98b0890f9d6f49d542efb300a6eaba07a51b846a758068bcf9b",
+        "PLAYNOVA-PROVENANCE.json": "97489bd57c4397b9f155c3428b36b158382c6c366b8150330aeb72d3b6a93f3d",
+        "README.md": "205e51de787dd3131b965012bd12dde1293193d786ebb93a269728053cde5614",
+        "SONANT-X-SOURCE.txt": "c8bc8ffedaddb24c2d5d2cfdb5b478661284177d4fdf46a73492a2d5b7494b70"
+      }
+    },
+    {
+      "id": "trimps",
+      "license": "GPL-3.0-or-later",
+      "source": "https://github.com/Trimps/Trimps.github.io",
+      "licenseEvidence": {
+        "id": "trimps",
+        "repository": "https://github.com/Trimps/Trimps.github.io",
+        "commit": "b9edb1dfee270ebf81bef8d934dc71276bf8d963",
+        "license": "GPL-3.0-or-later",
+        "notices": [
+          {
+            "path": "license.txt",
+            "url": "https://raw.githubusercontent.com/Trimps/Trimps.github.io/b9edb1dfee270ebf81bef8d934dc71276bf8d963/license.txt",
+            "sha256": "c03cea027b4b40e4402fabd08557736727ec3d5bc54ad64ab6472de432198cad"
+          }
+        ],
+        "localGrant": "main.js and config.js copyright/license headers; included GPL-3.0.txt",
+        "cloudFeatures": "Disabled: SDK, login, credential storage and remote saves. Local saves retained.",
+        "dependencies": [
+          {
+            "path": "trimps/GPL-3.0.txt",
+            "source": "https://raw.githubusercontent.com/landgreen/n-gon/master/LICENSE",
+            "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+          }
+        ]
+      },
+      "runtimeScope": "Initial loading and interactions; no complete playthrough. Silent Chrome, external requests blocked. See preview/recovery-batch-runtime.json.",
+      "files": {
+        "config.js": "fd336f2c708e04a4b5f6d57961e7a66fb25edd8a71e7190a78e4d84e142b55a3",
+        "decimal.min.js": "8738a9f7d08e8d89ac508f431c0c29ab103ba30d0442a5adc7be6ad20a324a38",
+        "favicon.ico": "94bacd856a68a555647247ce371d6547cdbd9a4c2d9fe6ff7145e286de2e6458",
+        "GPL-3.0.txt": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+        "index.html": "0e9e6e472e89142a5855fb2d4daa7b30abe811428b25920a18ec652dd6ef3bc8",
+        "license.txt": "c03cea027b4b40e4402fabd08557736727ec3d5bc54ad64ab6472de432198cad",
+        "lz-string.js": "febf1ad6f3cfbbbe61f98bf0fce7c0a5ca69f09c94540020e01a52d4c7bf30fb",
+        "main.js": "5555f1cacc68106239a4050d387594271690bc0175726e11283511cca32436d6",
+        "objects.js": "2d0983d688c08326c904eeb90a40f3a7e410928fe49a53d4f87bafc8c50f6034",
+        "playerSpire.js": "b890b7aac3e0df41529e36915136ba861aa037ddd08fdc6fdc8962f6df7509ee",
+        "PLAYNOVA-MODIFICATIONS.txt": "ef2ca87a28021612d472d953dcd8c83eae84fc4c12c27c3732d4a64ee3ea272d",
+        "PLAYNOVA-PROVENANCE.json": "e597e27b12e5b120d2f01ee35b824d35e1bfdf606c9596bba573803038b763e1",
+        "updates.js": "566fb9fd626c1a7b0890c7af1fbd78691560061d13754d933b8ca8ac1e7784b2",
+        "css/bg2.png": "1845347d6cdbfc69cde93bc68e16a4933ec2d9abb77e5a88545b12ab50f8acb3",
+        "css/bg2_vert.png": "1e013e7f154edfcc2e8833d44550165485670cae94284b9a29845221dd961fa0",
+        "css/bootstrap.css": "fbb2b37abd816bba6b03f4afe0eab1ab31d3a3389baeb19ab73baceb45a69e9f",
+        "css/dark.css": "0b0d9135b3c579657a37c42c1600db301029db4b43e58f3ace92c824cc69d31d",
+        "css/gradient.css": "a71ff15404090b01d08c87af557b14b453d0e1fd90e9756ee8692b4576ae2b64",
+        "css/style.css": "12aadabaa1d157193d6919a6c9c7f38ad56957fd91c9b9d199aa642c4702288a",
+        "css/styleBak.css": "1209999fe794584f841cb54ffe2677083e0386f6a3511930d832c7d30d24bc60",
+        "fonts/glyphicons-halflings-regular.eot": "13634da87d9e23f8c3ed9108ce1724d183a39ad072e73e1b3d8cbf646d2d0407",
+        "fonts/glyphicons-halflings-regular.svg": "42f60659d265c1a3c30f9fa42abcbb56bd4a53af4d83d316d6dd7a36903c43e5",
+        "fonts/glyphicons-halflings-regular.ttf": "e395044093757d82afcb138957d06a1ea9361bdcf0b442d06a18a8051af57456",
+        "fonts/glyphicons-halflings-regular.woff": "a26394f7ede100ca118eff2eda08596275a9839b959c226e15439557a5a80742",
+        "fonts/glyphicons-halflings-regular.woff2": "fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c",
+        "imgs/kred_single.png": "990db8030664ae56cb9e2e7f5198136e5fbf15819ddb626e5c12d60cb342ae39",
+        "Playfab/LICENSE": "e421d793bb8751e9d92971185a857ab5725311ddcb6d4fc1262e5756938f049b",
+        "Playfab/README.md": "3a411f9ace1043c9c60ae2a1759a76266ef7ee1261f293f1e64131459ad89e18",
+        "Playfab/_arcconfig": "9d1608de743c2841486fb993159359f0c308b3feded42e1002e972d1e44289de",
+        "Playfab/_gitignore": "7c5b4118502f2bcc2c983d7524fdcf5ed47669b8ed72f95d2799f1f75c261538",
+        "Playfab/licenses/jquery-license.txt": "1246d7203404f3e1e8d3bb05c90eedeeca98b718b8b45fc7e0976a34685aa54e",
+        "Playfab/licenses/qunit-license.txt": "58449f287ea210970097aa1aabadb962e8bd437d5547cbf13d195d4915b6d68e",
+        "Playfab/PlayFabSDK/PlayFabClientApi.js": "1ac82982f8f2fc688fe21d89cf4475d9c9d54536027f54b366ed011e4e6f970c",
+        "Playfab/code.jquery.com/qunit/qunit-1.19.0.css": "8f5a3a5ba350ebf43a9a6a99581ddc881425582557b05309e64278e3df386e38",
+        "Playfab/code.jquery.com/qunit/qunit-1.19.0.js": "b15501331bae27b5fd3357c436a04e63e26411bad1fdc8140463676ca9a02fae",
+        "fonts/icomoon/style.css": "19b21e1177668401e2b48dd88096c01043ec033031ef6bcba8b5588a1f99f342",
+        "fonts/icomoon/fonts/icomoon.eot": "699f6314d9314c1eb954378252fd0f00a6c9e90dc83f00385529414a30a407e7",
+        "fonts/icomoon/fonts/icomoon.svg": "d98a9433e46cd6c5bc333d202c7b398eecac963ca32154dc269009789b8917d2",
+        "fonts/icomoon/fonts/icomoon.ttf": "95f5e943c0aa91007805f512d0eb8a0669a143fe91bd7d949929bb18e0df77a2",
+        "fonts/icomoon/fonts/icomoon.woff": "2a0ae30debaca64d94e2b43d6016b87a85ddb2596b5f0009c26063ae54e2fb06"
+      }
     }
   ]
 }

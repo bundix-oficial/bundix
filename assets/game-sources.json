@@ -1,0 +1,1531 @@
+{
+  "version": 2,
+  "games": [
+    {
+      "id": "pacman",
+      "title": "Pac-Man HTML5",
+      "source": "https://github.com/daleharvey/pacman",
+      "license": "WTFPL",
+      "notice": "games/pacman/upstream/LICENSE"
+    },
+    {
+      "id": "mario-html5",
+      "title": "Infinite Mario",
+      "source": "https://github.com/robertkleffner/mariohtml5",
+      "license": "Unlicense",
+      "notice": "games/mario-html5/upstream/LICENSE.md"
+    },
+    {
+      "id": "mario64-cleanroom",
+      "title": "Mario 64 — Clean Room",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/previous local copy",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "zelda-tribute",
+      "title": "Zelda 30 Year Tribute",
+      "source": "https://github.com/scottlininger/zelda30tribute",
+      "license": "MIT",
+      "notice": "games/zelda-tribute/upstream/LICENSE.txt"
+    },
+    {
+      "id": "flappy-bird",
+      "title": "Flappy Bird",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/previous local copy",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "slope",
+      "title": "Slope 3D",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/previous local copy",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "clumsy-bird",
+      "title": "Clumsy Bird",
+      "source": "https://github.com/ellisonleao/clumsy-bird",
+      "license": "GPL-3.0",
+      "notice": "games/clumsy-bird/upstream/LICENSE.md"
+    },
+    {
+      "id": "tetris",
+      "title": "Tetris",
+      "source": "https://github.com/jakesgordon/javascript-tetris",
+      "license": "MIT",
+      "notice": "games/tetris/upstream/LICENSE"
+    },
+    {
+      "id": "hextris",
+      "title": "Hextris",
+      "source": "https://github.com/Hextris/hextris",
+      "license": "GPL-3.0",
+      "notice": "games/hextris/upstream/LICENSE.md"
+    },
+    {
+      "id": "breakout",
+      "title": "Breakout",
+      "source": "https://github.com/jakesgordon/javascript-breakout",
+      "license": "MIT; audio CC-BY-ND-2.0",
+      "notice": "games/breakout/upstream/LICENSE"
+    },
+    {
+      "id": "fireboy-and-watergirl",
+      "title": "Fogo e Água: Floresta",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/fireboywatergirlforesttemple",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "bad-ice-cream",
+      "title": "Bad Ice Cream",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/bad-ice-cream",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "bad-ice-cream-2",
+      "title": "Bad Ice Cream 2",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/bad-ice-cream-2",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "bad-ice-cream-3",
+      "title": "Bad Ice Cream 3",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/bad-ice-cream-3",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "moto-x3m",
+      "title": "Moto X3M",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/motox3m",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "moto-x3m-winter",
+      "title": "Moto X3M: Winter",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/motox3m-winter",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "moto-x3m-pool-party",
+      "title": "Moto X3M: Pool Party",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/moto-x3m-pool-party",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "moto-x3m-spooky-land",
+      "title": "Moto X3M: Spooky Land",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/motox3m-spooky",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "papas-pizzeria",
+      "title": "Papa's Pizzeria",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/papas-pizzeria",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "papas-freezeria",
+      "title": "Papa's Freezeria",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/papas-freezeria",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "papas-burgeria",
+      "title": "Papa's Burgeria",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/papas-burgeria",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "papas-hot-doggeria",
+      "title": "Papa's Hot Doggeria",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/papas-hot-doggeria",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "papas-pancakeria",
+      "title": "Papa's Pancakeria",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/papas-pancakeria",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "papas-sushiria",
+      "title": "Papa's Sushiria",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/papas-sushiria",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "papas-wingeria",
+      "title": "Papa's Wingeria",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/papas-wingeria",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "papa-louie",
+      "title": "Papa Louie: Attack",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/papa-louie",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "age-of-war",
+      "title": "Age of War",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/age-of-war",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "stick-war",
+      "title": "Stick War: Legacy",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/stickwar",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "bloons-td",
+      "title": "Bloons Tower Defense",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/bloonstd",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "bloons-td-2",
+      "title": "Bloons Tower Defense 2",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/bloonstd2",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "bloons-td-4",
+      "title": "Bloons Tower Defense 4",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/btd4",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "vex-3",
+      "title": "Vex 3",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/vex3",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "vex-4",
+      "title": "Vex 4",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/vex4",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "vex-5",
+      "title": "Vex 5",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/vex5",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "vex-6",
+      "title": "Vex 6",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/vex6",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "vex-7",
+      "title": "Vex 7",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/vex7",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "duck-life",
+      "title": "Duck Life",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/ducklife",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "duck-life-2",
+      "title": "Duck Life 2",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/ducklife2",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "duck-life-3",
+      "title": "Duck Life 3: Evolutions",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/ducklife3",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "duck-life-4",
+      "title": "Duck Life 4",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/ducklife4",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "duck-life-treasure-hunt",
+      "title": "Duck Life: Treasure",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/duck-life-treasurehunt",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "bloxorz",
+      "title": "Bloxorz",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/bloxors",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "fancy-pants-adventures",
+      "title": "Fancy Pants Adventures",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/fancypantsadventures",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "learn-to-fly",
+      "title": "Learn to Fly",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/learntofly",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "learn-to-fly-2",
+      "title": "Learn to Fly 2",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/learntofly2",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "gun-mayhem",
+      "title": "Gun Mayhem",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/gun-mayhem",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "gun-mayhem-2",
+      "title": "Gun Mayhem 2: More",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/gun-mayhem-2",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "run-3",
+      "title": "Run 3",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/run-3",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "worlds-hardest-game",
+      "title": "World's Hardest Game",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/worlds-hardest-game",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "worlds-hardest-game-2",
+      "title": "World's Hardest Game 2",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/worlds-hardest-game-2",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "the-impossible-quiz",
+      "title": "The Impossible Quiz",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/the-impossible-quiz",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "the-impossible-quiz-2",
+      "title": "The Impossible Quiz 2",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/the-impossible-quiz-2",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "happy-wheels",
+      "title": "Happy Wheels",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/happy-wheels",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "boxhead-2play",
+      "title": "Boxhead 2Play",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/boxhead2play",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "pandemic-2",
+      "title": "Pandemic 2",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/pandemic2",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "henry-stickmin-breaking-the-bank",
+      "title": "Stickmin: Breaking Bank",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/breakingthebank",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "henry-stickmin-escaping-the-prison",
+      "title": "Stickmin: Escaping Prison",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/escapingtheprison",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "henry-stickmin-stealing-the-diamond",
+      "title": "Stickmin: Stealing Diamond",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/stealingthediamond",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "subway-surfers",
+      "title": "Subway Surfers",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/subway-surfers",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "temple-run-2",
+      "title": "Temple Run 2",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/temple-run-2",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "cut-the-rope",
+      "title": "Cut the Rope",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/cuttherope",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "cut-the-rope-2",
+      "title": "Cut the Rope 2",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/cuttherope2",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "crossy-road",
+      "title": "Crossy Road",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/crossyroad",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "doodle-jump",
+      "title": "Doodle Jump",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/doodle-jump",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "cookie-clicker",
+      "title": "Cookie Clicker",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/cookie-clicker",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "rooftop-snipers",
+      "title": "Rooftop Snipers",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/rooftop-snipers",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "getaway-shootout",
+      "title": "Getaway Shootout",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/getaway-shootout",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "tunnel-rush",
+      "title": "Tunnel Rush",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/tunnel-rush",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "drive-mad",
+      "title": "Drive Mad",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/drive-mad",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "bitlife",
+      "title": "BitLife",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/bitlife",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "retro-bowl",
+      "title": "Retro Bowl",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/retro-bowl",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "tiny-fishing",
+      "title": "Tiny Fishing",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/tiny-fishing",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "ovo",
+      "title": "OvO",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/ovo",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "friday-night-funkin",
+      "title": "Friday Night Funkin'",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/fridaynightfunkin",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "baldis-basics",
+      "title": "Baldi's Basics",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/baldis-basics",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "superhot",
+      "title": "SUPERHOT Web",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/superhot",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "time-shooter-3",
+      "title": "Time Shooter 3: SWAT",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/time-shooter-3",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "smash-karts",
+      "title": "Smash Karts",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/smashkarts",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "paper-io-2",
+      "title": "Paper.io 2",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/paperio2",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "craftmine",
+      "title": "CraftMine",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/craftmine",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "grindcraft",
+      "title": "Grindcraft",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/grindcraft",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "toss-the-turtle",
+      "title": "Toss The Turtle",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/tosstheturtle",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "there-is-no-game",
+      "title": "There Is No Game",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/there-is-no-game",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "this-is-the-only-level",
+      "title": "This Is The Only Level",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/thisistheonlylevel",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "zombocalypse",
+      "title": "Zombocalypse",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/zombocalypse",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "1v1-lol",
+      "title": "1v1.LOL",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/1v1lol",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "angry-birds",
+      "title": "Angry Birds Classic",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/angry-birds",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "alien-hominid",
+      "title": "Alien Hominid",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/alienhominid",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "awesome-tanks-2",
+      "title": "Awesome Tanks 2",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/awesome-tanks-2",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "backflip-dive-3d",
+      "title": "Backflip Dive 3D",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/backflip-dive-3d",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "basket-bros",
+      "title": "Basket Bros",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/basket-bros-io",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "basketball-legends",
+      "title": "Basketball Legends",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/basketball-legends-2020",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "basketball-stars",
+      "title": "Basketball Stars",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/basketball-stars",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "binding-of-isaac",
+      "title": "The Binding of Isaac",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/binding-of-isaac",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "canyon-defense",
+      "title": "Canyon Defense",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/canyondefense",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "cars-simulator-3d",
+      "title": "Cars Simulator 3D",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/cars-simulator",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "chess-classic",
+      "title": "Xadrez Clássico",
+      "source": "https://htmlchess.sourceforge.net/",
+      "license": "GPL-3.0",
+      "notice": ""
+    },
+    {
+      "id": "chrome-dino",
+      "title": "T-Rex Dino Runner",
+      "source": "https://github.com/congerh/dino",
+      "license": "BSD-3-Clause",
+      "notice": ""
+    },
+    {
+      "id": "cluster-rush",
+      "title": "Cluster Rush",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/cluster-rush",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "color-switch",
+      "title": "Color Switch",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/color-switch-2-challenges",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "cubefield",
+      "title": "Cubefield",
+      "source": "https://github.com/Christopher-Hayes/cubefield",
+      "license": "MIT",
+      "notice": ""
+    },
+    {
+      "id": "dadish",
+      "title": "Dadish",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/dadish",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "dadish-2",
+      "title": "Dadish 2",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/dadishtwo",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "dadish-3",
+      "title": "Dadish 3",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/dadish3",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "death-run-3d",
+      "title": "Death Run 3D",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/death-run-3d",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "doge-miner-2",
+      "title": "Doge Miner 2",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/doge-miner-2",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "elastic-man",
+      "title": "Elastic Man",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/elasticman",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "evil-glitch",
+      "title": "Evil Glitch",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/evil-glitch",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "factory-balls-forever",
+      "title": "Factory Balls Forever",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/factoryballsforever",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "flood-runner-2",
+      "title": "Flood Runner 2",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/flood-runner-2",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "fruit-ninja",
+      "title": "Fruit Ninja Classic",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/fruitninja",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "getting-over-it-scratch",
+      "title": "Getting Over It",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/getting-over-it",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "google-snake-custom",
+      "title": "Google Snake Especial",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/google-snake",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "grow-in-the-hole",
+      "title": "Grow In The Hole",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/grow-in-the-hole",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "gunspin",
+      "title": "Gunspin",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/gunspin",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "house-of-hazards",
+      "title": "House of Hazards",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/house-of-hazards",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "idle-breakout",
+      "title": "Idle Breakout",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/idle-breakout",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "interactive-buddy",
+      "title": "Interactive Buddy",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/interactivebuddy",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "jelly-truck",
+      "title": "Jelly Truck",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/jelly-truck",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "jetpack-joyride",
+      "title": "Jetpack Joyride",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/jetpack",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "just-fall-lol",
+      "title": "Just Fall.LOL",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/justfall",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "line-rider",
+      "title": "Line Rider",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/line-rider",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "madalin-stunt-cars-2",
+      "title": "Madalin Stunt Cars 2",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/madalin-stunt-cars-2",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "madalin-stunt-cars-3",
+      "title": "Madalin Stunt Cars 3",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/madalin-stunt-cars-3",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "meat-boy-flash",
+      "title": "Meat Boy Original",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/meat-boy",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "minecraft-classic",
+      "title": "Minecraft Classic",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/minecraft-classic",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "my-friend-pedro-flash",
+      "title": "My Friend Pedro",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/my-friend-pedro",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "ninja-dash",
+      "title": "Ninja Dash",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/None",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "ninja-vs-evilcorp",
+      "title": "Ninja vs Evilcorp",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/ninjavsevilcorp",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "pacman-fps",
+      "title": "Pac-Man FPS 3D",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/pacman-fps",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "portal-flash",
+      "title": "Portal: The Flash Version",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/portalflash",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "plants-vs-zombies-web",
+      "title": "Plants vs Zombies",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/pvz-2",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "rolly-vortex",
+      "title": "Rolly Vortex",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/rolly-vortex",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "sandboxels",
+      "title": "Sandboxels",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/sandboxels",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "short-life-2",
+      "title": "Short Life 2",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/short-life-2",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "short-ride",
+      "title": "Short Ride",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/short-ride",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "super-mario-63",
+      "title": "Super Mario 63",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/sm63",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "sonic-the-hedgehog",
+      "title": "Sonic the Hedgehog",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/sonic-the-hedgehog",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "spelunky-html5",
+      "title": "Spelunky Classic",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/spelunky",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "stick-archers-battle",
+      "title": "Stick Archers Battle",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/stick-archers-battle",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "stickman-boost",
+      "title": "Stickman Boost",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/stickman-boost",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "stickman-dismount",
+      "title": "Stickman Dismount",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/stickman-dismount",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "stickman-epic-battle",
+      "title": "Stickman Epic Battle",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/stickman-epic-battle",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "stickman-golf",
+      "title": "Stickman Golf",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/stickman-golf",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "storm-the-house-2",
+      "title": "Storm the House 2",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/stormthehouse2",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "tank-trouble-2",
+      "title": "Tank Trouble 2",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/tank-trouble-2",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "tanuki-sunset",
+      "title": "Tanuki Sunset",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/tanuki-sunset",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "the-final-earth-2",
+      "title": "The Final Earth 2",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/the-final-earth-2",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "tube-jumpers",
+      "title": "Tube Jumpers",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/tube-jumpers",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "wordle-classic",
+      "title": "Wordle Clássico",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/wordle",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "zombs-royale",
+      "title": "Zombs Royale 2D",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/zombs-royale",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "achievement-unlocked",
+      "title": "Achievement Unlocked",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/achievementunlocked",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "adrenaline-challenge",
+      "title": "Adrenaline Challenge",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/adrenalinechallenge",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "anti-terrorist-rush",
+      "title": "Anti Terrorist Rush",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/anti-terrorist-rush",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "asteroids-arcade",
+      "title": "Asteroids Arcade",
+      "source": "https://github.com/dmcinnes/HTML5-Asteroids",
+      "license": "MIT",
+      "notice": ""
+    },
+    {
+      "id": "battle-for-gondor",
+      "title": "Battle for Gondor",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/battleforgondor",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "champion-archer",
+      "title": "Champion Archer",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/championarcher",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "circloo",
+      "title": "circlO",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/circlo",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "city-blocks-2",
+      "title": "City Blocks 2",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/city-blocks-2",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "core-ball",
+      "title": "Core Ball",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/core-ball",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "csgo-case-clicker",
+      "title": "CS:GO Case Clicker",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/csgo-clicker",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "defend-the-tank",
+      "title": "Defend The Tank",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/defend-the-tank",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "double-wires",
+      "title": "Double Wires",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/doublewires",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "draw-the-hill",
+      "title": "Draw The Hill",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/draw-the-hill",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "duke-dashington",
+      "title": "Duke Dashington",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/duke-dashington-remastered",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "edge-surf",
+      "title": "Edge Surf",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/edge-surf",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "finns-food-machine",
+      "title": "Finn's Food Machine",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/finns-fantastic-food-machine",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "friendly-fire",
+      "title": "Friendly Fire",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/friendlyfire",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "gravity-soccer",
+      "title": "Gravity Soccer",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/gravity-soccer",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "hacker-typer",
+      "title": "Hacker Typer",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/hackertype",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "hex-empire",
+      "title": "Hex Empire",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/hexempire",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "icys-purple-head",
+      "title": "Icy Purple Head",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/icys-purple-head",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "kart-fight-io",
+      "title": "Kart Fight.io",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/kart-fight-io",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "klocki",
+      "title": "Klocki",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/klocki",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "linquest",
+      "title": "Linquest",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/linquest",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "matrix-rampage",
+      "title": "Matrix Rampage",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/matrixrampage",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "mini-stilts",
+      "title": "Mini Stilts",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/mini-stilts",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "mini-putt",
+      "title": "Mini Putt Clássico",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/miniputt",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "n-gon",
+      "title": "n-gon",
+      "source": "https://github.com/landgreen/n-gon",
+      "license": "GPL-3.0",
+      "notice": ""
+    },
+    {
+      "id": "osu-web",
+      "title": "osu! Web",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/osu",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "packabunchas",
+      "title": "Packabunchas",
+      "source": "https://github.com/MattiaFortunati/packabunchas",
+      "license": "MIT",
+      "notice": ""
+    },
+    {
+      "id": "particle-clicker",
+      "title": "Particle Clicker",
+      "source": "https://github.com/particle-clicker/particle-clicker",
+      "license": "MIT",
+      "notice": ""
+    },
+    {
+      "id": "quake-1k",
+      "title": "Q1K3",
+      "source": "https://github.com/phoboslab/q1k3",
+      "license": "MIT",
+      "notice": ""
+    },
+    {
+      "id": "roadblocks",
+      "title": "Roadblocks",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/roadblocks",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "this-is-sand",
+      "title": "This Is Sand",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/sand-game",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "senya-and-oscar-2",
+      "title": "Senya & Oscar 2",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/senya-and-oscar-2",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "shift",
+      "title": "Shift",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/shift-flash",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "skyblock-2d",
+      "title": "Skyblock 2D",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/skyblock",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "solitaire-classic",
+      "title": "Paciência Clássica",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/solitaire",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "sort-the-court",
+      "title": "Sort the Court",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/sort-the-court",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "tactical-assassin-2",
+      "title": "Tactical Assassin 2",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/tacticalassasin2",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "tower-master",
+      "title": "Tower Master",
+      "source": "https://github.com/iamkun/tower_game",
+      "license": "MIT",
+      "notice": ""
+    },
+    {
+      "id": "townscaper-web",
+      "title": "Townscaper Web",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/townscaper",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "trimps",
+      "title": "Trimps",
+      "source": "https://github.com/Trimps/Trimps.github.io",
+      "license": "GPL-3.0-or-later",
+      "notice": ""
+    },
+    {
+      "id": "up-left-out",
+      "title": "Up Left Out",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/up-left-out",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "wolfenstein-3d",
+      "title": "Wolfenstein 3D",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/wolf3d",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "yoshi-fabrication",
+      "title": "Yoshi Fabrication",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/yoshifabrication",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "10-minutes-till-dawn",
+      "title": "10 Minutes Till Dawn",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/10-minutes-till-dawn",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "8-ball-billiards",
+      "title": "Sinuca 8 Ball Clássica",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/8ball-billards-classic",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "doge-miner",
+      "title": "Doge Miner",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/DogeMiner",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "fullscreen-mario",
+      "title": "Super Mario Bros Full",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/FullScreenMario/Source",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "black-knight",
+      "title": "Black Knight",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/blackknight",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "cell-machine",
+      "title": "Cell Machine",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/cell-machine",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "deal-or-no-deal",
+      "title": "Topa ou Não Topa",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/deal-or-no-deal",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "flappy-2048",
+      "title": "Flappy 2048",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/flappy-2048",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "google-solitaire",
+      "title": "Google Paciência",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/google-solitaire",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "super-smash-flash-2",
+      "title": "Super Smash Flash",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/None",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "stickman-survival",
+      "title": "Stickman Survival",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/Stickman-Survival",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "indian-truck-simulator",
+      "title": "Indian Truck 3D",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/tam-indian-truck-simulator-3d",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "geometry-dash",
+      "title": "Geometry Dash",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/geometrydash",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "endless-war-3",
+      "title": "Endless War 3",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/endlesswar3",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "kitten-cannon",
+      "title": "Kitten Cannon",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/kittencannon",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "krunker-web",
+      "title": "Krunker.io",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/krunker",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "idle-shark",
+      "title": "Idle Shark",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/idle-shark",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "dragon-vs-bricks",
+      "title": "Dragon vs Bricks",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/dragon-vs-bricks",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "doctor-acorn-2",
+      "title": "Doctor Acorn 2",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/doctor-acorn2",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "froggys-battle",
+      "title": "Froggy's Battle",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/froggys-battle",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    },
+    {
+      "id": "golf-classic",
+      "title": "Golf Clássico",
+      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/None",
+      "license": "Not newly confirmed; see preserved notices",
+      "notice": ""
+    }
+  ]
+}

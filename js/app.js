@@ -1815,7 +1815,7 @@ const GAMES_DATA = [
   },
   {
     "id": "quake-1k",
-    "title": "Quake 1K",
+    "title": "Q1K3",
     "category": "acao",
     "description": "Incrível demake 3D de Quake em apenas um kilobyte de código JavaScript.",
     "cover": "assets/covers/quake-1k.jpg",
@@ -2252,7 +2252,7 @@ function renderAll(focusFavorite){
   document.querySelector('.welcome').hidden=filtered;
   const collection=library.collections().find(c=>c.id===currentCollection);
   document.getElementById('grid-title').textContent=searchQ.trim()?'Resultado da busca':collection?.name||labels[currentCat]||'Todos os jogos';
-  document.getElementById('grid-counter').textContent=`${games.length} no catálogo · ${games.filter(g=>isAvailable(g.id)).length} disponíveis`;
+  document.getElementById('grid-counter').textContent=`${games.length} jogos · ${games.filter(g=>isAvailable(g.id)).length} com abertura verificada`;
   document.getElementById('only-available')?.setAttribute('aria-pressed',String(onlyAvailable));
   document.getElementById('fav-count').textContent=favorites.length;
   document.getElementById('reset-filters').hidden=!filtered;
@@ -2266,13 +2266,14 @@ function renderAll(focusFavorite){
     card.innerHTML=`<a href="${gameRoute(g.id)}" class="game-thumb-link" title="${esc(g.title+' — '+g.description)}"><img class="game-cover" src="${esc(g.cover||`assets/covers/${g.id}.svg`)}" alt="${esc(g.title)}" width="256" height="256" loading="lazy" decoding="async"><span class="play-overlay" aria-hidden="true"><span>${icon('play')}</span></span>${badge}</a><button class="btn-favorite ${fav?'active':''}" data-id="${esc(g.id)}" aria-label="${fav?'Remover':'Adicionar'} ${esc(g.title)} ${fav?'dos':'aos'} favoritos" aria-pressed="${fav}">${icon('star')}</button><div class="game-details"><a class="game-name" href="${gameRoute(g.id)}" title="${esc(g.title)}">${esc(g.title)}</a></div>`;
     for(const a of card.querySelectorAll('a'))a.addEventListener('click',()=>recordRecent(g.id));
     card.querySelector('.btn-favorite').onclick=()=>{library.toggleFavorite(g.id);document.querySelector(`[data-id="${CSS.escape(g.id)}"]`)?.focus();};
-    card.dataset.availability=isAvailable(g.id)?'available':'pending';
+    const state=window.PlaynovaGameAvailability?.[g.id];
+    card.dataset.availability=state?.status||'pending';
     if(!isAvailable(g.id)){
       card.classList.remove('featured-card');
       card.querySelector('.new-badge')?.remove();
-      const status=document.createElement('span');status.className='availability-label status-corner';status.textContent='Indisponível';
+      const status=document.createElement('span');status.className='availability-label status-corner';status.textContent=state?.status==='issues'?'Com falhas':'Sem arquivos';
       card.querySelector('.game-thumb-link').append(status);
-      const overlay=card.querySelector('.play-overlay');overlay.textContent='Ver status';
+      const overlay=card.querySelector('.play-overlay');overlay.textContent=state?.status==='issues'?'Tentar jogar':'Ver status';
     }
     bindCoverFallback(card.querySelector('img'),g.title);grid.append(card);
   }

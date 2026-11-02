@@ -1,0 +1,5 @@
+PLAYNOVA local edition, 2026-11-02.
+Original: https://github.com/landgreen/n-gon
+Removed mirror advertising/tracking scripts: /js/main.js
+Added local-only Content Security Policy and user-gesture audio guard.
+All corresponding game source files and original copyright notices are distributed in this folder under GPL-3.0.

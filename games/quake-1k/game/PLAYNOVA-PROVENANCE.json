@@ -1,0 +1,26 @@
+{
+  "id": "quake-1k",
+  "repository": "https://github.com/phoboslab/q1k3",
+  "commit": "8ee934856c3f5de3c584724b9dd554314a911694",
+  "license": "MIT",
+  "notices": [
+    {
+      "path": "LICENSE.md",
+      "url": "https://raw.githubusercontent.com/phoboslab/q1k3/8ee934856c3f5de3c584724b9dd554314a911694/LICENSE.md",
+      "sha256": "749bb38c5bf10c7d851390d467f7a3d328aa75543c1008368ffa483a901eec3b"
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "quake-1k/SONANT-X-SOURCE.txt",
+      "source": "https://raw.githubusercontent.com/phoboslab/q1k3/8ee934856c3f5de3c584724b9dd554314a911694/source/audio.js",
+      "sha256": "c8bc8ffedaddb24c2d5d2cfdb5b478661284177d4fdf46a73492a2d5b7494b70"
+    },
+    {
+      "path": "quake-1k/README.md",
+      "source": "https://raw.githubusercontent.com/phoboslab/q1k3/8ee934856c3f5de3c584724b9dd554314a911694/README.md",
+      "sha256": "205e51de787dd3131b965012bd12dde1293193d786ebb93a269728053cde5614"
+    }
+  ],
+  "runtimeOrigin": "https://phoboslab.org/q1k3/; l and m match the previously downloaded assets byte for byte."
+}

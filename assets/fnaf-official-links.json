@@ -1,0 +1,358 @@
+{
+  "checked": "2026-11-02",
+  "kind": "external-directory",
+  "steam": [
+    {
+      "id": 319510,
+      "title": "Five Nights at Freddy's",
+      "url": "https://store.steampowered.com/app/319510/",
+      "type": "game",
+      "developers": [
+        "Scott Cawthon"
+      ],
+      "publishers": [
+        "Scott Cawthon"
+      ],
+      "free": false,
+      "release": {
+        "coming_soon": false,
+        "date": "Aug 19, 2014"
+      },
+      "source": "https://store.steampowered.com/api/appdetails?appids=319510&l=english",
+      "verified": true
+    },
+    {
+      "id": 332800,
+      "title": "Five Nights at Freddy's 2",
+      "url": "https://store.steampowered.com/app/332800/",
+      "type": "game",
+      "developers": [
+        "Scott Cawthon"
+      ],
+      "publishers": [
+        "Scott Cawthon"
+      ],
+      "free": false,
+      "release": {
+        "coming_soon": false,
+        "date": "10 Nov, 2014"
+      },
+      "source": "https://store.steampowered.com/api/appdetails?appids=332800&l=english",
+      "verified": true
+    },
+    {
+      "id": 354140,
+      "title": "Five Nights at Freddy's 3",
+      "url": "https://store.steampowered.com/app/354140/",
+      "type": "game",
+      "developers": [
+        "Scott Cawthon"
+      ],
+      "publishers": [
+        "Scott Cawthon"
+      ],
+      "free": false,
+      "release": {
+        "coming_soon": false,
+        "date": "2 Mar, 2015"
+      },
+      "source": "https://store.steampowered.com/api/appdetails?appids=354140&l=english",
+      "verified": true
+    },
+    {
+      "id": 388090,
+      "title": "Five Nights at Freddy's 4",
+      "url": "https://store.steampowered.com/app/388090/",
+      "type": "game",
+      "developers": [
+        "Scott Cawthon"
+      ],
+      "publishers": [
+        "Scott Cawthon"
+      ],
+      "free": false,
+      "release": {
+        "coming_soon": false,
+        "date": "Jul 23, 2015"
+      },
+      "source": "https://store.steampowered.com/api/appdetails?appids=388090&l=english",
+      "verified": true
+    },
+    {
+      "id": 506610,
+      "title": "Five Nights at Freddy's: Sister Location",
+      "url": "https://store.steampowered.com/app/506610/",
+      "type": "game",
+      "developers": [
+        "Scott Cawthon"
+      ],
+      "publishers": [
+        "Scott Cawthon"
+      ],
+      "free": false,
+      "release": {
+        "coming_soon": false,
+        "date": "7 Oct, 2016"
+      },
+      "source": "https://store.steampowered.com/api/appdetails?appids=506610&l=english",
+      "verified": true
+    },
+    {
+      "id": 738060,
+      "title": "Freddy Fazbear's Pizzeria Simulator",
+      "url": "https://store.steampowered.com/app/738060/",
+      "type": "game",
+      "developers": [
+        "Scott Cawthon"
+      ],
+      "publishers": [
+        "Scott Cawthon"
+      ],
+      "free": true,
+      "release": {
+        "coming_soon": false,
+        "date": "4 Dec, 2017"
+      },
+      "source": "https://store.steampowered.com/api/appdetails?appids=738060&l=english",
+      "verified": true
+    },
+    {
+      "id": 871720,
+      "title": "Ultimate Custom Night",
+      "url": "https://store.steampowered.com/app/871720/",
+      "type": "game",
+      "developers": [
+        "Scott Cawthon"
+      ],
+      "publishers": [
+        "Scott Cawthon"
+      ],
+      "free": true,
+      "release": {
+        "coming_soon": false,
+        "date": "27 Jun, 2018"
+      },
+      "source": "https://store.steampowered.com/api/appdetails?appids=871720&l=english",
+      "verified": true
+    },
+    {
+      "id": 732690,
+      "title": "FIVE NIGHTS AT FREDDY'S: HELP WANTED",
+      "url": "https://store.steampowered.com/app/732690/",
+      "type": "game",
+      "developers": [
+        "Steel Wool Studios"
+      ],
+      "publishers": [
+        "ScottGames"
+      ],
+      "free": false,
+      "release": {
+        "coming_soon": false,
+        "date": "28 May, 2019"
+      },
+      "source": "https://store.steampowered.com/api/appdetails?appids=732690&l=english",
+      "verified": true
+    },
+    {
+      "id": 747660,
+      "title": "Five Nights at Freddy's: Security Breach",
+      "url": "https://store.steampowered.com/app/747660/",
+      "type": "game",
+      "developers": [
+        "Steel Wool Studios"
+      ],
+      "publishers": [
+        "ScottGames"
+      ],
+      "free": false,
+      "release": {
+        "coming_soon": false,
+        "date": "16 Dec, 2021"
+      },
+      "source": "https://store.steampowered.com/api/appdetails?appids=747660&l=english",
+      "verified": true
+    },
+    {
+      "id": 2287520,
+      "title": "Five Nights at Freddy's: Help Wanted 2",
+      "url": "https://store.steampowered.com/app/2287520/",
+      "type": "game",
+      "developers": [
+        "Steel Wool Studios"
+      ],
+      "publishers": [
+        "ScottGames"
+      ],
+      "free": false,
+      "release": {
+        "coming_soon": false,
+        "date": "14 Dec, 2023"
+      },
+      "source": "https://store.steampowered.com/api/appdetails?appids=2287520&l=english",
+      "verified": true
+    },
+    {
+      "id": 2638370,
+      "title": "Five Nights at Freddy's: Into the Pit",
+      "url": "https://store.steampowered.com/app/2638370/",
+      "type": "game",
+      "developers": [
+        "Mega Cat Studios"
+      ],
+      "publishers": [
+        "Mega Cat Studios"
+      ],
+      "free": false,
+      "release": {
+        "coming_soon": false,
+        "date": "7 Aug, 2024"
+      },
+      "source": "https://store.steampowered.com/api/appdetails?appids=2638370&l=english",
+      "verified": true
+    },
+    {
+      "id": 2215390,
+      "title": "Five Nights at Freddy's: Secret of the Mimic",
+      "url": "https://store.steampowered.com/app/2215390/",
+      "type": "game",
+      "developers": [
+        "Steel Wool Studios"
+      ],
+      "publishers": [
+        "ScottGames"
+      ],
+      "free": false,
+      "release": {
+        "coming_soon": false,
+        "date": "13 Jun, 2025"
+      },
+      "source": "https://store.steampowered.com/api/appdetails?appids=2215390&l=english",
+      "verified": true
+    },
+    {
+      "id": 3078140,
+      "title": "Five Laps at Freddy's",
+      "url": "https://store.steampowered.com/app/3078140/",
+      "type": "game",
+      "developers": [
+        "Clickteam"
+      ],
+      "publishers": [
+        "Clickteam"
+      ],
+      "free": false,
+      "release": {
+        "coming_soon": true,
+        "date": "2026"
+      },
+      "source": "https://store.steampowered.com/api/appdetails?appids=3078140&l=english",
+      "verified": true
+    },
+    {
+      "id": 1126200,
+      "title": "Five Nights at Freddy's: Help Wanted - Curse of Dreadbear",
+      "url": "https://store.steampowered.com/app/1126200/",
+      "type": "dlc",
+      "developers": [
+        "Steel Wool Studios"
+      ],
+      "publishers": [
+        "ScottGames"
+      ],
+      "free": false,
+      "release": {
+        "coming_soon": false,
+        "date": "23 Oct, 2019"
+      },
+      "source": "https://store.steampowered.com/api/appdetails?appids=1126200&l=english",
+      "verified": true
+    },
+    {
+      "id": 1924720,
+      "title": "Five Nights at Freddy's: Security Breach - Ruin",
+      "url": "https://store.steampowered.com/app/1924720/",
+      "type": "dlc",
+      "developers": [
+        "Steel Wool Studios"
+      ],
+      "publishers": [
+        "ScottGames"
+      ],
+      "free": true,
+      "release": {
+        "coming_soon": false,
+        "date": "24 Jul, 2023"
+      },
+      "source": "https://store.steampowered.com/api/appdetails?appids=1924720&l=english",
+      "verified": true
+    },
+    {
+      "id": 1986840,
+      "title": "POPGOES Arcade",
+      "url": "https://store.steampowered.com/app/1986840/",
+      "type": "game",
+      "developers": [
+        "Kane Carter"
+      ],
+      "publishers": [
+        "Clickteam"
+      ],
+      "free": false,
+      "release": {
+        "coming_soon": false,
+        "date": "1 Jul, 2022"
+      },
+      "source": "https://store.steampowered.com/api/appdetails?appids=1986840&l=english",
+      "verified": true
+    },
+    {
+      "id": 2429350,
+      "title": "myPOPGOES",
+      "url": "https://store.steampowered.com/app/2429350/",
+      "type": "game",
+      "developers": [
+        "Kane Carter"
+      ],
+      "publishers": [
+        "Clickteam"
+      ],
+      "free": false,
+      "release": {
+        "coming_soon": false,
+        "date": "1 Aug, 2024"
+      },
+      "source": "https://store.steampowered.com/api/appdetails?appids=2429350&l=english",
+      "verified": true
+    },
+    {
+      "id": 2948730,
+      "title": "THE JOY OF CREATION",
+      "url": "https://store.steampowered.com/app/2948730/",
+      "type": "game",
+      "developers": [
+        "Nikson"
+      ],
+      "publishers": [
+        "Clickteam"
+      ],
+      "free": false,
+      "release": {
+        "coming_soon": true,
+        "date": "2027"
+      },
+      "source": "https://store.steampowered.com/api/appdetails?appids=2948730&l=english",
+      "verified": true
+    }
+  ],
+  "creatorDirectory": {
+    "url": "https://gamejolt.com/@realscawthon/games",
+    "titles": [
+      "FNaF World",
+      "Freddy in Space 2",
+      "Security Breach: Fury’s Rage",
+      "Freddy in Space 3: Chica in Space"
+    ],
+    "verificationLimit": "Individual Game Jolt pages return a JavaScript shell. Links use the creator profile instead of guessed product URLs."
+  }
+}
