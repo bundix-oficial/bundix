@@ -1,0 +1,16 @@
+{
+  "id": "cubefield",
+  "originalRepository": "https://github.com/Christopher-Hayes/cubefield",
+  "commit": "c2ce7cef8815f8d1ccba4305a72c14c6aa2a9af4",
+  "license": "MIT",
+  "licenseUrl": "https://raw.githubusercontent.com/Christopher-Hayes/cubefield/c2ce7cef8815f8d1ccba4305a72c14c6aa2a9af4/LICENSE",
+  "licenseMatches": true,
+  "sha256": "882099652801687f00adb3dbd0763da22e766558aa4c473b1ee8ce83f6a4518c",
+  "status": "license-verified-runtime-test-pending",
+  "removedPortalIntegrations": [
+    "disabled GameAnalytics trackSessionStart",
+    "disabled GameAnalytics trackGameOver"
+  ],
+  "entrySha256": "104cb069d6d71345456a336bd2e8c20754c034d9be0dcc22e5fcb4343a292a4e",
+  "creditsPreserved": true
+}

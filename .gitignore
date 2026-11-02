@@ -26,6 +26,14 @@ arquivo-testes-iniciais/
 
 # User-provided local game discs: never publish or package
 private-iso/
+private-download-review/
+download-progress.json
+download-errors.json
+/games/*/game/
+!/games/cubefield/game/
+!/games/asteroids-arcade/game/
+!/games/tower-master/game/
+/games/*/*.swf
 *.iso
 *.cso
 *.chd

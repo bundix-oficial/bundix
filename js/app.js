@@ -2208,28 +2208,30 @@ let favorites=library.favorites(), recentPlayed=library.recents();
 const normalize=text=>String(text).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
 const esc=value=>String(value).replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
 const feature=g=>window.PlaynovaGameFeatures?.[g.id]||{};
+const isAvailable=id=>window.PlaynovaGameAvailability?.[id]?.status==='available';
+let onlyAvailable=new URLSearchParams(location.search).get('disponiveis')==='1';
 const gameRoute=id=>`games/${encodeURIComponent(id)}/index.html`;
-function recordRecent(id){library.record(id);}
+function recordRecent(id){if(isAvailable(id))library.record(id);}
 function filterGames(){
   const collection=library.collections().find(c=>c.id===currentCollection);
   const result=GAMES_DATA.filter(g=>{
     const category=currentCat==='todos'||(currentCat==='favoritos'?favorites.includes(g.id):currentCat==='recentes'?g.recent:currentCat==='populares'?g.popular:currentCat==='leves'?!HEAVY_GAMES.has(g.id):['mobile','console','flash'].includes(currentCat)?g.platform===currentCat:g.category===currentCat);
     const f=feature(g); const controls=!currentControl||(currentControl==='two'?(f.players||1)>=2:currentControl==='gamepad'?f.controls?.gamepad:currentControl==='touch'?f.controls?.touch:f.controls?.keyboard);
-    return category&&controls&&(!collection||collection.games.includes(g.id))&&normalize(`${g.title} ${g.description} ${labels[g.category]||''}`).includes(normalize(searchQ.trim()));
+    return category&&controls&&(!onlyAvailable||isAvailable(g.id))&&(!collection||collection.games.includes(g.id))&&normalize(`${g.title} ${g.description} ${labels[g.category]||''}`).includes(normalize(searchQ.trim()));
   });
   if(currentSort==='name')result.sort((a,b)=>a.title.localeCompare(b.title,'pt-BR'));
   if(currentSort==='recent')result.sort((a,b)=>(recentPlayed.includes(a.id)?recentPlayed.indexOf(a.id):999)-(recentPlayed.includes(b.id)?recentPlayed.indexOf(b.id):999));
   return result;
 }
-function icon(name){return `<svg class="icon" aria-hidden="true"><use href="assets/icons.svg#${name}"></use></svg>`;}
+function icon(name){return window.PlaynovaIcons.markup(name);}
 function bindCoverFallback(image,title){image.addEventListener('error',()=>{if(image.dataset.fallback)return;image.dataset.fallback='true';image.src='assets/covers/unavailable.svg';image.alt=`${title} — capa indisponível`;});}
 function renderRecentPlayed(){
   const section=document.getElementById('recent-played-section'),container=document.getElementById('recent-list');
   if(!section||!container)return;
-  section.hidden=!recentPlayed.length||Boolean(searchQ.trim())||currentCat!=='todos'||Boolean(currentControl)||Boolean(currentCollection);
+  section.hidden=!recentPlayed.some(isAvailable)||Boolean(searchQ.trim())||currentCat!=='todos'||Boolean(currentControl)||Boolean(currentCollection);
   container.replaceChildren();if(section.hidden)return;
   for(const id of recentPlayed){
-    const g=library.game(id);if(!g)continue;
+    const g=library.game(id);if(!g||!isAvailable(id))continue;
     const a=document.createElement('a');a.className='recent-card';a.href=gameRoute(g.id);a.title=`Jogar ${g.title} novamente`;
     a.innerHTML=`<img src="${esc(g.cover||`assets/covers/${g.id}.svg`)}" alt="" width="48" height="48" loading="lazy"><span class="recent-info"><strong>${esc(g.title)}</strong><span>${icon('play')}Jogar novamente</span></span>`;
     a.addEventListener('click',()=>recordRecent(id));bindCoverFallback(a.querySelector('img'),g.title);container.append(a);
@@ -2246,26 +2248,32 @@ function controlPills(g){const f=feature(g);const pills=[];if((f.players||1)>=2)
 function renderAll(focusFavorite){
   favorites=library.favorites();recentPlayed=library.recents();syncCollectionOptions();
   const grid=document.getElementById('games-grid'),games=filterGames();grid.replaceChildren();
-  const filtered=Boolean(searchQ.trim()||currentControl||currentCollection||currentCat!=='todos');
+  const filtered=Boolean(searchQ.trim()||currentControl||currentCollection||currentCat!=='todos'||onlyAvailable);
   document.querySelector('.welcome').hidden=filtered;
   const collection=library.collections().find(c=>c.id===currentCollection);
   document.getElementById('grid-title').textContent=searchQ.trim()?'Resultado da busca':collection?.name||labels[currentCat]||'Todos os jogos';
-  document.getElementById('grid-counter').textContent=`${games.length} ${games.length===1?'jogo':'jogos'}`;
+  document.getElementById('grid-counter').textContent=`${games.length} no catálogo · ${games.filter(g=>isAvailable(g.id)).length} disponíveis`;
+  document.getElementById('only-available')?.setAttribute('aria-pressed',String(onlyAvailable));
   document.getElementById('fav-count').textContent=favorites.length;
   document.getElementById('reset-filters').hidden=!filtered;
-  document.getElementById('random-game').disabled=!games.length;
+  document.getElementById('random-game').disabled=!games.some(g=>isAvailable(g.id));
   document.getElementById('filter-note').hidden=!currentControl;
   renderRecentPlayed();
   for(const g of games){
     const card=document.createElement('article');card.dataset.gameId=g.id;
-    const isFeatured=FEATURED_GAMES.has(g.id)&&!filtered&&currentSort==='recommended';
-    card.className=isFeatured?'game-card featured-card':'game-card';const fav=favorites.includes(g.id);
-    const badge=isFeatured?'<span class="new-badge featured-badge">DESTAQUE</span>':g.recreation?'<span class="new-badge recreation-badge">RECRIAÇÃO</span>':'';
-    card.innerHTML=`<a href="${gameRoute(g.id)}" class="game-thumb-link" title="${esc(g.title+' — '+g.description)}"><img class="game-cover" src="${esc(g.cover||`assets/covers/${g.id}.svg`)}" alt="${esc(g.title)}" width="256" height="256" loading="lazy" decoding="async"><span class="play-overlay" aria-hidden="true"><span>${icon('play')}</span></span>${badge}</a><button class="btn-favorite ${fav?'active':''}" data-id="${esc(g.id)}" aria-label="${fav?'Remover':'Adicionar'} ${esc(g.title)} ${fav?'dos':'aos'} favoritos" aria-pressed="${fav}">${icon('star')}</button><div class="game-details"><a class="game-name" href="${gameRoute(g.id)}" title="${esc(g.title)}">${esc(g.title)}</a><div class="game-meta"><span>${esc(labels[g.category]||'Jogo')}</span></div><div class="card-controls">${controlPills(g)}</div><div class="game-actions"><button class="card-action btn-collection" type="button" aria-label="Salvar ${esc(g.title)} em uma lista">${icon('folder')}<span>Salvar</span></button><button class="card-action btn-report" type="button" aria-label="Reportar problema em ${esc(g.title)}" title="Reportar problema">${icon('flag')}<span>Reportar</span></button></div></div>`;
+    card.className='game-card';const fav=favorites.includes(g.id);
+    const badge='';
+    card.innerHTML=`<a href="${gameRoute(g.id)}" class="game-thumb-link" title="${esc(g.title+' — '+g.description)}"><img class="game-cover" src="${esc(g.cover||`assets/covers/${g.id}.svg`)}" alt="${esc(g.title)}" width="256" height="256" loading="lazy" decoding="async"><span class="play-overlay" aria-hidden="true"><span>${icon('play')}</span></span>${badge}</a><button class="btn-favorite ${fav?'active':''}" data-id="${esc(g.id)}" aria-label="${fav?'Remover':'Adicionar'} ${esc(g.title)} ${fav?'dos':'aos'} favoritos" aria-pressed="${fav}">${icon('star')}</button><div class="game-details"><a class="game-name" href="${gameRoute(g.id)}" title="${esc(g.title)}">${esc(g.title)}</a></div>`;
     for(const a of card.querySelectorAll('a'))a.addEventListener('click',()=>recordRecent(g.id));
     card.querySelector('.btn-favorite').onclick=()=>{library.toggleFavorite(g.id);document.querySelector(`[data-id="${CSS.escape(g.id)}"]`)?.focus();};
-    card.querySelector('.btn-collection').onclick=()=>window.PlaynovaCommunity?.collections(g.id);
-    card.querySelector('.btn-report').onclick=()=>window.PlaynovaCommunity?.report(g.id);
+    card.dataset.availability=isAvailable(g.id)?'available':'pending';
+    if(!isAvailable(g.id)){
+      card.classList.remove('featured-card');
+      card.querySelector('.new-badge')?.remove();
+      const status=document.createElement('span');status.className='availability-label status-corner';status.textContent='Indisponível';
+      card.querySelector('.game-thumb-link').append(status);
+      const overlay=card.querySelector('.play-overlay');overlay.textContent='Ver status';
+    }
     bindCoverFallback(card.querySelector('img'),g.title);grid.append(card);
   }
   if(!games.length){
@@ -2275,21 +2283,22 @@ function renderAll(focusFavorite){
   if(typeof focusFavorite==='string')document.querySelector(`[data-id="${CSS.escape(focusFavorite)}"]`)?.focus();
 }
 function selectCategory(cat){currentCat=cat;document.querySelectorAll('[data-cat]').forEach(button=>{const active=button.dataset.cat===cat;button.classList.toggle('active',active);button.setAttribute('aria-pressed',active);});renderAll();}
-function resetFilters(){searchQ='';currentControl='';currentCollection='';currentSort='recommended';document.getElementById('search-input').value='';document.getElementById('control-filter').value='';document.getElementById('sort-games').value='recommended';selectCategory('todos');}
+function resetFilters(){searchQ='';currentControl='';currentCollection='';currentSort='recommended';onlyAvailable=false;document.getElementById('search-input').value='';document.getElementById('control-filter').value='';document.getElementById('sort-games').value='recommended';selectCategory('todos');}
 for(const button of document.querySelectorAll('[data-cat]'))button.onclick=()=>selectCategory(button.dataset.cat);
 document.getElementById('search-input').addEventListener('input',event=>{searchQ=event.target.value;if(normalize(searchQ).includes('samuel'))window.triggerEasterEgg?.();renderAll();});
 document.getElementById('search-form').addEventListener('submit',event=>{event.preventDefault();if(normalize(searchQ).includes('samuel'))window.triggerEasterEgg?.();renderAll();});
 document.getElementById('control-filter').onchange=event=>{currentControl=event.target.value;renderAll();};
-document.getElementById('collection-filter').onchange=event=>{currentCollection=event.target.value;renderAll();};
+document.getElementById('collection-filter')?.addEventListener('change',event=>{currentCollection=event.target.value;renderAll();});
 document.getElementById('sort-games').onchange=event=>{currentSort=event.target.value;renderAll();};
 document.getElementById('reset-filters').onclick=resetFilters;
-document.getElementById('manage-collections').onclick=()=>window.PlaynovaCommunity?.collections();
+document.getElementById('manage-collections')?.addEventListener('click',()=>window.PlaynovaCommunity?.collections());
 document.getElementById('request-game').onclick=()=>window.PlaynovaCommunity?.request();
-document.getElementById('report-site').onclick=()=>window.PlaynovaCommunity?.report();
+document.getElementById('report-site')?.addEventListener('click',()=>window.PlaynovaCommunity?.report());
 document.getElementById('clear-recent').onclick=()=>library.clearHistory();
-document.getElementById('random-game').onclick=()=>{const games=filterGames();if(!games.length)return;const picked=games[Math.floor(Math.random()*games.length)];recordRecent(picked.id);location.href=gameRoute(picked.id);};
+document.getElementById('random-game').onclick=()=>{const games=filterGames().filter(g=>isAvailable(g.id));if(!games.length)return;const picked=games[Math.floor(Math.random()*games.length)];recordRecent(picked.id);location.href=gameRoute(picked.id);};
+document.getElementById('only-available')?.addEventListener('click',()=>{onlyAvailable=!onlyAvailable;renderAll();});
 document.addEventListener('playnova:library-change',event=>{if(event.detail?.type==='history'){recentPlayed=library.recents();requestAnimationFrame(renderRecentPlayed);}else renderAll();});
 document.addEventListener('playnova:open-collection',event=>{currentCollection=event.detail;selectCategory('todos');document.getElementById('catalogo').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});});
 const initialFilter=new URLSearchParams(location.search).get('filtro');
 if(initialFilter&&Object.hasOwn(labels,initialFilter))selectCategory(initialFilter);else renderAll();
-document.title=`PLAYNOVA — ${GAMES_DATA.length} jogos para descobrir`;
+document.title=`PLAYNOVA — ${GAMES_DATA.length} jogos no catálogo`;

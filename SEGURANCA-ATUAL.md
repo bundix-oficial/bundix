@@ -1,5 +1,7 @@
 # Revisão de segurança — 01/11/2026
 
+Atualização posterior: a versão sem conexões externas mantém 218 cartões, com 13 jogos habilitados e 205 indisponíveis até revisão. Os 149 frames externos descritos abaixo foram desativados nas páginas públicas. Consulte `DOWNLOADS-STATUS.md`; os números abaixo registram a situação anterior à retomada.
+
 A revisão foi feita nos arquivos locais do PLAYNOVA. Não é uma garantia de ausência de falhas. A versão pública consultada respondeu HTTP 403; não foi possível confirmar seus cabeçalhos, arquivos ou configuração de hospedagem.
 
 ## Resultados

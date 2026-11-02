@@ -1,0 +1,13 @@
+{
+  "id": "asteroids-arcade",
+  "originalRepository": "https://github.com/dmcinnes/HTML5-Asteroids",
+  "commit": "930301cbda83ed3b120f64b801d937d077ee2da0",
+  "license": "MIT",
+  "licenseUrl": "https://raw.githubusercontent.com/dmcinnes/HTML5-Asteroids/930301cbda83ed3b120f64b801d937d077ee2da0/LICENSE",
+  "licenseMatches": true,
+  "sha256": "e0fc2b086d3f3d54ec6a5e36a63a6418f832f3629c4dedc57446fa9b52f22b6a",
+  "status": "license-verified-runtime-test-pending",
+  "removedPortalIntegrations": [],
+  "entrySha256": "c651119ff5e3cfe1c49ab54f601f218cdc0f424cc745d2940b2d23dc04a9b1be",
+  "creditsPreserved": true
+}

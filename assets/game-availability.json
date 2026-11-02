@@ -1,0 +1,879 @@
+{
+  "version": 1,
+  "total": 218,
+  "available": 13,
+  "games": {
+    "pacman": {
+      "status": "available",
+      "reason": ""
+    },
+    "mario-html5": {
+      "status": "available",
+      "reason": ""
+    },
+    "mario64-cleanroom": {
+      "status": "available",
+      "reason": ""
+    },
+    "zelda-tribute": {
+      "status": "available",
+      "reason": ""
+    },
+    "flappy-bird": {
+      "status": "available",
+      "reason": ""
+    },
+    "slope": {
+      "status": "available",
+      "reason": ""
+    },
+    "clumsy-bird": {
+      "status": "available",
+      "reason": ""
+    },
+    "tetris": {
+      "status": "available",
+      "reason": ""
+    },
+    "hextris": {
+      "status": "available",
+      "reason": ""
+    },
+    "breakout": {
+      "status": "available",
+      "reason": ""
+    },
+    "fireboy-and-watergirl": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "bad-ice-cream": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "bad-ice-cream-2": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "bad-ice-cream-3": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "moto-x3m": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "moto-x3m-winter": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "moto-x3m-pool-party": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "moto-x3m-spooky-land": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "papas-pizzeria": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "papas-freezeria": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "papas-burgeria": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "papas-hot-doggeria": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "papas-pancakeria": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "papas-sushiria": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "papas-wingeria": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "papa-louie": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "age-of-war": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "stick-war": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "bloons-td": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "bloons-td-2": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "bloons-td-4": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "vex-3": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "vex-4": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "vex-5": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "vex-6": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "vex-7": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "duck-life": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "duck-life-2": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "duck-life-3": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "duck-life-4": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "duck-life-treasure-hunt": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "bloxorz": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "fancy-pants-adventures": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "learn-to-fly": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "learn-to-fly-2": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "gun-mayhem": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "gun-mayhem-2": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "run-3": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "worlds-hardest-game": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "worlds-hardest-game-2": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "the-impossible-quiz": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "the-impossible-quiz-2": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "happy-wheels": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "boxhead-2play": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "pandemic-2": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "henry-stickmin-breaking-the-bank": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "henry-stickmin-escaping-the-prison": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "henry-stickmin-stealing-the-diamond": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "subway-surfers": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "temple-run-2": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "cut-the-rope": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "cut-the-rope-2": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "crossy-road": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "doodle-jump": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "cookie-clicker": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "rooftop-snipers": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "getaway-shootout": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "tunnel-rush": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "drive-mad": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "bitlife": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "retro-bowl": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "tiny-fishing": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "ovo": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "friday-night-funkin": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "baldis-basics": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "superhot": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "time-shooter-3": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "smash-karts": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "paper-io-2": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "craftmine": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "grindcraft": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "toss-the-turtle": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "there-is-no-game": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "this-is-the-only-level": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "zombocalypse": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "1v1-lol": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "angry-birds": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "alien-hominid": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "awesome-tanks-2": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "backflip-dive-3d": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "basket-bros": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "basketball-legends": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "basketball-stars": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "binding-of-isaac": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "canyon-defense": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "cars-simulator-3d": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "chess-classic": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "chrome-dino": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "cluster-rush": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "color-switch": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "cubefield": {
+      "status": "available",
+      "reason": ""
+    },
+    "dadish": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "dadish-2": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "dadish-3": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "death-run-3d": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "doge-miner-2": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "elastic-man": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "evil-glitch": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "factory-balls-forever": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "flood-runner-2": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "fruit-ninja": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "getting-over-it-scratch": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "google-snake-custom": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "grow-in-the-hole": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "gunspin": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "house-of-hazards": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "idle-breakout": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "interactive-buddy": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "jelly-truck": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "jetpack-joyride": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "just-fall-lol": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "line-rider": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "madalin-stunt-cars-2": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "madalin-stunt-cars-3": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "meat-boy-flash": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "minecraft-classic": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "my-friend-pedro-flash": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "ninja-dash": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "ninja-vs-evilcorp": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "pacman-fps": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "portal-flash": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "plants-vs-zombies-web": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "rolly-vortex": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "sandboxels": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "short-life-2": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "short-ride": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "super-mario-63": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "sonic-the-hedgehog": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "spelunky-html5": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "stick-archers-battle": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "stickman-boost": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "stickman-dismount": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "stickman-epic-battle": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "stickman-golf": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "storm-the-house-2": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "tank-trouble-2": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "tanuki-sunset": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "the-final-earth-2": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "tube-jumpers": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "wordle-classic": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "zombs-royale": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "achievement-unlocked": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "adrenaline-challenge": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "anti-terrorist-rush": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "asteroids-arcade": {
+      "status": "available",
+      "reason": ""
+    },
+    "battle-for-gondor": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "champion-archer": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "circloo": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "city-blocks-2": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "core-ball": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "csgo-case-clicker": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "defend-the-tank": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "double-wires": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "draw-the-hill": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "duke-dashington": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "edge-surf": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "finns-food-machine": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "friendly-fire": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "gravity-soccer": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "hacker-typer": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "hex-empire": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "icys-purple-head": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "kart-fight-io": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "klocki": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "linquest": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "matrix-rampage": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "mini-stilts": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "mini-putt": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "n-gon": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "osu-web": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "packabunchas": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "particle-clicker": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "quake-1k": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "roadblocks": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "this-is-sand": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "senya-and-oscar-2": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "shift": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "skyblock-2d": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "solitaire-classic": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "sort-the-court": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "tactical-assassin-2": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "tower-master": {
+      "status": "available",
+      "reason": ""
+    },
+    "townscaper-web": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "trimps": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "up-left-out": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "wolfenstein-3d": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "yoshi-fabrication": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "10-minutes-till-dawn": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "8-ball-billiards": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "doge-miner": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "fullscreen-mario": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "black-knight": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "cell-machine": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "deal-or-no-deal": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "flappy-2048": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "google-solitaire": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "super-smash-flash-2": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "stickman-survival": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "indian-truck-simulator": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "geometry-dash": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "endless-war-3": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "kitten-cannon": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "krunker-web": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "idle-shark": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "dragon-vs-bricks": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "doctor-acorn-2": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "froggys-battle": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    },
+    "golf-classic": {
+      "status": "pending",
+      "reason": "Este jogo está em verificação e ainda não está disponível nesta versão."
+    }
+  }
+}

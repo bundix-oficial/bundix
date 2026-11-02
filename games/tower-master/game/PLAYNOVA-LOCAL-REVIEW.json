@@ -1,0 +1,13 @@
+{
+  "id": "tower-master",
+  "originalRepository": "https://github.com/iamkun/tower_game",
+  "commit": "c6fa84afe179b661fa71cf7cc8788d0c47ca2875",
+  "license": "MIT",
+  "licenseUrl": "https://raw.githubusercontent.com/iamkun/tower_game/c6fa84afe179b661fa71cf7cc8788d0c47ca2875/LICENSE",
+  "licenseMatches": true,
+  "sha256": "689dab40fdc5423fb221d2ad9283815a51d097898ebf584edfcba55be9630f94",
+  "status": "license-verified-runtime-test-pending",
+  "removedPortalIntegrations": [],
+  "entrySha256": "adeed30ae5efbc6950ec6f88b2e3742554b90edfa3de699b89d356fb32190ca7",
+  "creditsPreserved": true
+}
