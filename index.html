@@ -44,15 +44,37 @@
     </div>
   </header>
   <main class="page-width">
-    <section class="recent-played-section" id="recent-played-section" hidden aria-labelledby="recent-title">
-      <div class="recent-bar">
-        <div class="recent-title-group">
-          <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/><path d="M12 7v5l4 2"/></svg>
-          <h2 id="recent-title">Continuar jogando</h2>
+        <section class="recent-played-section" id="recent-played-section" hidden aria-labelledby="recent-title">
+      <div class="top-hero-split">
+        <div class="recent-column">
+          <div class="recent-bar">
+            <div class="recent-title-group">
+              <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/><path d="M12 7v5l4 2"/></svg>
+              <h2 id="recent-title">Continuar jogando</h2>
+            </div>
+            <button type="button" class="btn-clear-recent" id="clear-recent" title="Limpar histórico">Limpar</button>
+          </div>
+          <p class="recent-explainer">Reabra seus últimos jogos. O progresso depende de cada jogo.</p>
+          <div class="recent-list" id="recent-list"></div>
         </div>
-        <button type="button" class="btn-clear-recent" id="clear-recent" title="Limpar histórico">Limpar</button>
+        <div class="featured-column">
+          <a href="games/slope/index.html" class="featured-spotlight-card" title="Jogar Slope 3D">
+            <div class="featured-spotlight-thumb">
+              <img src="assets/covers/slope-play.png" alt="Slope 3D" width="90" height="90" loading="lazy">
+              <span class="featured-spotlight-tag">🔥 Destaque</span>
+            </div>
+            <div class="featured-spotlight-info">
+              <div class="featured-spotlight-header">
+                <span class="featured-spotlight-genre">Arcade · 3D</span>
+                <span class="featured-spotlight-badge">⭐ Em alta</span>
+              </div>
+              <h3 class="featured-spotlight-title">Slope 3D</h3>
+              <p class="featured-spotlight-desc">Controle a bola em alta velocidade por uma descida 3D sem fim cheia de obstáculos!</p>
+              <span class="featured-spotlight-cta">Jogar Agora <svg class="icon" viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg></span>
+            </div>
+          </a>
+        </div>
       </div>
-      <p class="recent-explainer">Reabra seus últimos jogos. O progresso depende de cada jogo.</p><div class="recent-list" id="recent-list"></div>
     </section>
     <section class="catalog-section" id="catalogo" aria-labelledby="grid-title">
       <div class="catalog-bar">
