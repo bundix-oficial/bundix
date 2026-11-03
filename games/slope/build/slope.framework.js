@@ -1,4 +1,4 @@
-(function(Module) {
+UnityLoader.playnovaSlopeFramework = (function(Module) {
 Module['preRun'].push(function (){
 	// Initialize the IndexedDB based file system. Module['unityFileSystemInit'] allows
 	// developers to override this with their own function, when they want to do cloud storage 

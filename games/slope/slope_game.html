@@ -10,13 +10,12 @@
     #gameContainer { width: 100%; height: 100%; position: absolute; inset: 0; }
     #gameContainer canvas { width: 100% !important; height: 100% !important; display: block; }
   </style>
-  <script src="build/UnityLoader.js"></script>
+  <script src="build/UnityLoader.js" defer></script>
+  <script src="build/slope.framework.js?v=static-framework-1" defer></script>
+  <script src="slope-runtime.js?v=static-framework-1" defer></script>
 </head>
 <body>
   <div id="gameContainer"></div>
-  <script>
-    var gameInstance = UnityLoader.instantiate("gameContainer", "build/slope.json");
-    document.getElementById("gameContainer").dataset.ready = "true";
-  </script>
+  <p id="slope-error" role="alert" hidden style="position:relative;color:white;padding:1rem;background:#151525"></p>
 </body>
 </html>
