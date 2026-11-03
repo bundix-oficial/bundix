@@ -31,6 +31,29 @@
   window.addEventListener('keydown', unlock, { capture: true });
   for (const key of ['AudioContext', 'webkitAudioContext']) {
     const Native = window[key];
+    if (!Native || !Native.prototype) continue;
+    const origDecode = Native.prototype.decodeAudioData;
+    if (origDecode) {
+      Native.prototype.decodeAudioData = function(buffer, success, error) {
+        try {
+          const res = origDecode.call(this, buffer, success, error);
+          if (res && typeof res.catch === 'function') {
+            return res.catch(err => {
+              if (typeof error === 'function') { try { error(err); } catch(_) {} }
+              return null;
+            });
+          }
+          return res;
+        } catch(err) {
+          if (typeof error === 'function') { try { error(err); } catch(_) {} }
+          return Promise.resolve(null);
+        }
+      };
+    }
+  }
+
+  for (const key of ['AudioContext', 'webkitAudioContext']) {
+    const Native = window[key];
     if (!Native) continue;
     window[key] = class extends Native {
       constructor(...args) { super(...args); contexts.add(this); if (!unlocked || document.hidden) super.suspend().catch(() => {}); }

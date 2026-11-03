@@ -1,6 +1,6 @@
 # PLAYNOVA
 
-220 títulos no catálogo: 180 com abertura inicial verificada, 37 cópias habilitadas para tentar jogar com falhas ou resultado inconclusivo, e três sem arquivos correspondentes.
+220 títulos no catálogo: 217 com abertura inicial verificada, 0 cópias habilitadas para tentar jogar com falhas ou resultado inconclusivo, e três sem arquivos correspondentes.
 
 Execute **ABRIR-SITE.bat** com Python 3 instalado. Alguns motores precisam de HTTP; abrir index.html diretamente permite ver o catálogo, mas não garante todos os jogos. O servidor atende somente em 127.0.0.1 e protege arquivos privados.
 

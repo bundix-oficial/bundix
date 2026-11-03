@@ -31,7 +31,7 @@ const skin = "vaxei";
 const Assets = new SkinLoader(skin);
 const audioManager = new AudioManager();
 let hitObjectRenderer = new HitObjectRenderer(canvas);
-audioManager.load("hitsound", "../src/audio/hitsounds/soft-hitnormal.wav", "effects", true);
+audioManager.load("hitsound", "src/audio/hitsounds/soft-hitnormal.wav", "effects", true);
 
 let currentLoadedMap;
 let isGameRunning = false;

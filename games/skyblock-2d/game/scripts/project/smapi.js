@@ -95,7 +95,7 @@ window.scorenga = new Scorenga();
 // Import any other script files here, e.g.:
 // import * as myModule from "./mymodule.js";
 
-runOnStartup(async runtime =>
+if (typeof runOnStartup === "function") { runOnStartup(async runtime => { runtime.addEventListener("beforeprojectstart", () => OnBeforeProjectStart(runtime)); }); } else { window.addEventListener("DOMContentLoaded", () => { if (typeof runOnStartup === "function") runOnStartup(async runtime => { runtime.addEventListener("beforeprojectstart", () => OnBeforeProjectStart(runtime)); }); }); } // 
 {
 	// Code to run on the loading screen.
 	// Note layouts, objects etc. are not yet available.

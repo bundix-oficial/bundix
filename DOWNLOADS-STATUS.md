@@ -1,6 +1,6 @@
 # Recuperação do catálogo — 02/11/2026
 
-220 títulos no catálogo: 180 com abertura inicial verificada, 37 cópias habilitadas para tentar jogar com falhas ou resultado inconclusivo, e três sem arquivos correspondentes.
+220 títulos no catálogo: 217 com abertura inicial verificada, 0 cópias habilitadas para tentar jogar com falhas ou resultado inconclusivo, e três sem arquivos correspondentes.
 
 - 217 títulos com rota de execução local habilitada, incluindo os que apresentaram problemas. Habilitado não significa teste aprovado.
 - Três sem cópia correspondente: Ninja Dash, Super Smash Flash 2 e Golf Clássico.

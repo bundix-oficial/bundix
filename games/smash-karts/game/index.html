@@ -321,7 +321,19 @@
    <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-analytics.js"></script>
    <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-performance.js"></script>
 
-   <script src="scripts/main-v2.js"></script>
+   <script>
+if (typeof firebase === 'undefined') {
+  window.firebase = {
+    initializeApp: function() { return {}; },
+    analytics: { isSupported: function() { return Promise.resolve(false); } },
+    performance: function() { return { trace: function() { return { start: function(){}, stop: function(){} }; } }; },
+    auth: function() { return { onAuthStateChanged: function(cb) { if (cb) cb(null); } }; }
+  };
+  window.firebaseSetScreen = function() {};
+  window.firebaseLogEvent = function() {};
+}
+</script>
+    <script src="scripts/main-v2.js"></script>
    <script src="scripts/auth-v3.js"></script>
    <script src="scripts/ads-v2.js"></script>
    <script src="scripts/ads-adsbygoogle-v2.js"></script>
