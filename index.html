@@ -58,21 +58,38 @@
           <div class="recent-list" id="recent-list"></div>
         </div>
         <div class="featured-column">
-          <a href="games/slope/index.html" class="featured-spotlight-card" title="Jogar Slope 3D">
-            <div class="featured-spotlight-thumb">
-              <img src="assets/covers/slope-play.png" alt="Slope 3D" width="90" height="90" loading="lazy">
-              <span class="featured-spotlight-tag">🔥 Destaque</span>
+          <div class="top-played-card" aria-label="Top 3 mais jogados">
+            <div class="top-played-header">
+              <svg class="icon icon-gamepad" aria-hidden="true" viewBox="0 0 24 24"><rect x="2" y="6" width="20" height="12" rx="4"/><line x1="6" y1="12" x2="10" y2="12"/><line x1="8" y1="10" x2="8" y2="14"/><circle cx="15.5" cy="10.5" r="1"/><circle cx="17.5" cy="13.5" r="1"/></svg>
+              <h3>Top 3 mais jogados</h3>
             </div>
-            <div class="featured-spotlight-info">
-              <div class="featured-spotlight-header">
-                <span class="featured-spotlight-genre">Arcade · 3D</span>
-                <span class="featured-spotlight-badge">⭐ Em alta</span>
-              </div>
-              <h3 class="featured-spotlight-title">Slope 3D</h3>
-              <p class="featured-spotlight-desc">Controle a bola em alta velocidade por uma descida 3D sem fim cheia de obstáculos!</p>
-              <span class="featured-spotlight-cta">Jogar Agora <svg class="icon" viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg></span>
+            <div class="top-played-list">
+              <a href="games/slope/index.html" class="top-played-item" title="Jogar Slope 3D">
+                <span class="top-rank top-rank-1">1</span>
+                <img src="assets/covers/slope-play.png" alt="Slope 3D" class="top-thumb" width="52" height="34" loading="lazy">
+                <span class="top-title">Slope 3D</span>
+                <span class="top-play-btn" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="13" height="13"><polygon points="8,5 19,12 8,19"/></svg>
+                </span>
+              </a>
+              <a href="games/flappy-bird/index.html" class="top-played-item" title="Jogar Flappy Bird">
+                <span class="top-rank top-rank-2">2</span>
+                <img src="assets/covers/flappy-bird.png" alt="Flappy Bird" class="top-thumb" width="52" height="34" loading="lazy">
+                <span class="top-title">Flappy Bird</span>
+                <span class="top-play-btn" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="13" height="13"><polygon points="8,5 19,12 8,19"/></svg>
+                </span>
+              </a>
+              <a href="games/pacman/index.html" class="top-played-item" title="Jogar Pac-Man HTML5">
+                <span class="top-rank top-rank-3">3</span>
+                <img src="assets/covers/pacman.png" alt="Pac-Man HTML5" class="top-thumb" width="52" height="34" loading="lazy">
+                <span class="top-title">Pac-Man</span>
+                <span class="top-play-btn" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="13" height="13"><polygon points="8,5 19,12 8,19"/></svg>
+                </span>
+              </a>
             </div>
-          </a>
+          </div>
         </div>
       </div>
     </section>
