@@ -1,0 +1,1 @@
+window.PlaynovaChunkFiles={"root":"./","files":{"Build/SanFrancisco.data.unityweb":{"size":27979216,"parts":["file-parts/f530ef6aeabd/0.bin","file-parts/f530ef6aeabd/1.bin"],"sha256":"f76c327c4d0c76aabeddc4ad28b4a73d32a9682ccc17ceec7c087a2e23840fc2","type":"application/octet-stream"}}};

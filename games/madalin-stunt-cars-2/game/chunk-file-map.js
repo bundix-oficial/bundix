@@ -1,0 +1,1 @@
+window.PlaynovaChunkFiles={"root":"./","files":{"data.unityweb":{"size":37088945,"parts":["file-parts/d18f0b0ff1d0/0.bin","file-parts/d18f0b0ff1d0/1.bin"],"sha256":"84c2289bab612248cf52567320a80f222215de00be5001bc4aa1a194b468dedf","type":"application/octet-stream"}}};

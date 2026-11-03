@@ -1,0 +1,1 @@
+window.PlaynovaFileMap={"files":{"favicon.ico":"favicon.ico","index.html":"index.html","kernel.txt":"kernel.txt","logo192.png":"logo192.png","script.js":"script.js","style.css":"style.css"},"unique":{"favicon.ico":"favicon.ico","index.html":"index.html","kernel.txt":"kernel.txt","logo192.png":"logo192.png","script.js":"script.js","style.css":"style.css"}};

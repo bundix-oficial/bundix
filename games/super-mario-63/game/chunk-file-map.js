@@ -1,0 +1,1 @@
+window.PlaynovaChunkFiles={"root":"./","files":{"index.pck":{"size":38215072,"parts":["file-parts/5c7171384543/0.bin","file-parts/5c7171384543/1.bin"],"sha256":"6f11642a5d69b78222cb2751d3775abafbe50d4beed1a33b8c91fe53ec58772f","type":"application/octet-stream"}}};

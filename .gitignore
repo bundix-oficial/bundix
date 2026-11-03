@@ -1,6 +1,7 @@
-﻿# Pastas de cache e ferramentas internas
+# Pastas de cache e ferramentas internas
 .browser-check/
 .browser-review/
+.browser-*
 .env
 .env.*
 *.pem
@@ -21,7 +22,7 @@ IDENTIDADE-PLAYNOVA.md
 RELATORIO-FINAL.md
 USO-NA-ESCOLA.md
 
-# Prot?tipos retirados, preservados apenas localmente
+# Protótipos retirados, preservados apenas localmente
 arquivo-testes-iniciais/
 
 # User-provided local game discs: never publish or package
@@ -29,22 +30,24 @@ private-iso/
 private-download-review/
 download-progress.json
 download-errors.json
-/games/*/game/
-!/games/cubefield/game/
-!/games/asteroids-arcade/game/
-!/games/tower-master/game/
-!/games/n-gon/game/
-!/games/chess-classic/game/
-!/games/chrome-dino/game/
-!/games/particle-clicker/game/
-!/games/packabunchas/game/
-!/games/quake-1k/game/
-!/games/trimps/game/
-/games/*/*.swf
+
+# Oversized local original files (>25MB) - chunked versions in file-parts/ are used instead
+games/10-minutes-till-dawn/game/Build/10MinutesTillDawnWebGL.data.unityweb
+games/cars-simulator-3d/game/Build/cars-simulator-v2.data.unityweb
+games/duck-life-4/game/WebGL.data.unityweb
+games/duck-life-4/game/Build/WebGL4.data.unityweb
+games/madalin-stunt-cars-2/game/data.unityweb
+games/madalin-stunt-cars-3/game/unity/data.unityweb
+games/subway-surfers/game/Build/SanFrancisco.data.unityweb
+games/super-mario-63/game/index.pck
+games/tanuki-sunset/game/Build/WebGL.data.unityweb
+games/tanuki-sunset/game/unity/tanuki.data.unityweb
+games/townscaper-web/game/Build/WebGL.data
+
+# Arquivos binários pesados de console e executáveis
 *.iso
 *.cso
 *.chd
 *.isz
-
-.browser-*
-
+*.exe
+*.dll

@@ -1,0 +1,1 @@
+window.PlaynovaChunkFiles={"root":"./","files":{"Build/cars-simulator-v2.data.unityweb":{"size":27587864,"parts":["file-parts/87afa64c68dd/0.bin","file-parts/87afa64c68dd/1.bin"],"sha256":"419be42989092c3d9046e2e7da834ddd2dc344169924be4a81446f9b33754290","type":"application/octet-stream"}}};

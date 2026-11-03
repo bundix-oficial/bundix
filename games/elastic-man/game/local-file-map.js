@@ -1,0 +1,1 @@
+window.PlaynovaFileMap={"files":{"elasticman.jpg":"elasticman.jpg","index.html":"index.html"},"unique":{"elasticman.jpg":"elasticman.jpg","index.html":"index.html"}};

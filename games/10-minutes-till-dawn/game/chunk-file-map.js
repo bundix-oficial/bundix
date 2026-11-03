@@ -1,0 +1,1 @@
+window.PlaynovaChunkFiles={"root":"./","files":{"Build/10MinutesTillDawnWebGL.data.unityweb":{"size":27343110,"parts":["file-parts/6aaa9fdb1c8b/0.bin","file-parts/6aaa9fdb1c8b/1.bin"],"sha256":"bfa18bfdc2c283b79ddfbb8e08305b476617fe6e01648865063c937ca855afbd","type":"application/octet-stream"}}};

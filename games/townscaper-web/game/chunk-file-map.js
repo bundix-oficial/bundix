@@ -1,0 +1,1 @@
+window.PlaynovaChunkFiles={"root":"./","files":{"Build/WebGL.data":{"size":32386485,"parts":["file-parts/895d8f53e04e/0.bin","file-parts/895d8f53e04e/1.bin"],"sha256":"37a47d08e04a15a3b73b28d364834620f4f1c72ee400202c6c339e73e27eca77","type":"application/octet-stream"}}};
