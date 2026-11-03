@@ -423,9 +423,9 @@
     },
     {
       "id": "cut-the-rope",
-      "title": "Cut the Rope",
-      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/cuttherope",
-      "license": "Not newly confirmed; see preserved notices",
+      "title": "Cut The Rope",
+      "source": "https://github.com/3kh0/3kh0-lite/tree/d5cf6bb79a6427ada99e7f2e31425325f454565d/projects/ctr/",
+      "license": "Not newly confirmed; inherited game copy, original notices preserved",
       "notice": ""
     },
     {
@@ -438,8 +438,8 @@
     {
       "id": "crossy-road",
       "title": "Crossy Road",
-      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/crossyroad",
-      "license": "Not newly confirmed; see preserved notices",
+      "source": "https://github.com/mackeylol/copyofmasite/tree/282bb405c14365958691c2d87c3b1c23083b0170/Games/crossyroad/",
+      "license": "Not newly confirmed; inherited game copy, original notices preserved",
       "notice": ""
     },
     {
@@ -459,8 +459,8 @@
     {
       "id": "rooftop-snipers",
       "title": "Rooftop Snipers",
-      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/rooftop-snipers",
-      "license": "Not newly confirmed; see preserved notices",
+      "source": "https://github.com/3kh0/3kh0-lite/tree/d5cf6bb79a6427ada99e7f2e31425325f454565d/projects/rooftop-snipers/",
+      "license": "Not newly confirmed; inherited game copy, original notices preserved",
       "notice": ""
     },
     {
@@ -480,8 +480,8 @@
     {
       "id": "drive-mad",
       "title": "Drive Mad",
-      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/drive-mad",
-      "license": "Not newly confirmed; see preserved notices",
+      "source": "https://github.com/mackeylol/copyofmasite/tree/282bb405c14365958691c2d87c3b1c23083b0170/Games/DriveMad/",
+      "license": "Not newly confirmed; inherited game copy, original notices preserved",
       "notice": ""
     },
     {
@@ -501,8 +501,8 @@
     {
       "id": "tiny-fishing",
       "title": "Tiny Fishing",
-      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/tiny-fishing",
-      "license": "Not newly confirmed; see preserved notices",
+      "source": "https://github.com/mackeylol/copyofmasite/tree/282bb405c14365958691c2d87c3b1c23083b0170/tinyfishing/",
+      "license": "Not newly confirmed; inherited game copy, original notices preserved",
       "notice": ""
     },
     {
@@ -549,23 +549,23 @@
     },
     {
       "id": "paper-io-2",
-      "title": "Paper.io 2",
-      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/paperio2",
-      "license": "Not newly confirmed; see preserved notices",
+      "title": "Paper Io 2",
+      "source": "https://github.com/3kh0/3kh0-lite/tree/d5cf6bb79a6427ada99e7f2e31425325f454565d/projects/paperio2/",
+      "license": "Not newly confirmed; inherited game copy, original notices preserved",
       "notice": ""
     },
     {
       "id": "craftmine",
-      "title": "CraftMine",
-      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/craftmine",
-      "license": "Not newly confirmed; see preserved notices",
+      "title": "Craftmine",
+      "source": "https://github.com/3kh0/3kh0-lite/tree/d5cf6bb79a6427ada99e7f2e31425325f454565d/projects/craftmine/",
+      "license": "Not newly confirmed; inherited game copy, original notices preserved",
       "notice": ""
     },
     {
       "id": "grindcraft",
       "title": "Grindcraft",
-      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/grindcraft",
-      "license": "Not newly confirmed; see preserved notices",
+      "source": "https://github.com/3kh0/3kh0-lite/tree/d5cf6bb79a6427ada99e7f2e31425325f454565d/projects/grindcraft/",
+      "license": "Not newly confirmed; inherited game copy, original notices preserved",
       "notice": ""
     },
     {
@@ -578,8 +578,8 @@
     {
       "id": "there-is-no-game",
       "title": "There Is No Game",
-      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/there-is-no-game",
-      "license": "Not newly confirmed; see preserved notices",
+      "source": "https://github.com/3kh0/3kh0-lite/tree/d5cf6bb79a6427ada99e7f2e31425325f454565d/projects/there-is-no-game/",
+      "license": "Not newly confirmed; inherited game copy, original notices preserved",
       "notice": ""
     },
     {
@@ -648,8 +648,8 @@
     {
       "id": "basketball-stars",
       "title": "Basketball Stars",
-      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/basketball-stars",
-      "license": "Not newly confirmed; see preserved notices",
+      "source": "https://github.com/3kh0/3kh0-lite/tree/d5cf6bb79a6427ada99e7f2e31425325f454565d/projects/basketball-stars/",
+      "license": "Not newly confirmed; inherited game copy, original notices preserved",
       "notice": ""
     },
     {
@@ -711,8 +711,8 @@
     {
       "id": "dadish",
       "title": "Dadish",
-      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/dadish",
-      "license": "Not newly confirmed; see preserved notices",
+      "source": "https://github.com/mackeylol/copyofmasite/tree/282bb405c14365958691c2d87c3b1c23083b0170/Games/dadish/",
+      "license": "Not newly confirmed; inherited game copy, original notices preserved",
       "notice": ""
     },
     {
@@ -746,8 +746,8 @@
     {
       "id": "elastic-man",
       "title": "Elastic Man",
-      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/elasticman",
-      "license": "Not newly confirmed; see preserved notices",
+      "source": "https://github.com/3kh0/3kh0-lite/tree/d5cf6bb79a6427ada99e7f2e31425325f454565d/projects/elasticman/",
+      "license": "Not newly confirmed; inherited game copy, original notices preserved",
       "notice": ""
     },
     {
@@ -787,9 +787,9 @@
     },
     {
       "id": "google-snake-custom",
-      "title": "Google Snake Especial",
-      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/google-snake",
-      "license": "Not newly confirmed; see preserved notices",
+      "title": "Google Snake Custom",
+      "source": "https://github.com/3kh0/3kh0-lite/tree/d5cf6bb79a6427ada99e7f2e31425325f454565d/projects/google-snake/",
+      "license": "Not newly confirmed; inherited game copy, original notices preserved",
       "notice": ""
     },
     {
@@ -816,8 +816,8 @@
     {
       "id": "idle-breakout",
       "title": "Idle Breakout",
-      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/idle-breakout",
-      "license": "Not newly confirmed; see preserved notices",
+      "source": "https://github.com/3kh0/3kh0-lite/tree/d5cf6bb79a6427ada99e7f2e31425325f454565d/projects/idle-breakout/",
+      "license": "Not newly confirmed; inherited game copy, original notices preserved",
       "notice": ""
     },
     {
@@ -879,8 +879,8 @@
     {
       "id": "minecraft-classic",
       "title": "Minecraft Classic",
-      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/minecraft-classic",
-      "license": "Not newly confirmed; see preserved notices",
+      "source": "https://github.com/3kh0/3kh0-lite/tree/d5cf6bb79a6427ada99e7f2e31425325f454565d/projects/minecraft-classic/",
+      "license": "Not newly confirmed; inherited game copy, original notices preserved",
       "notice": ""
     },
     {
@@ -935,8 +935,8 @@
     {
       "id": "sandboxels",
       "title": "Sandboxels",
-      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/sandboxels",
-      "license": "Not newly confirmed; see preserved notices",
+      "source": "https://github.com/mackeylol/copyofmasite/tree/282bb405c14365958691c2d87c3b1c23083b0170/Games/sandboxels/",
+      "license": "Not newly confirmed; inherited game copy, original notices preserved",
       "notice": ""
     },
     {
@@ -1019,8 +1019,8 @@
     {
       "id": "tank-trouble-2",
       "title": "Tank Trouble 2",
-      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/tank-trouble-2",
-      "license": "Not newly confirmed; see preserved notices",
+      "source": "https://github.com/3kh0/3kh0-lite/tree/d5cf6bb79a6427ada99e7f2e31425325f454565d/projects/tank-trouble-2/",
+      "license": "Not newly confirmed; inherited game copy, original notices preserved",
       "notice": ""
     },
     {
@@ -1131,8 +1131,8 @@
     {
       "id": "defend-the-tank",
       "title": "Defend The Tank",
-      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/defend-the-tank",
-      "license": "Not newly confirmed; see preserved notices",
+      "source": "https://github.com/3kh0/3kh0-lite/tree/d5cf6bb79a6427ada99e7f2e31425325f454565d/projects/defend-the-tank/",
+      "license": "Not newly confirmed; inherited game copy, original notices preserved",
       "notice": ""
     },
     {
@@ -1187,8 +1187,8 @@
     {
       "id": "hacker-typer",
       "title": "Hacker Typer",
-      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/hackertype",
-      "license": "Not newly confirmed; see preserved notices",
+      "source": "https://github.com/3kh0/3kh0-lite/tree/d5cf6bb79a6427ada99e7f2e31425325f454565d/projects/hackertype/",
+      "license": "Not newly confirmed; inherited game copy, original notices preserved",
       "notice": ""
     },
     {
@@ -1319,9 +1319,9 @@
     },
     {
       "id": "solitaire-classic",
-      "title": "Paciência Clássica",
-      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/solitaire",
-      "license": "Not newly confirmed; see preserved notices",
+      "title": "Solitaire Classic",
+      "source": "https://github.com/3kh0/3kh0-lite/tree/d5cf6bb79a6427ada99e7f2e31425325f454565d/projects/solitaire/",
+      "license": "Not newly confirmed; inherited game copy, original notices preserved",
       "notice": ""
     },
     {
@@ -1369,8 +1369,8 @@
     {
       "id": "wolfenstein-3d",
       "title": "Wolfenstein 3D",
-      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/wolf3d",
-      "license": "Not newly confirmed; see preserved notices",
+      "source": "https://github.com/3kh0/3kh0-lite/tree/d5cf6bb79a6427ada99e7f2e31425325f454565d/projects/wolf3d/",
+      "license": "Not newly confirmed; inherited game copy, original notices preserved",
       "notice": ""
     },
     {
@@ -1397,8 +1397,8 @@
     {
       "id": "doge-miner",
       "title": "Doge Miner",
-      "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/DogeMiner",
-      "license": "Not newly confirmed; see preserved notices",
+      "source": "https://github.com/3kh0/3kh0-lite/tree/d5cf6bb79a6427ada99e7f2e31425325f454565d/projects/DogeMiner/",
+      "license": "Not newly confirmed; inherited game copy, original notices preserved",
       "notice": ""
     },
     {
@@ -1526,6 +1526,20 @@
       "source": "https://github.com/tw31122007/HTML-Games-V2/tree/ea8f19ccbdb51f60f2279b10e615e648510b768e/None",
       "license": "Not newly confirmed; see preserved notices",
       "notice": ""
+    },
+    {
+      "id": "fnaf-night-at-mythius",
+      "title": "FNAF: Night at Mythius",
+      "source": "https://github.com/Mythius/FNaF/tree/6a97ab98624043282733a60cc9e184e6479c88b0",
+      "license": "MIT — Matthias Southwick, 2020; independent fan project, not an official Scott Cawthon release",
+      "notice": "games/fnaf-night-at-mythius/game/LICENSE"
+    },
+    {
+      "id": "fnaf-security-console",
+      "title": "FNAF: Security Console",
+      "source": "https://github.com/Scaldev/SecurityConsole/tree/5ce1a4d7e1aab8e47439c5a6d1cf7c5904513727",
+      "license": "MIT — Scald, 2022; independent FNAF-inspired game",
+      "notice": "games/fnaf-security-console/game/LICENSE"
     }
   ]
 }

@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self'; font-src 'self' data:; frame-src 'self'; media-src 'self' data: blob:; object-src 'none'; base-uri 'self'; form-action 'none'">
@@ -6,12 +6,12 @@
   
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#090d1b">
-  <meta name="description" content="PLAYNOVA â€” Jogue o futuro. Explore 218 jogos de arcade, aventura e lÃ³gica no navegador.">
-  <title>PLAYNOVA â€” 218 jogos para descobrir</title>
+  <meta name="description" content="PLAYNOVA — Jogue o futuro. Explore 220 jogos de arcade, aventura e lógica no navegador.">
+  <title>PLAYNOVA — 220 jogos para descobrir</title>
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
   <link rel="stylesheet" href="assets/theme.css?v=0a5980ddf759">
   <link rel="stylesheet" href="assets/catalog.css?v=c828ce949d79">
-  <link rel="stylesheet" href="assets/ui-enhancements.css?v=4a43aeefd0df">
+  <link rel="stylesheet" href="assets/ui-enhancements.css?v=429b006ce7fa">
   <link rel="stylesheet" href="assets/secret-credits.css?v=782ecef22f05">
   <link rel="stylesheet" href="assets/cookie-consent.css?v=f32e6d291cc5">
   <link rel="stylesheet" href="assets/curated-catalog.css?v=4cf2c2cb9078">
@@ -21,19 +21,16 @@
   <a class="skip-link" href="#catalogo">Pular para os jogos</a>
   <header class="main-header">
     <div class="header-top page-width">
-      <a class="logo" href="index.html" aria-label="PLAYNOVA, inÃ­cio">
+      <a class="logo" href="index.html" aria-label="PLAYNOVA, início">
         <img src="assets/brand/playnova-logo.png" alt="PLAYNOVA" width="244" height="80" fetchpriority="high">
         <span class="brand-tagline">Jogue o futuro.</span>
       </a>
       <form class="search-wrapper" id="search-form" role="search">
         <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg>
         <label class="sr-only" for="search-input">Buscar jogos</label>
-        <input id="search-input" type="search" placeholder="Encontre seu prÃ³ximo jogoâ€¦" autocomplete="off">
+        <input id="search-input" type="search" placeholder="Encontre seu próximo jogo…" autocomplete="off">
         <button type="submit" aria-label="Buscar jogos"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14m-5-5 5 5-5 5"/></svg></button>
       </form>
-      <button class="random-btn" id="random-game" title="Escolher um jogo aleatÃ³rio">
-        <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="4"/><path d="M7.5 7.5h.01m9 0h.01m-4.51 4.5h.01m-4.51 4.5h.01m9 0h.01" stroke-width="3"/></svg><span>Surpreenda-me</span>
-      </button>
     </div>
     <div class="header-bottom page-width">
       <nav class="quick-nav" aria-label="Explorar jogos">
@@ -41,43 +38,25 @@
         <button class="cat-btn" data-cat="recentes" aria-pressed="false"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="m10 3 2.3 6.7L19 12l-6.7 2.3L10 21l-2.3-6.7L1 12l6.7-2.3ZM19 2v5m-2.5-2.5h5M20 17v4m-2-2h4"/></svg><span>Novidades</span></button>
         <button class="cat-btn" data-cat="populares" aria-pressed="false"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M13 2c1 6-5 6-3 11-2-1-2-3-2-4-7 7-3 13 4 13s11-6 6-13c0 4-2 4-2 4 2-5-1-8-3-11Z"/></svg><span>Em alta</span></button>
         <button class="cat-btn" data-cat="favoritos" aria-pressed="false"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="m12 3 2.8 5.7 6.3.9-4.6 4.4 1.1 6.3-5.6-3-5.6 3 1.1-6.3L3 9.6l6.2-.9Z"/></svg><span>Favoritos</span><span id="fav-count">0</span></button>
-        <a class="fnaf-nav-link" href="fnaf.html" title="FNAF â€” pÃ¡ginas oficiais" aria-label="Five Nights at Freddyâ€™s â€” pÃ¡ginas oficiais">FNAF â†—</a>
+        <button class="cat-btn" data-cat="fnaf" aria-pressed="false" title="FNAF: fangames para jogar aqui">FNAF</button>
       </nav>
       <span class="header-note"><span class="status-dot"></span>Feito para jogar</span>
     </div>
   </header>
   <main class="page-width">
-        <section class="welcome" aria-labelledby="welcome-title">
-      <div class="welcome-copy">
-        <p class="eyebrow"><span></span>SUA PRÓXIMA AVENTURA COMEÇA AQUI</p>
-        <h1 id="welcome-title">O clássico dos jogos.<br> Direto no seu <span>navegador.</span></h1>
-        <p>Dos clássicos do Friv aos novos desafios: escolha seu jogo e jogue o futuro sem anúncios.</p>
-        <a class="explore-link" href="#catalogo">Explore os jogos <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14m-5-5 5 5-5 5"/></svg></a>
-      </div>
-      <a class="featured-game" href="games/slope/index.html" aria-label="Jogar Slope 3D, destaque da PLAYNOVA">
-        <img src="assets/covers/slope-play.png" alt="Pista neon do Slope 3D" width="400" height="400">
-        <div class="featured-info">
-          <span class="featured-label"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M13 2c1 6-5 6-3 11-2-1-2-3-2-4-7 7-3 13 4 13s11-6 6-13c0 4-2 4-2 4 2-5-1-8-3-11Z"/></svg>EM ALTA</span>
-          <h2>Slope 3D</h2>
-          <p>Velocidade neon de outra galáxia.</p>
-          <span class="featured-play"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M5 3l14 9-14 9V3z" fill="currentColor"/></svg>Jogar agora</span>
-        </div>
-        <span class="featured-orbit" aria-hidden="true"></span>
-      </a>
-    </section>
-        <section class="recent-played-section" id="recent-played-section" hidden aria-labelledby="recent-title">
+    <section class="recent-played-section" id="recent-played-section" hidden aria-labelledby="recent-title">
       <div class="recent-bar">
         <div class="recent-title-group">
           <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/><path d="M12 7v5l4 2"/></svg>
           <h2 id="recent-title">Continuar jogando</h2>
         </div>
-        <button type="button" class="btn-clear-recent" id="clear-recent" title="Limpar histÃ³rico">Limpar</button>
+        <button type="button" class="btn-clear-recent" id="clear-recent" title="Limpar histórico">Limpar</button>
       </div>
-      <p class="recent-explainer">Reabra seus Ãºltimos jogos. O progresso depende de cada jogo.</p><div class="recent-list" id="recent-list"></div>
+      <p class="recent-explainer">Reabra seus últimos jogos. O progresso depende de cada jogo.</p><div class="recent-list" id="recent-list"></div>
     </section>
     <section class="catalog-section" id="catalogo" aria-labelledby="grid-title">
       <div class="catalog-bar">
-        <div class="catalog-title"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg><h2 id="grid-title">Todos os jogos</h2><span id="grid-counter" aria-live="polite">218 jogos</span></div>
+        <div class="catalog-title"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg><h2 id="grid-title">Todos os jogos</h2><span id="grid-counter" aria-live="polite">220 jogos</span></div>
         <button type="button" id="reset-filters" class="subtle-button" hidden>Limpar filtros</button>
       </div>
       <nav class="category-nav" aria-label="Categorias">
@@ -85,39 +64,38 @@
         <button class="category-chip" data-cat="leves" aria-pressed="false"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="m13 2-9 12h7l-1 8 10-13h-7Z"/></svg>Leves</button>
         <button class="category-chip" data-cat="arcade" aria-pressed="false"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M7 6h10c3 0 4 4 5 10 .5 4-2 5-5 1l-1-1H8l-1 1c-3 4-5.5 3-5-1C3 10 4 6 7 6Z"/><path d="M7 9v5m-2.5-2.5h5M16 10h.01M19 13h.01"/></svg>Arcade</button>
         <button class="category-chip" data-cat="puzzle" aria-pressed="false"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M9 3H3v6c4-2 5 4 0 3v9h6c-2-5 4-5 3 0h9v-7c-5 2-5-4 0-3V3h-7c2 5-4 5-3 0Z"/></svg>Puzzle</button>
-        <button class="category-chip" data-cat="retro" aria-pressed="false"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 8v8m-6-2-3 4v3h18v-3l-3-4m-15 4h18"/><circle cx="12" cy="5" r="3"/></svg>RetrÃ´</button>
-        <button class="category-chip" data-cat="classico" aria-pressed="false"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M7 3h10v7a5 5 0 0 1-10 0ZM7 5H3v3a4 4 0 0 0 4 4m10-7h4v3a4 4 0 0 1-4 4M12 15v5m-4 1h8"/></svg>ClÃ¡ssicos</button>
-        <button class="category-chip" data-cat="acao" aria-pressed="false"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M9 16c-1-3 4-12 12-13 0 8-9 13-12 13Zm3-8-5-1-4 5 6 1m7-1 1 5-5 4-1-6M6 17l-3 4 4-2"/><circle cx="16" cy="8" r="2"/></svg>AÃ§Ã£o</button>
+        <button class="category-chip" data-cat="retro" aria-pressed="false"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M12 8v8m-6-2-3 4v3h18v-3l-3-4m-15 4h18"/><circle cx="12" cy="5" r="3"/></svg>Retrô</button>
+        <button class="category-chip" data-cat="classico" aria-pressed="false"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M7 3h10v7a5 5 0 0 1-10 0ZM7 5H3v3a4 4 0 0 0 4 4m10-7h4v3a4 4 0 0 1-4 4M12 15v5m-4 1h8"/></svg>Clássicos</button>
+        <button class="category-chip" data-cat="acao" aria-pressed="false"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M9 16c-1-3 4-12 12-13 0 8-9 13-12 13Zm3-8-5-1-4 5 6 1m7-1 1 5-5 4-1-6M6 17l-3 4 4-2"/><circle cx="16" cy="8" r="2"/></svg>Ação</button>
         <button class="category-chip" data-cat="mobile" aria-pressed="false"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><rect x="6" y="2" width="12" height="20" rx="3" fill="none" stroke="currentColor" stroke-width="2"/><path d="M11 18h2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Mobile</button>
         <button class="category-chip" data-cat="console" aria-pressed="false"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><rect x="2" y="6" width="20" height="12" rx="4" fill="none" stroke="currentColor" stroke-width="2"/><path d="M6 12h4m-2-2v4m8-2h.01m3 0h.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>Console</button>
         <button class="category-chip" data-cat="flash" aria-pressed="false"><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M13 2 4 14h6l-1 8 9-12h-6Z" fill="currentColor"/></svg>Flash</button>
       </nav>
-      <details class="catalog-options" id="catalog-options"><summary>Filtros e opÃ§Ãµes</summary><div class="discovery-toolbar" aria-label="Refinar jogos">
+      <details class="catalog-options" id="catalog-options"><summary>Filtros e opções</summary><div class="discovery-toolbar" aria-label="Refinar jogos">
         <label>Como quer jogar?<select id="control-filter"><option value="">Todos os controles</option><option value="two">2 jogadores</option><option value="gamepad">Aceita controle</option><option value="touch">Funciona com toque</option><option value="keyboard">Jogar com teclado</option></select></label>
         
-        <label class="sort-label">Organizar por<select id="sort-games"><option value="recommended">Destaques</option><option value="name">Nome Aâ€“Z</option><option value="recent">Ãšltimos jogados</option></select></label>
+        <label class="sort-label">Organizar por<select id="sort-games"><option value="recommended">Destaques</option><option value="name">Nome A–Z</option><option value="recent">Últimos jogados</option></select></label>
         <div class="discovery-actions"><button type="button" id="request-game" class="primary-button">Pedir um jogo</button></div>
       </div></details><p id="filter-note" class="filter-note" hidden>Mostrando os jogos com esse tipo de controle informado.</p>
       <div class="games-grid" id="games-grid"></div>
-      <noscript>Ative o JavaScript para explorar o catÃ¡logo ou <a href="games/slope/index.html">jogue Slope 3D</a>.</noscript>
+      <noscript>Ative o JavaScript para explorar o catálogo ou <a href="games/slope/index.html">jogue Slope 3D</a>.</noscript>
     </section>
-    <div class="catalog-bottom"><span><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M7 6h10c3 0 4 4 5 10 .5 4-2 5-5 1l-1-1H8l-1 1c-3 4-5.5 3-5-1C3 10 4 6 7 6Z"/><path d="M7 9v5m-2.5-2.5h5M16 10h.01M19 13h.01"/></svg>Pequenos jogos. Grandes descobertas.</span><span>GrÃ¡tis <i>Â·</i> Sem cadastro <i>Â·</i> Direto no navegador</span></div>
+    <div class="catalog-bottom"><span><svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M7 6h10c3 0 4 4 5 10 .5 4-2 5-5 1l-1-1H8l-1 1c-3 4-5.5 3-5-1C3 10 4 6 7 6Z"/><path d="M7 9v5m-2.5-2.5h5M16 10h.01M19 13h.01"/></svg>Pequenos jogos. Grandes descobertas.</span><span>Grátis <i>·</i> Sem cadastro <i>·</i> Direto no navegador</span></div>
   </main>
   <footer class="site-footer page-width">
     <div class="footer-brand"><button type="button" id="secret-credits-trigger" class="footer-logo" aria-label="PLAYNOVA"><img src="assets/brand/playnova-logo.png" alt="PLAYNOVA" width="168" height="56" loading="lazy"></button><p>Jogue o futuro.</p></div>
-    <div class="footer-links"><a href="credits.html">CrÃ©ditos dos jogos <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M6 18 18 6M6 6h12v12"/></svg></a><a href="privacy.html">Privacidade</a><a href="terms.html">Termos</a><span>Feito por Davi Â· Testado por Samuel</span></div>
-    <span class="copyright">Â© 2026 PLAYNOVA</span>
+    <div class="footer-links"><a href="credits.html">Créditos dos jogos <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><path d="M6 18 18 6M6 6h12v12"/></svg></a><a href="privacy.html">Privacidade</a><a href="terms.html">Termos</a><span>Feito por Davi · Testado por Samuel</span></div>
+    <span class="copyright">© 2026 PLAYNOVA</span>
   </footer>
-  <dialog id="secret-credits" aria-labelledby="secret-credits-title"><p class="eyebrow">TRANSMISSÃƒO SECRETA Â· PLAYNOVA</p><h2 id="secret-credits-title">VocÃª encontrou a sala secreta!</h2><div class="secret-crew"><p class="secret-label">Criador</p><p class="secret-name">Davi</p><p class="secret-label">Tester</p><p class="secret-name">Samuel bundinha gulosinha</p><p>MissÃ£o: testar atÃ© gastar o teclado.</p></div><small>Os crÃ©ditos desaparecem em 10 segundos.</small><button type="button">Voltar aos jogos</button></dialog>
-  <script src="js/game-availability.js?v=ec564602ce10" defer></script>
-  <script src="js/game-features.js?v=eff8105c7a9a" defer></script>
+  <dialog id="secret-credits" aria-labelledby="secret-credits-title"><p class="eyebrow">TRANSMISSÃO SECRETA · PLAYNOVA</p><h2 id="secret-credits-title">Você encontrou a sala secreta!</h2><div class="secret-crew"><p class="secret-label">Criador</p><p class="secret-name">Davi</p><p class="secret-label">Tester</p><p class="secret-name">Samuel bundinha gulosinha</p><p>Missão: testar até gastar o teclado.</p></div><small>Os créditos desaparecem em 10 segundos.</small><button type="button">Voltar aos jogos</button></dialog>
+  <script src="js/game-availability.js?v=744d7e753629" defer></script>
+  <script src="js/game-features.js?v=59198de1e3f1" defer></script>
   <script src="js/library.js?v=10de3536e374" defer></script>
   <script src="js/community-config.js?v=d3fa5ec60f2c" defer></script>
   <script src="js/community.js?v=a30ae21eeda1" defer></script>
-  <script src="js/app.js?v=f83a9ab89198" defer></script>
+  <script src="js/app.js?v=c5bbedd5c5fa" defer></script>
   <script src="js/secret-credits.js?v=12b60cdcfa52"></script>
   <script src="js/cookie-consent.js?v=77b01c42f7d4" defer></script>
   
-<script src="js/help-button.js?v=1b2182d01329" defer></script>
-<script src="js/slope-preview.js?v=3a94e3864e08" defer></script></body>
+<script src="js/local-open.js?v=09b74587a585" defer></script></body>
 </html>

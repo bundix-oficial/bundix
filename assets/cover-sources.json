@@ -1,0 +1,100 @@
+{
+  "version": 1,
+  "scope": "Replacement covers, including real game captures and publisher promotional assets; no hotlinking.",
+  "covers": {
+    "fnaf-night-at-mythius": {
+      "path": "assets/covers/reviewed/fnaf-night-at-mythius.jpg",
+      "source": "Local capture of the actual reviewed game; source and retained notices in assets/game-sources.json",
+      "method": "Browser screenshot, no generated artwork",
+      "authorRights": "Original game authors retain the artwork rights."
+    },
+    "dadish": {
+      "path": "assets/covers/reviewed/dadish.jpg",
+      "source": "Local capture of the actual reviewed game; source and retained notices in assets/game-sources.json",
+      "method": "Browser screenshot, no generated artwork",
+      "authorRights": "Original game authors retain the artwork rights."
+    },
+    "solitaire-classic": {
+      "path": "assets/covers/reviewed/solitaire-classic.jpg",
+      "source": "Local capture of the actual reviewed game; source and retained notices in assets/game-sources.json",
+      "method": "Browser screenshot, no generated artwork",
+      "authorRights": "Original game authors retain the artwork rights."
+    },
+    "hacker-typer": {
+      "path": "assets/covers/reviewed/hacker-typer.jpg",
+      "source": "Local capture of the actual reviewed game; source and retained notices in assets/game-sources.json",
+      "method": "Browser screenshot, no generated artwork",
+      "authorRights": "Original game authors retain the artwork rights."
+    },
+    "doge-miner-2": {
+      "path": "assets/covers/reviewed/doge-miner-2.webp",
+      "source": "https://blog.dogeminer2.com/presskit/",
+      "download": "https://blog.dogeminer2.com/presskit/capsule.webp",
+      "method": "Publisher promotional artwork",
+      "credit": "rkn — Dogeminer 2 press kit",
+      "authorRights": "Publisher retains copyright; used solely to identify this game, not a license to the game itself."
+    },
+    "jetpack-joyride": {
+      "path": "assets/covers/reviewed/jetpack-joyride.png",
+      "source": "https://www.halfbrick.com/games/jetpack-joyride-classic",
+      "download": "https://cdn.prod.website-files.com/5fa23905123118739c5e21e2/65305b04521600ebf35fd957_5fa23905123118b04e5e2881_Character_Jetpack_Optimised.png",
+      "method": "Publisher promotional artwork",
+      "credit": "Halfbrick — Jetpack Joyride official promotional image",
+      "authorRights": "Publisher retains copyright; used solely to identify this game, not a license to the game itself."
+    },
+    "gunspin": {
+      "path": "assets/covers/reviewed/gunspin.jpg",
+      "source": "https://www.miniplay.com/game/gunspin",
+      "download": "https://www1.minijuegosgratis.com/v3/games/thumbnails/230492_1.jpg",
+      "method": "Publisher promotional artwork",
+      "credit": "Promotional image on this game’s publisher page; artwork remains with the game authors",
+      "authorRights": "Publisher retains copyright; used solely to identify this game, not a license to the game itself."
+    },
+    "jelly-truck": {
+      "path": "assets/covers/reviewed/jelly-truck.jpg",
+      "source": "https://www.miniplay.com/game/jelly-truck",
+      "download": "https://www3.minijuegosgratis.com/v3/games/thumbnails/205081_1.jpg",
+      "method": "Publisher promotional artwork",
+      "credit": "Promotional image on this game’s publisher page; artwork remains with the game authors",
+      "authorRights": "Publisher retains copyright; used solely to identify this game, not a license to the game itself."
+    },
+    "factory-balls-forever": {
+      "path": "assets/covers/reviewed/factory-balls-forever.jpg",
+      "source": "https://www.miniplay.com/game/factory-balls-forever",
+      "download": "https://www1.minijuegosgratis.com/v3/games/thumbnails/231601_1.jpg",
+      "method": "Publisher promotional artwork",
+      "credit": "Promotional image on this game’s publisher page; artwork remains with the game authors",
+      "authorRights": "Publisher retains copyright; used solely to identify this game, not a license to the game itself."
+    },
+    "line-rider": {
+      "path": "assets/covers/reviewed/line-rider.jpg",
+      "source": "https://www.miniplay.com/game/line-rider",
+      "download": "https://www4.minijuegosgratis.com/v3/games/thumbnails/7159_1.jpg",
+      "method": "Publisher promotional artwork",
+      "credit": "Promotional image on this game’s publisher page; artwork remains with the game authors",
+      "authorRights": "Publisher retains copyright; used solely to identify this game, not a license to the game itself."
+    },
+    "madalin-stunt-cars-3": {
+      "path": "assets/covers/reviewed/madalin-stunt-cars-3.jpg",
+      "source": "https://www.miniplay.com/game/madalin-cars-multiplayer",
+      "download": "https://www1.minijuegosgratis.com/v3/games/thumbnails/223585_1.jpg",
+      "method": "Publisher promotional artwork",
+      "credit": "Promotional image on this game’s publisher page; artwork remains with the game authors",
+      "authorRights": "Publisher retains copyright; used solely to identify this game, not a license to the game itself."
+    },
+    "grow-in-the-hole": {
+      "path": "assets/covers/reviewed/grow-in-the-hole.png",
+      "source": "https://www.crazygames.com/game/grow-in-the-hole",
+      "download": "https://imgs.crazygames.com/games/grow-in-the-hole/thumb-1551366348953.png?metadata=none&quality=100&width=1200&height=630&fit=crop",
+      "method": "Publisher promotional artwork",
+      "credit": "Promotional artwork on the game publisher page",
+      "authorRights": "Publisher retains copyright; used solely to identify this game, not a license to the game itself."
+    },
+    "fnaf-security-console": {
+      "path": "assets/covers/reviewed/fnaf-security-console.jpg",
+      "source": "Local capture of the actual reviewed game; source and retained notices in assets/game-sources.json",
+      "method": "Browser screenshot, no generated artwork",
+      "authorRights": "Original game authors retain the artwork rights."
+    }
+  }
+}

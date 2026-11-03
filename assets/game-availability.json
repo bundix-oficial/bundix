@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "total": 218,
-  "available": 167,
-  "launchEnabled": 215,
+  "total": 220,
+  "available": 180,
+  "launchEnabled": 217,
   "games": {
     "pacman": {
       "status": "available",
@@ -155,10 +155,9 @@
       "quickCheck": "passed"
     },
     "bloons-td-4": {
-      "status": "available",
+      "status": "issues",
       "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
-      "quickCheck": "issues",
-      "message": ""
+      "quickCheck": "issues"
     },
     "vex-3": {
       "status": "available",
@@ -266,10 +265,9 @@
       "quickCheck": "passed"
     },
     "happy-wheels": {
-      "status": "available",
+      "status": "issues",
       "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
-      "quickCheck": "issues",
-      "message": ""
+      "quickCheck": "issues"
     },
     "boxhead-2play": {
       "status": "available",
@@ -287,10 +285,9 @@
       "quickCheck": "passed"
     },
     "henry-stickmin-escaping-the-prison": {
-      "status": "available",
+      "status": "issues",
       "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
-      "quickCheck": "issues",
-      "message": ""
+      "quickCheck": "issues"
     },
     "henry-stickmin-stealing-the-diamond": {
       "status": "available",
@@ -298,10 +295,9 @@
       "quickCheck": "passed"
     },
     "subway-surfers": {
-      "status": "available",
+      "status": "issues",
       "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
-      "quickCheck": "issues",
-      "message": ""
+      "quickCheck": "issues"
     },
     "temple-run-2": {
       "status": "available",
@@ -310,21 +306,18 @@
     },
     "cut-the-rope": {
       "status": "available",
-      "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
-      "quickCheck": "issues",
-      "message": ""
+      "reason": "",
+      "quickCheck": "passed"
     },
     "cut-the-rope-2": {
-      "status": "available",
+      "status": "issues",
       "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
-      "quickCheck": "issues",
-      "message": ""
+      "quickCheck": "issues"
     },
     "crossy-road": {
-      "status": "available",
+      "status": "issues",
       "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
-      "quickCheck": "issues",
-      "message": ""
+      "quickCheck": "issues"
     },
     "doodle-jump": {
       "status": "available",
@@ -338,9 +331,8 @@
     },
     "rooftop-snipers": {
       "status": "available",
-      "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
-      "quickCheck": "issues",
-      "message": ""
+      "reason": "",
+      "quickCheck": "passed"
     },
     "getaway-shootout": {
       "status": "available",
@@ -354,9 +346,8 @@
     },
     "drive-mad": {
       "status": "available",
-      "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
-      "quickCheck": "issues",
-      "message": ""
+      "reason": "",
+      "quickCheck": "passed"
     },
     "bitlife": {
       "status": "available",
@@ -370,9 +361,8 @@
     },
     "tiny-fishing": {
       "status": "available",
-      "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
-      "quickCheck": "issues",
-      "message": ""
+      "reason": "",
+      "quickCheck": "passed"
     },
     "ovo": {
       "status": "available",
@@ -400,28 +390,24 @@
       "quickCheck": "passed"
     },
     "smash-karts": {
-      "status": "available",
+      "status": "issues",
       "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
-      "quickCheck": "issues",
-      "message": ""
+      "quickCheck": "issues"
     },
     "paper-io-2": {
-      "status": "available",
+      "status": "issues",
       "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
-      "quickCheck": "issues",
-      "message": ""
+      "quickCheck": "issues"
     },
     "craftmine": {
       "status": "available",
-      "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
-      "quickCheck": "issues",
-      "message": ""
+      "reason": "",
+      "quickCheck": "passed"
     },
     "grindcraft": {
-      "status": "available",
+      "status": "issues",
       "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
-      "quickCheck": "issues",
-      "message": ""
+      "quickCheck": "issues"
     },
     "toss-the-turtle": {
       "status": "available",
@@ -430,9 +416,8 @@
     },
     "there-is-no-game": {
       "status": "available",
-      "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
-      "quickCheck": "issues",
-      "message": ""
+      "reason": "",
+      "quickCheck": "passed"
     },
     "this-is-the-only-level": {
       "status": "available",
@@ -445,16 +430,14 @@
       "quickCheck": "passed"
     },
     "1v1-lol": {
-      "status": "available",
+      "status": "issues",
       "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
-      "quickCheck": "issues",
-      "message": ""
+      "quickCheck": "issues"
     },
     "angry-birds": {
-      "status": "available",
+      "status": "issues",
       "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
-      "quickCheck": "issues",
-      "message": ""
+      "quickCheck": "issues"
     },
     "alien-hominid": {
       "status": "available",
@@ -482,10 +465,9 @@
       "quickCheck": "passed"
     },
     "basketball-stars": {
-      "status": "available",
+      "status": "issues",
       "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
-      "quickCheck": "issues",
-      "message": ""
+      "quickCheck": "issues"
     },
     "binding-of-isaac": {
       "status": "available",
@@ -529,21 +511,18 @@
     },
     "dadish": {
       "status": "available",
-      "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
-      "quickCheck": "issues",
-      "message": ""
+      "reason": "",
+      "quickCheck": "passed"
     },
     "dadish-2": {
-      "status": "available",
+      "status": "issues",
       "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
-      "quickCheck": "issues",
-      "message": ""
+      "quickCheck": "issues"
     },
     "dadish-3": {
-      "status": "available",
+      "status": "issues",
       "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
-      "quickCheck": "issues",
-      "message": ""
+      "quickCheck": "issues"
     },
     "death-run-3d": {
       "status": "available",
@@ -551,16 +530,14 @@
       "quickCheck": "passed"
     },
     "doge-miner-2": {
-      "status": "available",
+      "status": "issues",
       "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
-      "quickCheck": "issues",
-      "message": ""
+      "quickCheck": "issues"
     },
     "elastic-man": {
-      "status": "available",
+      "status": "issues",
       "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
-      "quickCheck": "issues",
-      "message": ""
+      "quickCheck": "issues"
     },
     "evil-glitch": {
       "status": "available",
@@ -578,10 +555,9 @@
       "quickCheck": "passed"
     },
     "fruit-ninja": {
-      "status": "available",
+      "status": "issues",
       "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
-      "quickCheck": "issues",
-      "message": ""
+      "quickCheck": "issues"
     },
     "getting-over-it-scratch": {
       "status": "available",
@@ -589,10 +565,9 @@
       "quickCheck": "passed"
     },
     "google-snake-custom": {
-      "status": "available",
+      "status": "issues",
       "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
-      "quickCheck": "issues",
-      "message": ""
+      "quickCheck": "issues"
     },
     "grow-in-the-hole": {
       "status": "available",
@@ -605,16 +580,14 @@
       "quickCheck": "passed"
     },
     "house-of-hazards": {
-      "status": "available",
+      "status": "issues",
       "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
-      "quickCheck": "issues",
-      "message": ""
+      "quickCheck": "issues"
     },
     "idle-breakout": {
       "status": "available",
-      "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
-      "quickCheck": "issues",
-      "message": ""
+      "reason": "",
+      "quickCheck": "passed"
     },
     "interactive-buddy": {
       "status": "available",
@@ -627,16 +600,14 @@
       "quickCheck": "passed"
     },
     "jetpack-joyride": {
-      "status": "available",
+      "status": "issues",
       "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
-      "quickCheck": "issues",
-      "message": ""
+      "quickCheck": "issues"
     },
     "just-fall-lol": {
-      "status": "available",
+      "status": "issues",
       "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
-      "quickCheck": "issues",
-      "message": ""
+      "quickCheck": "issues"
     },
     "line-rider": {
       "status": "available",
@@ -644,10 +615,9 @@
       "quickCheck": "passed"
     },
     "madalin-stunt-cars-2": {
-      "status": "available",
+      "status": "issues",
       "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
-      "quickCheck": "issues",
-      "message": ""
+      "quickCheck": "issues"
     },
     "madalin-stunt-cars-3": {
       "status": "available",
@@ -660,10 +630,9 @@
       "quickCheck": "passed"
     },
     "minecraft-classic": {
-      "status": "available",
+      "status": "issues",
       "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
-      "quickCheck": "issues",
-      "message": ""
+      "quickCheck": "issues"
     },
     "my-friend-pedro-flash": {
       "status": "available",
@@ -681,10 +650,9 @@
       "quickCheck": "passed"
     },
     "pacman-fps": {
-      "status": "available",
+      "status": "issues",
       "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
-      "quickCheck": "issues",
-      "message": ""
+      "quickCheck": "issues"
     },
     "portal-flash": {
       "status": "available",
@@ -702,10 +670,9 @@
       "quickCheck": "passed"
     },
     "sandboxels": {
-      "status": "available",
+      "status": "issues",
       "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
-      "quickCheck": "issues",
-      "message": ""
+      "quickCheck": "issues"
     },
     "short-life-2": {
       "status": "available",
@@ -713,10 +680,9 @@
       "quickCheck": "passed"
     },
     "short-ride": {
-      "status": "available",
+      "status": "issues",
       "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
-      "quickCheck": "issues",
-      "message": ""
+      "quickCheck": "issues"
     },
     "super-mario-63": {
       "status": "available",
@@ -764,10 +730,9 @@
       "quickCheck": "passed"
     },
     "tank-trouble-2": {
-      "status": "available",
+      "status": "issues",
       "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
-      "quickCheck": "issues",
-      "message": ""
+      "quickCheck": "issues"
     },
     "tanuki-sunset": {
       "status": "available",
@@ -790,10 +755,9 @@
       "quickCheck": "passed"
     },
     "zombs-royale": {
-      "status": "available",
+      "status": "issues",
       "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
-      "quickCheck": "issues",
-      "message": ""
+      "quickCheck": "issues"
     },
     "achievement-unlocked": {
       "status": "available",
@@ -846,10 +810,9 @@
       "quickCheck": "passed"
     },
     "defend-the-tank": {
-      "status": "available",
+      "status": "issues",
       "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
-      "quickCheck": "issues",
-      "message": ""
+      "quickCheck": "issues"
     },
     "double-wires": {
       "status": "available",
@@ -888,9 +851,8 @@
     },
     "hacker-typer": {
       "status": "available",
-      "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
-      "quickCheck": "issues",
-      "message": ""
+      "reason": "",
+      "quickCheck": "passed"
     },
     "hex-empire": {
       "status": "available",
@@ -938,10 +900,9 @@
       "quickCheck": "passed"
     },
     "osu-web": {
-      "status": "available",
+      "status": "issues",
       "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
-      "quickCheck": "issues",
-      "message": ""
+      "quickCheck": "issues"
     },
     "packabunchas": {
       "status": "available",
@@ -979,16 +940,14 @@
       "quickCheck": "passed"
     },
     "skyblock-2d": {
-      "status": "available",
+      "status": "issues",
       "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
-      "quickCheck": "issues",
-      "message": ""
+      "quickCheck": "issues"
     },
     "solitaire-classic": {
       "status": "available",
-      "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
-      "quickCheck": "issues",
-      "message": ""
+      "reason": "",
+      "quickCheck": "passed"
     },
     "sort-the-court": {
       "status": "available",
@@ -1021,10 +980,9 @@
       "quickCheck": "passed"
     },
     "wolfenstein-3d": {
-      "status": "available",
+      "status": "issues",
       "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
-      "quickCheck": "issues",
-      "message": ""
+      "quickCheck": "issues"
     },
     "yoshi-fabrication": {
       "status": "available",
@@ -1037,16 +995,14 @@
       "quickCheck": "passed"
     },
     "8-ball-billiards": {
-      "status": "available",
+      "status": "issues",
       "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
-      "quickCheck": "issues",
-      "message": ""
+      "quickCheck": "issues"
     },
     "doge-miner": {
       "status": "available",
-      "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
-      "quickCheck": "issues",
-      "message": ""
+      "reason": "",
+      "quickCheck": "passed"
     },
     "fullscreen-mario": {
       "status": "issues",
@@ -1109,10 +1065,9 @@
       "quickCheck": "passed"
     },
     "krunker-web": {
-      "status": "available",
+      "status": "issues",
       "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
-      "quickCheck": "issues",
-      "message": ""
+      "quickCheck": "issues"
     },
     "idle-shark": {
       "status": "available",
@@ -1138,6 +1093,16 @@
       "status": "pending",
       "reason": "Não há uma cópia correspondente completa para iniciar este título.",
       "quickCheck": "missing"
+    },
+    "fnaf-night-at-mythius": {
+      "status": "available",
+      "reason": "",
+      "quickCheck": "passed"
+    },
+    "fnaf-security-console": {
+      "status": "available",
+      "reason": "",
+      "quickCheck": "passed"
     }
   }
 }

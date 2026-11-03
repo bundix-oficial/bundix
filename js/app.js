@@ -1008,7 +1008,7 @@ const GAMES_DATA = [
     "title": "Dadish",
     "category": "arcade",
     "description": "Um pai rabanete em busca de seus filhotes travessos pelo mundo vegetal.",
-    "cover": "assets/covers/dadish.jpg",
+    "cover": "assets/covers/reviewed/dadish.jpg",
     "platform": "mobile",
     "popular": true,
     "recent": true
@@ -1048,7 +1048,7 @@ const GAMES_DATA = [
     "title": "Doge Miner 2",
     "category": "arcade",
     "description": "Ajude o cachorro Doge a minerar dogecoins suficientes para ir até a Lua!",
-    "cover": "assets/covers/doge-miner-2.png",
+    "cover": "assets/covers/reviewed/doge-miner-2.webp",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -1078,7 +1078,7 @@ const GAMES_DATA = [
     "title": "Factory Balls Forever",
     "category": "puzzle",
     "description": "Pinte e customize as bolinhas na ordem certa usando chapéus e máscaras.",
-    "cover": "assets/covers/factory-balls-forever.png",
+    "cover": "assets/covers/reviewed/factory-balls-forever.jpg",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -1128,7 +1128,7 @@ const GAMES_DATA = [
     "title": "Grow In The Hole",
     "category": "arcade",
     "description": "Minigolfe excêntrico com buracos encolhendo e bolas gigantescas.",
-    "cover": "assets/covers/grow-in-the-hole.png",
+    "cover": "assets/covers/reviewed/grow-in-the-hole.png",
     "platform": "arcade",
     "popular": false,
     "recent": true
@@ -1138,7 +1138,7 @@ const GAMES_DATA = [
     "title": "Gunspin",
     "category": "arcade",
     "description": "Dispare no momento exato para fazer o revólver voar a distâncias recordes.",
-    "cover": "assets/covers/gunspin.png",
+    "cover": "assets/covers/reviewed/gunspin.jpg",
     "platform": "mobile",
     "popular": true,
     "recent": true
@@ -1178,7 +1178,7 @@ const GAMES_DATA = [
     "title": "Jelly Truck",
     "category": "arcade",
     "description": "Dirija um caminhão gelatinoso que amassa e estica por mundos elásticos.",
-    "cover": "assets/covers/jelly-truck.png",
+    "cover": "assets/covers/reviewed/jelly-truck.jpg",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -1188,7 +1188,7 @@ const GAMES_DATA = [
     "title": "Jetpack Joyride",
     "category": "arcade",
     "description": "Voe pelo laboratório secreto com sua mochila a jato movida a metralhadoras.",
-    "cover": "assets/covers/jetpack-joyride.png",
+    "cover": "assets/covers/reviewed/jetpack-joyride.png",
     "platform": "mobile",
     "popular": true,
     "recent": true
@@ -1208,7 +1208,7 @@ const GAMES_DATA = [
     "title": "Line Rider",
     "category": "arcade",
     "description": "Desenhe pistas com lápis e assista ao trenó deslizar com física fluida.",
-    "cover": "assets/covers/line-rider.jpg",
+    "cover": "assets/covers/reviewed/line-rider.jpg",
     "platform": "flash",
     "popular": true,
     "recent": true
@@ -1228,7 +1228,7 @@ const GAMES_DATA = [
     "title": "Madalin Stunt Cars 3",
     "category": "arcade",
     "description": "Terceira geração com novos supercarros de corrida e pistas multiplayer insanas.",
-    "cover": "assets/covers/madalin-stunt-cars-3.png",
+    "cover": "assets/covers/reviewed/madalin-stunt-cars-3.jpg",
     "platform": "arcade",
     "popular": true,
     "recent": true
@@ -1688,7 +1688,7 @@ const GAMES_DATA = [
     "title": "Hacker Typer",
     "category": "retro",
     "description": "Digite qualquer tecla como um hacker profissional de cinema invadindo servidores.",
-    "cover": "assets/covers/hacker-typer.png",
+    "cover": "assets/covers/reviewed/hacker-typer.jpg",
     "platform": "arcade",
     "popular": true,
     "recent": true
@@ -1878,7 +1878,7 @@ const GAMES_DATA = [
     "title": "Paciência Clássica",
     "category": "classico",
     "description": "O clássico jogo de cartas: organize as fileiras em ordem do Ás até o Rei.",
-    "cover": "assets/covers/solitaire-classic.png",
+    "cover": "assets/covers/reviewed/solitaire-classic.jpg",
     "platform": "mobile",
     "popular": true,
     "recent": true
@@ -2172,9 +2172,29 @@ const GAMES_DATA = [
     "platform": "arcade",
     "popular": false,
     "recent": true
+  },
+  {
+    "id": "fnaf-night-at-mythius",
+    "title": "FNAF: Night at Mythius",
+    "category": "terror",
+    "platform": "html5",
+    "fnaf": true,
+    "recent": true,
+    "description": "Fangame independente de Matthias Southwick: vigie as câmeras e sobreviva no escritório.",
+    "cover": "assets/covers/reviewed/fnaf-night-at-mythius.jpg"
+  },
+  {
+    "id": "fnaf-security-console",
+    "title": "FNAF: Security Console",
+    "category": "terror",
+    "platform": "html5",
+    "fnaf": true,
+    "recent": true,
+    "description": "Fangame de Scald: use comandos para vigiar câmeras, explorar e se esconder.",
+    "cover": "assets/covers/reviewed/fnaf-security-console.jpg"
   }
 ];
-const labels={todos:'Todos os jogos',recentes:'Novos jogos',populares:'Em alta',favoritos:'Meus favoritos',arcade:'Arcade',puzzle:'Puzzle',classico:'Clássicos',acao:'Ação',retro:'Retrô',leves:'Jogos leves',mobile:'Mobile → PC',console:'Console Port',flash:'Estilo Flash'};
+const labels={todos:'Todos os jogos',recentes:'Novos jogos',populares:'Em alta',favoritos:'Meus favoritos',arcade:'Arcade',puzzle:'Puzzle',classico:'Clássicos',acao:'Ação',retro:'Retrô',leves:'Jogos leves',mobile:'Mobile → PC',console:'Console Port',flash:'Estilo Flash',terror:'Terror',fnaf:'FNAF — jogos de fãs'};
 const HEAVY_GAMES = new Set([
   'slope',
   'mario64-cleanroom',
@@ -2215,7 +2235,7 @@ function recordRecent(id){if(isAvailable(id))library.record(id);}
 function filterGames(){
   const collection=library.collections().find(c=>c.id===currentCollection);
   const result=GAMES_DATA.filter(g=>{
-    const category=currentCat==='todos'||(currentCat==='favoritos'?favorites.includes(g.id):currentCat==='recentes'?g.recent:currentCat==='populares'?g.popular:currentCat==='leves'?!HEAVY_GAMES.has(g.id):['mobile','console','flash'].includes(currentCat)?g.platform===currentCat:g.category===currentCat);
+    const category=currentCat==='todos'||(currentCat==='fnaf'?Boolean(g.fnaf):currentCat==='favoritos'?favorites.includes(g.id):currentCat==='recentes'?g.recent:currentCat==='populares'?g.popular:currentCat==='leves'?!HEAVY_GAMES.has(g.id):['mobile','console','flash'].includes(currentCat)?g.platform===currentCat:g.category===currentCat);
     const f=feature(g); const controls=!currentControl||(currentControl==='two'?(f.players||1)>=2:currentControl==='gamepad'?f.controls?.gamepad:currentControl==='touch'?f.controls?.touch:f.controls?.keyboard);
     return category&&controls&&(!onlyAvailable||isAvailable(g.id))&&(!collection||collection.games.includes(g.id))&&normalize(`${g.title} ${g.description} ${labels[g.category]||''}`).includes(normalize(searchQ.trim()));
   });
@@ -2249,14 +2269,12 @@ function renderAll(focusFavorite){
   favorites=library.favorites();recentPlayed=library.recents();syncCollectionOptions();
   const grid=document.getElementById('games-grid'),games=filterGames();grid.replaceChildren();
   const filtered=Boolean(searchQ.trim()||currentControl||currentCollection||currentCat!=='todos'||onlyAvailable);
-  document.querySelector('.welcome').hidden=filtered;
   const collection=library.collections().find(c=>c.id===currentCollection);
   document.getElementById('grid-title').textContent=searchQ.trim()?'Resultado da busca':collection?.name||labels[currentCat]||'Todos os jogos';
   document.getElementById('grid-counter').textContent=`${games.length} jogos · ${games.filter(g=>isAvailable(g.id)).length} com abertura verificada`;
   document.getElementById('only-available')?.setAttribute('aria-pressed',String(onlyAvailable));
   document.getElementById('fav-count').textContent=favorites.length;
   document.getElementById('reset-filters').hidden=!filtered;
-  document.getElementById('random-game').disabled=!games.some(g=>isAvailable(g.id));
   document.getElementById('filter-note').hidden=!currentControl;
   renderRecentPlayed();
   for(const g of games){
@@ -2296,7 +2314,6 @@ document.getElementById('manage-collections')?.addEventListener('click',()=>wind
 document.getElementById('request-game').onclick=()=>window.PlaynovaCommunity?.request();
 document.getElementById('report-site')?.addEventListener('click',()=>window.PlaynovaCommunity?.report());
 document.getElementById('clear-recent').onclick=()=>library.clearHistory();
-document.getElementById('random-game').onclick=()=>{const games=filterGames().filter(g=>isAvailable(g.id));if(!games.length)return;const picked=games[Math.floor(Math.random()*games.length)];recordRecent(picked.id);location.href=gameRoute(picked.id);};
 document.getElementById('only-available')?.addEventListener('click',()=>{onlyAvailable=!onlyAvailable;renderAll();});
 document.addEventListener('playnova:library-change',event=>{if(event.detail?.type==='history'){recentPlayed=library.recents();requestAnimationFrame(renderRecentPlayed);}else renderAll();});
 document.addEventListener('playnova:open-collection',event=>{currentCollection=event.detail;selectCategory('todos');document.getElementById('catalogo').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});});

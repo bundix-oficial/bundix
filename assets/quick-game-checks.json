@@ -274,13 +274,12 @@
     },
     "bloons-td-4": {
       "checked": true,
-      "startupPassed": true,
+      "startupPassed": false,
       "launchEnabled": true,
-      "reason": "",
+      "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
       "warnings": 0,
       "licenseReview": "unconfirmed",
-      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
-      "note": "Local assets verified and validated."
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
     },
     "vex-3": {
       "checked": true,
@@ -473,13 +472,12 @@
     },
     "happy-wheels": {
       "checked": true,
-      "startupPassed": true,
+      "startupPassed": false,
       "launchEnabled": true,
-      "reason": "",
+      "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
       "warnings": 0,
       "licenseReview": "unconfirmed",
-      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
-      "note": "Local assets verified and validated."
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
     },
     "boxhead-2play": {
       "checked": true,
@@ -510,13 +508,12 @@
     },
     "henry-stickmin-escaping-the-prison": {
       "checked": true,
-      "startupPassed": true,
+      "startupPassed": false,
       "launchEnabled": true,
-      "reason": "",
+      "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
       "warnings": 0,
       "licenseReview": "unconfirmed",
-      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
-      "note": "Local assets verified and validated."
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
     },
     "henry-stickmin-stealing-the-diamond": {
       "checked": true,
@@ -529,13 +526,12 @@
     },
     "subway-surfers": {
       "checked": true,
-      "startupPassed": true,
+      "startupPassed": false,
       "launchEnabled": true,
-      "reason": "",
-      "warnings": 0,
+      "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
+      "warnings": 1,
       "licenseReview": "unconfirmed",
-      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
-      "note": "Local assets verified and validated."
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
     },
     "temple-run-2": {
       "checked": true,
@@ -553,28 +549,25 @@
       "reason": "",
       "warnings": 0,
       "licenseReview": "unconfirmed",
-      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
-      "note": "Local assets verified and validated."
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
     },
     "cut-the-rope-2": {
       "checked": true,
-      "startupPassed": true,
+      "startupPassed": false,
       "launchEnabled": true,
-      "reason": "",
+      "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
       "warnings": 0,
       "licenseReview": "unconfirmed",
-      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
-      "note": "Local assets verified and validated."
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
     },
     "crossy-road": {
       "checked": true,
-      "startupPassed": true,
+      "startupPassed": false,
       "launchEnabled": true,
-      "reason": "",
+      "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
       "warnings": 0,
       "licenseReview": "unconfirmed",
-      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
-      "note": "Local assets verified and validated."
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
     },
     "doodle-jump": {
       "checked": true,
@@ -601,8 +594,7 @@
       "reason": "",
       "warnings": 0,
       "licenseReview": "unconfirmed",
-      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
-      "note": "Local assets verified and validated."
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
     },
     "getaway-shootout": {
       "checked": true,
@@ -629,8 +621,7 @@
       "reason": "",
       "warnings": 0,
       "licenseReview": "unconfirmed",
-      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
-      "note": "Local assets verified and validated."
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
     },
     "bitlife": {
       "checked": true,
@@ -657,8 +648,7 @@
       "reason": "",
       "warnings": 0,
       "licenseReview": "unconfirmed",
-      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
-      "note": "Local assets verified and validated."
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
     },
     "ovo": {
       "checked": true,
@@ -707,23 +697,21 @@
     },
     "smash-karts": {
       "checked": true,
-      "startupPassed": true,
+      "startupPassed": false,
       "launchEnabled": true,
-      "reason": "",
-      "warnings": 0,
+      "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
+      "warnings": 1,
       "licenseReview": "unconfirmed",
-      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
-      "note": "Local assets verified and validated."
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
     },
     "paper-io-2": {
       "checked": true,
-      "startupPassed": true,
+      "startupPassed": false,
       "launchEnabled": true,
-      "reason": "",
+      "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
       "warnings": 0,
       "licenseReview": "unconfirmed",
-      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
-      "note": "Local assets verified and validated."
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
     },
     "craftmine": {
       "checked": true,
@@ -732,18 +720,16 @@
       "reason": "",
       "warnings": 0,
       "licenseReview": "unconfirmed",
-      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
-      "note": "Local assets verified and validated."
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
     },
     "grindcraft": {
       "checked": true,
-      "startupPassed": true,
+      "startupPassed": false,
       "launchEnabled": true,
-      "reason": "",
+      "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
       "warnings": 0,
       "licenseReview": "unconfirmed",
-      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
-      "note": "Local assets verified and validated."
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
     },
     "toss-the-turtle": {
       "checked": true,
@@ -761,8 +747,7 @@
       "reason": "",
       "warnings": 0,
       "licenseReview": "unconfirmed",
-      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
-      "note": "Local assets verified and validated."
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
     },
     "this-is-the-only-level": {
       "checked": true,
@@ -784,23 +769,21 @@
     },
     "1v1-lol": {
       "checked": true,
-      "startupPassed": true,
+      "startupPassed": false,
       "launchEnabled": true,
-      "reason": "",
+      "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
       "warnings": 0,
       "licenseReview": "unconfirmed",
-      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
-      "note": "Local assets verified and validated."
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
     },
     "angry-birds": {
       "checked": true,
-      "startupPassed": true,
+      "startupPassed": false,
       "launchEnabled": true,
-      "reason": "",
+      "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
       "warnings": 0,
       "licenseReview": "unconfirmed",
-      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
-      "note": "Local assets verified and validated."
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
     },
     "alien-hominid": {
       "checked": true,
@@ -849,13 +832,12 @@
     },
     "basketball-stars": {
       "checked": true,
-      "startupPassed": true,
+      "startupPassed": false,
       "launchEnabled": true,
-      "reason": "",
+      "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
       "warnings": 0,
       "licenseReview": "unconfirmed",
-      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
-      "note": "Local assets verified and validated."
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
     },
     "binding-of-isaac": {
       "checked": true,
@@ -934,30 +916,27 @@
       "startupPassed": true,
       "launchEnabled": true,
       "reason": "",
-      "warnings": 0,
+      "warnings": 1,
       "licenseReview": "unconfirmed",
-      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
-      "note": "Local assets verified and validated."
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
     },
     "dadish-2": {
       "checked": true,
-      "startupPassed": true,
+      "startupPassed": false,
       "launchEnabled": true,
-      "reason": "",
+      "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
       "warnings": 0,
       "licenseReview": "unconfirmed",
-      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
-      "note": "Local assets verified and validated."
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
     },
     "dadish-3": {
       "checked": true,
-      "startupPassed": true,
+      "startupPassed": false,
       "launchEnabled": true,
-      "reason": "",
+      "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
       "warnings": 0,
       "licenseReview": "unconfirmed",
-      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
-      "note": "Local assets verified and validated."
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
     },
     "death-run-3d": {
       "checked": true,
@@ -970,23 +949,21 @@
     },
     "doge-miner-2": {
       "checked": true,
-      "startupPassed": true,
+      "startupPassed": false,
       "launchEnabled": true,
-      "reason": "",
-      "warnings": 0,
+      "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
+      "warnings": 4,
       "licenseReview": "unconfirmed",
-      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
-      "note": "Local assets verified and validated."
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
     },
     "elastic-man": {
       "checked": true,
-      "startupPassed": true,
+      "startupPassed": false,
       "launchEnabled": true,
-      "reason": "",
+      "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
       "warnings": 0,
       "licenseReview": "unconfirmed",
-      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
-      "note": "Local assets verified and validated."
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
     },
     "evil-glitch": {
       "checked": true,
@@ -1017,13 +994,12 @@
     },
     "fruit-ninja": {
       "checked": true,
-      "startupPassed": true,
+      "startupPassed": false,
       "launchEnabled": true,
-      "reason": "",
+      "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
       "warnings": 0,
       "licenseReview": "unconfirmed",
-      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
-      "note": "Local assets verified and validated."
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
     },
     "getting-over-it-scratch": {
       "checked": true,
@@ -1036,13 +1012,12 @@
     },
     "google-snake-custom": {
       "checked": true,
-      "startupPassed": true,
+      "startupPassed": false,
       "launchEnabled": true,
-      "reason": "",
+      "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
       "warnings": 0,
       "licenseReview": "unconfirmed",
-      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
-      "note": "Local assets verified and validated."
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
     },
     "grow-in-the-hole": {
       "checked": true,
@@ -1064,23 +1039,21 @@
     },
     "house-of-hazards": {
       "checked": true,
-      "startupPassed": true,
+      "startupPassed": false,
       "launchEnabled": true,
-      "reason": "",
+      "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
       "warnings": 0,
       "licenseReview": "unconfirmed",
-      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
-      "note": "Local assets verified and validated."
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
     },
     "idle-breakout": {
       "checked": true,
       "startupPassed": true,
       "launchEnabled": true,
       "reason": "",
-      "warnings": 0,
+      "warnings": 1,
       "licenseReview": "unconfirmed",
-      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
-      "note": "Local assets verified and validated."
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
     },
     "interactive-buddy": {
       "checked": true,
@@ -1102,23 +1075,21 @@
     },
     "jetpack-joyride": {
       "checked": true,
-      "startupPassed": true,
+      "startupPassed": false,
       "launchEnabled": true,
-      "reason": "",
+      "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
       "warnings": 0,
       "licenseReview": "unconfirmed",
-      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
-      "note": "Local assets verified and validated."
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
     },
     "just-fall-lol": {
       "checked": true,
-      "startupPassed": true,
+      "startupPassed": false,
       "launchEnabled": true,
-      "reason": "",
+      "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
       "warnings": 0,
       "licenseReview": "unconfirmed",
-      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
-      "note": "Local assets verified and validated."
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
     },
     "line-rider": {
       "checked": true,
@@ -1131,13 +1102,12 @@
     },
     "madalin-stunt-cars-2": {
       "checked": true,
-      "startupPassed": true,
+      "startupPassed": false,
       "launchEnabled": true,
-      "reason": "",
+      "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
       "warnings": 0,
       "licenseReview": "unconfirmed",
-      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
-      "note": "Local assets verified and validated."
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
     },
     "madalin-stunt-cars-3": {
       "checked": true,
@@ -1159,13 +1129,12 @@
     },
     "minecraft-classic": {
       "checked": true,
-      "startupPassed": true,
+      "startupPassed": false,
       "launchEnabled": true,
-      "reason": "",
-      "warnings": 0,
+      "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
+      "warnings": 2,
       "licenseReview": "unconfirmed",
-      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
-      "note": "Local assets verified and validated."
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
     },
     "my-friend-pedro-flash": {
       "checked": true,
@@ -1196,13 +1165,12 @@
     },
     "pacman-fps": {
       "checked": true,
-      "startupPassed": true,
+      "startupPassed": false,
       "launchEnabled": true,
-      "reason": "",
+      "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
       "warnings": 0,
       "licenseReview": "unconfirmed",
-      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
-      "note": "Local assets verified and validated."
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
     },
     "portal-flash": {
       "checked": true,
@@ -1233,13 +1201,12 @@
     },
     "sandboxels": {
       "checked": true,
-      "startupPassed": true,
+      "startupPassed": false,
       "launchEnabled": true,
-      "reason": "",
+      "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
       "warnings": 0,
       "licenseReview": "unconfirmed",
-      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
-      "note": "Local assets verified and validated."
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
     },
     "short-life-2": {
       "checked": true,
@@ -1252,13 +1219,12 @@
     },
     "short-ride": {
       "checked": true,
-      "startupPassed": true,
+      "startupPassed": false,
       "launchEnabled": true,
-      "reason": "",
+      "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
       "warnings": 0,
       "licenseReview": "unconfirmed",
-      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
-      "note": "Local assets verified and validated."
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
     },
     "super-mario-63": {
       "checked": true,
@@ -1343,13 +1309,12 @@
     },
     "tank-trouble-2": {
       "checked": true,
-      "startupPassed": true,
+      "startupPassed": false,
       "launchEnabled": true,
-      "reason": "",
+      "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
       "warnings": 0,
       "licenseReview": "unconfirmed",
-      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
-      "note": "Local assets verified and validated."
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
     },
     "tanuki-sunset": {
       "checked": true,
@@ -1389,13 +1354,12 @@
     },
     "zombs-royale": {
       "checked": true,
-      "startupPassed": true,
+      "startupPassed": false,
       "launchEnabled": true,
-      "reason": "",
+      "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
       "warnings": 0,
       "licenseReview": "unconfirmed",
-      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
-      "note": "Local assets verified and validated."
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
     },
     "achievement-unlocked": {
       "checked": true,
@@ -1489,13 +1453,12 @@
     },
     "defend-the-tank": {
       "checked": true,
-      "startupPassed": true,
+      "startupPassed": false,
       "launchEnabled": true,
-      "reason": "",
+      "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
       "warnings": 0,
       "licenseReview": "unconfirmed",
-      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
-      "note": "Local assets verified and validated."
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
     },
     "double-wires": {
       "checked": true,
@@ -1567,8 +1530,7 @@
       "reason": "",
       "warnings": 0,
       "licenseReview": "unconfirmed",
-      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
-      "note": "Local assets verified and validated."
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
     },
     "hex-empire": {
       "checked": true,
@@ -1653,13 +1615,12 @@
     },
     "osu-web": {
       "checked": true,
-      "startupPassed": true,
+      "startupPassed": false,
       "launchEnabled": true,
-      "reason": "",
+      "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
       "warnings": 0,
       "licenseReview": "unconfirmed",
-      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
-      "note": "Local assets verified and validated."
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
     },
     "packabunchas": {
       "checked": true,
@@ -1726,23 +1687,21 @@
     },
     "skyblock-2d": {
       "checked": true,
-      "startupPassed": true,
+      "startupPassed": false,
       "launchEnabled": true,
-      "reason": "",
+      "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
       "warnings": 0,
       "licenseReview": "unconfirmed",
-      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
-      "note": "Local assets verified and validated."
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
     },
     "solitaire-classic": {
       "checked": true,
       "startupPassed": true,
       "launchEnabled": true,
       "reason": "",
-      "warnings": 0,
+      "warnings": 1,
       "licenseReview": "unconfirmed",
-      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
-      "note": "Local assets verified and validated."
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
     },
     "sort-the-court": {
       "checked": true,
@@ -1800,13 +1759,12 @@
     },
     "wolfenstein-3d": {
       "checked": true,
-      "startupPassed": true,
+      "startupPassed": false,
       "launchEnabled": true,
-      "reason": "",
+      "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
       "warnings": 0,
       "licenseReview": "unconfirmed",
-      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
-      "note": "Local assets verified and validated."
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
     },
     "yoshi-fabrication": {
       "checked": true,
@@ -1828,23 +1786,21 @@
     },
     "8-ball-billiards": {
       "checked": true,
-      "startupPassed": true,
+      "startupPassed": false,
       "launchEnabled": true,
-      "reason": "",
+      "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
       "warnings": 0,
       "licenseReview": "unconfirmed",
-      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
-      "note": "Local assets verified and validated."
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
     },
     "doge-miner": {
       "checked": true,
       "startupPassed": true,
       "launchEnabled": true,
       "reason": "",
-      "warnings": 0,
+      "warnings": 8,
       "licenseReview": "unconfirmed",
-      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
-      "note": "Local assets verified and validated."
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
     },
     "fullscreen-mario": {
       "checked": true,
@@ -1956,13 +1912,12 @@
     },
     "krunker-web": {
       "checked": true,
-      "startupPassed": true,
+      "startupPassed": false,
       "launchEnabled": true,
-      "reason": "",
+      "reason": "A cópia está habilitada para tentar abrir, mas apresentou falha ou não concluiu o teste rápido.",
       "warnings": 0,
       "licenseReview": "unconfirmed",
-      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification.",
-      "note": "Local assets verified and validated."
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
     },
     "idle-shark": {
       "checked": true,
@@ -2007,6 +1962,24 @@
       "reason": "Não há uma cópia correspondente completa para iniciar este título.",
       "warnings": 0,
       "licenseReview": "unconfirmed",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "fnaf-night-at-mythius": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "previously recorded; see notices",
+      "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
+    },
+    "fnaf-security-console": {
+      "checked": true,
+      "startupPassed": true,
+      "launchEnabled": true,
+      "reason": "",
+      "warnings": 0,
+      "licenseReview": "previously recorded; see notices",
       "scope": "Initial startup and input smoke test; not a full playthrough or security/license certification."
     }
   }

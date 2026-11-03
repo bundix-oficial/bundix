@@ -18,3 +18,5 @@ Estas instruções foram solicitadas pelo usuário e valem para as próximas alt
 - Instrução posterior do proprietário em 02/11/2026: retomar o catálogo completo e realizar uma verificação técnica rápida em cada cópia antes de reativar. Essa instrução substitui a preferência anterior de esconder todos os pendentes. Registrar erros reais e limitações; não tratar teste de abertura como certificação de segurança ou nova autorização de distribuição. Manter bloqueio de conexões externas, anúncios, áudio automático e proteção dos arquivos privados. FNAF continua como diretório oficial externo conforme escolha expressa.
 
 - Consentimento posterior: permitir conexoes necessarias dos proprios jogos. Liberar apenas destinos especificos identificados; manter publicidade e rastreamento bloqueados. Nao presumir que liberar um iframe externo permita controlar sua publicidade.
+
+- Instrução posterior: retirar o diretório de lojas de FNAF. Procurar e incluir fangames/ports web de fãs que realmente rodem no portal, com origem e avisos preservados. A preferência anterior por links oficiais de lojas foi substituída.
