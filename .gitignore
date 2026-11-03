@@ -45,3 +45,6 @@ download-errors.json
 *.cso
 *.chd
 *.isz
+
+.browser-*
+
