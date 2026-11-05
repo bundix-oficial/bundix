@@ -1,0 +1,345 @@
+/* =========================================================
+   FRIV DIGITAL — THEME OVERRIDE
+   Estilo visual inspirado na logo:
+   - Roxo vibrante (#7c3aed, #581c87, #240a4a)
+   - Amarelo quente (#ffdd00, #fbbf24)
+   - Formas cartoonizadas, bordas vivas e glow arcade
+   ========================================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Rubik:wght@500;700;900&display=swap');
+
+:root {
+  --friv-purple-dark: #120426;
+  --friv-purple-deep: #1e073d;
+  --friv-purple-surface: #2b0b57;
+  --friv-purple-card: #37126d;
+  --friv-purple-border: #6b21a8;
+  --friv-purple-light: #a855f7;
+  --friv-yellow-primary: #ffdd00;
+  --friv-yellow-glow: #ffd000;
+  --friv-yellow-dark: #eab308;
+  --friv-font-fun: 'Fredoka', 'Rubik', system-ui, sans-serif;
+
+  /* Sobrescreve as variáveis globais */
+  --bg: #120426 !important;
+  --surface: #1e073d !important;
+  --surface-raised: #2b0b57 !important;
+  --line: #4c1d95 !important;
+  --text: #ffffff !important;
+  --muted: #d8b4fe !important;
+  --cyan: #ffdd00 !important;
+  --violet: #c084fc !important;
+  --gradient: linear-gradient(135deg, #ffdd00 0%, #ff8800 50%, #c026d3 100%) !important;
+}
+
+body {
+  background: radial-gradient(circle at 50% 0%, #3b0764 0%, #120426 65%) !important;
+  background-attachment: fixed !important;
+  color: #ffffff !important;
+  font-family: var(--friv-font-fun) !important;
+}
+
+.catalog-page {
+  background: transparent !important;
+}
+
+/* =========================================================
+   HEADER & NAVBAR
+   ========================================================= */
+.main-header {
+  background: linear-gradient(180deg, #24074a 0%, #170430 100%) !important;
+  border-bottom: 3px solid #7c3aed !important;
+  box-shadow: 0 8px 32px rgba(124, 58, 237, 0.35) !important;
+}
+
+.header-top {
+  min-height: 110px !important;
+}
+
+.logo {
+  width: auto !important;
+  filter: drop-shadow(0 4px 16px rgba(255, 221, 0, 0.45));
+  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.logo:hover {
+  transform: scale(1.04) rotate(-1.5deg);
+}
+
+.logo img {
+  width: 210px !important;
+  height: 85px !important;
+  object-fit: contain !important;
+  margin: 0 !important;
+}
+
+/* Campo de busca cartoon com borda viva */
+.search-wrapper {
+  background: #2b0b57 !important;
+  border: 2px solid #7c3aed !important;
+  border-radius: 999px !important;
+  padding: 6px 10px 6px 20px !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3), inset 0 2px 4px rgba(0, 0, 0, 0.25) !important;
+  transition: all 0.2s ease !important;
+}
+.search-wrapper:focus-within {
+  border-color: #ffdd00 !important;
+  box-shadow: 0 0 0 4px rgba(255, 221, 0, 0.25), 0 6px 20px rgba(0,0,0,0.4) !important;
+  background: #37126d !important;
+}
+.search-wrapper input {
+  color: #ffffff !important;
+  font-family: var(--friv-font-fun) !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+}
+.search-wrapper input::placeholder {
+  color: #c4b5fd !important;
+  font-weight: 500 !important;
+}
+.search-wrapper button {
+  background: linear-gradient(135deg, #ffdd00, #f59e0b) !important;
+  color: #240a4a !important;
+  border-radius: 999px !important;
+  font-weight: bold !important;
+  box-shadow: 0 2px 8px rgba(255, 221, 0, 0.4) !important;
+  transition: transform 0.15s ease !important;
+}
+.search-wrapper button:hover {
+  transform: scale(1.1) !important;
+}
+
+/* Botões da navegação superior */
+.quick-nav {
+  gap: 14px !important;
+  flex-wrap: wrap !important;
+}
+.cat-btn {
+  color: #e9d5ff !important;
+  font-family: var(--friv-font-fun) !important;
+  font-weight: 700 !important;
+  font-size: 13px !important;
+  padding: 8px 16px !important;
+  border-radius: 999px !important;
+  border: 2px solid transparent !important;
+  background: rgba(124, 58, 237, 0.18) !important;
+  min-height: 40px !important;
+  transition: all 0.18s cubic-bezier(0.34, 1.56, 0.64, 1) !important;
+}
+.cat-btn:hover {
+  background: #4c1d95 !important;
+  color: #ffdd00 !important;
+  border-color: #a855f7 !important;
+  transform: translateY(-2px) !important;
+}
+.cat-btn.active {
+  background: linear-gradient(135deg, #ffdd00, #f59e0b) !important;
+  color: #1f073f !important;
+  border-color: #ffffff !important;
+  box-shadow: 0 4px 16px rgba(255, 221, 0, 0.5) !important;
+  transform: scale(1.05) !important;
+}
+.cat-btn.active .icon {
+  color: #1f073f !important;
+}
+
+/* =========================================================
+   TOP 3 MAIS JOGADOS & CONTINUAR JOGANDO
+   ========================================================= */
+.home-hero-split {
+  gap: 20px !important;
+}
+.hero-recent-box, .top-played-card {
+  background: linear-gradient(145deg, #240a4a, #1a0636) !important;
+  border: 2px solid #6b21a8 !important;
+  border-radius: 20px !important;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.1) !important;
+}
+.top-played-card:hover, .hero-recent-box:hover {
+  border-color: #a855f7 !important;
+}
+
+.top-game-row {
+  background: #310d61 !important;
+  border: 1px solid #581c87 !important;
+  border-radius: 14px !important;
+  transition: all 0.18s ease !important;
+}
+.top-game-row:hover {
+  background: #441485 !important;
+  border-color: #ffdd00 !important;
+  transform: translateX(4px) !important;
+  box-shadow: 0 4px 16px rgba(255, 221, 0, 0.25) !important;
+}
+.top-game-rank {
+  font-family: var(--friv-font-fun) !important;
+  font-weight: 900 !important;
+}
+.top-game-play {
+  background: #ffdd00 !important;
+  color: #240a4a !important;
+  box-shadow: 0 2px 10px rgba(255, 221, 0, 0.4) !important;
+}
+.top-game-play .icon {
+  fill: #240a4a !important;
+}
+
+/* =========================================================
+   CARDS DE JOGOS (GRADE PRINCIPAL)
+   Estilo arcade pop com cantos arredondados e borda neon amarela ao passar o mouse
+   ========================================================= */
+.catalog-grid {
+  gap: 16px !important;
+}
+
+.game-card {
+  background: linear-gradient(160deg, #2a0b54 0%, #1e073d 100%) !important;
+  border: 2px solid #581c87 !important;
+  border-radius: 18px !important;
+  overflow: hidden !important;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35) !important;
+  transition: all 0.22s cubic-bezier(0.34, 1.56, 0.64, 1) !important;
+  position: relative !important;
+}
+
+.game-card:hover {
+  transform: translateY(-6px) scale(1.025) !important;
+  border-color: #ffdd00 !important;
+  box-shadow: 0 14px 32px rgba(124, 58, 237, 0.45), 0 0 20px rgba(255, 221, 0, 0.35) !important;
+  z-index: 10 !important;
+}
+
+.game-card .game-thumb-link {
+  border-bottom: 2px solid #4c1d95 !important;
+  overflow: hidden !important;
+}
+.game-card:hover .game-thumb-link {
+  border-bottom-color: #ffdd00 !important;
+}
+.game-card:hover .game-cover {
+  transform: scale(1.08) !important;
+}
+.game-cover {
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1) !important;
+}
+
+.game-card .game-details {
+  background: #1e073d !important;
+  padding: 10px 12px 12px !important;
+}
+.game-card .game-name {
+  font-family: var(--friv-font-fun) !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  color: #ffffff !important;
+  letter-spacing: -0.2px !important;
+}
+.game-card:hover .game-name {
+  color: #ffdd00 !important;
+}
+
+/* Badges e tags */
+.control-pill {
+  background: #3b0764 !important;
+  border: 1px solid #7c3aed !important;
+  color: #e9d5ff !important;
+  border-radius: 999px !important;
+  font-family: var(--friv-font-fun) !important;
+  font-weight: 600 !important;
+}
+
+/* =========================================================
+   BARRA DE FILTROS E OPÇÕES
+   ========================================================= */
+.catalog-bar {
+  background: #240a4a !important;
+  border: 2px solid #581c87 !important;
+  border-radius: 18px !important;
+  padding: 12px 16px !important;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25) !important;
+}
+
+.category-chip {
+  background: #37126d !important;
+  border: 2px solid #6b21a8 !important;
+  color: #f3e8ff !important;
+  border-radius: 999px !important;
+  font-family: var(--friv-font-fun) !important;
+  font-weight: 700 !important;
+  padding: 8px 16px !important;
+  transition: all 0.18s ease !important;
+}
+.category-chip:hover {
+  background: #4c1d95 !important;
+  border-color: #ffdd00 !important;
+  color: #ffdd00 !important;
+  transform: translateY(-2px) !important;
+}
+.category-chip.active {
+  background: linear-gradient(135deg, #ffdd00, #f59e0b) !important;
+  border-color: #ffffff !important;
+  color: #1f073f !important;
+  box-shadow: 0 4px 14px rgba(255, 221, 0, 0.5) !important;
+}
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+.site-footer {
+  background: linear-gradient(180deg, #180533 0%, #0c021b 100%) !important;
+  border-top: 3px solid #6b21a8 !important;
+  margin-top: 60px !important;
+}
+.footer-logo img {
+  filter: drop-shadow(0 4px 12px rgba(255, 221, 0, 0.35));
+}
+
+/* =========================================================
+   PÁGINAS DE JOGOS (IFRAME / BARRA DE CONTROLE)
+   ========================================================= */
+.game-bar {
+  background: linear-gradient(180deg, #24074a 0%, #170430 100%) !important;
+  border-bottom: 2px solid #7c3aed !important;
+  color: #ffffff !important;
+}
+.game-bar a {
+  color: #ffdd00 !important;
+  font-weight: 800 !important;
+  font-family: var(--friv-font-fun) !important;
+}
+.game-bar a:hover {
+  color: #ffffff !important;
+  text-shadow: 0 0 10px #ffdd00 !important;
+}
+.game-bar h1 {
+  font-family: var(--friv-font-fun) !important;
+  font-weight: 800 !important;
+  color: #ffffff !important;
+  text-shadow: 0 2px 8px rgba(124, 58, 237, 0.6) !important;
+}
+.game-bar button {
+  background: linear-gradient(135deg, #7c3aed, #4c1d95) !important;
+  border: 1px solid #a855f7 !important;
+  color: #ffffff !important;
+  border-radius: 10px !important;
+  font-family: var(--friv-font-fun) !important;
+  font-weight: 700 !important;
+  transition: all 0.15s ease !important;
+}
+.game-bar button:hover {
+  background: linear-gradient(135deg, #ffdd00, #f59e0b) !important;
+  color: #240a4a !important;
+  border-color: #ffffff !important;
+  box-shadow: 0 0 14px rgba(255, 221, 0, 0.6) !important;
+}
+
+/* Easter Egg Modal com branding FRIV DIGITAL */
+#secret-credits {
+  border: 3px solid #ffdd00 !important;
+  box-shadow: 0 0 60px rgba(255, 221, 0, 0.4), 0 20px 80px rgba(0, 0, 0, 0.95) !important;
+  background: radial-gradient(circle at top, #3b0764 0%, #15032a 85%) !important;
+}
+#secret-credits .konami-badge {
+  background: rgba(255, 221, 0, 0.15) !important;
+  border-color: #ffdd00 !important;
+  color: #ffdd00 !important;
+}

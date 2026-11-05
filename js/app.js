@@ -2219,16 +2219,16 @@ const FEATURED_GAMES = new Set([
 ]);
 
 
-const library = window.PlaynovaLibrary;
+const library = window.FrivDigitalLibrary;
 library.configure(GAMES_DATA);
-window.PlaynovaCatalog = GAMES_DATA;
+window.FrivDigitalCatalog = GAMES_DATA;
 const ROOT_URL = new URL('../', document.currentScript.src);
 let currentCat='todos', searchQ='', currentControl='', currentCollection='', currentSort='recommended';
 let favorites=library.favorites(), recentPlayed=library.recents();
 const normalize=text=>String(text).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
 const esc=value=>String(value).replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
-const feature=g=>window.PlaynovaGameFeatures?.[g.id]||{};
-const isAvailable=id=>window.PlaynovaGameAvailability?.[id]?.status==='available';
+const feature=g=>window.FrivDigitalGameFeatures?.[g.id]||{};
+const isAvailable=id=>window.FrivDigitalGameAvailability?.[id]?.status==='available';
 let onlyAvailable=new URLSearchParams(location.search).get('disponiveis')==='1';
 const gameRoute=id=>`games/${encodeURIComponent(id)}/index.html`;
 function recordRecent(id){if(isAvailable(id))library.record(id);}
@@ -2243,7 +2243,7 @@ function filterGames(){
   if(currentSort==='recent')result.sort((a,b)=>(recentPlayed.includes(a.id)?recentPlayed.indexOf(a.id):999)-(recentPlayed.includes(b.id)?recentPlayed.indexOf(b.id):999));
   return result;
 }
-function icon(name){return window.PlaynovaIcons.markup(name);}
+function icon(name){return window.FrivDigitalIcons.markup(name);}
 function bindCoverFallback(image,title){image.addEventListener('error',()=>{if(image.dataset.fallback)return;image.dataset.fallback='true';image.src='assets/covers/unavailable.svg';image.alt=`${title} — capa indisponível`;});}
 function renderRecentPlayed(){
   const section=document.getElementById('recent-played-section'),container=document.getElementById('recent-list');
@@ -2284,7 +2284,7 @@ function renderAll(focusFavorite){
     card.innerHTML=`<a href="${gameRoute(g.id)}" class="game-thumb-link" title="${esc(g.title+' — '+g.description)}"><img class="game-cover" src="${esc(g.cover||`assets/covers/${g.id}.svg`)}" alt="${esc(g.title)}" width="256" height="256" loading="lazy" decoding="async"><span class="play-overlay" aria-hidden="true"><span>${icon('play')}</span></span>${badge}</a><button class="btn-favorite ${fav?'active':''}" data-id="${esc(g.id)}" aria-label="${fav?'Remover':'Adicionar'} ${esc(g.title)} ${fav?'dos':'aos'} favoritos" aria-pressed="${fav}">${icon('star')}</button><div class="game-details"><a class="game-name" href="${gameRoute(g.id)}" title="${esc(g.title)}">${esc(g.title)}</a></div>`;
     for(const a of card.querySelectorAll('a'))a.addEventListener('click',()=>recordRecent(g.id));
     card.querySelector('.btn-favorite').onclick=()=>{library.toggleFavorite(g.id);document.querySelector(`[data-id="${CSS.escape(g.id)}"]`)?.focus();};
-    const state=window.PlaynovaGameAvailability?.[g.id];
+    const state=window.FrivDigitalGameAvailability?.[g.id];
     card.dataset.availability=state?.status||'pending';
     if(!isAvailable(g.id)){
       card.classList.remove('featured-card');
@@ -2310,13 +2310,13 @@ document.getElementById('control-filter').onchange=event=>{currentControl=event.
 document.getElementById('collection-filter')?.addEventListener('change',event=>{currentCollection=event.target.value;renderAll();});
 document.getElementById('sort-games').onchange=event=>{currentSort=event.target.value;renderAll();};
 document.getElementById('reset-filters').onclick=resetFilters;
-document.getElementById('manage-collections')?.addEventListener('click',()=>window.PlaynovaCommunity?.collections());
-document.getElementById('request-game').onclick=()=>window.PlaynovaCommunity?.request();
-document.getElementById('report-site')?.addEventListener('click',()=>window.PlaynovaCommunity?.report());
+document.getElementById('manage-collections')?.addEventListener('click',()=>window.FrivDigitalCommunity?.collections());
+document.getElementById('request-game').onclick=()=>window.FrivDigitalCommunity?.request();
+document.getElementById('report-site')?.addEventListener('click',()=>window.FrivDigitalCommunity?.report());
 document.getElementById('clear-recent').onclick=()=>library.clearHistory();
 document.getElementById('only-available')?.addEventListener('click',()=>{onlyAvailable=!onlyAvailable;renderAll();});
 document.addEventListener('playnova:library-change',event=>{if(event.detail?.type==='history'){recentPlayed=library.recents();requestAnimationFrame(renderRecentPlayed);}else renderAll();});
 document.addEventListener('playnova:open-collection',event=>{currentCollection=event.detail;selectCategory('todos');document.getElementById('catalogo').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});});
 const initialFilter=new URLSearchParams(location.search).get('filtro');
 if(initialFilter&&Object.hasOwn(labels,initialFilter))selectCategory(initialFilter);else renderAll();
-document.title=`PLAYNOVA — ${GAMES_DATA.length} jogos no catálogo`;
+document.title=`FRIV DIGITAL — ${GAMES_DATA.length} jogos no catálogo`;
