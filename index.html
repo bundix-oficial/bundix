@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="pt-BR">
 <head>
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self'; font-src 'self' data:; frame-src 'self'; media-src 'self' data: blob:; object-src 'none'; base-uri 'self'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: blob: https:; connect-src 'self' https:; font-src 'self' data: https:; frame-src 'self' https:; media-src 'self' data: blob:; object-src 'none'; base-uri 'self'; form-action 'none'">
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -120,6 +120,34 @@
         <label class="sort-label">Organizar por<select id="sort-games"><option value="recommended">Destaques</option><option value="name">Nome A–Z</option><option value="recent">Últimos jogados</option></select></label>
         <div class="discovery-actions"><button type="button" id="request-game" class="primary-button">Pedir um jogo</button></div>
       </div></details><p id="filter-note" class="filter-note" hidden>Mostrando os jogos com esse tipo de controle informado.</p>
+            <!-- Bloco de Anúncios Adsterra (Desktop 728x90 & Mobile 320x50) -->
+      <div class="ad-banner-wrapper" aria-label="Espaço publicitário">
+        <span class="ad-label">Publicidade</span>
+        <div class="ad-box ad-desktop">
+          <script type="text/javascript">
+            atOptions = {
+              'key' : 'db5dac198ffdbecd6834ef9c450517ff',
+              'format' : 'iframe',
+              'height' : 90,
+              'width' : 728,
+              'params' : {}
+            };
+          </script>
+          <script type="text/javascript" src="https://bauval.org/22/db5dac198ffdbecd6834ef9c450517ff"></script>
+        </div>
+        <div class="ad-box ad-mobile">
+          <script type="text/javascript">
+            atOptions = {
+              'key' : '9455cbc877dae49856f3bc275bb017d6',
+              'format' : 'iframe',
+              'height' : 50,
+              'width' : 320,
+              'params' : {}
+            };
+          </script>
+          <script type="text/javascript" src="https://bauval.org/22/9455cbc877dae49856f3bc275bb017d6"></script>
+        </div>
+      </div>
       <div class="games-grid" id="games-grid"></div>
       <noscript>Ative o JavaScript para explorar o catálogo ou <a href="games/slope/index.html">jogue Slope 3D</a>.</noscript>
     </section>
