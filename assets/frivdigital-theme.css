@@ -417,9 +417,15 @@ body {
 
 .ad-desktop {
   display: block !important;
+  width: 728px !important;
+  max-width: 100% !important;
+  min-height: 90px !important;
 }
 .ad-mobile {
   display: none !important;
+  width: 320px !important;
+  max-width: 100% !important;
+  min-height: 50px !important;
 }
 
 @media (max-width: 768px) {
