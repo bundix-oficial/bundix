@@ -178,13 +178,14 @@
     const wrapper = document.createElement('div');
     wrapper.className = 'game-play-area';
 
-    const adCode = '<!doctype html><html><head><meta charset="utf-8"><style>body{margin:0;padding:0;overflow:hidden;background:transparent;display:flex;justify-content:center;align-items:center;height:100%;}</style></head><body><script>atOptions={\'key\':\'ffee1eaeaec741cb5492f39f42f5fcc0\',\'format\':\'iframe\',\'height\':600,\'width\':160,\'params\':{}};</script><script src="https://bauval.org/22/ffee1eaeaec741cb5492f39f42f5fcc0"></script></body></html>';
+    const rootPath = location.pathname.includes('/games/') ? '../../' : './';
+    const adUrl = rootPath + 'assets/ads/banner-160x600.html';
 
     const leftAside = document.createElement('aside');
     leftAside.className = 'game-ad-skyscraper left';
     leftAside.setAttribute('aria-label', 'Publicidade Lateral');
     const leftFrame = document.createElement('iframe');
-    leftFrame.srcdoc = adCode;
+    leftFrame.src = adUrl;
     leftFrame.width = "160";
     leftFrame.height = "600";
     leftFrame.setAttribute('frameborder', '0');
@@ -195,7 +196,7 @@
     rightAside.className = 'game-ad-skyscraper right';
     rightAside.setAttribute('aria-label', 'Publicidade Lateral');
     const rightFrame = document.createElement('iframe');
-    rightFrame.srcdoc = adCode;
+    rightFrame.src = adUrl;
     rightFrame.width = "160";
     rightFrame.height = "600";
     rightFrame.setAttribute('frameborder', '0');
@@ -210,8 +211,8 @@
     // Refresh side ads every 15 minutes
     setInterval(() => {
       try {
-        leftFrame.srcdoc = adCode;
-        rightFrame.srcdoc = adCode;
+        leftFrame.src = adUrl + '?t=' + Date.now();
+        rightFrame.src = adUrl + '?t=' + Date.now();
       } catch (_) {}
     }, 15 * 60 * 1000);
   }

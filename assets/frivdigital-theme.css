@@ -448,7 +448,7 @@ body {
   width: 160px !important;
   min-width: 160px !important;
   height: 600px !important;
-  background: rgba(36, 7, 71, 0.6) !important;
+  background: #18042e !important;
   border: 1px dashed rgba(168, 85, 247, 0.4) !important;
   border-radius: 12px !important;
   display: flex !important;
@@ -464,6 +464,7 @@ body {
   height: 600px !important;
   border: none !important;
   box-shadow: none !important;
+  background: #18042e !important;
 }
 
 @media (max-width: 1280px) {
