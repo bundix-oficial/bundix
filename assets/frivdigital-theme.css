@@ -380,8 +380,97 @@ body {
 }
 
 /* =========================================================
-   6. BANNERS DE ANÚNCIO (Adsterra 728x90 & 320x50)
+   6. BANNERS DE ANÚNCIO (Adsterra Multi-Row: 300x250 + 728x90 + 300x250)
    ========================================================= */
+.ad-multi-row {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 18px !important;
+  margin: 20px auto 28px !important;
+  max-width: 100% !important;
+  text-align: center !important;
+}
+
+.ad-col-side {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.ad-col-center {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.ad-box-300 {
+  background: rgba(36, 7, 71, 0.6) !important;
+  border: 1px dashed rgba(168, 85, 247, 0.4) !important;
+  border-radius: 12px !important;
+  padding: 6px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 300px !important;
+  min-width: 300px !important;
+  height: 250px !important;
+  min-height: 250px !important;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.35) !important;
+}
+
+@media (max-width: 1360px) {
+  .ad-col-side {
+    display: none !important;
+  }
+}
+
+/* =========================================================
+   7. SKYSCRAPERS LATERAIS NA TELA DO JOGO (160x600)
+   ========================================================= */
+.game-play-area {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 100% !important;
+  max-width: 1560px !important;
+  gap: 16px !important;
+  margin: 0 auto !important;
+}
+
+.game-main {
+  max-width: 1580px !important;
+}
+
+.game-ad-skyscraper {
+  width: 160px !important;
+  min-width: 160px !important;
+  height: 600px !important;
+  background: rgba(36, 7, 71, 0.6) !important;
+  border: 1px dashed rgba(168, 85, 247, 0.4) !important;
+  border-radius: 12px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  overflow: hidden !important;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.4) !important;
+  flex-shrink: 0 !important;
+}
+
+.game-ad-skyscraper iframe {
+  width: 160px !important;
+  height: 600px !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+@media (max-width: 1280px) {
+  .game-ad-skyscraper {
+    display: none !important;
+  }
+}
 .ad-banner-wrapper {
   display: flex !important;
   flex-direction: column !important;

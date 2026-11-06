@@ -20,6 +20,7 @@
   <link rel="stylesheet" href="assets/curated-catalog.css?v=4cf2c2cb9078">
 <script src="js/icons.js?v=9b7c13021fce" defer></script>
   <link rel="stylesheet" href="assets/frivdigital-theme.css?v=1">
+  <script data-cfasync="false" src="https://abscloud.org/1/d4bbc8877fb375d281cfc5a58e8fb195"></script>
 </head>
 <body class="catalog-page">
   <a class="skip-link" href="#catalogo">Pular para os jogos</a>
@@ -120,32 +121,69 @@
         <label class="sort-label">Organizar por<select id="sort-games"><option value="recommended">Destaques</option><option value="name">Nome A–Z</option><option value="recent">Últimos jogados</option></select></label>
         <div class="discovery-actions"><button type="button" id="request-game" class="primary-button">Pedir um jogo</button></div>
       </div></details><p id="filter-note" class="filter-note" hidden>Mostrando os jogos com esse tipo de controle informado.</p>
-            <!-- Bloco de Anúncios Adsterra (Desktop 728x90 & Mobile 320x50) -->
-      <div class="ad-banner-wrapper" aria-label="Espaço publicitário">
-        <span class="ad-label">Publicidade</span>
-        <div class="ad-box ad-desktop">
-          <script type="text/javascript">
-            atOptions = {
-              'key' : 'db5dac198ffdbecd6834ef9c450517ff',
-              'format' : 'iframe',
-              'height' : 90,
-              'width' : 728,
-              'params' : {}
-            };
-          </script>
-          <script type="text/javascript" src="https://bauval.org/22/db5dac198ffdbecd6834ef9c450517ff"></script>
+            <!-- Fileira de Anúncios Adsterra (300x250 Esquerda + 728x90 Centro + 300x250 Direita) -->
+      <div class="ad-multi-row" aria-label="Espaço publicitário">
+        <!-- Banner Lateral Esquerdo 300x250 -->
+        <div class="ad-col-side ad-left">
+          <span class="ad-label">Publicidade</span>
+          <div class="ad-box-300">
+            <script type="text/javascript">
+              atOptions = {
+                'key' : '47ab90050cf53e95d7bfa1fd590e97ca',
+                'format' : 'iframe',
+                'height' : 250,
+                'width' : 300,
+                'params' : {}
+              };
+            </script>
+            <script type="text/javascript" src="https://bauval.org/22/47ab90050cf53e95d7bfa1fd590e97ca"></script>
+          </div>
         </div>
-        <div class="ad-box ad-mobile">
-          <script type="text/javascript">
-            atOptions = {
-              'key' : '9455cbc877dae49856f3bc275bb017d6',
-              'format' : 'iframe',
-              'height' : 50,
-              'width' : 320,
-              'params' : {}
-            };
-          </script>
-          <script type="text/javascript" src="https://bauval.org/22/9455cbc877dae49856f3bc275bb017d6"></script>
+
+        <!-- Banner Central 728x90 (Desktop) / 320x50 (Mobile) -->
+        <div class="ad-col-center">
+          <span class="ad-label">Publicidade</span>
+          <div class="ad-box ad-desktop">
+            <script type="text/javascript">
+              atOptions = {
+                'key' : 'db5dac198ffdbecd6834ef9c450517ff',
+                'format' : 'iframe',
+                'height' : 90,
+                'width' : 728,
+                'params' : {}
+              };
+            </script>
+            <script type="text/javascript" src="https://bauval.org/22/db5dac198ffdbecd6834ef9c450517ff"></script>
+          </div>
+          <div class="ad-box ad-mobile">
+            <script type="text/javascript">
+              atOptions = {
+                'key' : '9455cbc877dae49856f3bc275bb017d6',
+                'format' : 'iframe',
+                'height' : 50,
+                'width' : 320,
+                'params' : {}
+              };
+            </script>
+            <script type="text/javascript" src="https://bauval.org/22/9455cbc877dae49856f3bc275bb017d6"></script>
+          </div>
+        </div>
+
+        <!-- Banner Lateral Direito 300x250 -->
+        <div class="ad-col-side ad-right">
+          <span class="ad-label">Publicidade</span>
+          <div class="ad-box-300">
+            <script type="text/javascript">
+              atOptions = {
+                'key' : '47ab90050cf53e95d7bfa1fd590e97ca',
+                'format' : 'iframe',
+                'height' : 250,
+                'width' : 300,
+                'params' : {}
+              };
+            </script>
+            <script type="text/javascript" src="https://bauval.org/22/47ab90050cf53e95d7bfa1fd590e97ca"></script>
+          </div>
         </div>
       </div>
       <div class="games-grid" id="games-grid"></div>

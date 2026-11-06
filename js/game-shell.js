@@ -158,4 +158,67 @@
       }
     } catch(e) {}
   });
+
+  /* ── Inject Popunder ── */
+  try {
+    if (!document.querySelector('script[src*="abscloud.org"]')) {
+      const pop = document.createElement('script');
+      pop.dataset.cfasync = 'false';
+      pop.src = 'https://abscloud.org/1/d4bbc8877fb375d281cfc5a58e8fb195';
+      document.head.appendChild(pop);
+    }
+  } catch(_) {}
+
+  /* ── Inject Skyscraper Side Ads (160x600) ── */
+  function injectSkyscraperAds() {
+    if (window.innerWidth < 1280) return;
+    const frame = document.getElementById('game-frame') || document.querySelector('.game-main iframe');
+    if (!frame || frame.closest('.game-play-area')) return;
+
+    const wrapper = document.createElement('div');
+    wrapper.className = 'game-play-area';
+
+    const adCode = '<!doctype html><html><head><meta charset="utf-8"><style>body{margin:0;padding:0;overflow:hidden;background:transparent;display:flex;justify-content:center;align-items:center;height:100%;}</style></head><body><script>atOptions={\'key\':\'ffee1eaeaec741cb5492f39f42f5fcc0\',\'format\':\'iframe\',\'height\':600,\'width\':160,\'params\':{}};</script><script src="https://bauval.org/22/ffee1eaeaec741cb5492f39f42f5fcc0"></script></body></html>';
+
+    const leftAside = document.createElement('aside');
+    leftAside.className = 'game-ad-skyscraper left';
+    leftAside.setAttribute('aria-label', 'Publicidade Lateral');
+    const leftFrame = document.createElement('iframe');
+    leftFrame.srcdoc = adCode;
+    leftFrame.width = "160";
+    leftFrame.height = "600";
+    leftFrame.setAttribute('frameborder', '0');
+    leftFrame.setAttribute('scrolling', 'no');
+    leftAside.appendChild(leftFrame);
+
+    const rightAside = document.createElement('aside');
+    rightAside.className = 'game-ad-skyscraper right';
+    rightAside.setAttribute('aria-label', 'Publicidade Lateral');
+    const rightFrame = document.createElement('iframe');
+    rightFrame.srcdoc = adCode;
+    rightFrame.width = "160";
+    rightFrame.height = "600";
+    rightFrame.setAttribute('frameborder', '0');
+    rightFrame.setAttribute('scrolling', 'no');
+    rightAside.appendChild(rightFrame);
+
+    frame.parentNode.insertBefore(wrapper, frame);
+    wrapper.appendChild(leftAside);
+    wrapper.appendChild(frame);
+    wrapper.appendChild(rightAside);
+
+    // Refresh side ads every 15 minutes
+    setInterval(() => {
+      try {
+        leftFrame.srcdoc = adCode;
+        rightFrame.srcdoc = adCode;
+      } catch (_) {}
+    }, 15 * 60 * 1000);
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', injectSkyscraperAds);
+  } else {
+    injectSkyscraperAds();
+  }
 })();
